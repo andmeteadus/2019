@@ -89,4 +89,5 @@ Aine läbimiseks on vaja:
 * Taavi Unt
 * Oliver Aasmets
 
+Meiega saab ühendust aadressidel taavi.unt [at] ut.ee ja oliver.aasmets [at] gmail.com
 
