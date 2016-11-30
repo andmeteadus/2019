@@ -21,9 +21,9 @@ Järgnev skeem võtab lühidalt kokku õppeaine olemuse.
 
 # Õppeaine eesmärgid
 
-* Tutvustada üliõpilastele, milliseid huvitavaid probleeme saab statistika abil lahendada erinevates valdkondades (näiteks bioteadustes, majanduses, juuras) ja harjutada nende lahendamist.
+* Tutvustada üliõpilastele, milliseid huvitavaid probleeme saab statistika abil lahendada erinevates valdkondades (näiteks bioteadustes, majanduses, juuras), ning harjutada nende lahendamist.
 * Õppida visualiseerimismeetodeid andmetest ülevaate saamiseks, tulemuste tõlgendamiseks ja nende sisu edasi andmiseks.
-* Tutvustada tarkvara R võimalusi reprodutseeritava analüüsi läbiviimiseks ja tulemuste visualiseerimiseks.
+* Tutvustada tarkvara R võimalusi reprodutseeritava analüüsi läbiviimiseks ning tulemuste visualiseerimiseks.
 
 Miks on kursuses olulisel kohal andmeanalüüsi reprodutseeritavus ja visualiseerimine?
 
@@ -47,11 +47,7 @@ Miks on kursuses olulisel kohal andmeanalüüsi reprodutseeritavus ja visualisee
 
 # Sihtgrupp
 
-* Kursus on mõeldud statistikahuvilistele üliõpilastele, kes on tuttavad tarkvaraga R.
-
-<div class="message">
-  Kui sa ei ole võtnud <em>rangelt soovituslikku</em> eeldusainet "Rakendustarkvara: R", aga soovid seda ainet õppida, siis kirjuta meile ja leiame sulle sobiliku õppematerjali iseseisvaks ettevalmistuseks.
-</div>
+Kursus on mõeldud statistikahuvilistele üliõpilastele, kes on tuttavad tarkvaraga R. Kui sa ei ole võtnud *rangelt soovituslikku* eeldusainet "Rakendustarkvara: R", aga soovid seda ainet õppida, siis soovitame iseseisvalt R-i õppida ["Rakendustarkvara: R" õppematerjalide](./rakendustarkvara_R) abil.
 
 # Õppetöö korraldus
 
@@ -67,12 +63,12 @@ Lisaks praktikumidele sisaldab õppeaine järgnevaid komponente:
   * Kodutöö võib sisaldada ka küsimusi iseseisvalt õpitu (näiteks videoloengu) kohta. 
 * **Projekt:** Lisaks tuleb läbi viia üks praktiline andmeanalüüs ning kirjutada populaarteaduslikus vormis artikkel saadud tulemustest. 
 Artikkel on illustreeritud asjakohaste joonistega ning on arusaadav ka mittestatistikule. 
-Projekti võib teha kas üksinda või paaristööna. Tulemusi on vaja esitleda suulisel kaitsmisel.
+Projekti võib teha kas üksinda või paaristööna. Tulemusi on vaja esitleda suulisel kaitsmisel. Soovi korral võib tutvuda [eelmise aasta projektidega](../2015/projektid/).
 
 Aine läbimiseks on vaja:
 
 1. kodutööde eest saada vähemalt 75% punktidest (on vaja saada vähemalt 150 punkti 200st võimalikust), 
-2. koostada projekt ja seda esitleda. 
+2. koostada projekt ning seda esitleda. 
 
 Õppeaines (3 EAP) ette nähtud 78 tundi tööd jaguneb järgnevalt:
 
@@ -83,14 +79,15 @@ Aine läbimiseks on vaja:
 
 # Tunniplaan
 
-Õppeaine toimub 2015/2016. õppeaasta kevadsemestril. 
+Õppeaine toimub 2016/2017. õppeaasta kevadsemestril. 
 
-* **Praktikumid kolmapäeviti kell 12.15** ruumis 203  
-(nädalatel 24 - 25, 27 - 32).
+* **Praktikumid kolmapäeviti kell 12.15** ruumis 203
+(nädalatel 24 - 25, 27 - 32). 
 
 # Kontakt ja küsimused
 
-* Mark Gimbutas
-* Siim Viigand
+* Taavi Unt
+* Oliver Aasmets
 
-Kirjutage meile aadressidel markgimbutas [at] gmail.com ja siim.viigand [at] gmail.com
+Meiega saab ühendust aadressidel taavi.unt [at] ut.ee ja oliver.aasmets [at] gmail.com
+
