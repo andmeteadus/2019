@@ -1,4 +1,4 @@
-﻿---
+---
 layout: frontpage
 ---
 
@@ -79,14 +79,15 @@ Aine läbimiseks on vaja:
 
 # Tunniplaan
 
-Õppeaine toimub 2016/2017. õppeaasta kevadsemestril. 
+Õppeaine toimub 2015/2016. õppeaasta kevadsemestril. 
 
 * **Praktikumid kolmapäeviti kell 12.15** ruumis 203
 (nädalatel 24 - 25, 27 - 32). 
 
 # Kontakt ja küsimused
 
-* Taavi Unt
-* Oliver Aasmets
+* Mark Gimbutas
+* Siim Viigand
 
+Meiega saab ühendust aadressidel markgimbutas [at] gmail.com ja siim.viigand [at] gmail.com
 
