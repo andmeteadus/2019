@@ -81,7 +81,7 @@ Aine läbimiseks on vaja:
 
 Õppeaine toimub 2016/2017. õppeaasta kevadsemestril. 
 
-* **Praktikumid kolmapäeviti kell 12.15** ruumis 203
+* **Praktikumid reedeti kell 14.15** ruumis 203
 (nädalatel 24 - 25, 27 - 32). 
 
 # Kontakt ja küsimused
