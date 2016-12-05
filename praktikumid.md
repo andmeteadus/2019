@@ -3,11 +3,11 @@ layout: page
 title: Praktikumimaterjalid
 ---
 
-Käesoleva aasta materjalid täienevad jooksvalt, eelmise aasta materjalid on [siin](../../2015/praktikumid/).
+Praktikumi materjalid täienevad jooksvalt, 2016. aasta materjalidega saab tutvuda [siin](../../2016/praktikumid/).
 
 ## Praktikum 1
 
-10.02.2016 
+10.02.2017 
 
 Sissejuhatus ainesse, reprodutseeritavasse analüüsi ja automatiseeritud statistikasse. Tarkvara R meeldetuletamine. 
 Pakett knitr. Markdown. Pakett dplyr. Näide: automaatne aktsiaturu ülevaade. 
@@ -20,12 +20,12 @@ Pakett knitr. Markdown. Pakett dplyr. Näide: automaatne aktsiaturu ülevaade.
     * [dplyr minimalistlik näide](../praktikum1_dplyr)
 * [Automaatne aktsiaturu ülevaade](../praktikum1_aktsiad)
 * [Kodutöö](../praktikum1_kodutoo)
-    * Tähtaeg 16.02.2016 kell 23:59.
+    * Tähtaeg 16.02.2017 kell 23:59.
 
 
 ## Praktikum 2
 
-17.02.2016
+17.02.2017
 
 Reprodutseeritav analüüs. Näide: Kas suur võlakoorem vähendab riigi majanduskasvu? Joonised paketiga ggplot2.
 Pettuse tuvastamine Benfordi seaduse abil.
@@ -36,11 +36,11 @@ Pettuse tuvastamine Benfordi seaduse abil.
 * [*Growth in a time of debt*: riigi võlakoormuse ja SKP vaheline seos](../praktikum2_riigivolg)
 * [Pettuse tuvastamise ülesanded](../praktikum2_pettus)
 * [Kodutöö](../praktikum2_kodutoo)
-    * Tähtaeg 01.03.2016 kell 23:59.
+    * Tähtaeg 01.03.2017 kell 23:59.
 
 ## Praktikum 3
 
-02.03.2016
+03.03.2017
 
 Joonised paketiga ggplot2: erinevad joonisetüübid. Interaktiivsed rakendused paketiga shiny. Näide: ÕISi tagasiside visualiseerimine. 
 
@@ -49,22 +49,22 @@ Joonised paketiga ggplot2: erinevad joonisetüübid. Interaktiivsed rakendused p
     * [jaotuste ära arvamise ülesanne](../praktikum3_quiz1) ja [graafikute tajumise ülesanne](../praktikum3_quiz2)
 * [Õppetulemuste visualiseerimise ülesanded](../praktikum3_oppeained)
 * [Kodutöö](../praktikum3_kodutoo)
-    * Tähtaeg 08.03.2016 kell 23:59.
+    * Tähtaeg 09.03.2017 kell 23:59.
 
 ## Praktikum 4
 
-09.03.2016
+10.03.2017
 
 Mittestandardne graafika. Kuidas teha sama häid jooniseid nagu NY Times seda teeb? Näide: NBA andmestik.
 
 * [NBA ülesanded](../praktikum4_nba)
 * [Lennuliikluse visualiseerimise ülesanded](../praktikum4_geo)
 * [Kodutöö](../praktikum4_kodutoo)
-    * Tähtaeg 15.03.2016 kell 23:59.
+    * Tähtaeg 16.03.2017 kell 23:59.
 
 ## Praktikum 5
 
-16.03.2016
+17.03.2017
 
 Andmete kraapimine veebist. Näide: Riigikogu saadikute hääletamismustrid.
 
@@ -72,11 +72,11 @@ Andmete kraapimine veebist. Näide: Riigikogu saadikute hääletamismustrid.
     * [rvest minimalistlik näide](../praktikum5_rvest_minimal)
 * [Veebi kraapimise ülesanded](../praktikum5_web)
 * [Kodutöö](../praktikum5_kodutoo)
-    * Tähtaeg 22.03.2016 kell 23:59.
+    * Tähtaeg 23.03.2017 kell 23:59.
 
 ## Praktikum 6
 
-23.03.2016
+24.03.2017
 
 Heatmap. Peakomponentanalüüs. Näide (jätkub): Riigikogu saadikute hääletamismustrid. Käsitsi kirjutatud numbrite andmestik.
 
@@ -86,11 +86,11 @@ Heatmap. Peakomponentanalüüs. Näide (jätkub): Riigikogu saadikute hääletam
 * [Käsitsi kirjutatud numbritel põhinevad ülesanded](../praktikum6_numbrid)
 * [Riigikogu saadikute hääletusmustrite analüüs](../praktikum6_polaarsus)
 * [Kodutöö](../praktikum6_kodutoo)
-    * Tähtaeg 29.03.2016 kell 23:59.
+    * Tähtaeg 30.03.2017 kell 23:59.
 
 ## Praktikum 7
 
-30.03.2016
+31.03.2017
 
 Logistiline regressioon. Mitmese testimise probleem. Näide: biomarkerid ja statistika (ehk kuidas ennustada surma).
 
@@ -98,15 +98,15 @@ Logistiline regressioon. Mitmese testimise probleem. Näide: biomarkerid ja stat
     * [Logistilise regressiooni minimalistlik näide](../praktikum7_logreg_minimal)
 * [Biomarkerite abil surma prognoosimine](../praktikum7_biomarkerid)
 * [Kodutöö](../praktikum7_kodutoo)
-    * Tähtaeg 05.04.2016 kell 23:59.
+    * Tähtaeg 06.04.2017 kell 23:59.
 
 ## Praktikum 8
 
-06.04.2016
+07.04.2017
 
 Doping ja statistika. Statistiline test. Näide: ühe dopingujuhtumi analüüs.
 
 * [Dopingutesti ülesanded](../praktikum8_doping)
 * [Kodutöö](../praktikum8_kodutoo)
-    * Tähtaeg 12.04.2016 kell 23:59.
+    * Tähtaeg 13.04.2017 kell 23:59.
 
