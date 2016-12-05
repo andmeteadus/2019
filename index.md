@@ -63,7 +63,7 @@ Lisaks praktikumidele sisaldab õppeaine järgnevaid komponente:
   * Kodutöö võib sisaldada ka küsimusi iseseisvalt õpitu (näiteks videoloengu) kohta. 
 * **Projekt:** Lisaks tuleb läbi viia üks praktiline andmeanalüüs ning kirjutada populaarteaduslikus vormis artikkel saadud tulemustest. 
 Artikkel on illustreeritud asjakohaste joonistega ning on arusaadav ka mittestatistikule. 
-Projekti võib teha kas üksinda või paaristööna. Tulemusi on vaja esitleda suulisel kaitsmisel. Soovi korral võib tutvuda [eelmise aasta projektidega](../2015/projektid/).
+Projekti võib teha kas üksinda või paaristööna. Tulemusi on vaja esitleda suulisel kaitsmisel. Soovi korral võib tutvuda [2015. aasta projektidega](../2015/projektid/).
 
 Aine läbimiseks on vaja:
 
