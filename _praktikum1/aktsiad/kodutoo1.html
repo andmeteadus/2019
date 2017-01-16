@@ -54,7 +54,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </div>
 <div id="ulevaade-andmestikust" class="section level2">
 <h2>Ülevaade andmestikust</h2>
-<p>Andmestikus on näidatud 504 ettevõtte (kõik need ettevõtted, mis on kuulsas S&amp;P 500 indeksis) kohta järgmised tunnused:</p>
+<p>Andmestikus on näidatud 505 ettevõtte (kõik need ettevõtted, mis on kuulsas S&amp;P 500 indeksis) kohta järgmised tunnused:</p>
 <ul>
 <li><em>symbol</em>: ettevõtte ID börsil</li>
 <li><em>nimi</em>: ettevõtte nimi</li>
@@ -64,9 +64,8 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li><em>kogus</em>: aktsiate arv, mis vahetas omanikku päeva jooksul</li>
 <li><em>kasum_aktsia_kohta</em>: ettevõtte aastakasum / aktsiate koguarv</li>
 <li><em>dividend_aktsia_kohta</em>: väljamakstud dividendid aastas / aktsiate koguarv</li>
-<li><em>aktsiate_arv</em>: näitab, kui palju aktsiaid on emiteeritud (st aktisate koguarv)</li>
 </ul>
-<p>Laadi alla andmestik <a href="/2016/data/aktsiad.csv">aktsiad.csv</a> ning loe andmestik töökeskonda.</p>
+<p>Laadi alla andmestik <a href="/2017/data/Aktsiad 2017.csv">aktsiad.csv</a> ning loe andmestik töökeskonda.</p>
 </div>
 <div id="kodutoo-raport" class="section level2">
 <h2>Kodutöö raport</h2>
@@ -105,7 +104,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li>keskmine tootlus,</li>
 <li>kogukäive,</li>
 <li>keskmine käive,</li>
-<li>ettevõtete arv.<br /> Näpunäide 1: Kasuta paketi <em>dplyr</em> funktsioone <code>group_by()</code> ja <code>summarise()</code>.<br /> Näpunäide 2: Summade ja keskmiste arvutamisel ära võta arvesse puuduvaid väärtusi (puuduvate väärtuse välja jätmiseks võib funktsioonide <code>sum</code> ja <code>mean</code> argumendi <code>na.rm</code> väärtuseks seada <code>FALSE</code>).</li>
+<li>ettevõtete arv.<br /> Näpunäide 1: Kasuta paketi <em>dplyr</em> funktsioone <code>group_by()</code> ja <code>summarise()</code>.<br /> Näpunäide 2: Summade ja keskmiste arvutamisel ära võta arvesse puuduvaid väärtusi (puuduvate väärtuse välja jätmiseks võib funktsioonide <code>sum</code> ja <code>mean</code> argumendi <code>na.rm</code> väärtuseks seada <code>TRUE</code>).</li>
 </ul></li>
 <li>Näita ainult neid sektoreid, kus on vähemalt 30 ettevõtet.</li>
 </ul>
