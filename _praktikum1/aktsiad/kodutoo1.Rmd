@@ -34,7 +34,6 @@ Andmestikus on näidatud 505 ettevõtte (kõik need ettevõtted, mis on kuulsas 
 * *kogus*: aktsiate arv, mis vahetas omanikku päeva jooksul
 * *kasum_aktsia_kohta*: ettevõtte aastakasum / aktsiate koguarv
 * *dividend_aktsia_kohta*: väljamakstud dividendid aastas / aktsiate koguarv
-* *aktsiate_arv*: näitab, kui palju aktsiaid on emiteeritud (st aktisate koguarv)
 
 Laadi alla andmestik [Aktsiad 2017.csv](/2017/data/Aktsiad 2017.csv) ning loe andmestik töökeskonda.
 
