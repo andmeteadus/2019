@@ -90,7 +90,7 @@ Juhised:
 
 * Kõigepealt tekita andmestikku juurde järgmised kaks tunnust:
     * kasumi-aktsiahinna suhe (kasum_aktsia_kohta/hind) [kui sa tead, mida tähendab PE suhe, siis me arvutame PE suhte pöördväärtust]
-    * dividendi määr (dividend_aktsia_kohta/hind)
+    * dividendi määr (dividend_aktsia_kohta/hind) [pane tähele, et mõnel ettevõttel on `dividend_aktsia_kohta` väärtus `NA`. Asenda esmalt puuduvad väärtused 0-ga]
 * Arvuta iga aktsia kohta atraktiivsuse skoor, mis on arvutatud järgnevalt `0.5 * kasumi-aktsiahinna suhe + 0.5 * dividendi määr` 
 * Ostusoovituseks leia kolm kõige suurema skooriga aktsiat.
 
@@ -113,11 +113,11 @@ kauplemisalgoritm = function(x){
 
 > Mati ei ole veel vanemanalüütiku staatust saanud ning ta kardab veidi oma soovituste pärast. Mis juhtub kui aktsiasoovitus osutub katastroofiks? Kui kliendid saavad Mati soovituste pärast hiigelsuuri kahjumeid, siis kõigub ka tema töökoht. Mis oleks kui soovitada ainult populaarseid aktsiaid? Siis saab ju alati öelda, et vanemanalüütikud teistes pankades soovitasid ka ...
 
-Nüüd kirjuta funktsioon *kauplemisalgoritm_turvaline*, kus valid atraktiivseid aktsiaid vaid populaarsete aktsiate hulgast. Populaarsed aktsiad on järgnevad: AAPL, FB, GOOG, IBM. 
+Nüüd kirjuta funktsioon *kauplemisalgoritm_turvaline*, kus valid atraktiivseid aktsiaid vaid populaarsete aktsiate hulgast. Populaarsed aktsiad on järgnevad: AAPL, AMZN, FB, GOOG, IBM. 
 
 Juhised:
 
-* Vali andmestikust välja ainult aktsiad AAPL, FB, GOOG, IBM.
+* Vali andmestikust välja ainult aktsiad AAPL, AMZN, FB, GOOG, IBM.
 * Rakenda saadud alamandmestikul eelnevas ülesandes kirjutatud funktsiooni. 
 
 Kui eelnev töötab, siis kirjuta eelnev kood funktsiooniks.
@@ -148,7 +148,7 @@ opts_chunk$set(echo=FALSE, message=FALSE)
 
 Raport võiks välja näha umbes selline (pildil ei ole näidatud ilmtingimata õiged arvulised väärtused): 
 
-![alt text](kodutoo1_naide.png "Näide")
+![](kodutoo1_naide.png "Näide")
 
 ### Mida on vaja esitada?
 
@@ -160,7 +160,7 @@ Mõtle välja ning lisa raportisse veel üks sektsioon, mis täiendaks Mati akts
 
 ### Boonusülesanne 2 (3 punkti): andmete automaatne uuenemine
 
-Muuda kodutööd selliselt, et staatilise faili *aktsiad.csv* asemel kasutatakse reaalajas andmeid, mis on saadud portaalist *finance.yahoo.com*.
+Muuda kodutööd selliselt, et staatilise faili *Aktsiad 2017.csv* asemel kasutatakse reaalajas andmeid, mis on saadud portaalist *finance.yahoo.com*.
 
 Mõned näpunäited:
 
@@ -168,5 +168,5 @@ Mõned näpunäited:
 * kasuks tuleb funktsioon `getQuote`
 * tunnuste loetelu nägemiseks, mida on võimalik *finance.yahoo.com* portaalist saada, on abiks funktsioon `yahooQF()`
 * hinnana kasuta tunnust *Last Trade (Price Only)*, sümbolina *Symbol*, tootlusena *Change in Percent*, kogusena *Volume*, kasumina aktsia kohta *Earnings/Share*, dividendina aktsia kohta *Dividend/Share* 
-* ettevõtte *sektor*, *nimi* ja *aktsiate_arv* võta failist *aktsiad.csv*. Ühenda see alamandmestik Yahoo'st saadud andmestikuga tunnuse *symbol* alusel (vt`?join` või `?merge`)
+* ettevõtte *sektor*ja *nimi* võta failist *Aktsiad 2017.csv*. Ühenda see alamandmestik Yahoo'st saadud andmestikuga tunnuse *symbol* alusel (vt`?join` või `?merge`)
 * juhime tähelepanu, et tunnus *tootlus* vajab puhastamist
