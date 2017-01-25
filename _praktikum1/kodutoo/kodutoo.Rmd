@@ -5,7 +5,7 @@ output:
     theme: null
 ---
 
-Tähtaeg: 16.02.2016 23:59
+Tähtaeg: 16.02.2017 23:59
 
 # I osa - veebiloengud, videod, artiklid (4 punkti)
 1. (**1 punkt**) Vaata Johns Hopkinsi reprodutseeritava analüüsi videosid:
@@ -24,7 +24,7 @@ Vasta järgmisele küsimusele:
 
 * Nimeta vähemalt 3 viga andmete talletamises ning andmehalduses, millele videos viidati.
 
-3. (**2 punkti**) Loe artiklit [Researchers Finally Replicated Reinhart-Rogoff, and There Are Serious Problems](http://www.nextnewdeal.net/rortybomb/researchers-finally-replicated-reinhart-rogoff-and-there-are-serious-problems).
+3. (**2 punkti**) Loe artiklit [Researchers Finally Replicated Reinhart-Rogoff, and There Are Serious Problems](http://rooseveltforward.org/researchers-finally-replicated-reinhart-rogoff-and-there-are-serious-pr).
 
 Artikkel kirjeldab majandusteadlaste Reinhart'i ja Rogoff'i 2010. aasta publikatsiooni *Growth in a Time of Debt* ning mis vigu riigivõla ja majanduskasvu uurimisel tehti. Järgmises praktikumis uurime sama andmestikku, mida käsitleti ka Reinhart'i ja Rogoff'i artiklis.
 
@@ -57,6 +57,6 @@ Kui tunned ennast veel ebakindlalt *dplyr* paketi kasutamise osas, siis soovitam
 * II osa kohta tuleb esitada nii andmeanalüüsi raport (html või pdf formaadis) kui ka selle lähtekood .Rmd failina.
 
 
-Lahendused saata meili peale: markgimbutas@gmail.com
+Lahendused saata meili peale: taavi.unt@ut.ee
 
 
