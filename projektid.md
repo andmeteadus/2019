@@ -3,7 +3,7 @@ layout: page
 title: Projektid
 ---
 
-Tudengite poolt tehtud projektid. Projekti juhendi leiad [siit](http://andmeteadus.github.io/2016/projekt_juhend/).
+Tudengite poolt tehtud projektid. Projekti juhendi leiad [siit](http://andmeteadus.github.io/2017/projekt_juhend/).
 <br><br>
 
 {% for post in site.posts %}
