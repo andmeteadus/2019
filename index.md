@@ -72,10 +72,10 @@ Aine läbimiseks on vaja:
 
 Õppeaines (3 EAP) ette nähtud 78 tundi tööd jaguneb järgnevalt:
 
-* praktikumid kokku 13.5 tundi (9 praktikumi, igaüks 1.5 tundi)
+* praktikumid kokku 12 tundi (8 praktikumi, igaüks 1,5 tundi)
 * kodutööd kokku 40 tundi (8 kodutööd, igaüks 5 tundi)
-* projekti koostamine 23 tundi
-* projekti esitlemine 1.5 tundi
+* projekti koostamine 24,5 tundi
+* projekti esitlemine 1,5 tundi
 
 # Tunniplaan
 
