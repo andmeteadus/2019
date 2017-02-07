@@ -2,21 +2,20 @@
 layout: page
 ---
 
-Aine läbimiseks tuleb läbi viia üks praktiline andmeanalüüs ning kirjutada populaarteaduslikus vormis artikkel saadud tulemustest. Artikkel on illustreeritud asjakohaste joonistega ning on arusaadav ka mittestatistikule. Projekti võib teha kas üksinda või paaristööna. Tulemusi on vaja esitleda suulisel kaitsmisel.
+Aine läbimiseks tuleb läbi viia kas praktiline andmeanalüüs ning kirjutada saadud tulemustest populaarteaduslikus vormis artikkel või teha Shiny rakendus. Projekti tulem on illustreeritud asjakohaste joonistega ning on arusaadav ka mittestatistikule. Projekti võib teha kas üksinda või paaristööna. Tulemusi on vaja esitleda suulisel kaitsmisel.
 
 ### Tähtajad
 
-* Teema valimine - 15.04.2016
-* Projekti esitamise tähtaeg - 15.05.2016 kell 23.59.
-* Projekti tulemuste müümine (st esitlus) - 18.05.2016 kell 16:15 ruumis 402.
+* Teema valimine - 07.04.2017
+* Projekti esitamise tähtaeg - 28.04.2017 kell 23.59.
+* Projekti tulemuste müümine (st esitlus) - 05.05.2017
 
-Mõned meie välja pakutud teemad on [siin](https://docs.google.com/document/d/1qwCjPXbLV-JMIgn-PnopGp_rGbI4wOk9qNt2u2NQAWE/edit?usp=sharing).
-
-Registreeri oma teemavalik [siin](https://docs.google.com/document/d/1PgtxrRhSpx22JSpE-jEm8t4XHATXs4PXPlJNEhpIIfU/edit?usp=sharing).
+Mõned meie välja pakutud teemad on [siin](https://docs.google.com/spreadsheets/d/1Gf7461XDLC867SNEo1SLY3hfE0bGADlQ0hJnPnSLMhs/).
+Samas failis saab ka oma teemad registreerida.
 
 ### Mida on vaja esitada?
 
-**a. Artikkel**
+**a1. Artikkel**
 
 Valminud populaarteaduslik artikkel tehakse avalikuks [aine veebilehel](../projektid/).
 
@@ -39,6 +38,9 @@ ggplot(data, aes(x, y)) + geom_point()
 
 Abiks on järgmised [Markdowni näpunäited](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images).
 
+**a2. Rakendus**
+
+Ka valminud Shiny rakendused teeme veebis kättesaadavaks. Esitada tuleb nii R-i kood(id) kui ka kasutatud andmetabelid.
 
 **b. Kood**
 
@@ -48,6 +50,6 @@ Selle eesmärgiks on veenduda, et analüüs on reprodutseeritav.
 
 ### Hindamine
 
-* Kas populaarteaduslik artikkel on põnev ja selge?
+* Kas populaarteaduslik artikkel / rakendus on põnev ja selge?
 * Kas visualisatsioonid on atraktiivsed ja annavad vastuse uuritud küsimusele?
 * Kas andmeanalüüs on reprodutseeritav?
