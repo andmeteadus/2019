@@ -36,7 +36,7 @@ Pettuse tuvastamine Benfordi seaduse abil.
 * [*Growth in a time of debt*: riigi võlakoormuse ja SKP vaheline seos](../praktikum2_riigivolg)
 * [Pettuse tuvastamise ülesanded](../praktikum2_pettus)
 * [Kodutöö](../praktikum2_kodutoo)
-    * Tähtaeg 23.02.2017 kell 23:59.
+    * Tähtaeg 24.02.2017 kell 23:59.
 
 ## Praktikum 3
 
