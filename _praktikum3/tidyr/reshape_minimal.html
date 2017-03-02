@@ -121,7 +121,8 @@ gather(andmed, key=tunnus, value=vaartus, -nimi)</code></pre>
 ## 11 Toomas   kaal     100
 ## 12   Kati   kaal      50</code></pre>
 <pre class="r"><code># Näide 5
-gather_(andmed, key_col=&quot;tunnus&quot;, value_col=&quot;vaartus&quot;, gather_cols = c(&quot;sugu&quot;,&quot;vanus&quot;,&quot;pikkus&quot;,&quot;kaal&quot;))</code></pre>
+gather_(andmed, key_col=&quot;tunnus&quot;, value_col=&quot;vaartus&quot;, 
+        gather_cols = c(&quot;sugu&quot;,&quot;vanus&quot;,&quot;pikkus&quot;,&quot;kaal&quot;))</code></pre>
 <pre><code>## Warning: attributes are not identical across measure variables; they will
 ## be dropped</code></pre>
 <pre><code>##      nimi tunnus vaartus

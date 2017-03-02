@@ -49,7 +49,8 @@ gather(andmed, key=tunnus, value=vaartus, -nimi, -sugu)
 gather(andmed, key=tunnus, value=vaartus, -nimi)
 
 # Näide 5
-gather_(andmed, key_col="tunnus", value_col="vaartus", gather_cols = c("sugu","vanus","pikkus","kaal"))
+gather_(andmed, key_col="tunnus", value_col="vaartus", 
+        gather_cols = c("sugu","vanus","pikkus","kaal"))
 ```
 
 
