@@ -8,7 +8,7 @@ output:
 
 ### Sissejuhatus
 
-See oli juba kolmas järjestikune öö, mil tudeng Keit "Ogar" Agarilt viis une õudusunenägu. "Te olite võrdsed kandidaadid, kuid parema keskmise hinde tõttu võtsime tööle teise kandidaadi," ütles OÜ Tunnetuslik Homöopaatia personalijuht. Töö sai Keiti alumine naaber, kes õpib 15. sajandi inglise kirjandust. Keit arvab, et seegi unenägu võib olla täideminev ning tal on vaja head vastuargumenti personalijuhile. Äkki on mõnes teaduskonnas kergem paremat hinnet saada, mõtles Keit.
+See oli juba kolmas järjestikune öö, mil tudeng Keit "Ogar" Agarilt viis une õudusunenägu. "Te olite võrdsed kandidaadid, kuid parema keskmise hinde tõttu võtsime tööle teise kandidaadi," ütles OÜ Tunnetuslik Homöopaatia personalijuht. Töö sai Keiti alumine naaber, kes õpib 15. sajandi inglise kirjandust. Keit arvab, et seegi unenägu võib olla täideminev ning tal on vaja head vastuargumenti personalijuhile. Äkki on mõnes valdkonnas kergem paremat hinnet saada, mõtles Keit.
 
 Ta teab, et finantsseisu parandamiseks ei saa lootma jääda vaid tööintervjuule. Mida teeks sellises olukorras tema ületee naaber, kes on saanud mitmeid EL toetusi ja sõidab kullatud istmesoojendusnupuga varustatud Mercedes-Benz maasturiga? Ilmselt uuriks, kuidas võimalikult vähese vaevaga parandada oma keskmist hinnet, et nii stipendiumit saada.
 
@@ -16,29 +16,20 @@ Kuna kolm plaani on ikka parem kui kaks, mõtles Keit, mida võtaks ette tema et
 
 Selles praktikumis uurimegi:
 
-* kas tõesti on mõnes teaduskonnas kergem paremat hinnet saada,
+* kas tõesti on mõnes valdkonnas kergem paremat hinnet saada,
 * kas on aineid, milles on märgatavalt kergem paremat hinnet saada,
 * kuidas teha veebirakendusi R-is.
 
 ### Tutvumine andmestikuga
 
-Laadi ÕISist alla andmestik *UT_14_15_hinded.csv*. Selles andmestikus on 2014/2015 õppeaasta kõigi TÜ eristava hindamisega õppeainete kohta kirjas üliõpilaste õppetulemuste jaotus. Lisaks on teada 
+Laadi ÕISist alla andmestik *UT_15_16_hinded.csv*. Selles andmestikus on 2015/2016 õppeaasta kõigi TÜ eristava hindamisega õppeainete kohta kirjas üliõpilaste õppetulemuste jaotus. Lisaks on teada 
 
 * semester (sügis/kevad)
-* teaduskond (TÜ struktuuriüksuse lühend)
-    * AR  Arstiteaduskond
-    * EC	Euroopa kolledž
-    * FL	Filosoofiateaduskond
-    * KK	Kehakultuuriteaduskond
-    * LO	Loodus- ja tehnoloogiateaduskond
-    * MJ	Majandusteaduskond
-    * MT	Matemaatika-informaatikateaduskond
-    * NC	Narva kolledž
-    * OI	Õigusteaduskond
-    * PC	Pärnu kolledž
-    * SH	Sotsiaal- ja haridusteaduskond
-    * US	Usuteaduskond
-    * VK	Viljandi kultuuriakadeemia
+* valdkond (aine struktuuriüksuse lühend)
+  * HV	humanitaarteaduste- ja kunstide valdkond
+  * SV	sotsiaalteaduste valdkond
+  * MV	meditsiiniteaduste valdkond
+  * LT	loodus- ja täppisteaduste valdkond
 * aine kood
 * aine nimi
 * ainele registreerunud üliõpilaste arv
@@ -46,7 +37,7 @@ Laadi ÕISist alla andmestik *UT_14_15_hinded.csv*. Selles andmestikus on 2014/2
 
 ### Ülesanne 1 (4 punkti)
 
-Kas mõnes teaduskonnas saavad üliõpilased paremaid hindeid kui mõnes teises? Kuidas seda visuaalselt kontrollida? Tee seda.
+Kas mõnes valdkonnas saavad üliõpilased paremaid hindeid kui mõnes teises? Kuidas seda visuaalselt kontrollida? Tee seda.
 
 ### Ülesanne 2 (4 punkti)
 
@@ -54,10 +45,10 @@ Kas mõnes õppeaines saavad üliõpilased paremaid hindeid kui mõnes teises? M
 
 Juhised:
 
-* Vali välja sobiv joonisetüüp. Selleks võid kasutada mõnda eelmises ülesandes välja pakutud lahendust või pakkuda välja enda variandi. (Näiteks võid teha alloleva joonisega analoogilise joonise, ainult et teaduskondade rollis oleksid õppeained. Samas võid ka teha näiteks tulpdiagrammi, mis näitaks iga õppeaine keskmist hinnet.)
+* Vali välja sobiv joonisetüüp. Selleks võid kasutada mõnda eelmises ülesandes välja pakutud lahendust või pakkuda välja enda variandi. (Näiteks võid teha alloleva joonisega analoogilise joonise, ainult et valdkondade rollis oleksid õppeained. Samas võid ka teha näiteks tulpdiagrammi, mis näitaks iga õppeaine keskmist hinnet.)
 ![](joonis3.png)
-* Vaatle väiksemat andmestikku, kus teaduskond ja semester oleksid fikseeritud. Näiteks võid valida matemaatika-informaatikateaduskonna ning kevadsemestri.  
-(Järgmises ülesandes tuleb koodi natuke modifitseerida, et rakenduse kasutaja saaks ise valida teda huvitava teaduskonna ja semestri.)
+* Vaatle väiksemat andmestikku, kus valdkond ja semester oleksid fikseeritud. Näiteks võid valida loodus- ja täppisteaduste valdkonna ning kevadsemestri.  
+(Järgmises ülesandes tuleb koodi natuke modifitseerida, et rakenduse kasutaja saaks ise valida teda huvitava valdkonna ja semestri.)
 * Vaatle ainult selliseid aineid, kus oli vähemalt 5 registreerunut. 
 * Leia iga õppeaine keskmine hinne. 
 * Järjesta õppeained keskmise hinde põhjal. 
@@ -65,12 +56,12 @@ Juhised:
 * Praegu on õppeaine nimi selline faktor, mille tasemed on tähestikulises järjekorras. Aga ggplot2 joonise jaoks oleks hea, kui see oleks järjestatud keskmise hinde põhjal. (Näpunäide: kasuta funktsiooni `reorder`.)
 * Tee joonis. 
 * Juhul, kui kasutad mõnda tulpdiagrammi, võib horisontaalne esitus osutuda efektiivsemaks kui vertikaalne. Abiks on `coord_flip()`. 
-* Kirjuta eelnev kood funktsiooniks, mille sisendiks sobiks selline andmestik nagu oli failis *UT_14_15_hinded.csv*. Lisaks oleks sisendiks teaduskond ja semester. Funktsioon peab tagastama ggplot2 joonise. Kontrolli, kas funktsioon töötab. 
+* Kirjuta eelnev kood funktsiooniks, mille sisendiks sobiks selline andmestik nagu oli failis *UT_15_16_hinded.csv*. Lisaks oleks sisendiks valdkond ja semester. Funktsioon peab tagastama ggplot2 joonise. Kontrolli, kas funktsioon töötab. 
 
 ```{r, eval=FALSE}
-plot_oppeained = function(data, tk, sem){
+plot_oppeained = function(data, vk, sem){
   # vali andmestikust data välja sellised read, 
-  # kus teaduskond == tk ja semester == sem
+  # kus valdkond == vk ja semester == sem
   
   # sinu kood
   
@@ -82,10 +73,9 @@ plot_oppeained = function(data, tk, sem){
 
 ### Ülesanne 3 (17 punkti) - Rakenduse loomine
 
-Alusta Shiny tutorialiga http://shiny.rstudio.com/tutorial/
+Alusta Shiny tutorialiga http://shiny.rstudio.com/tutorial/. Võimalusel on soovitatav läbi vaadata *Part 1* ja *Part 2* videod, kuid kodutöö sooritamiseks on piisav kasutada lehe lõpus olevaid *The written tutorial* materjale.
 
 1. Tööta läbi *lesson 1*. Juhime tähelepanu järgnevale.
-    * Ignoreeri *preview release of RStudio* kommentaari. 
     * Kui sul ei tekkinud nuppu *Run App*, siis sulge RStudio ning ava uuesti. 
     * Pane muuhulgas tähele, et `display.mode = "showcase"` võimaldab keerukamate rakenduste puhul jälgida, millseid koodiridu uuendatakse, kui rakenduse kasutaja parameetreid muudab.  
     * Paralleelselt alusta enda shiny rakenduse loomisega. Selleks tee enda kodutöö jaoks uus kaust ning salvesta sinna `server.R` ja `ui.R` näidisfailid, mida hakkad edaspidi modifitseerima. 
@@ -98,7 +88,7 @@ Praeguseks võiks sinu rakendus välja näha umbes selline:
 ![](shiny_1.png)
 
 3. Tööta läbi *lesson 3*. 
-    * Lisa valikukast, mille abil saab rakenduse kasutaja valida teaduskonna. Näita teaduskondade nimesid pikemalt kui vastavad lühendid andmestikus (abiks võib olla `?selectInput`). 
+    * Lisa valikukast, mille abil saab rakenduse kasutaja valida valdkonna. Näita valdkondade nimesid pikemalt kui vastavad lühendid andmestikus (abiks võib olla `?selectInput`). 
     * Lisa nupp, mille abil saab kasutaja valida, kas teda huvitavad sügis- või kevadsemestri ained.
     
 Praeguseks võiks sinu rakendus välja näha umbes selline:
@@ -113,14 +103,14 @@ Praeguseks võiks rakendus välja näha umbes selline:
     * Lisa oma rakenduse kataloogi kasutatava andmestiku fail (näiteks kas `csv` või `RData` failina).
     * Loe see fail sisse, et kasutada seda rakenduses.
     
-6. Kasuta nüüd ülesande 2 tulemusena valminud funktsiooni ning lisa joonis shiny väljundisse. Kutsu see funktsioon välja nii, et sisendid teaduskond ning semester vastaksid kasutaja poolt sisestatud väärtustele. 
+6. Kasuta nüüd ülesande 2 tulemusena valminud funktsiooni ning lisa joonis shiny väljundisse. Kutsu see funktsioon välja nii, et sisendid valdkond ning semester vastaksid kasutaja poolt sisestatud väärtustele. 
 
 Näpunäide: kui teksti kuvamiseks kasutasid funktsioone `textOutput` ja `renderText`, siis joonise jaoks tuleb kasutada vastavalt funktsioone `plotOutput` ja `renderPlot`. (Kui soovid muuta joonise suurust, selleks on funktsioonil `renderPlot` argumendid `width` ja `height`.)
 
 Praeguseks võiks rakendus välja näha umbes selline (sõltub, millise joonise tüübi ülesandes 2 valisid):
 ![](shiny_4.png)
 
-Et erinevate teaduskondade joonised oleksid kohakuti (mõnedel ainetel on väga pikad nimed), võid aine nime asemel joonisel näidata aine nime algust (näiteks esimest *n* sümbolit, abiks on funktsioon `substr`). 
+Et erinevate valdkondade joonised oleksid kohakuti (mõnedel ainetel on väga pikad nimed), võid aine nime asemel joonisel näidata aine nime algust (näiteks esimest *n* sümbolit, abiks on funktsioon `substr`). 
 
 ### Boonusülesanne 1: Rakenduse täiustamine
 
@@ -138,6 +128,7 @@ Näiteid Shiny rakendustest:
 * [ClustVis: a web tool for visualizing clustering of multivariate data](http://biit.cs.ut.ee/clustvis/)
 * [R Graph Catalog (ggplot2)](http://shinyapps.stat.ubc.ca/r-graph-catalog/)
 -->
+
 
 ### Boonusülesanne 2: Kuidas optimeerida õppeaine tagasisidet?
 
@@ -166,7 +157,12 @@ Laadi ÕISist alla andmestik *UT_14_15_tagasiside.csv*. (Praktikumis kasutatud a
 
 Ülesanded:
 
-a. (**3 boonuspunkti**) Uuri, kas õppeaine tagasiside skoor üleüldse sõltub aine töömahust, ning kas ette nähtust väiksem töömaht tagab ainele parema tagasiside. Visualiseeri. 
+a. (**2 boonuspunkti**) Uuri, kas õppeaine tagasiside skoor üleüldse sõltub aine töömahust, ning kas ette nähtust väiksem töömaht tagab ainele parema tagasiside. Visualiseeri. 
 
-b. (**3 boonuspunkti**) Uuri, kas õppeainele antud tagasiside üleüldse sõltub tudengite õppetulemustest seal aines, ning milline see sõltuvus on. Visualiseeri. 
+b. (**2 boonuspunkti**) Uuri, kas õppeainele antud tagasiside üleüldse sõltub tudengite õppetulemustest seal aines, ning milline see sõltuvus on. Visualiseeri. 
 
+### Boonusülesanne 3 (**2 boonuspunkti**)
+
+Esita kogu kodutöö *Shiny Dashboard*'i abil, kus ülesanne 1, ülesanne 3 ja soovi korral boonusülesanne 2 on eraldi tabide (*menuItem()*) all. Töötava lahenduse korral ei ole vaja esitada hmtl ja Rmd faile ega ülesande 3 Shiny rakenduse faile, st kogu kodutöö on vormistatud *dashboard*'i abil
+
+Juhis, kuidas ehitada *Shiny Dashboard*'i, on leitav [siit](https://rstudio.github.io/shinydashboard/get_started.html).
