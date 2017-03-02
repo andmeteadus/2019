@@ -136,11 +136,17 @@ Näiteid Shiny rakendustest:
 
 Uuri, kas Peetri väited peavad paika. See tähendab, et kas tõepoolest on tal lootust saada ainele paremat tagasisidet, kui selle töömaht on väiksem, kui ette nähtud, ning kui tudengitele panna paremaid hindeid. 
 
-Laadi ÕISist alla andmestik *UT_14_15_tagasiside.csv*. (Praktikumis kasutatud andmestik oli selle alamandmestik.) Siin on toodud 2014/2015 õppeaasta kõigi TÜ õppeainete kohta (st nii eristava kui ka mitteeristava hindamisega):
+Laadi ÕISist alla andmestik *UT_15_16_tagasiside.csv*. (Praktikumis kasutatud andmestik oli selle alamandmestik.) Siin on toodud 2015/2016 õppeaasta kõigi TÜ õppeainete kohta (st nii eristava kui ka mitteeristava hindamisega):
 
 * semester (sügis/kevad)
-* teaduskond (TÜ struktuuriüksuse lühend, samasugused, nagu praktikumis kasutatud andmestikus)
-* aine kood
+* valdkond (aine struktuuriüksuse lühend)
+    * HV	humanitaarteaduste- ja kunstide valdkond
+    * SV	sotsiaalteaduste valdkond
+    * MV	meditsiiniteaduste valdkond
+    * LT	loodus- ja täppisteaduste valdkond
+    * GV	Eesti geenivaramu	
+    * OO	Õppeosakond	
+* aine kood    
 * aine nimi
 * ainele registreerunud üliõpilaste arv
 * õppeaine töömahtu puudutava tagasiside küsimuse vastuste jaotus
