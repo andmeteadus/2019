@@ -26,10 +26,10 @@ Laadi ÕISist alla andmestik *UT_15_16_hinded.csv*. Selles andmestikus on 2015/2
 
 * semester (sügis/kevad)
 * valdkond (aine struktuuriüksuse lühend)
-  * HV	humanitaarteaduste- ja kunstide valdkond
-  * SV	sotsiaalteaduste valdkond
-  * MV	meditsiiniteaduste valdkond
-  * LT	loodus- ja täppisteaduste valdkond
+    * HV	humanitaarteaduste- ja kunstide valdkond
+    * SV	sotsiaalteaduste valdkond
+    * MV	meditsiiniteaduste valdkond
+    * LT	loodus- ja täppisteaduste valdkond
 * aine kood
 * aine nimi
 * ainele registreerunud üliõpilaste arv
