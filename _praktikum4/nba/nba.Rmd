@@ -4,88 +4,96 @@ output:
     theme: null
 ---
 
-Jaanus "Sops" Kolmene k‰ib jıusaalis kolm korda n‰dalas. J‰rgmisel kuul sisustab ta ka reede ıhtupooliku raskusi tıstes, sest tema rinnalihas on statistiku jaoks liiga nırk. Nimelt otsib korvpalliklubi Brooklyn Nets oma ridadesse statistikut, kes anal¸¸siks korvpalliandmeid ja aitaks seel‰bi optimiseerida meeskonna m‰ngustrateegiat. Kandidaadi nıuete seas on ka 50 kg rinnalt surumine.
+Jaanus "Sops" Kolmene k√§ib j√µusaalis kolm korda n√§dalas. J√§rgmisel kuul sisustab ta ka reede √µhtupooliku raskusi t√µstes, sest tema rinnalihas on statistiku jaoks liiga n√µrk. Nimelt otsib korvpalliklubi Brooklyn Nets oma ridadesse statistikut, kes anal√º√ºsiks korvpalliandmeid ja aitaks seel√§bi optimiseerida meeskonna m√§ngustrateegiat. Kandidaadi n√µuete seas on ka 50 kg rinnalt surumine.
 
-Kuna rinnalihase nıue on ehk peagi t‰idetud, tahab Jaanus enne intervjuule minekut saada praktilist kogemust NBA andmete anal¸¸simisel. Ta teab, et NBA m‰ngude kohta kogutakse SportVU tehnoloogia abil detailset statistikat.
+Kuna rinnalihase n√µue on ehk peagi t√§idetud, tahab Jaanus enne intervjuule minekut saada praktilist kogemust NBA andmete anal√º√ºsimisel. Ta teab, et NBA m√§ngude kohta kogutakse SportVU tehnoloogia abil detailset statistikat.
 
 ![alt text](player-tracking-summary.gif "Joonis nba.com lehelt")
 
-Ta tahab koostada iga m‰ngija ja meeskonna kohta profiili: kust visatakse ning kust tabatakse. Just nagu tegi [NY Times'i graafikaosakond:](http://www.nytimes.com/interactive/2012/06/11/sports/basketball/nba-shot-analysis.html)
+Ta tahab koostada iga m√§ngija ja meeskonna kohta profiili: kust visatakse ning kust tabatakse. Just nagu tegi [NY Times'i graafikaosakond:](http://www.nytimes.com/interactive/2012/06/11/sports/basketball/nba-shot-analysis.html)
 
-![alt text](nytimes.png "N‰ide")
+![alt text](nytimes.png "N√§ide")
 
 Selles praktikumis uurime, kuidas teha sarnast joonist R-i vahenditega.
 
 ### Tutvumine andmestikuga
 
-Kasutame NBA 2013/14 hooaja andmeid. Andmestikus on j‰rgnevad tunnused:
+Kasutame NBA 2013/14 hooaja andmeid. Andmestikus on j√§rgnevad tunnused:
 
 * *name* - korvpalluri nimi
 * *team_name* - korvpalluri meeskonna nimi
 * *opponent* - vastasmeeskonna nimi
-* *game_date* - m‰ngu kuup‰ev
-* *shot_made_flag* - kas vise l‰ks korvi
-* *shot_type* - kas oli 2-punkti vıi 3-punkti vise
+* *game_date* - m√§ngu kuup√§ev
+* *shot_made_flag* - kas vise l√§ks korvi
+* *shot_type* - kas oli 2-punkti v√µi 3-punkti vise
 * *x* - viske x-koordinaat
 * *y* - viske y-koordinaat
 
-Laadi alla andmestik [nba_2013.csv](../data/nba_2013.csv) ja loe tˆˆkeskkonda.
+Laadi alla andmestik [nba_2013.csv](../data/nba_2013.csv) ja loe t√∂√∂keskkonda.
 
 
-### ‹lesanne 1 (1 punkt)
+### √úlesanne 1 (1 punkt)
 
-Visualiseeri NBA meeskonna Miami Heat viskekohti hajuvusdiagrammi abil kasutades tunnuseid *x* ja *y*. Iga sooritatud vise n‰ita t‰pikesena. Kasuta R-i baasgraafika funktsiooni `plot`.
+Visualiseerime NBA meeskonna Miami Heat viskekohti hajuvusdiagrammi abil kasutades tunnuseid *x* ja *y*. Iga sooritatud vise n√§ita t√§pikesena. 
+
+N√§pun√§ited: 
+
+* kasuta k√§sku `coord_fixed(ratio = 1)`.
 
 ```{r}
+library(grid) 
+library(jpeg) 
+library(RCurl)
+
+#loome m√§nguv√§ljaku
+courtImg.URL <- "https://thedatagame.files.wordpress.com/2016/03/nba_court.jpg"
+court <- rasterGrob(readJPEG(getURLContent(courtImg.URL)),
+                    width=unit(1,"npc"), height=unit(1,"npc"))
+                    
+valjak <- ggplot(miami, aes(x = x, y = y)) + 
+  annotation_custom(court, -250, 250, -50, 420) + geom_point()
+  
 # sinu kood
 ```
 
-### ‹lesanne 2 (2 punkti)
+### √úlesanne 2 (2 punkti)
 
-Diskretiseeri m‰nguv‰ljak (jaga m‰nguv‰ljak t¸kkideks). 
+Diskretiseeri m√§nguv√§ljak (jaga m√§nguv√§ljak t√ºkkideks). 
 
-![alt text](diskretiseeritud_manguvaljak.png "N‰ide")
+![alt text](diskretiseeritud_manguvaljak.png "N√§ide")
 
-T¸kid moodusta nii, et ¸marda x- ja y-koordinaat k¸mnelisteni. Iga kastikese kohta arvuta:
+T√ºkid moodusta nii, et √ºmarda x- ja y-koordinaat k√ºmnelisteni. Iga kastikese kohta arvuta:
 
 * visete arv
 * tabavusprotsent
 
-N‰pun‰ited: 
+N√§pun√§ited: 
 
-* uuri, mida teeb k‰sk `round(21:30, -1)`.
+* uuri, mida teeb k√§sk `round(21:30, -1)`.
 * kasuks tuleb paketi dplyr funktsionaalsus (`mutate`, `group_by`, `summarise`)
 
 ```{r}
 # sinu kood
 ```
 
-### ‹lesanne 3 (2 punkti)
+### √úlesanne 3 (2 punkti)
 
-Visualiseeri eelmise ¸lesande tulemusena saadud andmeid. Tee kaks joonist:
+Visualiseeri eelmise √ºlesande tulemusena saadud andmeid. Iga diskretiseeritud kastikese kohta joonista ring. Ringi pindala olgu proportsionaalne visete arvuga.
 
-a.) Iga diskretiseeritud kastikese kohta joonista ring. Ringi pindala olgu proportsionaalne visete arvuga.
+N√§pun√§ited: 
 
-b.) Iga diskretiseeritud kastikese kohta joonista ruut. Ruudu pindala olgu proportsionaalne visete arvuga.
+* uuri, mida teeb k√§sk `scale_size_area()`.
 
-N‰pun‰ited: 
-
-* Esmalt tekita t¸hi aken, kuhu hakkame joonistama: `plot(0, 0, type = "n", xlim=c(-250, 250), ylim=c(0, 400))`
-* Ringikesed kanna joonisele funktsiooni `symbols` abil.
-* Kuigi `symbols` tˆˆtab ka vektoritega, on edasise huvides lihtsam kasutada `for` ts¸klit ning kanda ringid/ruudud joonisele ¸kshaaval.
-* Funksiooni `symbols` korral on kasulikud argumendid `inches=FALSE, add=TRUE`. Esimene neist on vajalik selleks, et s¸mboli suurus skaleeruks vastavalt etteantud raadiusele, `add=TRUE` selleks, et viimati tehtud joonisele lisada uus s¸mbol.
 
 ```{r}
 # sinu kood
 ```
 
-Edasises kasuta omal valikul kas ringe vıi ruute.
+### √úlesanne 4 - suuruse muutmine (2 punkti)
 
-### ‹lesanne 4 - suuruse muutmine (2 punkti)
+N√§eme, et meie joonisel on korvialuste kastikeste pindala palju suurem kui NY Timesi joonisel. NY Timesi graafikaosakond on jaganud visete arvu kolme kategooriasse: low, medium, high. Mida arvad, kas on hea m√µte jagada kastid kolme kategooriasse?
 
-N‰eme, et meie joonisel on korvialuste kastikeste pindala palju suurem kui NY Timesi joonisel. NY Timesi graafikaosakond on jaganud visete arvu kolme kategooriasse: low, medium, high. Mida arvad, kas on hea mıte jagada kastid kolme kategooriasse?
-
-a.) Vali v‰lja piirid, mille pıhjal jaotatakse visete arv kolme kategooriasse (low, medium, high). Iga kategooria jaoks vali sobiv pindala suurus (kontrolli, et tulemus oleks visuaalselt kena). Kirjuta funktsioon `get_radius`, mis visete arvu sisestamisel tagastab vastava kategooria raadiuse.
+a.) Vali v√§lja piirid, mille p√µhjal jaotatakse visete arv kolme kategooriasse (low, medium, high). Iga kategooria jaoks vali sobiv pindala suurus (kontrolli, et tulemus oleks visuaalselt kena). Kirjuta funktsioon `get_radius`, mis vastavalt valitud pindaladele ning kategooriate piiridele tagastab andmestiku, kus tunnus uus_raadius vastab kategooria raadiusele.
 
 ```{r, eval=FALSE}
 get_radius = function(visete_arv){
@@ -94,27 +102,27 @@ get_radius = function(visete_arv){
 ```
 
 
-b.) Visualiseeri n¸¸d viskepositsioone sarnaselt eelmisele ¸lesandele, kui ringidel/ruutudel on vaid 3 erinevat suurust.
+b.) Visualiseeri n√º√ºd viskepositsioone sarnaselt eelmisele √ºlesandele, kui ringidel/ruutudel on vaid 3 erinevat suurust.
 
 ```{r}
 # sinu kood
 ```
 
 
-### ‹lesanne 5 - v‰rvid (2 punkti)
+### √úlesanne 5 - v√§rvid (2 punkti)
 
-Uuri, mida t‰histavad [NY Times'i graafikul](http://www.nytimes.com/interactive/2012/06/11/sports/basketball/nba-shot-analysis.html) punane ja roheline v‰rv.
+Uuri, mida t√§histavad [NY Times'i graafikul](http://www.nytimes.com/interactive/2012/06/11/sports/basketball/nba-shot-analysis.html) punane ja roheline v√§rv.
 
-Lisa n¸¸d ruutudele/ringidele v‰rv vastavalt visketabavusele. Selleks kirjuta esmalt funktsioon `get_color`, mis tagastab antud visketabamusele vastava v‰rvikoodi. 
+Lisa n√º√ºd ruutudele/ringidele v√§rv vastavalt visketabavusele. Selleks kirjuta esmalt funktsioon `get_color`, mis tagastab antud visketabamusele vastava v√§rvikoodi. 
 
-N‰pun‰ide:
+N√§pun√§ide:
 
 ```{r, eval=FALSE}
-# defineerime v‰rvigradiendi
+# defineerime v√§rvigradiendi
 pal = colorRampPalette(c("#A6CD95", "#F1E471", "#ED6751"))
-# colorRampPalette tagastab funktsiooni, mis vıtab sisendiks t‰isarvu ja v‰ljastab vastava arvu v‰rve
+# colorRampPalette tagastab funktsiooni, mis v√µtab sisendiks t√§isarvu ja v√§ljastab vastava arvu v√§rve
 colors = pal(100)
-# n‰ide
+# n√§ide
 pie(1:5, col=colors[c(1, 25, 50, 75, 100)])
 
 ```
@@ -127,15 +135,15 @@ get_color = function(visketabamus){
 }
 ```
 
-Tee joonis, kasutades saadud v‰rve.
+Tee joonis, kasutades saadud v√§rve.
 
-### ‹lesanne 6 - kuusnurgad (2 punkti)
+### √úlesanne 6 - kuusnurgad (2 punkti)
 
-Kasuta n¸¸d ringide ja ruutude asemel kuusnurki. 
+Kasuta n√º√ºd ringide ja ruutude asemel kuusnurki. 
 
 Meeldetuletus kuusnurkadest:
 
-![alt text](hexagon.png "N‰ide")
+![alt text](hexagon.png "N√§ide")
 
 Oleme ette andnud funktsiooni `plot_hexagon`, mis sisestades keskpunkti koordinaadid ja pindala, joonistab kuusnurga.
 
@@ -148,7 +156,7 @@ plot_hexagon = function(x, y, area, col="red", ...){
   polygon(x_id, y_id, col=col, ...)  
 }
 
-# n‰ide
+# n√§ide
 plot(0, 0, type = "n", axes = FALSE, xlim=c(-5, 5), 
      ylim=c(-5, 5), xlab="", ylab= "", asp=1)
 plot_hexagon(1, 1, 15)
@@ -160,4 +168,6 @@ Tee joonis, kasutades kuusnurki.
 ```{r}
 # sinu kood
 ```
+### Boonus√ºlesanne 1 - shiny rakendus (3 punkti)
 
+Loo shiny rakendus kasutades √ºlesandes 5 saadud tulemust. Rakendus peaks esitama valitud meeskonna ning m√§ngija korral profiili: kust visatakse ning kust tabatakse.
