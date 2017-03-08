@@ -151,6 +151,9 @@ Näpunäited:
 Sinu joonis võiks tulla umbes selline:
 
 ![alt text](otselend_voi_yks_vahepeatus.png "Näide1")
+
+või selline:
+
 ![alt text](otselend_voi_yks_vahepeatus2.png "Näide2")
 
 ### Boonusülesanne 1 (1 punkt) - Juhuslik ekslemine eralennukiga
