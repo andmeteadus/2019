@@ -4,17 +4,17 @@ output:
     theme: null
 ---
 
-Paul Butler oli 2010. aasta lõpus Facebookis praktikal. Ta visualiseeris sotsiaalvõrgustiku andmeid tõmmates jooni sõprade asukohtade vahel.
+Paul Butler oli 2010. aasta lÃµpus Facebookis praktikal. Ta visualiseeris sotsiaalvÃµrgustiku andmeid tÃµmmates jooni sÃµprade asukohtade vahel.
 
-![alt text](facebook_map.png "Näide")
+![alt text](facebook_map.png "NÃ¤ide")
 
-Joonis on atraktiivne ja annab hästi edasi FB visiooni. Seda sama joonist näidatakse igapäevaselt FB kontoris hiigelsuurelt ekraanilt ja kasutati näiteks FB aktsiaemissiooni prospektis, et meelde tuletada või selgitada ettevõtte missiooni. Paul tegi selle joonise [kasutades R-i.](http://paulbutler.org/archives/visualizing-facebook-friends/) Kuna FB meile andmeid ei andnud, vaatame selles kodutöös, kuidas lennuliiklus ühendab maailma.
+Joonis on atraktiivne ja annab hÃ¤sti edasi FB visiooni. Seda sama joonist nÃ¤idatakse igapÃ¤evaselt FB kontoris hiigelsuurelt ekraanilt ja kasutati nÃ¤iteks FB aktsiaemissiooni prospektis, et meelde tuletada vÃµi selgitada ettevÃµtte missiooni. Paul tegi selle joonise [kasutades R-i.](http://paulbutler.org/archives/visualizing-facebook-friends/) Kuna FB meile andmeid ei andnud, vaatame selles kodutÃ¶Ã¶s, kuidas lennuliiklus Ã¼hendab maailma.
 
 ### Tutvumine andmestikuga
 
-Laadi alla andmestikud [airports.csv](../data/airports.csv) ja [flights.csv](../data/flights.csv) ning loe need töökeskkonda.
+Laadi alla andmestikud [airports.csv](../data/airports.csv) ja [flights.csv](../data/flights.csv) ning loe need tÃ¶Ã¶keskkonda.
 
-Andmestikus *airports.csv* on informatsioon lennujaamade kohta. Selles on järgnevad tunnused:
+Andmestikus *airports.csv* on informatsioon lennujaamade kohta. Selles on jÃ¤rgnevad tunnused:
 
 * *id* - lennujaama id
 * *name* - lennujaama nimi
@@ -23,26 +23,26 @@ Andmestikus *airports.csv* on informatsioon lennujaamade kohta. Selles on järgne
 * *lat* - lennujaama asukoha laiuskraad
 * *lon* - lennujaama asukoha pikkuskraad
 
-Andmestik *flights.csv* sisaldab infot lendude kohta. Selles on järgnevad tunnused:
+Andmestik *flights.csv* sisaldab infot lendude kohta. Selles on jÃ¤rgnevad tunnused:
 
-* *airline* - lennukompanii lühend
+* *airline* - lennukompanii lÃ¼hend
 * *airline_id* - lennukompanii id
-* *source_airport* - lähtekoha lennujaama lühend
-* *source_airport_id* - lähtekoha lennujaama lühend
-* *dest_airport* - sihtkoha lennujaama lühend
+* *source_airport* - lÃ¤htekoha lennujaama lÃ¼hend
+* *source_airport_id* - lÃ¤htekoha lennujaama lÃ¼hend
+* *dest_airport* - sihtkoha lennujaama lÃ¼hend
 * *dest_airport_id* - sithkoha lennujaama id
 
 ### Suurringjoon
 
-Paul Butler kasutas suurringjooni, et visualiseerida ühendusi sõprade vahel. Kahe punkti lühim vahemaa keral avaldub [suurringjoone](http://en.wikipedia.org/wiki/Great_circle) kaudu. Kui tuult ja muid sarnaseid tegureid mitte arvestada, lendavad lennukid pikki vahemaid suurringjoonte marsruutide kaudu.
+Paul Butler kasutas suurringjooni, et visualiseerida Ã¼hendusi sÃµprade vahel. Kahe punkti lÃ¼him vahemaa keral avaldub [suurringjoone](http://en.wikipedia.org/wiki/Great_circle) kaudu. Kui tuult ja muid sarnaseid tegureid mitte arvestada, lendavad lennukid pikki vahemaid suurringjoonte marsruutide kaudu.
 
-Järgneval joonisel on see tähistatud punase joonega.
+JÃ¤rgneval joonisel on see tÃ¤histatud punase joonega.
 
-![alt text](great_circle.jpg "Näide")
+![alt text](great_circle.jpg "NÃ¤ide")
 
-### Näide: suurringjoon R-is
+### NÃ¤ide1: suurringjoon R-is
 
-Näide, kuidas joonistada suurringjoont R-is. Ühendame Liivi 2 maja Facebooki peakontoriga.
+NÃ¤ide, kuidas joonistada suurringjoont R-is. Ãœhendame Liivi 2 maja Facebooki peakontoriga.
 
 ```{r, message=FALSE}
 library(maps)
@@ -59,14 +59,71 @@ gc_points = gcIntermediate(c(lon_liivi, lat_liivi), c(lon_fb, lat_fb), n=50, add
 lines(gc_points)
 ```
 
-### Ülesanne 1 (5 punkti)
+### NÃ¤ide2: suurringjoon R-is
 
-Visualiseeri suurringjoonte abil ühendusi, kuhu saab Tallinna lennujaamast otselennuga.
+NÃ¤ide, kuidas joonistada suurringjoont R-is. Ãœhendame Liivi 2 maja EyjafjallajÃ¶kulliga.
 
-Näpunäited:
+```{r, message=FALSE}
+library(maps)
+library(geosphere)
 
-* Kuna otselennuga saab Tallinnast vaid Euroopasse, siis kanna joonisele vaid Euroopa kaart. Selleks uuri, kuidas `map` funktioonile ette anda koordinaate. Kasuta `xlim = c(-10, 40), ylim = c(30, 70)`.
-* Tallinna lennujaama kood on 415 (mille võid leida, kui uurid andmestikust `airports` Eesti lennujaamu).
+lat_liivi = 58.379491
+lon_liivi = 26.713199
+lat_eyjafjallajokull = 63.37120
+lon_eyjafjallajokull = -19.36480
+
+
+map <- get_map(location = 'Europe', zoom = 3 ,source = "google")
+a <- ggmap(map)
+
+gc_points = gcIntermediate(c(lon_liivi, lat_liivi), c(lon_eyjafjallajokull, lat_eyjafjallajokull), n=50, addStartEnd=TRUE)
+gc = data.frame(gc_points)
+
+a <- a + geom_path(data = gc, aes(x = lon, y = lat, colour = 'red'))
+a
+```
+
+### NÃ¤ide3: suurringjoon R-is
+
+NÃ¤ide, kuidas joonistada suurringjoont R-is. Ãœhendame Liivi 2 maja maailma suurima pitsa sÃ¼nnikohaga.
+
+```{r, message=FALSE}
+lat_liivi = 58.379491
+lon_liivi = 26.713199
+lat_pitsa = 41.535158
+lon_pitsa = 12.306798
+
+m = leaflet() #koordinaatsÃ¼steemis sisse lugemine
+
+m = addTiles(m) #kaardikihtide lisamine
+
+#suurringjoone punktid
+gc_points = gcIntermediate(c(lon_liivi, lat_liivi), 
+                           c(lon_pitsa, lat_pitsa), 
+                           n=50, addStartEnd=TRUE)
+gc = data.frame(gc_points)
+
+m = m %>% #punktide lisamine kaardile
+  addCircles(lng = lon_liivi, lat = lat_liivi, color = 'red', weight = 3) %>%
+  addCircles(lng = lon_pitsa, lat = lat_pitsa, color = 'red', weight = 3)
+
+m = m %>% #joonte lisamine kaardile
+  addPolylines(lng = gc$lon, lat = gc$lat, weight = 3, color = 'red')
+
+m = m %>% 
+  setView(lng = 0, lat = 50, zoom = 3) %>% 
+  addProviderTiles("Esri.WorldImagery") #geoloogiline
+m
+```
+
+### Ãœlesanne 1 (5 punkti)
+
+Visualiseeri suurringjoonte abil Ã¼hendusi, kuhu saab Tallinna lennujaamast otselennuga. VÃµid kasutada vabalt valitud meetodit eelnevalt toodud nÃ¤idete seast. 
+
+NÃ¤punÃ¤ited:
+
+* Kuna otselennuga saab Tallinnast vaid Euroopasse, siis kanna joonisele vaid Euroopa kaart.
+* Tallinna lennujaama kood on 415 (mille vÃµid leida, kui uurid andmestikust `airports` Eesti lennujaamu).
 * Sihtkohtade lennujaamad leiad andmestikust *flights.csv*.
 * Lennujaamade koordinaadid leiad andmestikus *airports.csv*.
 
@@ -75,15 +132,15 @@ Näpunäited:
 
 ```
 
-### Ülesanne 2 (9 punkti)
+### Ãœlesanne 2 (9 punkti)
 
-Visualiseeri ühendusi, kuhu saab Tallinna lennujaamast otselennu või ühe vahepeatusega.
+Visualiseeri Ã¼hendusi, kuhu saab Tallinna lennujaamast otselennu vÃµi Ã¼he vahepeatusega. VÃµid kasutada esimeses ning kolmandas nÃ¤ites tutvustatud vÃµimalusi.
 
-Näpunäited: 
+NÃ¤punÃ¤ited: 
 
-* Et värve muuta läbipaistvaks, lisa värvikoodile lõppu läbipaistvuse intensiivsus. Näiteks kasuta funktsiooni `lines` korral argumenti `col="#00000010"`, et muuta mustade (värvikood #000000) joonte läbipaistvus 10%-ni.
+* Et vÃ¤rve muuta lÃ¤bipaistvaks, lisa vÃ¤rvikoodile lÃµppu lÃ¤bipaistvuse intensiivsus. NÃ¤iteks kasuta funktsiooni `lines` korral argumenti `col="#00000010"`, et muuta mustade (vÃ¤rvikood #000000) joonte lÃ¤bipaistvus 10%-ni vÃµi funktsiooni `addPolylines` korral argumente `weight=0.7` ja `opacity=0.3`.  
 
-* Visualiseeri ühendusi Tallinn - vahelennujaam - lõpp-punkt. Tingimata pole tarvis mitu korda joonistada Tallinn - vahelennujaam ühendusi, need võid joonistada ka ühe korra.
+* Visualiseeri Ã¼hendusi Tallinn - vahelennujaam - lÃµpp-punkt. Tingimata pole tarvis mitu korda joonistada Tallinn - vahelennujaam Ã¼hendusi, need vÃµid joonistada ka Ã¼he korra.
 
 
 ```{r}
@@ -91,22 +148,23 @@ Näpunäited:
 
 ```
 
-Sinu joonis võiks tulla umbes selline:
+Sinu joonis vÃµiks tulla umbes selline:
 
-![alt text](otselend_voi_yks_vahepeatus.png "Näide")
+![alt text](otselend_voi_yks_vahepeatus.png "NÃ¤ide1")
+![alt text](otselend_voi_yks_vahepeatus2.png "NÃ¤ide2")
 
-### Boonusülesanne 1 (1 punkt) - Juhuslik ekslemine eralennukiga
+### BoonusÃ¼lesanne 1 (1 punkt) - Juhuslik ekslemine eralennukiga
 
-Alusta Tallinna lennujaamast. Vali kõikvõimalikest lennujaamadest juhuslikult üks ja lenda sinna. Vali nüüd juhuslikult järgmine sihtpunkt ning lenda sinna. Jätka seda protsessi 100 korral ja visualiseeri läbitud teekonda.
+Alusta Tallinna lennujaamast. Vali kÃµikvÃµimalikest lennujaamadest juhuslikult Ã¼ks ja lenda sinna. Vali nÃ¼Ã¼d juhuslikult jÃ¤rgmine sihtpunkt ning lenda sinna. JÃ¤tka seda protsessi 100 korral ja visualiseeri lÃ¤bitud teekonda.
 
 ```{r}
 # sinu kood
 ```
 
 
-### Boonusülesanne 2 (2 punkti) - Juhuslik ekslemine kasutades kommertsliine
+### BoonusÃ¼lesanne 2 (2 punkti) - Juhuslik ekslemine kasutades kommertsliine
 
-Alusta Tallinna lennujaamast. Vali võimalikest sihtkohtadest üks ja lenda sinna. Vali selle lennujaama võimalikest sihtkohtadest juhuslikult järgmine ning lenda sinna. Jätka seda protsessi 100 korral ja visualiseeri läbitud teekonda.
+Alusta Tallinna lennujaamast. Vali vÃµimalikest sihtkohtadest Ã¼ks ja lenda sinna. Vali selle lennujaama vÃµimalikest sihtkohtadest juhuslikult jÃ¤rgmine ning lenda sinna. JÃ¤tka seda protsessi 100 korral ja visualiseeri lÃ¤bitud teekonda.
 
 ```{r}
 # sinu kood
