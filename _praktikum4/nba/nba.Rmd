@@ -93,41 +93,47 @@ valjak <- ggplot(miami, aes(x = x, y = y)) +
 
 ### Ülesanne 4 - suuruse muutmine (2 punkti)
 
-Näeme, et meie joonisel on korvialuste kastikeste pindala palju suurem kui NY Timesi joonisel. NY Timesi graafikaosakond on jaganud visete arvu kolme kategooriasse: low, medium, high. Mida arvad, kas on hea mõte jagada kastid kolme kategooriasse?
-
-a.) Vali välja piirid, mille põhjal jaotatakse visete arv kolme kategooriasse (low, medium, high). Iga kategooria jaoks vali sobiv pindala suurus (kontrolli, et tulemus oleks visuaalselt kena). Kirjuta funktsioon `get_radius`, mis vastavalt valitud raadiusele ning kategooriate piiridele tagastab andmestiku, kus tunnus uus_raadius vastab kategooria raadiusele.
+a.) NY Timesi graafikaosakond on jaganud visete arvu kolme kategooriasse: low, medium, high. Vali välja piirid, mille põhjal jaotatakse visete arv kolme kategooriasse (low, medium, high). Iga kategooria jaoks vali sobiv pindala suurus (kontrolli, et tulemus oleks visuaalselt kena). Kirjuta funktsioon `get_radius`, mis vastavalt valitud raadiusele ning kategooriate piiridele tagastab andmestiku, kus tunnus "uus_raadius" vastab kategooria raadiusele.
 
 ```{r, eval=FALSE}
-get_radius = function(r1, r2, r3, piir1, piir2){
+get_radius = function(andmed, r1, r2, r3, piir1, piir2){
   # sinu kood
 }
 ```
 
 
-b.) Visualiseeri nüüd viskepositsioone sarnaselt eelmisele ülesandele, kui ringidel/ruutudel on vaid 3 erinevat suurust.
+b.) Visualiseeri nüüd viskepositsioone sarnaselt eelmisele ülesandele, kui ringidel on vaid 3 erinevat suurust.
 
 ```{r}
 # sinu kood
 ```
 
 
-### Ülesanne 5 - värvid (2 punkti)
+### Ülesanne 5 - värvid (1 punkti)
 
 Uuri, mida tähistavad [NY Times'i graafikul](http://www.nytimes.com/interactive/2012/06/11/sports/basketball/nba-shot-analysis.html) punane ja roheline värv.
 
-Lisa nüüd ruutudele/ringidele värv vastavalt visketabavusele. Kasuta sarnast värvigammat.
+Lisa nüüd ringidele värv vastavalt visketabavusele. Kasuta sarnast värvigammat, näiteks värvikoodid "#E82123", "#F1E471" ja "#329932".
+
+Näpunäide:
+
+* uuri, mida teeb käsk `scale_color_gradient2()`.
 
 
+### Ülesanne 6 - kuusnurgad (3 punkti)
 
-### Ülesanne 6 - kuusnurgad (2 punkti)
-
-Kasuta nüüd ringide ja ruutude asemel kuusnurki. 
+Kasuta nüüd ringide asemel kuusnurki. 
 
 Meeldetuletus kuusnurkadest:
 
 ![alt text](hexagon.png "Näide")
 
-Oleme ette andnud funktsiooni `kuusnurk`, mis sisestades keskpunkti koordinaadid ja pindala, joonistab kuusnurga.
+`ggplot()` võimaldab parameetri `shape` abil määrata vaatlusele erinevaid geomeetrilisi kujutusviise, kuid valikutes ei leidu kuusnurka. Oleme ette andnud funktsiooni `kuusnurk`, mis sisestades keskpunkti koordinaadid ja pindala, väljatab kuusnurga tippude koordinaadid. Ise defineeritud geomeetriliste objektide kujutamiseks `geom_point()` ei sobi. 
+
+Näpunäide:
+
+* uuri, mida teeb käsk `geom_polygon()`
+* uuri, mida teeb `funktsioon` kuusnurk ühe vaatluse korral
 
 ```{r, fig.height=3}
 kuusnurk = function(x, y, pindala){
@@ -137,6 +143,7 @@ kuusnurk = function(x, y, pindala){
     return(data.frame(x_kuusnurk=x_coord,y_kuusnurk=y_coord))
   }
 
+# Sinu kood
 andmed_uus = data.frame(x=NA, y=NA, x_kuusnurk=NA, y_kuusnurk=NA, protsent=NA)
 for(i in 1:nrow(andmed_vana)){
   andmed_i = kuusnurk(andmed_vana$x_uus[i], andmed_vana$y_uus[i], andmed_vana$arv_uus[i])
