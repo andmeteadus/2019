@@ -42,7 +42,7 @@ Järgneval joonisel on see tähistatud punase joonega.
 
 ### Näide1: suurringjoon R-is
 
-Näide, kuidas joonistada suurringjoont R-is. Ühendame Liivi 2 maja Facebooki peakontoriga.
+Näide, kuidas joonistada suurringjoont R-is. Ühendame Liivi 2 maja Facebooki peakontoriga kasutades baasgraafika võimalusi.
 
 ```{r, message=FALSE}
 library(maps)
@@ -61,17 +61,16 @@ lines(gc_points)
 
 ### Näide2: suurringjoon R-is
 
-Näide, kuidas joonistada suurringjoont R-is. Ühendame Liivi 2 maja Eyjafjallajökulliga.
+Näide, kuidas joonistada suurringjoont R-is. Ühendame Liivi 2 maja Eyjafjallajökulliga kasutades `ggmap()` funktsiooni. Loe rohkem `ggmap()` funktsiooni kohta [siit.](https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf/)
 
 ```{r, message=FALSE}
-library(maps)
+library(ggmap)
 library(geosphere)
 
 lat_liivi = 58.379491
 lon_liivi = 26.713199
 lat_eyjafjallajokull = 63.37120
 lon_eyjafjallajokull = -19.36480
-
 
 map <- get_map(location = 'Europe', zoom = 3 ,source = "google")
 a <- ggmap(map)
@@ -85,7 +84,8 @@ a
 
 ### Näide3: suurringjoon R-is
 
-Näide, kuidas joonistada suurringjoont R-is. Ühendame Liivi 2 maja maailma suurima pitsa sünnikohaga.
+Näide, kuidas joonistada suurringjoont R-is. Ühendame Liivi 2 maja maailma suurima pitsa sünnikohaga kahutades `leaflet` paketti. Loe rohkem `leaflet`'i kohta [siit.](https://rstudio.github.io/leaflet/)
+
 
 ```{r, message=FALSE}
 lat_liivi = 58.379491
