@@ -93,10 +93,10 @@ Näpunäited:
 
 Näeme, et meie joonisel on korvialuste kastikeste pindala palju suurem kui NY Timesi joonisel. NY Timesi graafikaosakond on jaganud visete arvu kolme kategooriasse: low, medium, high. Mida arvad, kas on hea mõte jagada kastid kolme kategooriasse?
 
-a.) Vali välja piirid, mille põhjal jaotatakse visete arv kolme kategooriasse (low, medium, high). Iga kategooria jaoks vali sobiv pindala suurus (kontrolli, et tulemus oleks visuaalselt kena). Kirjuta funktsioon `get_radius`, mis vastavalt valitud pindaladele ning kategooriate piiridele tagastab andmestiku, kus tunnus uus_raadius vastab kategooria raadiusele.
+a.) Vali välja piirid, mille põhjal jaotatakse visete arv kolme kategooriasse (low, medium, high). Iga kategooria jaoks vali sobiv pindala suurus (kontrolli, et tulemus oleks visuaalselt kena). Kirjuta funktsioon `get_radius`, mis vastavalt valitud raadiusele ning kategooriate piiridele tagastab andmestiku, kus tunnus uus_raadius vastab kategooria raadiusele.
 
 ```{r, eval=FALSE}
-get_radius = function(visete_arv){
+get_radius = function(r1, r2, r3, piir1, piir2){
   # sinu kood
 }
 ```
@@ -113,29 +113,9 @@ b.) Visualiseeri nüüd viskepositsioone sarnaselt eelmisele ülesandele, kui ri
 
 Uuri, mida tähistavad [NY Times'i graafikul](http://www.nytimes.com/interactive/2012/06/11/sports/basketball/nba-shot-analysis.html) punane ja roheline värv.
 
-Lisa nüüd ruutudele/ringidele värv vastavalt visketabavusele. Selleks kirjuta esmalt funktsioon `get_color`, mis tagastab antud visketabamusele vastava värvikoodi. 
+Lisa nüüd ruutudele/ringidele värv vastavalt visketabavusele. Kasuta sarnast värvigammat.
 
-Näpunäide:
 
-```{r, eval=FALSE}
-# defineerime värvigradiendi
-pal = colorRampPalette(c("#A6CD95", "#F1E471", "#ED6751"))
-# colorRampPalette tagastab funktsiooni, mis võtab sisendiks täisarvu ja väljastab vastava arvu värve
-colors = pal(100)
-# näide
-pie(1:5, col=colors[c(1, 25, 50, 75, 100)])
-
-```
-
-![](pie_chart.png)
-
-```{r, eval=FALSE}
-get_color = function(visketabamus){
-  # sinu kood
-}
-```
-
-Tee joonis, kasutades saadud värve.
 
 ### Ülesanne 6 - kuusnurgad (2 punkti)
 
@@ -145,22 +125,24 @@ Meeldetuletus kuusnurkadest:
 
 ![alt text](hexagon.png "Näide")
 
-Oleme ette andnud funktsiooni `plot_hexagon`, mis sisestades keskpunkti koordinaadid ja pindala, joonistab kuusnurga.
+Oleme ette andnud funktsiooni `kuusnurk`, mis sisestades keskpunkti koordinaadid ja pindala, joonistab kuusnurga.
 
 ```{r, fig.height=3}
-# funktsioon
-plot_hexagon = function(x, y, area, col="red", ...){
-  r = sqrt(2*sqrt(3)/9*area)
-  x_id = x + c(0, sqrt(3)/2*r, sqrt(3)/2*r, 0, -sqrt(3)/2*r, -sqrt(3)/2*r) 
-  y_id = y + c(r, r/2, -r/2, -r, -r/2, r/2)
-  polygon(x_id, y_id, col=col, ...)  
-}
+kuusnurk = function(x, y, pindala){
+    r = sqrt(2*sqrt(3)/9*pindala)
+    x_coord = x + c(0, sqrt(3)/2*r, sqrt(3)/2*r, 0, -sqrt(3)/2*r, -sqrt(3)/2*r) 
+    y_coord = y + c(r, r/2, -r/2, -r, -r/2, r/2)
+    return(data.frame(x_kuusnurk=x_coord,y_kuusnurk=y_coord))
+  }
 
-# näide
-plot(0, 0, type = "n", axes = FALSE, xlim=c(-5, 5), 
-     ylim=c(-5, 5), xlab="", ylab= "", asp=1)
-plot_hexagon(1, 1, 15)
-plot_hexagon(3, 3, 15, col="blue", border="white")
+andmed_uus = data.frame(x=NA, y=NA, x_kuusnurk=NA, y_kuusnurk=NA, protsent=NA)
+for(i in 1:nrow(andmed_vana)){
+  andmed_i = kuusnurk(andmed_vana$x_uus[i], andmed_vana$y_uus[i], andmed_vana$arv_uus[i])
+  andmed_i$protsent = andmed_vana$protsent[i]
+  andmed_i$x = andmed_vana$x_uus[i]
+  andmed_i$y = andmed_vana$y_uus[i]
+  andmed_uus = rbind(andmed_uus,andmed_i)
+}
 ```
 
 Tee joonis, kasutades kuusnurki.
@@ -170,4 +152,4 @@ Tee joonis, kasutades kuusnurki.
 ```
 ### Boonusülesanne 1 - shiny rakendus (3 punkti)
 
-Loo shiny rakendus kasutades ülesandes 5 saadud tulemust. Rakendus peaks esitama valitud meeskonna ning mängija korral profiili: kust visatakse ning kust tabatakse.
+Loo shiny rakendus kasutades ülesandes 6 saadud tulemust. Rakendus peaks esitama valitud meeskonna ning mängija korral profiili: kust visatakse ning kust tabatakse.
