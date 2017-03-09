@@ -34,25 +34,13 @@ Laadi alla andmestik [nba_2013.csv](../data/nba_2013.csv) ja loe töökeskkonda.
 
 ### Ülesanne 1 (1 punkt)
 
-Visualiseerime NBA meeskonna Miami Heat viskekohti hajuvusdiagrammi abil kasutades tunnuseid *x* ja *y*. Iga sooritatud vise näita täpikesena. 
+Visualiseeri NBA meeskonna Miami Heat viskekohti hajuvusdiagrammi abil kasutades tunnuseid *x* ja *y*. Iga sooritatud vise näita täpikesena. 
 
 Näpunäited: 
 
 * kasuta käsku `coord_fixed(ratio = 1)`.
 
 ```{r}
-library(grid) 
-library(jpeg) 
-library(RCurl)
-
-#loome mänguväljaku
-courtImg.URL <- "https://thedatagame.files.wordpress.com/2016/03/nba_court.jpg"
-court <- rasterGrob(readJPEG(getURLContent(courtImg.URL)),
-                    width=unit(1,"npc"), height=unit(1,"npc"))
-                    
-valjak <- ggplot(miami, aes(x = x, y = y)) + 
-  annotation_custom(court, -250, 250, -50, 420) + geom_point()
-  
 # sinu kood
 ```
 
@@ -84,9 +72,23 @@ Näpunäited:
 
 * uuri, mida teeb käsk `scale_size_area()`.
 
+Kasuta visualiseerimisel järgnevat koodi mänguväljaku loomiseks:
 
 ```{r}
+library(grid) 
+library(jpeg) 
+library(RCurl)
+
+#loome mänguväljaku
+courtImg.URL <- "https://thedatagame.files.wordpress.com/2016/03/nba_court.jpg"
+court <- rasterGrob(readJPEG(getURLContent(courtImg.URL)),
+                    width=unit(1,"npc"), height=unit(1,"npc"))
+                    
+valjak <- ggplot(miami, aes(x = x, y = y)) + 
+  annotation_custom(court, -250, 250, -50, 420) + geom_point()
+  
 # sinu kood
+
 ```
 
 ### Ülesanne 4 - suuruse muutmine (2 punkti)
