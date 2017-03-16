@@ -123,7 +123,7 @@ print(tekst)
 ```
 -->
 
-### Ülesanne 3 (2 punkti)
+### Ülesanne 3 (3 punkti)
 
 Eralda Riigikogu hääletamistulemuste  [veebilehelt](https://www.riigikogu.ee/tegevus/tooulevaade/haaletused/haaletustulemused-kohalolekukontroll/b3d7e354-3656-477a-8482-fbdd2ddbe64c/) (lähtekoodi nägemiseks paremklikk ja Wiew Page Source), mitu saadikut hääletas "kobarseaduse":
 
@@ -153,7 +153,7 @@ url = "https://www.riigikogu.ee/tegevus/tooulevaade/haaletused/haaletustulemused
 ```
 
 
-### Ülesanne 4 (2 punkti)
+### Ülesanne 4 (3 punkti)
 
 Eralda "kobarseaduse" hääletamistulemuste andmetabel, kus on 101 rida ja tunnused *Nimi*, *Otsus* ja *Fraktsioon*.
 
@@ -168,7 +168,7 @@ Vihjed:
   
 ```
 
-### Ülesanne 5 (1 punkt)
+### Ülesanne 5 (2 punkti)
 
 Visualiseeri, kuidas jaotusid otsused fraktsioonide lõikes.
 
@@ -272,7 +272,7 @@ Näpunäide:
 * Uuri paketi [*rvest* minimalistlikku näidet info eraldamisest XML failist](../praktikum5_rvest_minimal/#xml).
 
 
-### Ülesanne 8 (2 punkti)
+### Ülesanne 8 (3 punkti)
 
 > Eva "Usin" Masin on lotohuviline, aga ta pole aastaid Viking Lottoga võitnud. Ta arvab, et lototulemused pole päris juhuslikud ning lotos on võimalik statistiline eelis saada.
 Seepärast märgib ta iga lotokolmapäev Viking Lotto loositud numbrid üles ja uurib, kas number kahtesid loositakse rohkem välja, kui juhus lubaks.
