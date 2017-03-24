@@ -1,6 +1,6 @@
 
 #------------------------------------------------------------------------#
-#                         ÜLE KAARDI LENDAMINE                           #
+#                         ÃœLE KAARDI LENDAMINE                           #
 #------------------------------------------------------------------------#
 
 library(geosphere)
@@ -126,8 +126,9 @@ ained = sub_hinded[1:15, ]
 hinded = ained[ ,2:8]
 rownames(hinded) = ained$aine
 
-a = matrix(nrow = 15, ncol = 7)
-a[2,4] = 'Eno'
+a = matrix('', nrow = 15, ncol = 7)
+a[2,2] = 'Eno'
+a[5,6] = 'Okouu'
 
 
 superheat(hinded)
