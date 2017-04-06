@@ -20,7 +20,7 @@ Kasvurhormoon on inimkehas toodetud aine, mille ülesanne on reguleerida kehapikk
 
 Sünteetilise kasvuhormooni kasutamist on raske tuvastada. Üks põhjustest on kasvuhormooni kontsentratsiooni suur varieeruvus päeva lõikes ning pulsseeruv sekretsioon.
 
-![alt text](plot1.png "Skitseering kasvuhormooni pulsseeruvast sekretsioonist artikli Hersch and Merriam (2008) põhjal.")
+![](plot1.png "Skitseering kasvuhormooni pulsseeruvast sekretsioonist artikli Hersch and Merriam (2008) põhjal.")
 
 [Saksa teadlaste 2009. aastal väljatöötatud test](http://www.clinchem.org/content/55/3/445.long) ei kontrolligi kasvuhormooni taset, vaid hormooni erinevate molekulitüüpide omavahelist tasakaalu. Eeldatakse, et erinevate isovormide suhe on ajas konstantne. Kuna arvatakse, et sünteetiline kasvuhormooni süstimisel muutub vaid ühe isovormi tase veres. Dopingutesti idee seisnebki testimises, kas kahe isovormi suhe on statistiliselt erinev loomulikust suhtest.
 
@@ -62,12 +62,12 @@ for(m in c(0, 0.5, 1, 1.5)){
     x = seq(0, 5, 0.01)
     y = dlnorm(x, meanlog = m, sdlog = s)
     
-    df_list[[i]] = data.frame(x=x, y=y, group = paste("meanlog =", m, ", sdlog =", s))
+    df_list[[i]] = data.frame(x=x, y=y, meanlog=paste0("meanlog=",m), sdlog=paste0("sdlog=",s))
     i = i + 1
   }
 }
-df = rbind_all(df_list)
-ggplot(df, aes(x, y)) + geom_area() + facet_wrap(~ group) + coord_cartesian(ylim = c(0, 1))
+df = bind_rows(df_list)
+ggplot(df, aes(x, y)) + geom_area() + facet_grid(meanlog~sdlog)
 
 ```
 
@@ -189,7 +189,7 @@ Näpunäited:
 
 a. Oletame, et dopingutarvitajaid on 2%, testi tundlikkus on 25%, spetsiifilisus on 99.9% ning oleme testinud 10000 sportlast. Täida nende eelduste põhjal järgmine tabel:
 
-![alt text](doping_tabel.png)
+![](doping_tabel.png)
 
 Meeldetuletus:
 
