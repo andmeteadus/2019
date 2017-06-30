@@ -9,8 +9,10 @@ Tudengite poolt tehtud projektid. Projekti juhendi leiad [siit](http://andmetead
 
 [Wikipedia muudatussõjad]{% include_relative /_projektid/Wikipedia_muudatussojad.html %}
 
+<br><br>
 [Wikipedia muudatussõjad ee](../Wikipedia_muudatussojad.html)
 
+<br><br>
 
 
 {% for post in site.posts %}
