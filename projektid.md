@@ -7,7 +7,7 @@ Tudengite poolt tehtud projektid. Projekti juhendi leiad [siit](http://andmetead
 <br><br>
 
 
-{% include_relative /_projektid/Wikipedia_muudatussojad.html %}
+[Wikipedia muudatussõjad]{% include_relative /_projektid/Wikipedia_muudatussojad.html %}
 
 
 {% for post in site.posts %}
