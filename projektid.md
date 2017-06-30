@@ -7,6 +7,8 @@ Tudengite poolt tehtud projektid. Projekti juhendi leiad [siit](http://andmetead
 <br><br>
 
 [Wikipedia muudatussõjad](http://htmlpreview.github.io/?https://github.com/andmeteadus/2017/blob/gh-pages/Wikipedia_muudatussojad.html)
+<br><br>
+[IT-sektori tunnihinnad](http://htmlpreview.github.io/?https://github.com/andmeteadus/2017/IT_tunnihinnad.html)
 
 <br><br>
 
