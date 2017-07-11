@@ -1,17 +1,16 @@
 ---
 layout: page
-title: Projektid
 ---
 
-Projekti [juhend](http://andmeteadus.github.io/2017/projekt_juhend/).
+Projekti juhend on leitav [siit](http://andmeteadus.github.io/2017/projekt_juhend/).
 <br><br>
 
-<h3>Tudengite poolt tehtud projektid</h3>
+<h1>Tudengite poolt tehtud projektid</h1>
  
  
-[Wikipedia muudatussõjad](http://htmlpreview.github.io/?https://github.com/andmeteadus/2017/blob/gh-pages/Wikipedia_muudatussojad.html)
+## [Wikipedia muudatussõjad](http://htmlpreview.github.io/?https://github.com/andmeteadus/2017/blob/gh-pages/Wikipedia_muudatussojad.html)
 <br>
-Muudatussõda (edit-war) on nähtus, mille puhul artikli muutjad ei ole ühisel arusaamal artikli sisulistes küsimustes ning muudavad artiklit kordamööda, omale sobival moel. Näiteks on Nikola Tesla artiklit muudetud korduvalt lühikese aja jooksul, sest on erinevaid allikaid tema rahvuse kohta...
+Muudatussõda (<i>edit-war</i>) on nähtus, mille puhul artikli muutjad ei ole ühisel arusaamal artikli sisulistes küsimustes ning muudavad artiklit kordamööda, omale sobival moel. Näiteks on Nikola Tesla artiklit muudetud korduvalt lühikese aja jooksul, sest on erinevaid allikaid tema rahvuse kohta...
 [ (loe edasi) ](http://htmlpreview.github.io/?https://github.com/andmeteadus/2017/blob/gh-pages/Wikipedia_muudatussojad.html)
 <br><br>
 
