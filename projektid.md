@@ -16,6 +16,10 @@ Aastal 2015 korraldati IT-sekoris hange ostmaks sisse arendusresurssi. Hankele o
 [ (loe edasi) ](http://htmlpreview.github.io/?https://github.com/andmeteadus/2017/blob/gh-pages/IT_tunnihinnad.html)
 <br><br>
 
+## [Bussiliiklus](https://andmeteadus2017.shinyapps.io/Bussiliiklus/)
+<i>App</i>, kus kasutaja saab vaadata nii linna- kui maaliinide aegu ja marsruute. Andmed pärinevad <a>www.peatus.ee/gtfs/</a>. Failid ja kood on leitavad githubis
+<br><br>
+
 <!--
 {% for post in site.posts %}
 ## [ {{ post.title }} ](..{{ post.url }})

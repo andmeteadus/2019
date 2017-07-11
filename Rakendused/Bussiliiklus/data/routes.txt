@@ -1,0 +1,1822 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,competent_authority
+38d2575638fa7e91a5baf6f4a1cc1bf5,100046,1,Keskl-Smuuli-Haigla-Tuulte R-Keskl-Niidu-Kudjape-Nooruse-Keskv,3,DE2C42,Saare MV
+0f8bce244dd2b5fed8a5021092050c95,60,1,Metsamajand - Merimetsa - Papiniidu - Riia mnt - Vana-Pärnu,3,DE2C42,Pärnu LV
+5786141bc48422f01d571b7b36a0def1,317,1,Lossiplats - Kiltsi - Rohuküla,3,DE2C42,Lääne MV
+19cf7c0c01fcab5956a6f19df0d7405e,317,1,Piira - Näpi,3,DE2C42,Lääne-Viru MV
+935de62fc0d6ea1339920cab0ccbcdbc,50,1,FI - Nõlvaku,3,DE2C42,Tartu LV
+0e7c30c53ded8eddc9fd8b13119b9512,71,1,Rapla - Rapla raudteejaam,3,00933C,Rapla MV
+d5178faf7166a2cd475b8a268c69f3f8,71,1,Seminari väljak - Aiandi tee - Turu - Haigla,3,00933C,Võru MV
+ffea5c39719816787d3e35f64e7a3559,100046,1,Paide bussijaam - Vanaveski - Paide bussijaam,3,00933C,Järvamaa ÜTK
+efc163c0565f0fefe9c63811bc3ffcd8,869,1,Iisaku - Jõhvi,3,00933C,Ida-Viru MV
+c012caabd0686d3bdca3d53c04307c2c,56,1,Mustamäe - Kaubamaja,800,00A1DE,Tallinna TA
+8abed83f4755135bbd2c33d99f41300a,100046,10,Männimäe - Haigla,3,DE2C42,Viljandi MV
+352f129121d80c59d657c959244ca2e6,60,10,Koidula Gümnaasium - Mai - Karja - Vana-Pärnu,3,DE2C42,Pärnu LV
+31d2412568e598f3a2f65cb575c53104,50,10,Nõlvaku - Põllu - Nõlvaku,3,DE2C42,Tartu LV
+298f6bffc1ba1c098dd1b3f903a0ca8a,56,10,Väike-Õismäe - Vana-Pääsküla,3,DE2C42,Tallinna TA
+72cccfde346d33d33a3c7623889c3d67,100010,10,Kohtla-Järve Kunstide kool- Maleva,3,FF6319,Kohtla-Järve LV
+46d87cc319b530626bd056b93744ccc8,71,10,Rapla - Juuru - Järlepa - Kohila,3,00933C,Rapla MV
+7e4a882f8eb8da47f5d6388c6add6195,71,10,Võru - Kääpa - Tsolgo - Pera - Paidra - Võru,3,00933C,Võru MV
+2418889527eb786f92be15c1a48ad9ef,60,10,Rakke - Simuna - Käru - Salla,3,00933C,Lääne-Viru MV
+c5ec08556ad50c8c7648900dbef93c88,317,10,Haapsalu - Mägari - Ahli,3,00933C,Lääne MV
+b6d7bd6c5a1225493998176f381093c1,100047,100,Jõgeva - Aidu - Põltsamaa,3,00933C,Jõgeva ÜTK
+9ea8581568407a759bf1c579f19ec26c,27,100,Savala - Kiviõli - Püssi - Kohtla-Järve - Jõhvi,3,00933C,Ida-Viru MV
+515b171e2a25cf8649c5cd48bfa4fc26,117,100,Tallinn - Laagna - Kallavere,3,00933C,Harjumaa ÜTK
+f6541808fab597f22297c2c9f180e475,100047,101,Jõgeva - Aidu - Põltsamaa,3,00933C,Jõgeva ÜTK
+4f042fb3a9c29e29e4be6c72d9e5e247,117,101,Tallinn - Maardu,3,00933C,Harjumaa ÜTK
+d4cc2dfc66ae6c9b0abef6ec82d0f15a,231,102,Tallinn - Viljandi,3,E6FA32,Maanteeamet
+e0da3e41c094df4c520353cab6ff43c7,100047,102,Jõgeva - Aidu - Põltsamaa,3,00933C,Jõgeva ÜTK
+72365bcc853c3b430f588a0891286f40,60,102,Tartu - Vorbuse - Kärnise - Ilmatsalu - Tartu,3,00933C,Tartu MV
+7d2c76565a6cc1537771f4e2beefd7d2,27,102,Kiviõli - Kohtla-Järve,3,00933C,Ida-Viru MV
+675ea6e04d84d37446a496e6674c7efd,231,103,Viljandi - Türi - Paide - Tallinn,3,E6FA32,Maanteeamet
+80479775e9027cee491dda45761c3371,100047,103,Põltsamaa - Aidu - Jõgeva,3,00933C,Jõgeva ÜTK
+82fec4ae602bfa1e93d3356065a2e9b8,60,103,Tartu - Vorbuse - Tartu,3,00933C,Tartu MV
+9f55f85bd83cfe401b76c14c033120ea,27,103,Kiviõli - Sonda,3,00933C,Ida-Viru MV
+80e22f43971013691a58f73910aa6199,27,103A,Püssi - Kiviõli - Sonda - V-Kabala - Vaeküla - Rakvere,3,00933C,Ida-Viru MV
+9bb3bb1272f2f5c623b393eeee321b34,231,104,Tartu - Tallinn,3,E6FA32,Maanteeamet
+2bd59645ba57ea02deabe7e4539fe776,100047,104,Põltsamaa - Aidu - Jõgeva,3,00933C,Jõgeva ÜTK
+587018c60e4d61cf2385c81b2ea29b73,27,104,Jõhvi - Kiviõli,3,00933C,Ida-Viru MV
+5c90ae115d078a2b213c48d43c649fd8,100046,104A,Tallinn - Loo - Kostivere,3,00933C,Harjumaa ÜTK
+c9d1bd324ee166c6d299156a11c1f71c,100046,104B,Tallinn - Loo - Lagedi mõis - Kostivere,3,00933C,Harjumaa ÜTK
+612d5bbd8f74de69b62dcbfca272f506,100046,104C,Tallinn - Loo - Lagedi mõis - Kostivere - Jõelähtme,3,00933C,Harjumaa ÜTK
+37533dc7163106468264a4f4ed69f383,231,105,Tallinn - Viljandi,3,E6FA32,Maanteeamet
+f430ccee0b07647af28aecf48b0ecdf3,60,105,Tartu - Laeva - Siniküla,3,00933C,Tartu MV
+0929c6627f8e21df7fdc1a7395ced5ec,99,105,Tallinn - Vaida - Pikavere - Alavere - Voose,3,00933C,Harjumaa ÜTK
+ce01fdee38b6c272b0a52d87252ab4e0,50,105,Jõhvi - Valaste - Saka - Kohtla-Järve - Jõhvi,3,00933C,Ida-Viru MV
+f729d3f7a6e8996486c3f0da1c93e68f,99,105E,Tallinn - Vaida - Pikavere - Alavere - Voose,3,00933C,Harjumaa ÜTK
+515f1b1b410aacb95448facc29e1c711,231,106,Rakvere - Tallinn,3,E6FA32,Maanteeamet
+241602ef42f7077ee044d67ff649a30b,100046,106,Tallinn - Laagna - Loo,3,00933C,Harjumaa ÜTK
+559f69008c0c2e186e0108fdd5aa5d3b,60,106,Siniküla - Laeva - Tartu,3,00933C,Tartu MV
+c4f6c68c6f2ffa475013741b5ca8e475,50,106,Jõhvi - Toila,3,00933C,Ida-Viru MV
+98e24fe41d0aa9d785732aa76d9a3fd1,100046,106A,Tallinn - Loo - Lagedi,3,00933C,Harjumaa ÜTK
+bfff52daed0485a8dfa0a86621160f7e,100046,106B,Tallinn - Loo,3,00933C,Harjumaa ÜTK
+22a543833e11c49996e860163f5b5f37,100046,107,Tallinn - Harku - Keila - Vasalemma - Ämari -  Munalaskme,3,00933C,Harjumaa ÜTK
+b20b6e65f4e622d5c61cb7e7701b67a0,60,107,Siniküla - Laeva - Tartu,3,00933C,Tartu MV
+2f09b574677106c3742d80e90d0c7a5f,50,107,Jõhvi - Iidla - Puru haigla,3,00933C,Ida-Viru MV
+faffe12f0c555fdfd5b9446e7208a25d,100046,108,Tallinn - Tabasalu - Vääna-Jõesuu - Keila-Joa,3,00933C,Harjumaa ÜTK
+dee6ea0fe60145d6455aa76b3e02fc2f,60,108,Tartu - Vorbuse - Kärnise - Vorbuse - Tartu,3,00933C,Tartu MV
+513cbef5f2a410e78c3c28b40de83f7e,50,108,Jõhvi - Voka,3,00933C,Ida-Viru MV
+a052158fe28e593272f60d71d0e8447e,231,109,Võru - Kanepi - Tartu,3,E6FA32,Maanteeamet
+5d27846800667d8c33a69c26f63c2964,100046,109,Tallinn - Tabasalu - Vääna - Kindluse - Keila,3,00933C,Harjumaa ÜTK
+99b4b6c08687c7b3cc6f4794c71fbc5f,60,109,Puurmani - Laeva - Vorbuse - Tartu,3,00933C,Tartu MV
+a8a9a868ca251ed4356ce1ba20689ad6,60,10A,Räpina - Lüübnitsa - Beresje - Räpina,3,00933C,Põlva MV
+4b191d3fba2b374e4e342f5b2eabffae,60,10B,Räpina - Beresje - Lüübnitsa - Räpina,3,00933C,Põlva MV
+10c597c7fe77dca8ef2997f73654ad7d,60,10C,Räpina - Beresje - Lüübnitsa - Räpina,3,00933C,Põlva MV
+fc4c431be4063561ddfb3755ba770c1c,100046,10-I,Paide keskväljak - Türi - Särevere,3,00933C,Järvamaa ÜTK
+4730f41a4322a28dce82a251e8482756,100046,10-III,Paide keskväljak - Türi - Särevere,3,00933C,Järvamaa ÜTK
+4d286471edfda6dc86bd095e8dea1556,100046,10-IV,Paide keskväljak - Türi - Särevere,3,00933C,Järvamaa ÜTK
+734bfe77ff14d43c73fd2497ad824568,100046,10-VI,Paide keskväljak - Türi - Särevere,3,00933C,Järvamaa ÜTK
+ccff7e721ae1d9a66edf04d6989c4c18,0,11,Sauga alevik - Teater - Vana-Pärnu,3,DE2C42,Pärnu LV
+5eb9147b09d7bd1f84594f56d70530a8,50,11,Tähe - Ravila Tööstuspark - Tähe,3,DE2C42,Tartu LV
+71c73da049eac0bb398435771e330809,56,11,Kadaka - Kunstiakadeemia,3,DE2C42,Tallinna TA
+f1473872e55fe8f2d3fdd5d6992ec78d,71,11,Rapla - Lelle - Kädva - Käru,3,00933C,Rapla MV
+f0bb8915aa0ec31ff5e42749739b9800,71,11,Kirepi - Turu - Kesklinn,3,00933C,Võru MV
+0e412ed6ef04cf2e264c3419fec15136,100047,11,Linna küla - Tõrva - Linna küla,3,00933C,Valga MV
+3e663eca19d0e088427d92fe65f8fabd,100046,11,Paide bussijaam - Koeru,3,00933C,Järvamaa ÜTK
+543e1e275d4b9d052697daa37df65ccb,60,11,Rakvere - Haljala,3,00933C,Lääne-Viru MV
+24c05e9bf4ef1e75aeb9e8c9ff2df49e,100047,110,Jõgeva - Siimusti - Aidu - Lustivere - Põltsamaa,3,00933C,Jõgeva ÜTK
+eebf944244390cb6962314e6a8981bbf,100046,110,Keila - Lohusalu,3,00933C,Harjumaa ÜTK
+d2f29fdda0167d5e50f79bc055916365,60,110,Rakvere rdt jaam - Tudu - Rannapungerja - Mustvee - Kallaste,3,00933C,Jõgeva ÜTK
+ea656c9aaffc1dc3f3c347d35a7db99a,100046,1101,Iide-Mässa-Iide-Jämaja-Kaunispe-Lindmetsa-Anseküla-Salme-Kuressaare,3,00933C,Saare MV
+aa0671283946cbc9be26728cc5545c40,100046,1102,Kuressaare-Salme-Anseküla-Kaunispe-Jämaja-Iide,3,00933C,Saare MV
+ca3eb1337784f9a5b663b4f54d720698,100046,1103,Iide-Lopsigu-Mässa-Anseküla-Salme-Kuressaare,3,00933C,Saare MV
+82219f5d63c6e29e7ce0590d219265e4,100046,1104,Kuressaare-Salme-Anseküla-Lindmetsa-Kaunispe-Jämaja-Iide,3,00933C,Saare MV
+784c44f671b983752b979462d5838005,100046,1105,Kuressaare-Salme-Anseküla-Lindmetsa-Kaunispea-Jämaja-Iide,3,00933C,Saare MV
+166f2ec5608c030444839725ba6846eb,100046,1106,Iide-Mässa-Salme-Kuressaare,3,00933C,Saare MV
+2abc39f91adcdc4bea97e9939fefc6fb,100046,1107,Iide-Mässa-Anseküla-Salme-Kuressaare,3,00933C,Saare MV
+899d0c574f3fafe37bf5edd75c701cc7,100046,1108,Kuressaare-Salme-Anseküla-Lindmetsa-Kaunispe-Jämaja-Iide,3,00933C,Saare MV
+8abe43a5aea20f6efc7790a930499ea9,100046,1109,Iide-Mässa-Salme-Kuressaare,3,00933C,Saare MV
+6f06c77c2ddb691277e5479c22eacec1,100047,111,Põltsamaa - Lustivere - Aidu - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+5dfd691d9caca7309d792f4ee2b29a10,100046,111,Tallinn - Tabasalu - Harku - Tallinn,3,00933C,Harjumaa ÜTK
+66afaf77ad4a1b68840cb60e5f60f19f,60,111,Aaviku - Kõrveküla - Lähte - Kärevere - Kärnise - Tartu,3,00933C,Tartu MV
+a540de0a2588179913092adff664c2ca,50,111,Soonurme - Savala - Maidla - Kiviõli,3,00933C,Ida-Viru MV
+389f47ccc06885c6663370986fc4c7bd,100046,1112,Kuressaare-Nasva-Salme-Läätsa,3,00933C,Saare MV
+8a4950999b40b129f23494a11130d447,100046,1113,Läätsa-Salme-Nasva-Kuressaare,3,00933C,Saare MV
+35c580b73d62c180f0b95ff161ba943d,100046,1114,Kuressaare-Nasva-Salme,3,00933C,Saare MV
+590a50a1a6e62111f6e49be2b667f95a,100046,1115,Salme-Nasva-Kuressaare,3,00933C,Saare MV
+215027962b6c72b2508d711fb8eab3bd,100046,111A,Tallinn - Harku - Tabasalu - Tallinn,3,00933C,Harjumaa ÜTK
+ecc563b7ac9ec49173ab0bad9493c828,231,112,Tallinn - Tartu - Otepää - Kääriku - Sangaste - Antsla,3,E6FA32,Maanteeamet
+4af67ac640a706a2ff14186e28a1d388,100047,112,Põltsamaa - Lustivere - Aidu - Jõgeva,3,00933C,Jõgeva ÜTK
+aa97aa9d9589f2987e211097628d04de,100046,112,Haabersti - Harku - Laagri - Urda jaam - Koidu küla,3,00933C,Harjumaa ÜTK
+12583f3582f4fd3944b082cb40011b58,60,113,Tartu - Laeva - Puurmani,3,00933C,Tartu MV
+0efef93e0cc19650d878efc63f47a199,27,113,Jõhvi - Iisaku - Tudulinna - Avinurme,3,00933C,Ida-Viru MV
+3bd8c3c2d0d51d5699e38dcfddf90e2b,99,113,Saku - Jälgimäe - Vana-Pääsküla - Jälgimäe - Saku,3,00933C,Harjumaa ÜTK
+63e4692badbea4894bc817bb5d002141,60,114,Puurmani - Laeva - Tartu,3,00933C,Tartu MV
+0ff82a1f74b7e61b75f2ccafbe03575d,50,114,Jõhvi - Kohtla-Järve - Mäetaguse - Jõhvi,3,00933C,Ida-Viru MV
+a47fa098f1095c73877aa3bc42ce7038,117,114,Tallinn - Haabneeme - Rohuneeme,3,00933C,Harjumaa ÜTK
+5966cd09759a07b0a9173dca49ed1d96,60,115,Puurmani - Laeva - Tartu,3,00933C,Tartu MV
+ea79cda912dc1212a78496ddf0393b06,50,115,Jõhvi - Sillamäe,3,00933C,Ida-Viru MV
+c8893a27b935848950ffbf1f12709466,60,116,Tartu - Laeva - Puurmani,3,00933C,Tartu MV
+cedb523f0768f652ef28ffb6f807a466,99,116,Tallinn - Raku - Luige - Kiili - Nabala - Sookaera,3,00933C,Harjumaa ÜTK
+8573232d42bf6e724b5f28630f12aa2a,50,116,Kuremäe - Jõhvi,3,00933C,Ida-Viru MV
+5982cd20c18addee2864c7b3807856b9,60,117,Tartu - Laeva - Puurmani,3,00933C,Tartu MV
+463a7928b5307ba40e13c2aed8fd1c65,27,117,Savala - Kiviõli - Kohtla-Järve - Jõhvi,3,00933C,Ida-Viru MV
+366c2b12e8ff6937fc89d83ce829d7cb,99,117,Tallinn - Saku - Kiisa - Tagadi - Männiku,3,00933C,Harjumaa ÜTK
+c8c0699b4919f9c4aa86c2fc558b7ca4,99,117A,Tallinn - Saku,3,00933C,Harjumaa ÜTK
+027d405eec4b8c9002279efad5c47f3a,100046,118,Tallinn - Harku - Vääna,3,00933C,Harjumaa ÜTK
+4a44d96f1cafdabc75ad85f970d99f74,60,118,Puurmani - Laeva - Tartu,3,00933C,Tartu MV
+11a690fe3562b003b9a4f3f869e87f30,50,118,Kuremäe - Pagari - Jõhvi,3,00933C,Ida-Viru MV
+c6c46170c6c39313c81b726b065a9a8a,100046,119,Tallinn - Harutee - Riisipere - Turba - Lehetu,3,00933C,Harjumaa ÜTK
+f6b14c6b3c2cf4e0fb5ada3e8015dc81,60,119,Tartu - Vorbuse - Haage - Tartu,3,00933C,Tartu MV
+a92e1027c19563369c0e4ef183fe2107,50,119s,Kuremäe - Raudi kalmistu - Jõhvi - Kohtla-Järve,3,00933C,Ida-Viru MV
+c09c4711f2951e6d0f931a6d681ce6f4,60,11A,Põlva - Valgesoo - Ahja,3,00933C,Põlva MV
+9b58b6482d08ea74d87036016ab56a34,60,11B,Ahja - Valgesoo - Põlva,3,00933C,Põlva MV
+5d5987d733fb7e62a6f4fff9df2f3c09,60,12,Koidula gümnaasium - Mai - Liiva - Uus-Sauga - Vana-Sauga,3,DE2C42,Pärnu LV
+f73d75b24d78cebeaaac937ae94d9ae5,227,12,Väike-Õismäe - Priisle,3,DE2C42,Tallinna TA
+97e270b55c642c184e332af3f21510d1,50,12,Tähe - Nõlvaku - Tähe,3,DE2C42,Tartu LV
+f2b39f35362b0c3cc0e5b60ca9426822,100010,12,Kohtla-Järve polikliinik- Maleva,3,FF6319,Kohtla-Järve LV
+f5e42ff5187d4f3d6e1b86054e2f371d,71,12,Eidapere - Lelle - Rapla,3,00933C,Rapla MV
+436125cd2db9998bd5800b0010eb3420,71,12,Võru - Tsolgo - Võru,3,00933C,Võru MV
+47ebdc6ba0bca1d78c727caf95db98f6,100047,12,Tõrva - Jõgeveste - Tõrva,3,00933C,Valga MV
+5e9f26444b33e58451f89d2d52201877,100046,12,Koeru - Vahuküla - Ervita,3,00933C,Järvamaa ÜTK
+9c913f5ef8164f26132025a6b521a318,289,12,Viljandi - Holstre - Viljandi,3,00933C,Viljandi MV
+908dd36e61866228616ae6ff7e96cd5a,60,12,Rakke - Koeru,3,00933C,Lääne-Viru MV
+d539d1ab1b7f28fa2be21271752f944f,60,12,Põlva - Kiidjärve - Lootvina - Karilatsi - Põlva,3,00933C,Põlva MV
+0e50850c7fcfa7ca6a7c09057dd7603d,25,12,Lihula - Kloostri - Rumba - Lihula,3,00933C,Lääne MV
+0aeb382c513f1aee77424250a2f978fd,100047,120,Jõgeva - Aidu - Tapiku - Lahavere - Jõgeva,3,00933C,Jõgeva ÜTK
+c9b382288f08803fc003004de6fdd587,60,120,Tartu - Laeva - Siniküla,3,00933C,Tartu MV
+75291535026d299e1caed250412c6d8b,99,120,Tallinn - Jüri,3,00933C,Harjumaa ÜTK
+3a943cf01669397008fc44507e2ef010,100047,121,Jõgeva - Aidu - Lahavere - Tapiku - Jõgeva,3,00933C,Jõgeva ÜTK
+76d5c6e6cf6b147b03ecde32e9bab8e5,60,121,Siniküla - Laeva - Tartu,3,00933C,Tartu MV
+8c7d42e074d3e16ec7209455ad715201,99,121,Tallinn - Mõigu - Peetri - Järveküla - Peetri - Tallinn,3,00933C,Harjumaa ÜTK
+4f856f17cf87b49d3ade697da895a01a,100046,12-1,Kesklinn-Tooma-Päevakeskus-Haigla-TuulteRoos-Kesklinn,3,DE2C42,Saare MV
+7c39626a3efb3f37b45492f0eaee9383,100047,122,Jõgeva - Siimusti - Lahavere - Kalana - Pajusi - Põltsamaa,3,00933C,Jõgeva ÜTK
+0392a4cb93f5c23fccaae3a21b4cd8dd,100046,122,Tallinn - Tabasalu - Vääna-Jõesuu,3,00933C,Harjumaa ÜTK
+322be7c8be279aa6f2b88433f8b80acd,100010,122,Järve küla - Kohtla-Järve - Jõhvi - Viru Vangla,3,F55ADC,Ida-Viru MV
+730b0d0f3f1f237449ad9efb71f0f1e5,100046,12-2,Kesklinn-Niidu-Kalmistu-Bauhof-Kudjape-Nooruse-Keskväljak,3,DE2C42,Saare MV
+5fb4e5fd19b941828b30d1b6a29ac31f,100047,123,Jõgeva - Siimusti - Lahavere - Kalana - Pauastvere - Põltsamaa,3,00933C,Jõgeva ÜTK
+88a2f72c43c054394b91fbb866cbb048,100046,123,Tallinn - Suurupi- Liikva- Sõrve- Tallinn,3,00933C,Harjumaa ÜTK
+dff43764adcdecb0702f912f42c9091c,100054,123,Narva - Narva-Jõesuu,3,F55ADC,Ida-Viru MV
+b7fbc0eb23c63a8397435043e1984619,100046,12-3,Keskväljak-Roomassaare-Lennujaam-Merevärav-Lennujaam-Roomassaare- Kesklinn,3,DE2C42,Saare MV
+cf4f946a78048bb1bcbd021c3f953fcf,100047,124,Põltsamaa - Pajusi - Kalana - Lahavere - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+6351d23cee329bcb3e372cff5150510d,100046,124,Mustamäe - Tabasalu - Vääna-Jõesuu,3,00933C,Harjumaa ÜTK
+ea2f38bf56044d6a00532adbdf3e0f61,100046,12-4,Kesklinn-Smuuli-Kellamäe-Smuuli-Keskväljak,3,DE2C42,Saare MV
+4ddb338a2995c0fc7a370da40a959ff9,100047,125,Põltsamaa - Pauastvere -  Kalana - Lahavere - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+7603ee7f5241e27f7b42164b2e159110,99,125,Tallinn - Jüri - Lagedi,3,00933C,Harjumaa ÜTK
+7f11e07fdfd4cfedeb7c79b3ff0f1027,100046,126,Tallinn - Tabasalu - Vääna-Jõesuu - Keila-Joa - Lohusalu,3,00933C,Harjumaa ÜTK
+545dbdc1468d50c30c3043d9bd98c8f8,100046,127,Tallinn - Tabasalu - Sõrve - Vääna - Keila-Joa - Kloogaranna,3,00933C,Harjumaa ÜTK
+fbec9d423611b7c95c7df2bf3b9622b2,100046,128,Tallinn - Tabasalu - Vääna-Jõesuu - Lohusalu - Kloogaranna,3,00933C,Harjumaa ÜTK
+0a322e9a86ac0475db489c3a79e4e764,100046,129,Tallinn - Tabasalu - Suurupi,3,00933C,Harjumaa ÜTK
+31dce962dbc75332278f665d125f0718,60,13,Tammiste aiand - Haigla - Oja - Vana-Sauga - Kalurihall,3,DE2C42,Pärnu LV
+1e657124a4db1f0c531e51b810d1b3d8,227,13,Väike-Õismäe - Seli,3,DE2C42,Tallinna TA
+b1fa388df3039716a99bb851cb9be733,50,13,Sepa Turg - Paju - Sepa Turg,3,DE2C42,Tartu LV
+afea28eda75df88c9d1c41c54907bbbe,71,13,Kohila - Aespa - Kohila,3,00933C,Rapla MV
+5e2504548c42662d75d125742367bbd5,71,13,Võru - Rõuge - Haanja - Ruusmäe - Luutsniku - Haanja - Rõuge - Võru,3,00933C,Võru MV
+d19e2babb48f8caca5414cff5a5e2c14,100047,13,Tõrva-Sangaste-Otepää,3,00933C,Valga MV
+e732fd1be540e65c9dbab86f72ac7799,100046,13,Viljandi - Kildu - Suure-Jaani,3,00933C,Viljandi MV
+77094079ca6ab0f83a4dd6e0938b9f76,60,13,Rakke - Piibe - Liigvalla - Rakke,3,00933C,Lääne-Viru MV
+0336f63966e167300b0fdc3963c49efd,60,13,Põlva - Mooste - Leevaku keskus - Kauksi - Põlva,3,00933C,Põlva MV
+0785b7985ff9992a043e5ada659e7be6,100,130,Võru - Kanepi - Tartu - Tallinn,3,E6FA32,Maanteeamet
+040b661827cdf1b6b787eacd41dd6a89,100047,130,Jõgeva - Saduküla - Puurmani - Tabivere,3,00933C,Jõgeva ÜTK
+54d8594c73b88d1b98b4added6ab32c9,99,130,Tallinn - Vaida - Tuhala - Kose,3,00933C,Harjumaa ÜTK
+8a26a0789f4d83ab5bb91bb0e8a75cb5,60,131,Põlva - Tartu,3,E6FA32,Maanteeamet
+de7471774036b7740a2049526605145e,100047,131,Tabivere - Puurmani - Saduküla - Jõgeva,3,00933C,Jõgeva ÜTK
+b807a1ac963145c71bfd7a35b9279e3d,99,131,Tallinn - Vaida,3,00933C,Harjumaa ÜTK
+4e40c02ff48517411efd1f8018490655,100047,132,Jõgeva - Kursi - Puurmani - Jõune - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+7971113bb9c39a64509e4caf19e4bb5e,99,132,Tallinn - Rae küla - Jüri,3,00933C,Harjumaa ÜTK
+dd0116e9882d64c669ff6bc1be5882d3,100047,133,Jõgeva - Painküla - Puurmani - Kursi - Painküla -Jõgeva,3,00933C,Jõgeva ÜTK
+dc8301fd2b3bce3afd9197b29b6650c1,100046,133,Keila - Harutee -  Riisipere - Turba - Ellamaa - Lehetu,3,00933C,Harjumaa ÜTK
+6c921c6b3e469463350a65fa41c770ee,100047,134,Jõgeva - Painküla -Härjanurme - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+b7a29da6030049a3126e6f6cf83518e8,99,135,Tallinn - Jüri - Aruküla - Peningi,3,00933C,Harjumaa ÜTK
+2e24bef538b68a0514c179bd026385bc,99,135C,Tallinn - Jüri - Aruküla - Peningi - Urvaste,3,00933C,Harjumaa ÜTK
+d1d7b2b241441ad26488dd2d4059408d,100046,136,Tallinn - Harku - Keila - Ämari - Madise - Paldiski,3,00933C,Harjumaa ÜTK
+9c902c9d6340e55c1f02878b8a789678,100046,137,Tallinn - Tabasalu - Vääna-Jõesuu,3,00933C,Harjumaa ÜTK
+75512085b78bc5d6928054a17c1101fb,99,138,Tallinn - Vaida - Kose,3,00933C,Harjumaa ÜTK
+36f19d01632ce46cb462bd165b1db90b,99,139,Tallinn - Vaida - Kose-Uuemõisa -  Kose  - Ardu,3,00933C,Harjumaa ÜTK
+8c8aa978da144fe802b85286476fd575,60,14,Metsamajand - Merimetsa - Papiniidu - Riia mnt - Oja - Haigla,3,DE2C42,Pärnu LV
+b60cfc46cbd899ec3c6adcb4949acabd,50,14,Turu - Kasteheina - Turu,3,DE2C42,Tartu LV
+4992588bea2465a4849ef783d2a2cf1a,56,14,Viru keskus - Vana-Pääsküla,3,DE2C42,Tallinna TA
+e2a63130b6e99669df77eb3d6e25c2e7,71,14,Rapla - Kodila - Ohulepa,3,00933C,Rapla MV
+4c96d405241256459d117e28d5622b4e,71,14,Kesklinn - Parksepa - Kesklinn,3,00933C,Võru MV
+39279275106df1fd5806665db5080218,100046,14,Ervita - Koeru - Vahuküla - Ervita,3,00933C,Järvamaa ÜTK
+149286f71bd4a3e1cf6c50563b5d3942,60,14,Vareste küla - Leevi - Vinso - Vändramaa - Veriora,3,00933C,Põlva MV
+f8160403aae03f434b076b8057b216df,100041,140,Tartu - Viljandi,3,E6FA32,Maanteeamet
+433e6450c2397eb7671f42f1bb7effa8,100047,140,Jõgeva - Siimusti - Saduküla - Jõune - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+76594da7a8e2e5e1e6db1cd1eaacac0e,100041,141,Viljandi - Tartu,3,E6FA32,Maanteeamet
+659fafa27dc1b5abe5b864feafc8bd77,100047,141,Jõgeva - Siimusti - Saduküla - Mäända - Saduküla - Jõune - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+0b68987db2cc43782e1063035d96e5bf,100047,142,Jõgeva - Siimusti - Saduküla - Jõune - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+b0054946a35e2ebfc4deb59abde4216f,100047,143,Jõgeva - Siimusti - Saduküla - Jõune - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+992bb837ee5e510d76393a4fa251d5dc,632,144,Tartu - Räpina - Värska,3,E6FA32,Maanteeamet
+7f603647a06972a10ab8618498d86568,100047,144,Jõgeva - Siimusti - Jõune - Tammiku - Saduküla - Jõgeva,3,00933C,Jõgeva ÜTK
+e29c9754c8478c1d64cb3d37f51f84d7,99,144,Tallinn - Kose-Risti - Kose,3,00933C,Harjumaa ÜTK
+0b77a5628a6ffcf76ecaef2a6113beaf,99,144A,Kose - Kuivajõe - Tallinn,3,00933C,Harjumaa ÜTK
+6b4dfd3924fede72b8e57476e682e26c,100041,145,Tartu - Viljandi - Kilingi-Nõmme - Pärnu,3,E6FA32,Maanteeamet
+2c49d7a50457d49c23dd49480d91f0c2,100046,145,Tallinn - Harku - Keila - Paldiski,3,00933C,Harjumaa ÜTK
+eca937230f3f5f1dbde2ac304bfa164c,100046,146,Tallinn - Harku - Keila - Ämari - Padise - Harju-Risti - Nõva,3,00933C,Harjumaa ÜTK
+86f9284b0b3783a3cd206ee1904e4fd9,100046,147,Tallinn - Harku - Keila,3,00933C,Harjumaa ÜTK
+9f1dfed9fe197e221fa958e55724c421,100046,148,Tallinn - Harku - Keila -Ämari - Rummu,3,00933C,Harjumaa ÜTK
+af1c77a4ffc30c657e1c8dd6489daba8,100041,149,Tartu - Viljandi - Pärnu - Lihula - Kuivastu - Orissaare - Kuressaare,3,E6FA32,Maanteeamet
+d457890b56967fb38225e7c0c1944a5c,100046,149,Tallinn - Harku - Keila - Rummu - Haapsalu,3,00933C,Harjumaa ÜTK
+2fe60cf567e207aa9d66d5fc453bb0cb,100046,15,Jõhvi-Sompa-Kohtla-Järve,3,DE2C42,Kohtla-Järve LV
+9e6ab3c7b1250e1ac4a37fe2f66f2000,60,15,Tallinna mnt - Aia - Papiniidu - Raeküla - Silla tehnoküla,3,DE2C42,Pärnu LV
+3700a3a14ad0ae522ba01e73de7fc0dc,50,15,Soola - Kasteheina - Soola,3,DE2C42,Tartu LV
+15a5254e7c73169bbe6a745d5064709f,56,15,Viru keskus - Sõjamäe,3,DE2C42,Tallinna TA
+60397c84a9091c0b5508dc806a02c59a,71,15,Rapla - Kodila - Varbola - Pajaka,3,00933C,Rapla MV
+43057f644cabf7d23af5cee8c39f9c5b,71,15,Mõniste - Vastse - Roosa - Mõniste - Karisöödi - Mõniste - Rõuge - Võru,3,00933C,Võru MV
+efe3e49572ffe3d342aec04bd3537ed5,100046,15,Türi bussijaam - Kärevere - Türi bussijaam,3,00933C,Järvamaa ÜTK
+75bb200964309e1f2f9afa9dfdb8a78d,60,15,Rakvere - Kunda,3,00933C,Lääne-Viru MV
+c5711b74ab934e8c9c4524494b7dc1d2,317,15,Variku - Inka - Linnamäe - Haapsalu,3,00933C,Lääne MV
+add02fa1a9b782d85df59694133c5570,60,15,Rakvere - Kunda,3,F55ADC,Lääne-Viru MV
+fa476c821438e73070e384f123fda303,100047,150,Jõgeva - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+973b5646e6ba1297fea8cc25fb3f5cb1,100046,150,Tallinn - Laagna - Kostivere - Uus-Rebala - Tallinn,3,00933C,Harjumaa ÜTK
+1484b914f06aa0e01e0adf0b4efe80d8,100047,151,Jõgeva - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+3055a8ec30238987999295633bc33c58,100046,151,Tallinn - Laagna - Kuusalu - Kolga - Loksa,3,00933C,Harjumaa ÜTK
+dc1a307df0766b30ee9e3e5b26fcfd0e,100046,15-1,Viljandi - Viiratsi - Tänassilma,3,00933C,Viljandi MV
+d9007a1a9b01c2487950d184203b43c8,100046,151A,Tallinn - Laagna - Kuusalu - Loksa - Suurpea -Pärispea- Loksa,3,00933C,Harjumaa ÜTK
+a8d3bd502dec7f62c9c3fa6dc70e328f,100041,152,Tallinn - Põltsamaa - Tartu,3,E6FA32,Maanteeamet
+b56117564baec6e0bc44a64472bc5530,100047,152,Jõgeva - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+befc18c0a704f19d8c65a2392ce03c8e,100046,152,Tallinn - Kuusalu - Kolga - Loksa,3,00933C,Harjumaa ÜTK
+004e27cced8c9086507c7d3791334cb5,100046,15-2,Viljandi - Tänassilma,3,00933C,Viljandi MV
+05265623eb5777e594d5e41683a3b40e,100046,152B,Tallinn - Jõelähtme - Valkla - Kuusalu - Kolga - Loksa,3,00933C,Harjumaa ÜTK
+cfffbf1c30eb5ca465e386935e8da66f,100047,153,Jõgeva - Siimusti - Kiigemetsa kool - Jõgeva,3,00933C,Jõgeva ÜTK
+0184aacf4a509a2649e35821741b28c8,100046,153,Tallinn - Laagna - Kuusalu - Kolga - Loksa - Pärispea - Loksa,3,00933C,Harjumaa ÜTK
+edd887c861321707639c74849cc8ff61,60,153,Haapsalu - Risti - Märjamaa - Rapla - Türi - Paide - Tartu,3,00933C,Lääne MV
+e0a980f9eb97df417044baf78d1bebd5,100046,154,Tallinn - Jõelähtme - Kaberla - Kiiu - Kuusalu - Muuksi - Leesi,3,00933C,Harjumaa ÜTK
+33c81824b5d3861e8006514c5cac4f7b,100046,155E,Tallinn - Laagna - Kuusalu - Loksa,3,00933C,Harjumaa ÜTK
+b5d67f144575f9f2e2dcd3e7d856e611,100046,156,Tallinn - Kuusalu - Kahala - Kolga - Loksa - Hara,3,00933C,Harjumaa ÜTK
+736b8a37a0b7653b36e1ecd3f0dd434c,100041,158,Tallinn - Mäo - Põltsamaa - Tartu,3,E6FA32,Maanteeamet
+c84da2bc2ec930eddcd1e9bd7a253fae,60,15A,Põlva - Vinso - Veriora - Vinso - Holvandi - Põlva,3,00933C,Põlva MV
+ccb95b168a30cadacf02e3295cee4b3d,100046,15-A,Viljandi - Vana-Võidu,3,00933C,Viljandi MV
+e710a01bd5650e8db6f4f76176078b79,60,15B,Põlva - Vinso - Veriora,3,00933C,Põlva MV
+7e7d9993b485c412499cddfe087b73e4,60,15C,Põlva - Vinso - Veriora - Leevi - Veriora - Kirmsi - Veriora,3,00933C,Põlva MV
+4881a56a2d89d847f480e4c037d2c5a9,60,16,Tallinna mnt - Aia - Papiniidu - Tammiste aiand,3,DE2C42,Pärnu LV
+2493fe3475f29c80297231f2e4cd6de7,50,16,Nõlvaku - Zoomeedikum,3,DE2C42,Tartu LV
+1c2392da1e34e462ca7c3143f384b274,56,16,Väike-Õismäe - Tallinn-Väike,3,DE2C42,Tallinna TA
+09210187b07e2eac82739d754d4d3058,71,16,Rapla - Raikküla - Järvakandi,3,00933C,Rapla MV
+37ccdf19000739ce2eeff1ea0cd763d8,71,16,Haigla - Kesklinn - Parksepa,3,00933C,Võru MV
+3c69a787ab6af0a6db51b78922274b40,100046,16,Türi bussijaam - Laupa,3,00933C,Järvamaa ÜTK
+ee710bd42fa6d24431e4bb9a318865da,100046,16,Suure-Jaani - Kaansoo - Suure-Jaani,3,00933C,Viljandi MV
+82793909f88b5ef1451fb2f09b76bb69,60,16,Rakvere - Tapa,3,00933C,Lääne-Viru MV
+539934f9cb43054b9152f15ea48ce435,317,16,Haapsalu - Martna - Palivere,3,00933C,Lääne MV
+361c524cf8a3ac755c5fc616f366f011,60,16,Rakvere - Tapa,3,F55ADC,Lääne-Viru MV
+5e451b25747754a657d99ef47dd9eefe,100041,160,Tallinn - Tartu,3,E6FA32,Maanteeamet
+a2b71269fca5693be896a107c5773dac,100047,160,Jõgeva - Kaarepere - Jõgeva,3,00933C,Jõgeva ÜTK
+0171b2482faf4c13aa17b0455fa8df3e,100047,161,Jõgeva - Kaarepere - Nava - Luua- Palamuse - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+0005cc3ae9d8e8144fed9543f885922e,100047,162,Jõgeva - Kuremaa - Palamuse - Luua - Nava -Kaarepere - Jõgeva,3,00933C,Jõgeva ÜTK
+f6782d02ddd9583b50a39901784e11ba,100047,163,Jõgeva - Kaarepere - Luua - Palamuse - Tabivere - Jõgeva,3,00933C,Jõgeva ÜTK
+b3d5d2f6e31e1e297e077f12651c4c7b,100041,164,Tartu - Tallinn,3,E6FA32,Maanteeamet
+dab30b540d716934dc84d376548cbf60,100041,165,Tartu - Tabivere - Jõgeva - Rakke - Väike-Maarja - Rakvere,3,E6FA32,Maanteeamet
+0fac9a0f9b801681e1d696a81dcd5f7f,100036,168,Tartu - Lähte - Tabivere - Kaarepere - Jõgeva,3,E6FA32,Maanteeamet
+c5200dc955609d070c5bfadfd491128f,7,169,Sillamäe - Jõhvi - Tallinn,3,E6FA32,Maanteeamet
+dbc1a6d814155cf0e1b8034057533a8b,50,16A,Nõlvaku - Zoomeedikum,3,DE2C42,Tartu LV
+e02ba5374fc9893a8a71d72196ad8382,60,16A,Põlva - Mooste - Rasina - Ahja - Mooste - Põlva,3,00933C,Põlva MV
+674269631ec9fcf1653de78945e24181,60,16B,Ahja - Rasina - Mooste - Põlva,3,00933C,Põlva MV
+634cafb9b0d7cc75084d5cafc6e18c7a,100046,17,Oru-Puru haigla,3,DE2C42,Kohtla-Järve LV
+18e640a61a1b152fc18550e5c3a21431,60,17,Tallinna mnt-Mai-Haigla-Savi- K-Kodu,3,DE2C42,Pärnu LV
+ac3df88604eb37e45b66e66373b02e14,50,17,Ringtee - Kasteheina - Ringtee,3,DE2C42,Tartu LV
+e8ec3676b7fdd6a1645d160be813e337,56,17,J.Sütiste tee - Bussijaam,3,DE2C42,Tallinna TA
+88e6f86e6b4e0d6b9d904dca96bd241d,71,17,Rapla - Kehtna - Vastja - Rapla,3,00933C,Rapla MV
+ad53f7360c21abff815298fbaba198b1,71,17,Võru - Nõnova - Lepassaare - Otsa - Lasva - Nõnova - Võru,3,00933C,Võru MV
+93fc9726c426372173c9a689566db5f8,100046,17,Paide bussijaam - Peetri - Viisu - Paide bussijaam,3,00933C,Järvamaa ÜTK
+7918ef2c7994bdb8ae2409014afc0bb4,289,17,Karksi-Nuia - Sinialliku - Viljandi,3,00933C,Viljandi MV
+a4c0022c91f42ff926aa6d865eb15051,60,17,Kunda Kooli - Selja - Toose - Kunda,3,00933C,Lääne-Viru MV
+5baf611112262c0608d5d3d725a1ce52,100041,170,Tallinn - Paide - Türi - Võhma - Viljandi,3,E6FA32,Maanteeamet
+c06632fbea65ed08ea9f75b9724d9ce7,100047,170,Jõgeva - Kuremaa - Palamuse - Maarja - Pataste,3,00933C,Jõgeva ÜTK
+c05b433aaaa5ade381ed621506361053,78,171,Tallinn - Pärnu,3,E6FA32,Maanteeamet
+5b292327bceb13f456298b899931de17,100047,171,Pataste - Maarja - Palamuse - Kuremaa -  Jõgeva,3,00933C,Jõgeva ÜTK
+501a8bccc9cb9bcae5cd4c47fb0b70cb,231,172,Antsla - Valga,3,E6FA32,Maanteeamet
+0f51a8485afd746ab1960541c904a873,100047,172,Jõgeva - Kuremaa - Palamuse - Maarja - Pataste,3,00933C,Jõgeva ÜTK
+ff82d15a56746135cc3a67cd732d8daf,100046,17-2,Paide bussijaam - Peetri - Sargvere - Paide bussijaam,3,00933C,Järvamaa ÜTK
+6fad7618ede151e8ee2da5d3cb1767e9,231,173,Tallinn - Pärnu,3,E6FA32,Maanteeamet
+59769e3ee996ccaff33c560dadd8a17b,100047,173,Pataste - Maarja - Palamuse - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+885deb95b248a6282e47c4ad6c3f6761,231,174,Võru - Kanepi - Tartu - Tallinn,3,E6FA32,Maanteeamet
+3c27136d597fc97b60b0adc9f0594dc3,100047,174,Jõgeva - Kuremaa - Palamuse - Maarja - Luua - Palamuse - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+0557bd80b8eb8b68841a54e630a5766f,100041,175,Tartu - Mustvee - Jõhvi - Sillamäe - Narva,3,E6FA32,Maanteeamet
+785e1be8f5c06d0b0339cfb88806d2d4,100047,175,Jõgeva - Kuremaa - Palamuse - Luua - Maarja - Palamuse - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+d0662cfe9b1746ffe929d5d326bec92f,99,177,Tallinn - Keila,3,F55ADC,Harjumaa ÜTK
+aa771868d1d84d195025fb27d01d5e7d,231,178,Tallinn - Mäo - Võhma - Viljandi - Karksi-Nuia - Valga,3,E6FA32,Maanteeamet
+85cec7459556f3d3e5fb0a444a962a79,231,179,Tallinn - Paide - Türi - Viljandi - Karksi-Nuia - Valga,3,E6FA32,Maanteeamet
+402a25a4142a63e27a0fec4eb483d0cc,60,17A,Ühisgümnaasium - Pae - Tähe - Turba - Rabahall,3,DE2C42,Pärnu LV
+ee44a9e5ca73827bf7bb2e8829e645d7,56,17A,J.Sütiste tee - Juhkentali,3,DE2C42,Tallinna TA
+9c2657c45e2ee4926d685c2c46cc10b3,60,17A,Põlva - Vastse-Kuuste - Karilatsi - Kiidjärve - Põlva,3,00933C,Põlva MV
+35913450928d2325c3d9fe824aa95c8d,60,17B,Põlva - Karilatsi - Vastse-Kuuste - Lootvina - Põlva,3,00933C,Põlva MV
+55b68b8f69c75a76e8e3438f43e1acb5,60,18,Teater - Savi - Raba - Rääma - Jaama - Kaubajaama,3,DE2C42,Pärnu LV
+d6b5e390ed444a4feed670ee75ee1ee2,50,18,Lõunakeskus - Paju - Lõunakeskus,3,DE2C42,Tartu LV
+e3a5d4b1541f0b809674a3fce64dc453,56,18,Viru keskus - Laagri,3,DE2C42,Tallinna TA
+fda7f0a41043a875970e7c6673abb169,71,18,Rapla - Kohila - Järlepa - Rapla,3,00933C,Rapla MV
+554926ee1cdac609638168d6fa75806f,71,18,Võru - Rõuge - Kokemäe - Haanja - Rõuge - Viitina,3,00933C,Võru MV
+74e1afec8e015e433b6067483aa91634,100047,18,Valga - Lüllemäe - Antsla,3,00933C,Valga MV
+a00c78c32d04cfe43a586077c44e3349,289,18,Viljandi - Karksi-Nuia,3,00933C,Viljandi MV
+5ec5eec78416f68b7274f83b69dd991e,60,18,Viru-Nigula  - Kunda,3,00933C,Lääne-Viru MV
+ade6c963832174ab55b45cec7d3b55c2,25,18,Lihula - Haapsalu,3,00933C,Lääne MV
+fe3935621c45959fdcfb2495b13f7d2e,100047,180,Jõgeva - Palamuse - Assikvere - Voore - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+aba5bc833edbcbc7f3d32ed2229d15ba,7,181,Oru - Jõhvi - Kiviõli - Tallinn,3,E6FA32,Maanteeamet
+db857228321398eca0c6673b20a8d328,100047,181,Jõgeva - Kuremaa - Palamuse - Kääpa - Voore - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+176514d0805aff7da3f800fd3f021298,100041,182,Tallinn - Narva,3,E6FA32,Maanteeamet
+c87b151f079b40f78bdc6f349dda5865,100047,182,Jõgeva - Kuremaa - Voore -  Kääpa - Voore - Jõgeva,3,00933C,Jõgeva ÜTK
+1adf062bbf041a0eb6a7fa65226ebda7,100041,183,Tallinn - Narva,3,E6FA32,Maanteeamet
+e6647ae3f5a9cc745221d88fb63156ce,100047,183,Jõgeva - Kuremaa - Palamuse - Voore - Kääpa - Assikvere - Pala,3,00933C,Jõgeva ÜTK
+6ac3f8243610dbe5ee16871760256959,100047,184,Jõgeva -Kuremaa - Voore - Torma - Lilastvere - Pala - Jõgeva,3,00933C,Jõgeva ÜTK
+36db4550c4464e74eb13d4358de29ba3,100041,185,Tallinn - Rakvere - Kiviõli - Kohtla-Järve - Jõhvi,3,E6FA32,Maanteeamet
+535f9b65431e9d988c2b1bb263ac56ae,100047,185,Jõgeva - Kuremaa -  Palamuse - Saare - Pala - Kadrina - Mustvee,3,00933C,Jõgeva ÜTK
+d58a5c7e93ba09446b51c6ff48421e58,100041,186,Tallinn - Tartu - Kanepi - Võru,3,E6FA32,Maanteeamet
+5dc6c28be02b71d28ad27568f17ca00f,100047,186,Pala - Kääpa - Voore - Palamuse - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+691da1da0f408011940fc4797ec63fa7,100047,187,Pala - Kääpa - Voore - Palamuse - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+663a8967f65f3cb4196202474c0eb79a,100047,188,Mustvee - Omedu - Kodavere - Pala - Maarja - Palamuse - Jõgeva,3,00933C,Jõgeva ÜTK
+9562db1f824f148f43a253a7876132e9,100047,189,Jõgeva - Kuremaa - Palamuse - Voore - Kääpa - Pala,3,00933C,Jõgeva ÜTK
+8c36f9a1422b6c8427e14dac87fa7202,60,18A,Räpina - Veriora - Viluste,3,00933C,Põlva MV
+019e4681d7adef9ff43bae3337f8bd36,60,18B,Viluste - Veriora - Räpina,3,00933C,Põlva MV
+fdea546c49cf5a59072d4c86dcf48651,60,19,Koidula gümnaasium - Mai - Karja - Tallinna mnt - Lõo,3,DE2C42,Pärnu LV
+feaeb6fd9fa6a211d419578747f80a5b,50,19,Jalaka  - Raudteejaam,3,DE2C42,Tartu LV
+b460ff6f78c2f559026ad67c0e8eedef,56,19,Viru keskus - P.Pinna,3,DE2C42,Tallinna TA
+da05567c3a4e4c1ae634df29420564fd,71,19,Rapla- Seli-Koigi,3,00933C,Rapla MV
+cac8a8a33144c0e86d137e8cd42c197e,71,19,Antsla - Urvaste - Võru,3,00933C,Võru MV
+6af414ec296d5f7044cfe5be4e3722bb,60,19,Rakvere - Vihula - Vergi - Võsu - Haljala - Rakvere,3,00933C,Lääne-Viru MV
+a22682e44069fd122e59b917ba9604b4,60,19,Ahja - Vahemetsa - Mõtsküla - Ibaste - Ahja,3,00933C,Põlva MV
+e0486d24423ad5c3e8db247a4c117ce5,100047,190,Pala - Kääpa - Voore - Palamuse - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+6ab27ac8eb34ca90868a91c92f01c5f3,295,191,Tallinn - Saue,3,F55ADC,Harjumaa ÜTK
+5dc1debc35269a347c5bb604158f44bd,25,19/1,Lihula - Pivarootsi - Vatla - Kõmsi - Lihula,3,00933C,Lääne MV
+646f7b5724cdb1328502d4cfec1a89e3,25,19/3,Lihula - Vatla kool - Virtsu kool - Lihula,3,00933C,Lääne MV
+edc02019ae95e892bca1fb40de9460b3,100047,197,Jõgeva - Laiuse - Sadala - Torma - Mustvee,3,00933C,Jõgeva ÜTK
+d123eabdc483e09e8c4cf2fae6157bd3,7,198,Tallinn - Rakvere - Aseri - Jõhvi - Kuremäe,3,E6FA32,Maanteeamet
+55829f88eafc9990fe2ecb191160ebac,100047,198,Mustvee - Torma - Sadala - Laiuse - Jõgeva,3,00933C,Jõgeva ÜTK
+bcd923d4b5a02e165603f30525426767,100047,199,Mustvee - Torma - Sadala - Laiuse - Jõgeva,3,00933C,Jõgeva ÜTK
+62a774332c46f5b7d06d9c68214b3bbf,56,1A,Viru keskus - Viimsi keskus,3,DE2C42,Tallinna TA
+2639cbc8a08a77aebc6c9d2ecbcdfd47,60,1A-I,Metsamajand - Karja - Linakombinaat - V-Savi - Tammsaare - Mere,3,DE2C42,Pärnu LV
+ae2104a95b564be90c7423088822636e,60,1A-II,Kesklinn- Papiniidu-Haigla-Oja-Bussijaam-Niidupark-Papiniidu,3,DE2C42,Pärnu LV
+5ff80861d5260a34562baf6450a21de4,60,1G,Ruusa - Räpina - Värska veekeskus,3,00933C,Põlva MV
+d0e0ba3d1ce55a3523754a039583abea,60,1H,Värska veekeskus - Räpina - Ruusa,3,00933C,Põlva MV
+f676ca0e35b780c56c3cf4cc65076fa8,60,1I,Ruusa - Räpina - Värska veekeskus,3,00933C,Põlva MV
+21ae67043f5330b856ebc8db5a6872d1,60,1J,Värska veekeskus - Räpina - Ruusa,3,00933C,Põlva MV
+f9e7e9721cf5fb8e7e83695b5162304e,0,2,Keskv-Lennuj-Merev-Keskl-Sikass-Kiviraie-Smuuli-Nooruse-Keskv,3,DE2C42,Saare MV
+7c478b81b90a3038700e9ccd17000bb2,100046,2,Männimäe - Peetrimõisa - Viiratsi,3,DE2C42,Viljandi MV
+6caf6a8b0df15f73ad4ff7fa2016921f,317,2,Uuemõisa - Holmi,3,DE2C42,Lääne MV
+184736d70a760334d0380267f8670051,317,2,Piira - Lihakombinaat,3,DE2C42,Lääne-Viru MV
+ec515fb7b0808138802dc542a1b80ab7,227,2,Mõigu - Reisisadam (A-terminal),3,DE2C42,Tallinna TA
+3840fef74fa884d72b1070239d91dc36,50,2,Lõunakeskus - Roopa - Soola - Roopa - Lõunakeskus,3,DE2C42,Tartu LV
+6942a3ed806d3f52367ad555cb788c16,71,2,Rapla - Kabala - Raikküla - Rapla,3,00933C,Rapla MV
+0876f9e40c3820d32a59e21e6d4653cc,100047,2,Tolli - Raekoja - Palu - Raekoja - Riisali - Rükkeli,3,00933C,Valga MV
+d397f662450f0ab71caecc4722c67725,100046,2,Paide bussijaam - Tarbja - Paide bussijaam,3,00933C,Järvamaa ÜTK
+8b96c68f386147c70b496887cc79623e,869,2,Iisaku - Tudulinna - Avinurme,3,00933C,Ida-Viru MV
+50b24519fe54b64b9879596f1f48f191,586,2,Kesklinn - Nõnova - Kesklinn,3,00933C,Võru MV
+1b9660ba37d124940064403c88a1b65e,56,2,Balti jaam - Ülemiste,0,8FD759,Tallinna TA
+13a45c3567bf99490d58fca6f9d7f5f9,100047,20,Sendi - Kalda - Joala - Paemurru,3,DE2C42,Narva LV
+50c22bdb6fc7dfd4c78959ba583dcd49,60,20,Haigla - Oja - Kesklinn,3,DE2C42,Pärnu LV
+a0d9a92527dd0929acdc3c4cc8398d04,227,20,Reisisadam (D-terminal) - Pääsküla jaam,3,DE2C42,Tallinna TA
+8b4e6d6bd58bd74542b3793bef9132a5,50,20,Zoomeedikum - Raudteejaam - Kivilinna - Zoomeedikum,3,DE2C42,Tartu LV
+60530996b028aa7c3cbb1fe6454ef3cb,71,20,Rapla - Kehtna,3,00933C,Rapla MV
+d2cf1ab3db65483c563ca95fdb2ac15b,71,20,Võru - Uue-Saaluse,3,00933C,Võru MV
+94395b50ab5db1c4524e4c2626493a49,100047,20,Valga - Tõrva - Taagepera,3,00933C,Valga MV
+3b734177f87593a6e1d02b376abfca27,100046,20,Türi bussijaam  - Lokuta - Kolu - Laupa - Türi bussijaam,3,00933C,Järvamaa ÜTK
+7eaefaf84b4e601e7e825800d274aa87,100046,20,Suure-Jaani - Võlli - Metsküla - Viljandi,3,00933C,Viljandi MV
+ff40aa6dca731af16233bf16310334d3,60,20,Rakvere -  Väike-Maarja - Tamsalu - Rakvere,3,00933C,Lääne-Viru MV
+1211564e39c73bd292561edeed9c5e6e,60,20,Põlva bussijaam - Lina - Lao,3,00933C,Põlva MV
+1940d4ca1c8d9de1ad81d881aa281e2c,25,20,Haapsalu - Lihula - Virtsu,3,00933C,Lääne MV
+79a2e1675ad0ec2b643d02bee40c6a18,100047,200,Jõgeva - Torma - Mustvee,3,00933C,Jõgeva ÜTK
+d423a95175603d510f4f24bd99af2543,60,200,Kärdla - lennujaam - Kärdla,3,00933C,Hiiu MV
+227d12a927cddf17cfdde71d577a2692,100041,201,Tartu - Räpina - Värska - Koidula,3,E6FA32,Maanteeamet
+34a368677afa31a6a1c94296085dcafc,100047,201,Jõgeva - Torma - Mustvee,3,00933C,Jõgeva ÜTK
+0c3ba8f81029e7682d2facc79046c564,100047,202,Mustvee - Torma - Jõgeva,3,00933C,Jõgeva ÜTK
+2cb9f6edab2d491b5b0e6f79d56a99d1,60,202,Reola raudteejaam - Sillaotsa - Villemi - Tartu,3,00933C,Tartu MV
+df3771960ebec0e8466fbd124292d330,100047,203,Mustvee - Torma - Sootaga - Jõgeva,3,00933C,Jõgeva ÜTK
+391cb58bc417be90096c69be9671ad9d,60,203,Tartu - Tuigo kalmistu -  Roiu - Lootvina,3,00933C,Tartu MV
+2a25972fd5f37cdddd04c84742b7f02d,117,203,Tallinn - Maardu,3,F55ADC,Harjumaa ÜTK
+db404f18428888ff68946e92344cc108,100047,204,Jõgeva - Sootaga - Torma - Mustvee,3,00933C,Jõgeva ÜTK
+a19222f835d31c85e8d3c5d437ac9e88,60,204,Lootvina - Roiu - Tuigo kalmistu - Tartu,3,00933C,Tartu MV
+50d86356e34bc1b70118c6e85171f2a9,100047,205,Mustvee - Torma - Jõgeva,3,00933C,Jõgeva ÜTK
+1029e7ab2c40158aad1b5d6db81882a4,60,205,Tartu - Roiu,3,00933C,Tartu MV
+d01bfb9cdbb396380d818a8f0dd66841,100047,206,Jõgeva - Laiuse - Sadala - Torma -  Mustvee,3,00933C,Jõgeva ÜTK
+31f15fe1a8b10a4a34c34eaafe502e4e,99,206,Tallinn - Saku,3,F55ADC,Harjumaa ÜTK
+5f8108f0331e88e44fc6c86b17f1fd64,100047,207,Mustvee - Torma - Sadala - Laiuse - Jõgeva,3,00933C,Jõgeva ÜTK
+5ab097e6ee2245b9688603fd8049a07d,60,207,Tartu - Roiu - Kaagvere,3,00933C,Tartu MV
+efd1e19658ceb8ea2fcfb5d83a9b931d,711,207,Tallinn - Rannamõisa - Suurupi,3,F55ADC,Harjumaa ÜTK
+57149432d92fed06fa6d3550af340f96,7,208,Narva - Sillamäe - Jõhvi - Tallinn,3,E6FA32,Maanteeamet
+34c2a5670bef126446c779083bebfa95,100047,208,Mustvee - Torma - Sadala - Laiuse - Jõgeva,3,00933C,Jõgeva ÜTK
+b913e95e4abc5f16e49ea0ea511c7662,60,208,Kaagvere - Roiu - Tartu,3,00933C,Tartu MV
+5c5f2d1ef3318bdd0163aa344212e2af,78,209,Pärnu - Tallinn,3,E6FA32,Maanteeamet
+f156e99d2013e75d99fef89d6a8c1aa5,100047,209,Mustvee - Torma - Sadala - Laiuse - Jõgeva alevik - Jõgeva,3,00933C,Jõgeva ÜTK
+38a2e0eb26fee52bae7282dd8d2f94c9,60,209,Tartu - Roiu - Võnnu - Rasina - Mehikoorma - Räpina,3,00933C,Tartu MV
+af3f1eba254b17c721cf0f1a112af295,117,209,Tallinn - Iru - Muuga - Maardu,3,F55ADC,Harjumaa ÜTK
+847eba8b2d0bea8829d449dc212ecf97,227,20A,Laagri alevik - Kunstiakadeemia,3,DE2C42,Tallinna TA
+29b8f892d123a5c048d7a3daa9986c95,60,20A,Lao - Himmaste - Lina - Põlva bussijaam,3,00933C,Põlva MV
+a413b91ad78ee860916e2fdbd679d897,60,20B,Põlva bussijaam - Lina - Lao,3,00933C,Põlva MV
+facde73034121d77919278ec681d1c5e,60,20C,Lao - Lina - Põlva bussijaam,3,00933C,Põlva MV
+ffce020ecefe26a8baf4d1fdf4bb91af,60,20D,Põlva - Lao - Ähnioru - Rosma - Salu - Põlva,3,00933C,Põlva MV
+9c8cccdebf05d342719f4ccb583b0157,60,20E,Põlva - Meemaste - Peri - Põlva,3,00933C,Põlva MV
+c33f167285ef509673577bdcd427046b,60,20F,Põlva - Meemaste - Peri - Põlva,3,00933C,Põlva MV
+abc9162730b32a944a9f46d4bed2639f,60,20G,Põlva - Aarna - Kiuma - Tännassilma - Põlva,3,00933C,Põlva MV
+f107b36ed83b268459cf18b221a8ea1d,60,20H,Põlva - Aarna - Kiuma - Tännassilma - Põlva,3,00933C,Põlva MV
+1f4b62ca16ec82e15c13a40a2063d73a,60,20I,Põlva bussijaam - Põlva raudteejaam,3,00933C,Põlva MV
+faee3805b61fa0cbadb0d5e75aaa9ed5,71,20k,Rapla - Kehtna,3,00933C,Rapla MV
+51b82233cc5bf4a3130e8644c974d675,100046,21,Jõhvi-Iidla-Tammiku,3,DE2C42,Kohtla-Järve LV
+fef7aa9192023cb707b3058ef771fbce,60,21,Koidula gümnasium-Tammsaare-Tallinna mnt-Sauga a-k - Hüntali,3,DE2C42,Pärnu LV
+a797f0b5ce1f8cddff3968c7aff409b9,50,21,Ööliin,3,DE2C42,Tartu LV
+1973028542b8abe359077c08ac320cb7,56,21,Balti jaam - Landi,3,DE2C42,Tallinna TA
+42d21bddeb2c63a3c0f9b42259659af1,71,21,Rapla - Maidla - Juuru,3,00933C,Rapla MV
+9fa05cdbd8d244c4b557331cb26534f6,71,21,Mõniste - Karisöödi - Mõniste,3,00933C,Võru MV
+2bad555eb89212af83c8f735a21cf64d,100046,21,Türi bussijaam - Kolu - Laupa - Türi bussijaam,3,00933C,Järvamaa ÜTK
+839eedee8a41fea5899c6d19ee60d98b,100046,21,Viljandi - Ramsi - Viljandi,3,00933C,Viljandi MV
+e7654753ab61d61a7dff5ace3ecea288,60,21,Rakvere - Sõmeru - Rakvere,3,00933C,Lääne-Viru MV
+51e4b458e7b151aeaef9d74cd9e872d6,317,21,Haapsalu - Pürksi,3,00933C,Lääne MV
+ef71a43b67398f980fe5ebd6015aef15,60,21,Rakvere - Sõmeru,3,F55ADC,Lääne-Viru MV
+c569cd4c2d5fdb09b874ad6c661908c9,100041,210,Tartu - Kambja - Saverna - Kanepi - Võru,3,E6FA32,Maanteeamet
+451fda9a0c1ff7682b7781927b677ad3,100047,210,Jõgeva - Laiuse - Sadala - Torma - Mustvee,3,00933C,Jõgeva ÜTK
+8e1d0d5f97c9ea1448fcc4dcbe8cd96f,117,210,Tallinn - Laagna - Maardu,3,F55ADC,Harjumaa ÜTK
+280500ed8ca20b2e55d158da96171baf,100046,2101,Lümanda-Riksu-Koimla-Salme-Kuressaare,3,00933C,Saare MV
+e255399cd8fd094712d9f39bd7e429c1,100046,2102,Kuressaare-Nasva-Salme-Toomalõuka-Koimla,3,00933C,Saare MV
+d72d37f5d506e4ed93cdd86102744c13,100046,2103,Koimla-Riksu-Toomalõuka-Salme-Kuressaare,3,00933C,Saare MV
+697581bdbd6bcad934e95047ce12bcff,100046,2104,Kuressaare-Nasva-Salme-Toomalõuka-Riksu-Lüm-Kihelkonna,3,00933C,Saare MV
+2526e7e271fc8fd7bf95638a27c95994,100046,2105,Lümanda-Kuressaare,3,00933C,Saare MV
+8ad71e5b02a99f91cc046868daf105d8,100046,2106,Lümanda-Riksu-Koimla-Toomalõuka-Salme-Kuressaare,3,00933C,Saare MV
+c9e428ec66c5c9a2d7ecef19d17cd5fb,100046,2108,Kuressaare-Nasva-Salme-Toomalõuka-Koimla-Lümanda,3,00933C,Saare MV
+fe7cc1703b0d929a907075e491ed86e2,100046,2109,Lümanda-Koimla-Riksu-Toomalõuka-Salme-Kuressaare,3,00933C,Saare MV
+a52dcdc65dea12bbdb4c9cb10130c2a3,78,211,Tallinn - Pärnu,3,E6FA32,Maanteeamet
+fb300ef1df509575f40d2b5a737a247e,100047,211,Jõgeva - Laiuse - Sadala - Torma - Mustvee,3,00933C,Jõgeva ÜTK
+b21813042b0c01bd4b001a26ca24adfc,60,211,Tartu - Roiu - Melliste,3,00933C,Tartu MV
+43738d750cce4bdd2190648208c8820f,100046,2110,Kuressaare-Salme-Läätsa-Salme-Riksu-Koimla-Riksu-Lümanda,3,00933C,Saare MV
+a55c667f4566000473af9955ba83c8b2,100046,2111,Kuressaare-Salme-Riksu-Koimla-Riksu-Lümanda-Karala-Lümanda,3,00933C,Saare MV
+550ffe5f7eccca7b9170c037f6e72478,100046,2112,Lümanda-Koimla-Toomalõuka-Salme-Kuressaare,3,00933C,Saare MV
+cd132faad2ab2d9caf5050eeaf52825d,220,212,Pärnu - Tallinn,3,E6FA32,Maanteeamet
+66d741e49830f2dc675314d80bd1ce55,100047,212,Jõgeva - Laiuse - Sadala - Torma - Mustvee,3,00933C,Jõgeva ÜTK
+3d4fff6f35970677e5cd73dfa59325fd,60,212,Melliste - Roiu - Tartu,3,00933C,Tartu MV
+ba3e6ece4d6d433d71ddcf96666171df,220,213,Pärnu - Tallinn,3,E6FA32,Maanteeamet
+c3a72d668fba9978efb1fef9e2e1f7ae,100047,213,Mustvee - Torma - Sadala - Laiuse - Jõgeva,3,00933C,Jõgeva ÜTK
+37b3daed11fd7857f98ec471cd59437d,60,213,Tartu - Roiu - Uniküla - Roiu - Tartu,3,00933C,Tartu MV
+8fd0c709b2aca1357e6b0c866347f768,100047,214,Mustvee - Torma - Sadala - Laiuse - Jõgeva,3,00933C,Jõgeva ÜTK
+87fa4f61f6beb3f47c22fb06a9f170c4,60,214,Uniküla - Roiu - Tartu,3,00933C,Tartu MV
+73e3dbb72f6f59862e3c7771ded229a7,112,214,Tallinn - Järveküla - Jüri,3,F55ADC,Harjumaa ÜTK
+156f29c721231b85b15e13bfc3ca27bf,112,214A,Tallinn - Järveküla - Jüri,3,F55ADC,Harjumaa ÜTK
+cf4849294dbe7ed05a274de583562490,100047,215,Jõgeva - Laiuse - Sadala - Vaiatu - Rääbise - Jõgeva,3,00933C,Jõgeva ÜTK
+4c99510f0b6efb1b599d3d70b38e1f50,60,215,Tartu - Vana-Kuuste - Sillaotsa - Kriimani - Tartu,3,00933C,Tartu MV
+d1be1db4ec61d73a7c215afa01f31bb3,112,215,Tallinn - Peetri (Uusmaa) - Järveküla - Uusmaa - Tallinn,3,F55ADC,Harjumaa ÜTK
+0a114f9e78bcc6722ad0d529846b7bbb,100047,216,Jõgeva - Laiuse - Sadala - Leedi - Reastvere - Sadala - Laiuse - Jõgeva,3,00933C,Jõgeva ÜTK
+2960c9ba88acfbd46501228c29948c71,100047,217,Jõgeva - Laiuse - Torma - Vaiatu - Sadala - Laiuse - Jõgeva,3,00933C,Jõgeva ÜTK
+d6029a3fbaf791777dd1b72d27426db8,60,217,Tartu - Villemi - Roiu - Tartu,3,00933C,Tartu MV
+03c60fad58689f5c20db6189c6a14b56,100047,218,Jõgeva - Laiuse - Sadala - Torma - Mustvee - Kasepää - Mustvee,3,00933C,Jõgeva ÜTK
+877d8b13614af9b284db03ae8ae256c6,60,218,Tartu - Arujõe - Tuigo - Roiu - Tartu,3,00933C,Tartu MV
+bc72863960d5d60672261d95ec66619d,100047,219,Jõgeva - Laiuse - Sadala - Torma - Mustvee,3,00933C,Jõgeva ÜTK
+c64a54e8a206cd30ea928d931189b43f,60,219,Tartu - Roiu - Võnnu - Võõpste - Tartu,3,00933C,Tartu MV
+0f50fd948b37082323996e7611c38c0e,99,219,Tallinn - Kurtna - Kiisa - Aespa - Entusiast,3,F55ADC,Harjumaa ÜTK
+972b758a69616b702560b7b92c5f82f9,99,219,Aespa - Soonurme,3,F55ADC,Rapla MV
+43cc367c2f61fdd3a1c2e32ee056b914,56,21A,Väike-Õismäe - Kakumäe,3,DE2C42,Tallinna TA
+50359efac45bf0b0c1a45a8dd78e1494,60,21A,Võru - Tilsi - Põlva - Ihamaru - Vastse-Kuuste - Tartu,3,00933C,Põlva MV
+c9669e8002fce5ebec707b15bdc61cbc,56,21B,Balti jaam - Kakumäe,3,DE2C42,Tallinna TA
+b0d00409f10b2848b9dd6c631d066c90,60,21B,Tartu - Liiva - Karilatsi - Võru,3,00933C,Põlva MV
+940aa09ca67d447354227be9e19f560f,0,22,Kesklinn - Oja - Haigla - Papiniidu - Kesklinn,3,DE2C42,Pärnu LV
+d7759eceaa851b5ade99fca8419fbcbc,50,22,Ööliin,3,DE2C42,Tartu LV
+3a76e92de4c3accd7191b8b30cccae65,56,22,Väike-Õismäe - Vabaduse väljak,3,DE2C42,Tallinna TA
+36d6aa13fd6dcdcc0b4a7c3a20546064,71,22,Rapla - Kaerepere ,3,00933C,Rapla MV
+fe3ba22f85b8470b9245fd3525ca2346,100047,22,Tõrva - Valga,3,00933C,Valga MV
+ef463e2c633fc4bfb39532d88e06d55a,100046,22,Türi bussijaam - Väätsa kool,3,00933C,Järvamaa ÜTK
+63a6659ba7d06a9e0443a3b6014dbdf1,100046,22,Suure-Jaani - Olustvere - Suure-Jaani,3,00933C,Viljandi MV
+863ba0da2f91b5942b1b8757ed6a50e3,317,22,Risti - Kuijõe,3,00933C,Lääne MV
+3b9a896532bbc0b7e64873e530318f37,100047,220,Mustvee - Torma - Tõikvere - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+f4d9aead92306c0136a7d556226adbd7,60,220,Tartu - Roiu - (Lange),3,00933C,Tartu MV
+18eb15a1c9eb98c263a2984b3671af86,100046,2201,Lümanda-Kihelkonna-Kärla-Kuressaare,3,00933C,Saare MV
+a67f1c4f4439db00ca2762bb0528a8a2,100046,2202,Kuressaare-Kärla-Viidu-Lümanda,3,00933C,Saare MV
+26b235f8e8bf716168d06746fbeb7126,100046,2203,Lümanda-Viidu-Kõrkküla-Kuressaare,3,00933C,Saare MV
+5916727527a972c957074e30b6b28fbd,100046,2205,Kuressaare-Viidu-Lümanda,3,00933C,Saare MV
+10dd0193546d0d66cae592f3aa300c7f,100046,2206,Lümanda-Kihelkonna-Kärla-Kuressaare,3,00933C,Saare MV
+34581075168914ef47240a930081c16d,100046,2207,Kuressaare-Kärla-Kihelkonna,3,00933C,Saare MV
+430b1d6fc8f83ff4f89b0e423e748468,100046,2208,Kihelkonna-Lümanda-Kõrkküla-Kuressaare,3,00933C,Saare MV
+8e074451f682388828d7959c0282d572,100046,2209,Kuressaare-Kõrkküla-Lümanda-Karala-Lümanda,3,00933C,Saare MV
+26805ed19469d8b140193dfd68360e80,60,221,Roiu - Tartu,3,00933C,Tartu MV
+98ffe6df13bd35ad35b114dff6fd800e,117,221,Tallinn - Laagna - Kärmu - Maardu,3,F55ADC,Harjumaa ÜTK
+9b93d42db33747babcb7b941c1a561e3,100046,2210,Kihelkonna-Lümanda-Riksu-Koimla-Toomalõuka-Salme-Kuressaare,3,00933C,Saare MV
+1064c7257bb8742b022349cf7bdfac11,100046,2211,Lümanda-Riksu-Koimla-Lümanda,3,00933C,Saare MV
+177d648815867817df74a3ffe432768b,100046,2213,Kuressaare-Lümanda-Kihelkonna,3,00933C,Saare MV
+94b2f23ef883a13ad16437dd1be7458b,100046,2214,Kihelkonna-Kärla-Kuressaare,3,00933C,Saare MV
+cca0618297796425532837c1885bcbd4,100046,2215,Lümanda-Kotlandi-Koki-Koimla-Lümanda-Kõrkküla-Kuressaare,3,00933C,Saare MV
+7b44be833b73174bfef9c96747c5e902,100046,2216,Lümanda- Kihelkonna-Lümanda-Karala- Lümanda,3,00933C,Saare MV
+95fa3b68bb56698f8a69741f3517598a,100046,2217,Lümanda-Kihelkonna-Lümanda-Karala-Lümanda,3,00933C,Saare MV
+73258d6dd67feafb7721cc9b31e5c5de,100046,2218,Kuressaare-Viidu-Lümanda,3,00933C,Saare MV
+5ea410b950ab0fa32c3a2c3d6aea8f24,100047,222,Jõgeva - Kuremaa - Tõikvere - Torma,3,00933C,Jõgeva ÜTK
+2901d558e9ab6f830a8f38ef88a54b71,60,222,Tartu - Reola raudteejaam - Lootvina - (Kolli),3,00933C,Tartu MV
+e5fb7a173568c20f2cbf638c3eb2834d,100047,223,Torma - Tõikvere - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+bdce44eeb1586c2711e0ef3375125613,60,223,Tartu -  Roiu - Lootvina,3,00933C,Tartu MV
+5039f7bdae567f74d458f17307a2611b,60,224,Lootvina - Roiu -Tartu,3,00933C,Tartu MV
+cb2c2646f077b970d00a12aa5d7439ca,60,225,Rakvere - Tallinn,3,E6FA32,Maanteeamet
+3dd3d3a19e371aa1b967a0b59440303a,60,225,Tartu - Tuigo kalmistu -  Roiu - Lootvina,3,00933C,Tartu MV
+9e5364bb7be6425a8c22f017f4086488,60,226,Tallinn - Rakvere,3,E6FA32,Maanteeamet
+8d2c3589af69b7e8badcf22165f26e3e,60,226,Lootvina - Roiu - Tuigo kalmistu - Tartu,3,00933C,Tartu MV
+2d92ada759d3d8699f85d9cdefe496e6,60,227,Rakvere - Tallinn,3,E6FA32,Maanteeamet
+c10e312059c1eaea9815bb13b8085cb4,60,228,Rakvere - Tallinn,3,E6FA32,Maanteeamet
+4287453e57fb3efa8026357daf66cc4e,60,229,Tartu - Roiu - Võnnu - Järvselja - Mehikoorma - Räpina,3,00933C,Tartu MV
+cb14f7f7c48349047a66b7d92d0352ac,16,229,Tallinn  - Kose-Uuemõisa - Kose - Ravila - Vardja,3,F55ADC,Harjumaa ÜTK
+ef2813b0114a1b8bb1f81c3d0accf442,16,229A,Tallinn  - Kose - Ravila - Ardu,3,F55ADC,Harjumaa ÜTK
+e0c4240b058f6940922430b0ec004067,60,22A,Võru - Põlva - Kauksi - Mooste - Räpina,3,00933C,Põlva MV
+9da3b7cd84e53a7106c7ad58a5182e9e,60,22B,Räpina - Mooste - Kauksi - Põlva - Võru,3,00933C,Põlva MV
+bbe2511a5638b9cfa8043f8bbdbad2fd,100046,22-II,Türi - Änari,3,00933C,Järvamaa ÜTK
+1cc432275e3db5c3cb64701de7112077,60,23,Bussijaam - Lennujaam,3,DE2C42,Pärnu LV
+f1f6beb6ccf60723dffba928e3f05cc8,56,23,Kadaka - Bussijaam,3,DE2C42,Tallinna TA
+11c3abdaa973de88db18badd6c0b30c7,71,23,Võru - Osula - Võru,3,00933C,Võru MV
+89e41eb9c3009d0ad98302bf62883561,100047,23,Valga - Tõrva - Pikasilla - Riidaja - Tõrva,3,00933C,Valga MV
+65ae27d90eebfadd0ecb58ef04640c86,100046,23,Viljandi - Kolga-Jaani - Põltsamaa,3,00933C,Viljandi MV
+fc3a3d3e7cd9c7e258a12a7b4983990c,60,23,Lasila - Karitsa - Tõrma - Järni - Lasila,3,00933C,Lääne-Viru MV
+fd671e7496b0c3c8ad6b7934b6bda642,60,230,Rakvere - Rakke - Jõgeva - Tartu,3,E6FA32,Maanteeamet
+49f55928bb1955c5db8730ab47e00a58,100047,230,Jõgeva - Kuremaa - Palupere - Laiuse - Jõgeva,3,00933C,Jõgeva ÜTK
+c17ec9d448106d60e7c8e249b861efb6,100046,2302,Kihelkonna-Kärla-Kuressaare,3,00933C,Saare MV
+f13b5fb0783f06a0f965d29f1f13dd44,100046,2303,Kuressaare-Kärla-Kihelkonna,3,00933C,Saare MV
+186e7247ea4fd9664b18100092047da6,100046,2304,Kihelkonna-Veere-Pidula-Kärla-Kuressaare,3,00933C,Saare MV
+41635c4417b271f3682f063f56d95a01,100046,2305,Kuressaare-Kärla-Kihelkonna-Lümanda,3,00933C,Saare MV
+8dd94b0dd7d491adf16dfc4f1ee21585,100046,2306,Lümanda-Kuressaare,3,00933C,Saare MV
+18de6c3b53dcd98a89b0c9f08b433ddd,100046,2309,Kuressaare-Kärla-Kihelkonna,3,00933C,Saare MV
+bcef735ba7e636c142953cfd21d5881a,100047,231,Jõgeva - Laiuse - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+177f0eb22312286e62d85efb2d895470,60,231,Kambja - Roiu - Tartu,3,00933C,Tartu MV
+fb2be2354c45a88a56e03579928402c6,100046,2310,Kihelkonna-Pidula-Kärla-Kuressaare,3,00933C,Saare MV
+98a28c05348fa80ccf7030af6974690c,100046,2311,Kuressaare-Kärla-Kihelkonna,3,00933C,Saare MV
+083f56a130efa837730c860e97602a5c,100046,2312,Kihelkonna-Kärla-Kuressaare,3,00933C,Saare MV
+65482b4a54230fbd335b46c39fd2cba4,100046,2313,Kuressaare-Randvere-Kärla-Pidula-Kihelkonna,3,00933C,Saare MV
+bf1e5a455c8986fbf5128eb415e0a23a,100046,2314,Kihelkonna-Pidula-Kärla-Kuressaare,3,00933C,Saare MV
+d12b9ce7af1ea0b8226c16926ce36ff4,100046,2315,Kuressaare-Randvere-Kärla-Kihelkonna-Lümanda,3,00933C,Saare MV
+574287af5a906e0da784205526712fe0,100046,2317,Kuressaare-Kärla-Kihelkonna,3,00933C,Saare MV
+23a3c407c97c2d64c926681b445c37e4,100047,232,Jõgeva - Laiuse - Kuremaa - Kaude - Kivijärve - Kuremaa - Jõgeva,3,00933C,Jõgeva ÜTK
+259f5458ecd97e099bf84d841173f0c3,60,232,Tartu -Roiu - Villemi - Tartu,3,00933C,Tartu MV
+8af32360c5dcf83b401916eda7186f15,100047,233,Jõgeva - Laiuse - Kuremaa - Laiuse - Jõgeva,3,00933C,Jõgeva ÜTK
+009eb81b688d493967db9aa8e655c43e,100043,237,Tallinn - Vääna-Jõesuu - Keila-Joa - Lohusalu,3,F55ADC,Harjumaa ÜTK
+e3aee6a6df2a80fe906221f8f5bd5e79,273,238,Tallinn - Ääsmäe - Ruila - Kernu - Haiba,3,F55ADC,Harjumaa ÜTK
+0945cff907a1200882dbb3dbd5c816c2,60,23A,Põlva - Tilsi - Põlva,3,00933C,Põlva MV
+fd1338456d7f7356a41dd4380bfb23ad,60,23B,Põlva - Peri - Tilsi - Põlva,3,00933C,Põlva MV
+54b3dd392d793662075331888735bf81,60,23C,Põlva - Ridali - Tilsi - Põlva,3,00933C,Põlva MV
+bc4d6b07cad9b6cdc9f7c3eff0cb9129,100046,23-I,Koigi kool - Köisi -Sõrandu - Koigi kool,3,00933C,Järvamaa ÜTK
+2bbfa80449c29fac921cf36f5b07c132,100046,23-II,Koigi kool - Köisi - Sõrandu - Koigi kool,3,00933C,Järvamaa ÜTK
+8d292a1dce7f2061def57ec0618a529c,100046,23-III,Koigi kool - Sõrandu - Päinurme - Rutikvere - Koigi kool,3,00933C,Järvamaa ÜTK
+0e3f0c88a6b1a83dfe93a56a5266be00,100046,23-IV,Koigi kool - Köisi - Sõrandu - Koigi kool,3,00933C,Järvamaa ÜTK
+ff4eaac57fb78e466f65757d54a0c069,50,24,Nõlvaku - Nooruse - Nõlvaku,3,DE2C42,Tartu LV
+e7e9b9b94674c99a2eebcd1cec5a3e59,56,24,Mustamäe - Estonia,3,DE2C42,Tallinna TA
+d8d9cecbf72d00d96055ab3783699118,100027,24,VKG-Ahtme kaubakeskus,3,FF6319,Kohtla-Järve LV
+dbfe649cae4a4689d59d8502b506faf7,71,24,Võru - Kasaritsa - Rõuge - Kasaritsa - Võru,3,00933C,Võru MV
+2ac0db56ad45ffe156f48fdf1fec3b7f,100047,24,Valga - Keeni - Priipalu - Valga,3,00933C,Valga MV
+37d60987c3e4b2c0b4d4d516ab38dc0a,100046,24,Paide bussijaam - Päinurme - Kütimäe,3,00933C,Järvamaa ÜTK
+c3bc8eba2d045cd9f40b1649d46a3d02,100046,24,Viljandi - Kolga-Jaani - Kaavere - Viljandi,3,00933C,Viljandi MV
+449a40ac8a6dafdf88b68df22f914fa5,60,24,Rakvere - Pajusti - Viru - Jaagupi - Vinni - Rakvere,3,00933C,Lääne-Viru MV
+5b2559119d07909add5e5c2a5cfc14ab,25,24,Saastna - Lihula,3,00933C,Lääne MV
+fc5d87a626df51e9e7472442371b7e68,100047,240,Jõgeva - Vaimastvere - Vägeva - Pedja - Vaimastvere - Jõgeva,3,00933C,Jõgeva ÜTK
+b40038822b79576778bad1132d592572,100047,241,Jõgeva - Kurista - Jõgeva,3,00933C,Jõgeva ÜTK
+dd22548b32b841150d0b34c0f674318b,100047,242,Jõgeva - Vaimastvere - Pedja - Vägeva - Vaimastvere - Jõgeva,3,00933C,Jõgeva ÜTK
+2b69acab81aa7b57bf9465076b706d8e,317,242,Tallinn - Kiiu - Kuusalu,3,F55ADC,Harjumaa ÜTK
+56a3d36eb5eec7447623fd6248df641b,100047,243,Jõgeva - Vaimastvere - Jõgeva,3,00933C,Jõgeva ÜTK
+e6f4c2f12a0dfd183ed8ce81cc42c431,100047,244,Jõgeva - Kärde - Jõgeva,3,00933C,Jõgeva ÜTK
+21434a6526cdb06c49ce9277a57e22f8,112,244,Tallinn - Jüri - Aruküla,3,F55ADC,Harjumaa ÜTK
+673c6c891de26cea169f0e51609aa440,112,244A,Tallinn - Jüri - Aruküla,3,F55ADC,Harjumaa ÜTK
+fa34b4c987064098ff2fb3afc763a508,100047,245,Jõgeva - Siimusti - Vaimastvere - Jõgeva,3,00933C,Jõgeva ÜTK
+32929aa8389e7c94d271af1d3bfce55b,60,246,Mustvee - Tartu,3,E6FA32,Maanteeamet
+08f3d938fe68de5c4ef7c60740d72fef,100047,246,Jõgeva- Siimusti - Vaimastvere - Pedja - Vaimastvere - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+867e40ea8650263a9417fa342ca012c5,100047,247,Jõgeva - Siimusti - Vaimastvere - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+77f8b43edca0d93892f107c4448a5571,100047,248,Jõgeva - Jõgeva alevik - Jõgeva,3,00933C,Jõgeva ÜTK
+a70842390ec1db8261cb64c583b72fc1,100047,249,Jõgeva - Liivoja - Jõgeva,3,00933C,Jõgeva ÜTK
+640c9bb62a40acd21c186ee902e87ff4,56,24A,Kadaka - Estonia,3,DE2C42,Tallinna TA
+40829c96e698dc5782d8377ae3475082,60,24A,Räpina - Veriora - Leevi - Võru,3,00933C,Põlva MV
+fd2d0766103cc26bdd531ded671061f6,60,24B,Võru - Leevi - Vändramaa - Veriora - Räpina,3,00933C,Põlva MV
+590a31b0250760052f8d52d1353a2ab8,60,24C,Räpina - Veriora - Vändramaa - Leevi - Võru,3,00933C,Põlva MV
+971e2b2d7cdbfff2e67502428c6e1264,60,24D,Võru - Leevi - Veriora - Räpina,3,00933C,Põlva MV
+40b43c65fa4d09db16b273c4263ecae9,60,24E,Võru - Leevi - Vändramaa - Veriora - Räpina,3,00933C,Põlva MV
+f86dd1506fcc14ac909493bb90c8dd9d,227,25,Keskuse - Laagri alevik,3,DE2C42,Tallinna TA
+dc69b17899c5ec21ebe00916b379ce4c,71,25,Võru - Nursi - Rõuge - Võru,3,00933C,Võru MV
+9478298e8db41548910845f0e1874687,100047,25,Elva - Puka - Valga,3,00933C,Valga MV
+92054de7a5c679e4914d6d5ad20ebfa2,100046,25,Paide bussijaam - Koigi kool - Sõrandu - Paide bussijaam,3,00933C,Järvamaa ÜTK
+62b7657089e55fe2354975b887ceb9f9,289,25,Viljandi - Mustla - Suislepa - Roosilla - Vooru,3,00933C,Viljandi MV
+1c9a41699e96e8d1bce203be6b50557f,60,25,Rakvere - Viitna - Ilumäe - Võsu - Käsmu,3,00933C,Lääne-Viru MV
+b5bac76f84676031438bdb3d5d3653fd,25,25,Lihula - Haapsalu,3,00933C,Lääne MV
+c232c10f54eb52c5f8d6cd59fbf1a20f,100047,250,Jõgeva - Jõgeva alevik - Liivoja - Jõgeva,3,00933C,Jõgeva ÜTK
+ef2d85d6f15bc19e90e419079b30d7eb,100047,251,Jõgeva - Jõgeva alevik - Jõgeva,3,00933C,Jõgeva ÜTK
+24f29a00c990dca971fe59673b38ab58,100037,252,Tallinn - Tartu - Põlva - Võru,3,E6FA32,Maanteeamet
+4d21b53a5b8ec5c845d87395da5c89a0,100047,252,Jõgeva - Jõgeva alevik - Jõgeva,3,00933C,Jõgeva ÜTK
+dd669daf96a52bed40f1ff04fb204dca,273,252,Haiba - Kernu - Laitse - Hingu - Kaasiku - Kibuna - Haiba,3,F55ADC,Harjumaa ÜTK
+5ac71d4b87c90660a0701d967a53611b,273,252A,Kaasiku - Laitse - Jaanika - Laitse - Ruila - Kernu - Haiba,3,F55ADC,Harjumaa ÜTK
+654a2234be7ae05aa16695f081ed7168,100037,253,Põlva - Tartu - Tallinn,3,E6FA32,Maanteeamet
+919a051238336cd608b077e354ac88aa,71,254,Võru - Lasva - Obinitsa - Meremäe - Vastseliina - Võru,3,00933C,Võru MV
+d962b84dbc668e3a94d7e95873b52297,71,255,Võru - Vastseliina - Luhamaa - Misso - Kuura,3,00933C,Võru MV
+4b369350a65317bdc1db0bc52b3bd7b7,16,256,Tallinn  - Riisipere - Nissi - Turba,3,F55ADC,Harjumaa ÜTK
+4ca77656342755162def0b7706782405,71,258,Võru - Räpina,3,00933C,Võru MV
+7a3c73ea2cc001bdc46cb7907f01e6d4,71,259,Võru - Lepassaare - Võru,3,00933C,Võru MV
+5577094ff2c78d84f0a3b17d7884eadb,112,259,Tallinn - Järveküla - Jüri,3,F55ADC,Harjumaa ÜTK
+32cc225e568de69861273b11dc598800,60,25A,Võru - Vinso - Peri - Põlva - Ahja,3,00933C,Põlva MV
+d1b5b008ad4b90077d3217cba578e219,60,25B,Ahja - Põlva - Peri - Vinso - Võru,3,00933C,Põlva MV
+bfeadab58c9a66c1ab4e7e2425b313ac,50,26,Kesklinn - Kivilinna - Ihaste - Kivilinna - Soola,3,DE2C42,Tartu LV
+d560f0e797dd1b6a39b3152b79b9528b,56,26,Väike-Õismäe - Paljassaare,3,DE2C42,Tallinna TA
+a231007ae91a5fefd622c2dc3c25b2fb,71,26,Võru - Luhametsa - Tsooru - Võru,3,00933C,Võru MV
+b35e6b11814ed312ec963f109e30617b,100047,26,Valga - Aitsra - Tõrva,3,00933C,Valga MV
+bf46db6c4718289b933ce58aec7fb25e,100046,26,Käravete - Valasti - Paide bussijaam,3,00933C,Järvamaa ÜTK
+32f53753708d35e7d9c32dbfc8927b44,60,26,Rakvere - Vinni - Rakvere,3,00933C,Lääne-Viru MV
+08686e925cb2f8ad29d3ec76c1df5a20,317,26,Haapsalu - Palivere - Risti,3,00933C,Lääne MV
+37d3966aacb8912bbbf4481fcaa3b057,71,260,Võru - Haanja - Misso,3,00933C,Võru MV
+109c1859defcb11d5a2abd7b040191b9,494,260,Tallinn - Haabneeme - Rohuneeme,3,F55ADC,Harjumaa ÜTK
+3da7468f880943db2fb0da41e44f7f0d,71,261,Varstu - Tsooru - Sänna - Võru,3,00933C,Võru MV
+e1a4a45977f63ba466df1789c75863f3,71,262,Võru - Mõniste - Saru lauatehas - Antsla - Võru,3,00933C,Võru MV
+a427134d6a9f12f9a6f6c7435a544e01,71,263,Misso - Pältre - Vastseliina - Võru,3,00933C,Võru MV
+df70832313adf3678166f84ce5560014,71,264,Saru lauatehas - Varstu - Võru,3,00933C,Võru MV
+996f07d6a2ba3891be4890cdaf4146e7,71,265,Võru - Vastseiina - Misso - Ruusmäe - Haanja,3,00933C,Võru MV
+8d51c6e58343454f4c18acd1047b1b73,100043,267,Tallinn - Märjamaa - Pärnu - Karksi-Nuia,3,E6FA32,Viljandi MV
+f83917846b4a09ae03c1221497d2f52b,71,268,Võru - Rõuge - Luutsniku - Raagi - Ruusmäe - Murati,3,00933C,Võru MV
+1d592d9e617aacc96908a58910b2fe63,71,269,Võru - Rõuge - Krabi - Hintsiko,3,00933C,Võru MV
+a6cae6857e66d108a194e84f5511d10b,56,26A,Väike-Õismäe - Paljassaare põik,3,DE2C42,Tallinna TA
+1e0547ac3f820237b392c2fdf033e05a,60,26A,Põlva - Laheda - Ridali - Tilsi - Ähnioru - Põlva,3,00933C,Põlva MV
+7cc882d100a6f868bb959e4a721ec71a,60,26B,Põlva - Laheda - Tilsi - Peri - Põlva,3,00933C,Põlva MV
+7998c3ac4d2a351b85e45eadb8af5987,60,26C,Põlva - Tilsi - Ridali - Laheda - Põlva,3,00933C,Põlva MV
+db5b8ac15c532e099145f8c81a55a3a3,50,27,Kesklinn - ERM - Vahi,3,DE2C42,Tartu LV
+2b072796dda728caa24171edfd62e173,56,27,Harkujärve - Laagri alevik,3,DE2C42,Tallinna TA
+3415d9877ae253a6ee46febf36b7cfd7,71,27,Antsla - Hänike - Võru,3,00933C,Võru MV
+cf491b19095edff5f96640df058cb722,100047,27,Tõrva - Holdre - Tõrva,3,00933C,Valga MV
+498ba76e653133d5fbbf77be31565a4c,60,27,Rakvere - Roela - Rasivere,3,00933C,Lääne-Viru MV
+bd28533b00d44bf9410a88d9302f83eb,317,27,Haapsalu - Linnamäe - Lihatööstuse,3,00933C,Lääne MV
+c1aff6415649952dddb2e3549fcd2c20,100043,270,Tallinn - Pärnu,3,E6FA32,Maanteeamet
+71f447f5113d2fa7220b7d4f6f9902d5,100043,271,Tallinn - Märjamaa - Pärnu-Jaagupi - Pärnu,3,E6FA32,Maanteeamet
+6521fe9ee555d6c7c1b77e2024e15a97,71,272,Meremäe - Võmmorski - Obinitsa - Meremäe - Vastseliina - Võru,3,00933C,Võru MV
+14552c69fed5f2d0a20e7a542dd3a086,71,273,Võru - Lasva - Obinitsa,3,00933C,Võru MV
+97d9cf78f4eccd264c3ae2d3c9522dc8,78,274,Tallinn - Pärnu,3,E6FA32,Maanteeamet
+9af0814e775106cf6bf217d74cd91847,71,274,Võru - Lasva - Meremäe,3,00933C,Võru MV
+baef3be77c44028f97c7d75aa7967cab,71,275,Võru - Linnamäe - Antsla - Madise - Urvaste - Antsla - Tsooru - Võru,3,00933C,Võru MV
+b3e4eb15327a751b7cd2162d65664865,71,276,Võru - Vastseliina - Luhamaa - Misso,3,00933C,Võru MV
+ea30fb61ca1dea4f17909f13be354543,71,277,Võru - Krabi - Tsooru - Antsla - Võru,3,00933C,Võru MV
+60424f2329f8c156a7657a93bd2aeb5a,71,278,Võru - Antsla - Tsooru - Krabi - Rõuge - Võru,3,00933C,Võru MV
+b97c889a89ed0f8e07da2f93ea690b86,71,279,Võru - Sänna - Antsla - Urvaste - Osula - Võru,3,00933C,Võru MV
+4e85427fdf8521bc52bfc190da43e77d,60,27A,Põlva - Ihamaru - Krootuse - Saverna,3,00933C,Põlva MV
+34c7736bc4c8acdf77cb686608c770d5,60,27B,Saverna - Krootuse - Ihamaru - Põlva,3,00933C,Põlva MV
+e9432d1472780ed826a415dd0394bd0d,60,27C,Põlva - Ihamaru - Krootuse - Saverna,3,00933C,Põlva MV
+97b010b8cecb10e64c386cd3c18ab79a,60,27D,Saverna - Krootuse - Ihamaru - Põlva,3,00933C,Põlva MV
+61821b9ccac0020374ac2bd1e54b3c27,60,27E,Põlva - Saverna - Valgjärve - Saverna - Põlva,3,00933C,Põlva MV
+6ba9e1009c1f80544e278625d30f5a81,60,27F,Põlva - Saverna - Valgjärve - Saverna - Põlva,3,00933C,Põlva MV
+7eafac4a3fb7bd110828299039fdfab8,100046,28,Vanalinn- Jõhvi- Ahtme mnt- Iidla- Jõhvi- Vanalinn,3,DE2C42,Kohtla-Järve LV
+92bff2699bab2d6657c4910ac9acabfb,50,28,Ringtee - Sepa turg - Anne - Sepa turg - Ringtee,3,DE2C42,Tartu LV
+a7b5412f5e3c3564086055c62a343343,56,28,Veerenni - Väike-Õismäe,3,DE2C42,Tallinna TA
+a73b858e14c0e3a83ed12aea80d5c347,100047,28,Valga - Keeni - Valga,3,00933C,Valga MV
+1d43dbf2d106a2ef5c736fda295a2cc9,100046,28,Kultuurikeskuse - Väätsa - Pearna,3,00933C,Järvamaa ÜTK
+89a6830919aec0d4f86803a33280f94b,289,28,Viljandi - Päri - Ramsi - Orika - Viljandi,3,00933C,Viljandi MV
+d72b8e7188ae7a8dd46ff854520e3443,60,28,Kunda - Karepa - Vainupea - Kandle - Rakvere,3,00933C,Lääne-Viru MV
+ea327fb350a75257f331b9a8a7c21073,60,28,Krootuse - Veski - Maaritsa - Saverna,3,00933C,Põlva MV
+40a827176c32d7ed4bb7ed29a75ca1e3,71,280,Antsla - Linnamäe - Võru,3,00933C,Võru MV
+47d764d7063f2b153a695cf0723142cd,71,281,Võru - Põlva,3,00933C,Võru MV
+66b3d06f486e7c18f176ac9c3d630d7e,71,282,Võru - Hänike - Antsla,3,00933C,Võru MV
+f96b3507a1ed9516a9c932b6cf413e08,317,283,Rakvere - Jõgeva - Tartu,3,E6FA32,Maanteeamet
+88e7f026dfcfc641febde3138a65fc9b,117,285,Tallinn - Laagna - Muuga - Maardu,3,F55ADC,Harjumaa ÜTK
+4dbec6ef847dc6dc4a0e86f2c759becb,117,286,Tallinn - Maardu,3,F55ADC,Harjumaa ÜTK
+351f9df31273c5f0a3bbc84cb40afe32,71,287,Võru - Linnamäe - Antsla - Varstu - Krabi - Võru,3,00933C,Võru MV
+53bec910c88cddb92eff6e2aeb38b76d,71,288,Võru - Krabi - Varstu - Antsla - Linnamäe - Võru,3,00933C,Võru MV
+d3b9825695c7d475083cf92d4ff5d112,804,288,Tallinn - Pirita - Muuga aedlinn - Maardu,3,F55ADC,Harjumaa ÜTK
+ec3c0983610f9b071d1083f97ec953f1,100046,28a,Vanalinn- Jõhvi- Vana Ahtme- Iidla- Jõhvi- Vanalinn,3,DE2C42,Kohtla-Järve LV
+5d0c3f06d68cdb3f58f1c23f444e16b5,100046,28b,Vanalinn-Puru haigla- Vanalinn,3,DE2C42,Kohtla-Järve LV
+1d2b2f7d923b42dde060703eb960176a,100046,29,Vanalinn- Jõhvi- Iidla,3,DE2C42,Kohtla-Järve LV
+7b8e16a2ea8183aec3c1205bcf3665cc,56,29,Viru keskus - Iru hooldekodu - Priisle,3,DE2C42,Tallinna TA
+8d6f2241075fe954bd10457480afb5fc,71,29,Võru - Urvaste - Antsla,3,00933C,Võru MV
+990ecacb46abb5a40b755c547d5cac10,100047,29,Valga - Jõgeveste - Tõrva,3,00933C,Valga MV
+ee25818f96a942fb95b693cbcf5ecd71,100046,29,Türi bussijaam - Käru,3,00933C,Järvamaa ÜTK
+1190d4db922046cb7c264ea8c986456a,100046,29,Suure-Jaani  - Vastemõisa - Viljandi,3,00933C,Viljandi MV
+41153dbbe1e7dca75ad051eec0a0eb6b,60,29,Rakvere - Rahkla - Simuna,3,00933C,Lääne-Viru MV
+cc8a0bb1543b50e1e139dadffcefdbc1,60,29,Põlva - Puskaru - Kanepi - Saverna - Krootuse - Põlva,3,00933C,Põlva MV
+ab2589c5d74506d81653a72ab9823d9e,317,29,Haapsalu - Kiideva - Puise,3,00933C,Lääne MV
+f38eb44e50574c367efdf2a75371f662,100045,290,Värska - Räpina - Tartu,3,E6FA32,Maanteeamet
+b870db10728d5288f2b6b3c7d21ef9c2,100031,291,Võru - Valga,3,00933C,Valga MV
+9ade90168b78e05a1428441588f689df,100041,292,Tallinn - Põltsamaa - Tartu - Põlva - Võru,3,E6FA32,Maanteeamet
+36731e8dc6f9839c7d3352db31a8eb95,100031,293,Valga - Tõrva - Pärnu,3,E6FA32,Maanteeamet
+27102c3ac390832a67a16fcf230adbf7,632,299,Tartu - Mustvee - Jõhvi - Narva,3,E6FA32,Maanteeamet
+f73413d2496881a796f8bba488cdb827,100046,29A,Viljandi - Vastemõisa - Sürgavere - Suure-Jaani,3,00933C,Viljandi MV
+c7b09b176e98ab4a8963bb994e632cae,100046,2A,Viiratsi - Paalalinn - Haigla - Bussijaam - Viiratsi,3,DE2C42,Viljandi MV
+e79ed5e5776a8a2268a8df3b21350041,60,2A,Põlva - Partsi - Veriora - Räpina,3,00933C,Põlva MV
+0484abb9308f4c565780d9aa7d093672,60,2B,Räpina - Ruusa - Põlva,3,00933C,Põlva MV
+c736f4a135075fe30dbf8b37c3e5ff63,60,2C,Põlva - Kauksi - Räpina,3,00933C,Põlva MV
+83e31964221ff51e556f9324825f1bae,60,2D,Põlva - Vanaküla - Ruusa - Räpina,3,00933C,Põlva MV
+9e582913d1a4c05e79f287fb435dbc70,60,2E,Räpina - Kauksi - Põlva,3,00933C,Põlva MV
+6bd38af6be3e04ccbef186149a770bb0,60,2F,Põlva - Kauksi - Ruusa - Räpina,3,00933C,Põlva MV
+a1d402d68f25e564363b1b20f2a7b47e,60,2H,Räpina - Kauksi - Ruusa - Viluste - Põlva,3,00933C,Põlva MV
+70ffcac6cf8add6786a0ea7272eb6eba,60,2I,Räpina - Kauksi - Põlva,3,00933C,Põlva MV
+6bd148bbabfe49812ecea35f402b3bec,60,2J,Põlva - Kauksi - Ruusa - Räpina,3,00933C,Põlva MV
+efb405f80c4b5aff95ff595dddaf954b,60,2K,Räpina - Mooste - Põlva,3,00933C,Põlva MV
+df6936a23d5d56478d92c0b6424a716f,71,2k,Rapla - Kabala - Raikküla - Rapla,3,00933C,Rapla MV
+1bb9c16516d7a7dd2e8246a6af9c918c,60,2L,Põlva - Mooste - Räpina,3,00933C,Põlva MV
+e403592b978b10fbe5bc475f064b6199,60,2M,Räpina - Ruusa - Kauksi - Põlva,3,00933C,Põlva MV
+ac68d4586808648731799ecf90cb1d11,0,3,Tallinna mnt - Liiva - Mai - Papiniidu - Raudteejaam,3,DE2C42,Pärnu LV
+c0349534b60df3558a1256d77a490520,100046,3,Bussijaam-Muratsi-Nooruse-Bussijaam-Kingu-Koja,3,DE2C42,Saare MV
+dfaea5f8c87ab1f56e6bb730fdcd82e4,317,3,Holmi - Ragn-Sells,3,DE2C42,Lääne MV
+4f264815f7373961573c56f93862b80c,317,3,Tõrma - Keskväljak - Tõrma,3,DE2C42,Lääne-Viru MV
+7fff6356cf24d9551e3d9750e3b1fc17,50,3,Nõlvaku - Kannikese - Nõlvaku,3,DE2C42,Tartu LV
+00b13d796daf2a664a76a98bbfa09274,56,3,Veerenni - Randla,3,DE2C42,Tallinna TA
+6436adccf12a01a6240a22261e661962,100025,3,Kohtla-Järve Polikliinik- Puru Polikliinik,3,FF6319,Kohtla-Järve LV
+ba167191593d60feb334a4ed254ccdc8,71,3,Rapla - Kodila,3,00933C,Rapla MV
+95e15f86b79187881d0881e29c3450ce,100046,3,Paide bussijaam - Tarbja  - Paide bussijaam,3,00933C,Järvamaa ÜTK
+50f25abae342c9aec34ed46e415c232e,60,3,Räpina - Naha - Mehikoorma - Naha - Räpina,3,00933C,Põlva MV
+85776e93734b38923d17f9ca5f5da82e,869,3,Iisaku - Lohusuu - Alajõe - Remniku - Iisaku,3,00933C,Ida-Viru MV
+e69d5c4c3db4ce9d774055c9ee8c6a50,586,3,Kesklinn - Navi - Parksepa - Kesklinn,3,F55ADC,Võru MV
+71b0d11f8c888da4d2566e67c46c3400,56,3,Tondi - Kadriorg,0,8FD759,Tallinna TA
+a324ac25172c6a98c497e63b06843d87,56,3,Mustamäe - Kaubamaja,800,00A1DE,Tallinna TA
+09622f7ac00fb7423cdef6516125279a,56,30,Seli - Iru - Kärmu,3,DE2C42,Tallinna TA
+d83c129ddec7b0cb94814827b48fa0a6,71,30,Märjamaa - Kernu,3,00933C,Rapla MV
+dc25246982bd092ae4f9e6bd7617b3d3,100047,30,Valga - Vähero - Valga,3,00933C,Valga MV
+258b3d72d8d6955387c32d1f34b96d08,100046,30,Paide bussijaam - Viraksaare - Paide bussijaam,3,00933C,Järvamaa ÜTK
+c8095f88442bb74cf6fcfaab838fbfd2,60,30,Rakvere - Karula - Kandle - Karepa - Rakvere,3,00933C,Lääne-Viru MV
+230ff2eeca118fc114d5cca48bd287df,317,30,Haapsalu - Lihula - Virtsu,3,00933C,Lääne MV
+1870347257e39d2c2a62749f90158304,171,300,Karksi-Nuia - Tõrva - Pikasilla - Elva - Tartu,3,E6FA32,Maanteeamet
+649666faec890b3821c2f7757af38f14,632,303,Tartu - Mäo - Tallinn,3,E6FA32,Maanteeamet
+656f556e37476fb2a9ee17b587e920a3,632,304,Rapla - Türi - Paide - Põltsamaa - Tartu,3,E6FA32,Maanteeamet
+7bfd5ae3dc0d80492cfdf85bf6d59be9,60,306,Tartu - Kambja - Kaatsi - (Kammeri) - (Koidu),3,00933C,Tartu MV
+f8cab0061e30fd55666ec760fb1cde76,60,307,Kavandu - Kammeri - Kaatsi - Kambja - Tartu,3,00933C,Tartu MV
+ef34c4c69dee1802eb3a31b7a67f5c4f,60,308,Tartu - Tallinn,3,E6FA32,Maanteeamet
+82ea6593a8f31a729fb26ccddd7ba719,60,309,Tallinn - Tartu,3,E6FA32,Maanteeamet
+4cc16998a81491500d1cbae810459c50,60,30A,Saverna - Maaritsa - Prangli - Krootuse - Põlva,3,00933C,Põlva MV
+b3373550530b7cb8ef6aebd5920591eb,60,30B,Saverna - Aiaste - Valgjärve - Krootuse - Põlva,3,00933C,Põlva MV
+deb05b6b307195f9301d275c35183718,60,30C,Saverna - Prangli - Karilatsi - Krootuse - Põlva,3,00933C,Põlva MV
+fd2db5fdbe9f0c0f99397f75ec1f997c,60,30D,Valgjärve - Saverna - Krootuse - Põlva,3,00933C,Põlva MV
+43da3d641921b82e73158ef7daac69a1,100046,31,Sillamäe- Sirgala,3,DE2C42,Kohtla-Järve LV
+4e4c75d70fd67858f6d1e1e881c4b4bd,56,31,Priisle - Estonia,3,DE2C42,Tallinna TA
+6c209dc4efdc8a13da6e9903cee6020c,71,31,Märjamaa - Päärdu - Vigala - Teenuse - Loodna - Märjamaa,3,00933C,Rapla MV
+9043aa1963f4ce2513c53af1604e5b2a,71,31,Võru - Haanja - Ruusmäe,3,00933C,Võru MV
+28371a2e7c4fc81890314149429fd1bb,100047,31,Valga - Vähero - Lüllemäe - Valga,3,00933C,Valga MV
+186ebcd97deb14387c4401f21eac9037,100046,31,Viljandi - Meleski - Kolga-Jaani,3,00933C,Viljandi MV
+c76c1e0efc503bdf61a790635a58515d,60,31,Tapa - Vohnja - Rakvere,3,00933C,Lääne-Viru MV
+8b423ccb107933dbb8ce2dcd44ab30d3,25,31,Karuse kalmistu - Salevere - Virtsu - Koti,3,00933C,Lääne MV
+e9662a68a61ba1367405e5f6a9bc74d9,50,31,Narva-Jõesuu - Narva,3,00933C,Ida-Viru MV
+a4b98ad32c85ddab37cfe55f6334fd18,231,310,Tartu - Viljandi - Pärnu,3,E6FA32,Maanteeamet
+542d84b1ad0d6e2a55f368d306c53e10,100046,3101,Kuressaare-Randvere-Mustjala,3,00933C,Saare MV
+f83a555b8a4004f778974fc6ff4c8f5f,100046,3102,Mustjala-Kuressaare,3,00933C,Saare MV
+fb64f282cc2521ded85b36c197375580,100046,3103,Kuressaare-Randvere-Mustjala,3,00933C,Saare MV
+4a083b2342e7c019c1c4f631d0c6ae37,100046,3104,Kuressaare-Mustjala-Võhma-Panga-Järise-Aste-Kuressaare,3,00933C,Saare MV
+3c82e0929abae273a489c468df6e13bb,100046,3105,Kuressaare-Randvere-Mustjala,3,00933C,Saare MV
+bf3635eaead144087438bb24ac1f2f9f,100046,3106,Mustjala-Randvere-Kuressaare,3,00933C,Saare MV
+0450d61d99e47da1a2093822f9b5d0da,100046,3107,Kuressaare-Randvere -Mustjala,3,00933C,Saare MV
+66aadf5b8d93d8fb426fb9c039936749,60,311,Tartu - Kambja - Tuigo - Roiu - Luunja - Tartu,3,00933C,Tartu MV
+0d5b995aec616a7de8ac3978fccec58e,231,312,Valga - Otepää - Tartu,3,E6FA32,Maanteeamet
+498a3415b1ae50b56eb451fd745f17ac,289,313,Tõrva - Tartu,3,00933C,Valga MV
+a7cdbc91509cde544bbf9da94561b54b,60,315,Tartu - Räpina,3,E6FA32,Maanteeamet
+af8aa3f12fe716fac4c84641bd350ac5,31,316,Haapsalu - Risti - Tallinn,3,E6FA32,Maanteeamet
+ba4d62d4a42ed3d75e89f58378b6b6e6,60,316,Tartu - Kuuste - Liiva,3,00933C,Tartu MV
+262c6c92f20f4734c39d0269569c791b,60,317,Liiva - Kuuste - Tartu,3,00933C,Tartu MV
+07de8a1a517dca784afbea7220f68dca,317,317,Haapsalu - Märjamaa,3,00933C,Lääne MV
+8430eec841b988beacb10d0011e9bc9f,632,318,Tartu - Jõgeva - Rakvere,3,E6FA32,Maanteeamet
+d7eed37b869c178e4286e6810f22ac7d,60,31A,Saverna - Valgjärve - Otepää,3,00933C,Põlva MV
+f8469a5285bb4dd114d6ce4c587d1914,60,31B,Põlva - Krootuse - Prangli - Saverna - Valgjärve - Otepää,3,00933C,Põlva MV
+bf8a952076a4a1c705260c29e0338105,60,31C,Põlva - Krootuse - Saverna - Valgjärve - Aiaste - Otepää,3,00933C,Põlva MV
+09cb5d107331a20ae37b596b0f0c8105,60,31D,Põlva - Krootuse - Karilatsi - Prangli - Saverna - Otepää,3,00933C,Põlva MV
+42fd89e8a3a62d22f2ec95bb25ff6457,60,31E,Põlva - Krootuse - Saverna - Valgjärve - Otepää,3,00933C,Põlva MV
+2a06726e8f95f20c3802e4decb62a643,56,32,Männiku - Kopli,3,DE2C42,Tallinna TA
+406a1468135ee17f1f5a8aa63e9f2e00,71,32,Märjamaa - Valgu - Nurtu,3,00933C,Rapla MV
+684fc849f23ed056c6a68981900e2ad9,100047,32,Tõrva  - Riidaja - Pikasilla - Tõrva,3,00933C,Valga MV
+d1ebcf6eb6ac79fcf2468cb3958cc5ca,60,32,Rakvere - Tamsalu - Järva-Jaani,3,00933C,Lääne-Viru MV
+df4a42d24a0ff74a7a2c18b7d80e4dcd,60,32,Otepää - Valgjärve - Saverna,3,00933C,Põlva MV
+c5d7a7b88b96edd2d51a1333daf2316e,317,32,Virtsu - Lihula - Risti,3,00933C,Lääne MV
+fa08791ba980c314fa0e87e80061f020,586,32,Võru - Vastseliina - Võru,3,00933C,Võru MV
+2f86f487bcf252b5b05f6f9fdfff02c8,100046,3201,Kuressaare-Aste-Järise-Asuka-Panga-Võhma-Mustjala-Võhma-Aste-Kuressaare,3,00933C,Saare MV
+a578c8e8e4086439a548c80a8074fcd9,100046,3204,Mustjala-Randvere-Kuressaare,3,00933C,Saare MV
+ec8ef859d811b8c43cd2ccf93ae6d1d3,100046,3206,Mustjala-Randvere-Kuressaare,3,00933C,Saare MV
+84382351104449630b1eff93039ddd72,100046,3207,Kuressaare-Aste-Hakjala,3,00933C,Saare MV
+28c00e51d323b2d689dfe049dd45ad1c,100046,3208,Hakjala-Aste-Kuressaare,3,00933C,Saare MV
+b04054de59f49e92e53fd8e944a32fa4,100046,3209,Kuressaare-Aste-Hakjala,3,00933C,Saare MV
+786de298bd807be77fe5126a80c60ad8,60,321,Tartu - Kambja - Vissi - Kammeri,3,00933C,Tartu MV
+214f1a3ed1dd654ae814127a8a58de23,317,321,Pärnu - Haapsalu,3,00933C,Lääne MV
+3a4cd022c9aae7520168a891d354dd04,100046,3210,Hakjala-Aste-Kuressaare,3,00933C,Saare MV
+382c0499b175a526296948735943e0d9,100046,3211,Kuressaare-Aste-Hakjala,3,00933C,Saare MV
+39326dd6d9a844b61ab74a925a47f712,100046,3212,Hakjala-Aste-Kuressaare,3,00933C,Saare MV
+2d8cbbbc64f6c072403dfc9859506bd5,100046,3213,Kuressaare-Võhma-Panga-Asuka-Metsküla-Järise-Kuressaare,3,00933C,Saare MV
+a16d4de174936a0209726596f385ee82,100046,3214,Kuressaare-Aste-Hakjala-Kaisvere-Kuressaare,3,00933C,Saare MV
+07b5e54979d5fd1a5a4f97447e1799f7,60,322,Kammeri - Vissi - Kambja - Tartu,3,00933C,Tartu MV
+042e3214ebb87b247a76d3aaf0f3cde8,60,323,Tartu - Aarike - Kambja - Pangodi - Otepää,3,00933C,Tartu MV
+b95a65a87cb16520d9d67815242a252b,71,324,Pärnu - Lõpe - Lihula,3,E6FA32,Pärnu MV
+278d397513814255ff28b65d6ceea0c5,60,324,Otepää - Pangodi - Tartu,3,00933C,Tartu MV
+f6f2a568df490e2bc1e10fd926ba56b6,60,325,Tartu - Kambja - Otepää,3,00933C,Tartu MV
+9b4cc37790148bdf902a9b9ec534d3e8,71,326,Pärnu - Varbla - Vatlamäe - Lihula,3,E6FA32,Pärnu MV
+18d140bfa4d1c9cbb228d855d528a766,60,326,Otepää - Pangodi - Tartu,3,00933C,Tartu MV
+a19c930b23abba164e0a649d89b13a1e,60,328,Tartu - Kammeri - Lätiküla - Tartu,3,00933C,Tartu MV
+1f08d968a6d082da00f362b7346eeed0,71,329,Pärnu - Vigala,3,E6FA32,Pärnu MV
+f8262017a5e71623cae98fe999b36bef,60,329,Tartu - Kammeri - Tartu,3,00933C,Tartu MV
+abc6c9f10daf9d3812543888ae0c8a2e,56,33,Männiku - Kopli,3,DE2C42,Tallinna TA
+99958e1df2e2c5077b9ec421e486b6d4,71,33,Märjamaa - Valgu - Päärdu - Nurtu,3,00933C,Rapla MV
+8b8b1068406a5d13c0aa0f6fba39ddf3,100046,33,Paide bussijaam - Koigi - Imavere,3,00933C,Järvamaa ÜTK
+cb44fd4c1ed9ed68381d2e8df3c70700,60,33,Kunda - Viru-Nigula - Mahu - Rakvere,3,00933C,Lääne-Viru MV
+bf908d1f7886e6d24baea4470cb60c34,60,33,Kanepi - Karste - Kaagvere - Otepää,3,00933C,Põlva MV
+e1152ece515f199a3ff32d1d80c64d52,100053,33,Linnamäe - Uugla - Turvalepa - Kalda - Haapsalu,3,00933C,Lääne MV
+37f823e6a2a1f980318109ef9f585af3,100046,3301,Kuressaare-Upa-Kaarma-Haamse-Aste-Kuressaare,3,00933C,Saare MV
+2b994ad752888b1d5159cc2ec09514ea,100046,3302,Kuressaare-Kaarma-Hakjala-Aste-Kuressaare,3,00933C,Saare MV
+77bbf4a74370dd50bde3feba43bf4050,100046,3304,Kuressaare-Aste-Kaarma-Kuressaare,3,00933C,Saare MV
+4e247a4f770dd2b71da1c55d0ab6f890,100046,3305,Kuressaare-Aste-Hakjala-Kaarma-Kuressaare,3,00933C,Saare MV
+457fc1865e93ade04384d5bdc0139d32,71,331,Pärnu - Kergu - Järvakandi,3,E6FA32,Pärnu MV
+26486e1c32d026631da5bd0006883037,60,331,Tartu - Aarike - Kammeri - Pangodi - (Lutike),3,00933C,Tartu MV
+8bbd47218b03b9cf9e8dc3352a5c1374,71,332,Vändra - Eidapere raudteejaam,3,E6FA32,Pärnu MV
+40bd7289fe1a648c4d263462e51714d9,60,332,Pangodi - Kammeri - Kambja - Aarike - Tartu,3,00933C,Tartu MV
+f2764b54f68e445a32fde09982ffa89b,60,333,Tartu - Kambja - (Kammeri) - (Pangodi),3,00933C,Tartu MV
+56f5778b13e866466516e388296e77ef,60,334,Lutike - Kambja - Aarike - Tartu,3,00933C,Tartu MV
+25656ea37b2cbfd3fe45b3fbc2abf74e,60,335,Tartu - Lätiküla - Nõo - Luke - Elva,3,00933C,Tartu MV
+d580bac0d7bdad0ea69f25e11b20eb3a,60,336,Tartu - Pangodi - Nõo,3,00933C,Tartu MV
+4ea0d15d7b3759a66f71def8847995df,231,337,Tartu - Viljandi - Pärnu,3,E6FA32,Maanteeamet
+11145d46ebd0ece22d6e70e18304b981,60,338,Lennujaam - Tõrvandi -Tartu,3,00933C,Tartu MV
+82eec5627bcb15019b933286e9e62b27,60,339,Tartu - Tõrvandi - Lennujaam - (Uhti),3,00933C,Tartu MV
+32c00781c8b0a594d84b423525b35534,100046,33L,Imavere - Käsukonna - Koigi - Taadikvere - Imavere,3,00933C,Järvamaa ÜTK
+123267ef46adbd0bbdbf5a486e4c9376,100046,34,Gagarini - Silmet,3,DE2C42,Sillamäe LV
+d3bc29af3870e2eb7328870cb2b1dbd7,71,34,Märjamaa - Päärdu - Valgu - Raikküla - Rapla,3,00933C,Rapla MV
+001026a7ea643b7721188c25351fd432,100047,34,Valga - Puka - Otepää,3,00933C,Valga MV
+125749c72f22794e70ef14198ee14696,100046,34,Imavere - Koigi - Paide bussijaam,3,00933C,Järvamaa ÜTK
+4263abb6e9db983cd4172bbd48ed0e0e,289,34,Viljandi - Väluste - Mustla,3,00933C,Viljandi MV
+e30ba054658888f4d1eefd1b363a5969,60,34,Tamsalu - Karitsa - Rakvere - Lasila,3,00933C,Lääne-Viru MV
+409e0aa7af74d869109e1d1fd9ea837b,317,34,Haapsalu - Rohuküla,3,00933C,Lääne MV
+8203fe203a01bddfdf9b7cb36c72917f,60,340,Ülenurme keskus - Tõrvandi -Tartu,3,00933C,Tartu MV
+29119a2c94a5bd6e04087ffafa1da64d,60,341,Tartu - Tõrvandi - Ülenurme keskus,3,00933C,Tartu MV
+fce85807a0ac27c4ac945bd00cc94858,60,342,Tartu - Lennujaam - Uhti keskus - Tartu,3,00933C,Tartu MV
+4d688d6fc4a65d7fd274a21ec23888c2,60,343,Tartu - Lennujaam - Uhti keskus - Tartu,3,00933C,Tartu MV
+1e44588e2dbc180b2bd2ae712454c16b,60,344,Lennujaam - Tõrvandi -Tartu,3,00933C,Tartu MV
+9590343ee9a82904a705422312f6e314,100021,345,Holstre - Mustla - Rõngu - Tartu,3,E6FA32,Maanteeamet
+ac2822c01d9a34762bce51595dbce489,60,346,Pärnu - Tõrva - Tartu,3,E6FA32,Maanteeamet
+8c61b9b602a7d98ab89dc584e74871f8,71,347,Pärnu - Vändra - Suure-Jaani - Viljandi - Tartu,3,E6FA32,Pärnu MV
+0b4f9f34ba1be44c528c67f05c87f7a6,317,348,Pärnu - Paide - Rakvere,3,E6FA32,Maanteeamet
+9cce4ec1c77ae92638abae5373386636,60,348,Tartu - Lennujaam - Hobunurme - Haage - Tartu,3,00933C,Tartu MV
+548a1fe4ea1e0295ea787b8e57099b44,100043,349,Tallinn - Käsmu - Võsu - Vergi - Altja,3,E6FA32,Maanteeamet
+ff12774bb0fb786ed554242d550db47c,60,349,Tartu - Tõrvandi - Ülenurme keskus - Tõrvandi - Tartu,3,00933C,Tartu MV
+c17fae9d4973e9b2a5ddb36de84cfe85,56,34A,Viru keskus - Muuga aedlinn,3,DE2C42,Tallinna TA
+cbb331ae91651adb6aef5c001aa73197,60,34A,Põlva - Puskaru - Põlgaste - Kanepi,3,00933C,Põlva MV
+60eff4ac071008e4765e6bc2af2459d2,60,34B,Kanepi - Põlgaste - Puskaru - Põlva,3,00933C,Põlva MV
+571c9c6659c3d0ff1b9e831826ac8910,56,35,Viru keskus - Seli,3,DE2C42,Tallinna TA
+6c8aefb84a175661e81244cb4844ec1c,71,35,Märjamaa - Kivi-Vigala,3,00933C,Rapla MV
+c8faa7e9a07697a810639a29defcadc5,100047,35,Valga - Sangaste - Sarapuu - Sihva - Otepää,3,00933C,Valga MV
+7dbdc413d692ab358e566919d2c939dd,100046,35,Paide bussijaam - Peetri - Järva-Jaani - Paide bussijaam,3,00933C,Järvamaa ÜTK
+12682016a30beff393f69b4847d2074b,289,35,Viljandi - Mõnnaste - Mustla - Ämmuste,3,00933C,Viljandi MV
+e8c19fb0f0933bd19606dd8518f271ef,60,35,Rakvere - Annikvere - Sagadi - Võsu - Käsmu,3,00933C,Lääne-Viru MV
+c689c6492324ef1669f320110f439351,60,350,Tartu - Tõrvandi - Ülenurme keskus - Tõrvandi - Tartu,3,00933C,Tartu MV
+413b2d8ec6ef5e7ed5fb47ce0a508256,60,351,Tartu - Tõrvandi - Uhti keskus - Kambja - Tõrvandi - Tartu,3,00933C,Tartu MV
+8cde0411988eb9876e43e48d3af2f279,71,352,Pärnu - Suure-Jaani - Põltsamaa - Jõgeva,3,E6FA32,Pärnu MV
+0f849fc8feeabbf86b04b7f153e36132,60,352,Tartu - Tõrvandi - Uhti keskus - Tõrvandi - Tartu,3,00933C,Tartu MV
+b76a5f58a185c9cba08d216c314553c6,60,354,Pärnu - Tallinn,3,E6FA32,Maanteeamet
+21b2ac559a93719e6997335bb8829c45,60,354,Tartu - Ülenurme keskus - Tõrvandi - Tartu,3,00933C,Tartu MV
+140dc6abd2bd8934788669ec2efd3b8c,60,355,Pärnu - Märjamaa - Tallinn,3,E6FA32,Maanteeamet
+c099887122050bc51704190b424fef97,60,355,Tartu - Pangodi - Nõo - Luke - Elva,3,00933C,Tartu MV
+999debeccc0508b81efd93f691c6cd66,60,356,Otepää - Pangodi - Kammeri - Kambja - Tartu,3,00933C,Tartu MV
+508a37228da8f459281bbd20448cdd1a,60,357,Pärnu - Tallinn,3,E6FA32,Maanteeamet
+07bacbd77c5d029b10726313b1ad94d4,60,358,Pärnu - Pärnu-Jaagupi - Vigala - Märjamaa - Tallinn,3,E6FA32,Maanteeamet
+e7732316f3e0d4b6df644d973e5af3ee,60,35A,Põlva - Puskaru - Põlgaste - Kanepi - Otepää,3,00933C,Põlva MV
+770adcf45369209d0cc9994bd7a4f1a3,60,35B,Otepää - Kanepi - Põlgaste - Puskaru - Põlva,3,00933C,Põlva MV
+39efc1317d34caf385a5610005f737c6,100047,36,Jäähall - Kaseke suvilad - Jantar suvilad,3,DE2C42,Narva LV
+bccf85a8a496572cd748a7432efa596a,56,36,Väike-Õismäe - Viru,3,DE2C42,Tallinna TA
+29090470b1f6c7a38b78c9fecaabff0e,71,36,Märjamaa - Kullamaa,3,00933C,Rapla MV
+e553678f0c8dd99122add9cdd922eff1,100047,36,Pärnu - Uulu Kalmistu,3,00933C,Pärnu MV
+d6a830cc81fa07ac9a9aee39e30e2be6,100047,36,Valga - Lüllemäe - Valga,3,00933C,Valga MV
+b062430dfce335ca547749da0f6584fe,100046,36,Imavere - Põltsamaa,3,00933C,Järvamaa ÜTK
+246c688d3718fa9233a71b4707acba29,100046,36,Viljandi - Karula - Saare - Viljandi,3,00933C,Viljandi MV
+245852fbb144791a48a38628a0be3fbd,60,36,Rakke - Lasinurme - Salla - Tammiku - Rakke,3,00933C,Lääne-Viru MV
+84a5daec49b3e7e5135b111c8a381325,317,36,Valge Ilves - Palivere - Haapsalu,3,00933C,Lääne MV
+67297d51a39d18b6e8439d7968c083fc,231,360,Tallinn - Märjamaa - Vigala - Pärnu-Jaagupi - Pärnu,3,E6FA32,Maanteeamet
+016c385c0ec5437a28d71232ffab6de2,60,361,Pärnu - Viljandi - Tartu,3,E6FA32,Maanteeamet
+ac620ba6ffcb5217088f0344b6a83f8e,100046,36-1,Viljandi - Karula,3,00933C,Viljandi MV
+6066a041da2693afd41db24287dc017d,60,362,Tartu - Viljandi - Pärnu,3,E6FA32,Maanteeamet
+5d4f7e7d360cff75272fcd49ebf3ec77,231,363,Tallinn - Rakvere - Kohtla-Järve - Jõhvi - Narva,3,E6FA32,Maanteeamet
+8be80f30889cacc93220dc264bd569f9,317,365,Rakvere - Haljala - Tallinn,3,E6FA32,Maanteeamet
+3e560fc805477a883b45a72ff04cf1c6,317,366,Tallinn - Rakvere,3,E6FA32,Maanteeamet
+3cedf6b228804ba25d22a0545d493f0b,317,367,Rakvere - Haljala - Tallinn,3,E6FA32,Maanteeamet
+97bdd941a47befb9e40a5dbdfd7c8ee2,71,368,Pärnu - Paide - Koeru - Rakvere,3,E6FA32,Pärnu MV
+d226da179cb2615490bc09b39f7641ed,289,369,Valga - Tartu,3,00933C,Valga MV
+7433fa8bf6170b3991d67d2821d597c6,60,36A,Otepää - Kaagvere - Kanepi - Karaski - Põlva,3,00933C,Põlva MV
+71bb291c31c1e9982a90ab339188cd37,100046,36-A,Viljandi - Karula - Auksi - Saarepeedi - Viljandi,3,00933C,Viljandi MV
+4a20a23679e603c0d0da790fdb472f11,60,36B,Otepää - Kaagvere - Kanepi - Karaski - Põlva,3,00933C,Põlva MV
+3f830aac99b296e08f18ccd9338361ab,60,36C,Põlva - Karaski - Kanepi - Kaagvere - Otepää,3,00933C,Põlva MV
+32bb14e2d30cc70146edf2585efd3f1a,100047,37,Jäähall-Jaam-Sendi-K34-Svetofor,3,DE2C42,Narva LV
+ac8dd8960e60f01054cd2e5854c4e2d0,56,37,Keskuse - Zoo,3,DE2C42,Tallinna TA
+6557234e72e3c185ba33f185bc40d085,71,37,Märjamaa - Rapla,3,00933C,Rapla MV
+5361829d9140e386921f63f2af152f29,71,37,Võru - Rõuge - Murati - Misso - Vastseliina - Võru,3,00933C,Võru MV
+d13e5c78f8f9c307ebb5bf51faf793df,100047,37,Valga - Puka - Otepää,3,00933C,Valga MV
+d571f86ee9793a24766655f685161f5c,100046,37,Türi bussijaam - Võhma - Villevere,3,00933C,Järvamaa ÜTK
+57df9aae5fbec5e32cc49eb906673289,100046,37,Põltsamaa - Suure-Jaani - Viljandi,3,00933C,Viljandi MV
+807592d51af46a986d296f8db5676bf2,60,37,Lepna - Rakvere,3,00933C,Lääne-Viru MV
+30be6fd19ad5a887a36d7c043eb8a63e,317,37,Hullo - Sadam - Hullo,3,00933C,Lääne MV
+8bd625bafe9289b2563c5672121ef64c,289,37,Tõrvandi - Ülenurme keskus - Lõunakeskus  - Tõrvandi,3,F55ADC,Tartu MV
+e9131c0cc943acdd64e320d991d4ca44,289,371,Viljandi - Abja-Paluoja - Mõisaküla - Kilingi-Nõmme - Pärnu,3,E6FA32,Viljandi MV
+bf3230b3c9ff35aca1f03bc12d8b92b9,71,372,Viljandi - Abja-Paluoja - Mõisaküla - Kilingi-Nõmme - Pärnu,3,E6FA32,Viljandi MV
+22c3cd76a9d829c3de30388a41da41a5,71,372,Viljandi - Abja-Paluoja - Mõisaküla - Kilingi-Nõmme - Pärnu,3,00933C,Viljandi MV
+75382c26c453b816eab08ac8cd529d9f,71,373,Viljandi - Tartu,3,E6FA32,Maanteeamet
+f95015c060dbc9f21a604ad81338a1e5,71,374,Viljandi - Tallinn,3,E6FA32,Maanteeamet
+8f6a01d9697e813f24cd9a11492c93ce,71,375,Viljandi - Türi - Paide - Tallinn,3,E6FA32,Maanteeamet
+0de9c75327f660b3323b490854c8d4d4,60,376,Tõrva - Valga - Võru,3,00933C,Valga MV
+2e88a8aa2d7efa5a00862e73941d08e9,60,37A,Kanepi - Põlgaste - Varbuse - Kaagna - Soodoma - Kanepi,3,00933C,Põlva MV
+2e4d11aaabf85c77f093fc5c2317fd94,60,37B,Kanepi - Soodoma - Kaagna - Varbuse - Põlgaste - Kanepi,3,00933C,Põlva MV
+a20a24fd4d8889b9bdc68063660b4243,100047,38,Jäähall - Jaam - Sendi - Kangelaste 34 - Kevad suvilad,3,DE2C42,Narva LV
+71e4ebf8c17c6ef1e04d6991632b4e90,56,38,Viru keskus - Muuga,3,DE2C42,Tallinna TA
+0532c8805a8676dd86dcd852ee45b946,71,38,Märjamaa - Haimre - Mõisamaa,3,00933C,Rapla MV
+0638068c120f7ebd3035344b92b5495e,71,38,Ruusmäe - Misso - Vastseliina - Võru,3,00933C,Võru MV
+d48d059caedd0b2025ba9a403b5a8b3e,100047,38,Otepää - Sihva - Sangaste - Valga,3,00933C,Valga MV
+93970fce4c99deb9fdea02ff0a26b0f3,60,38,Rakvere - Vihula - Vergi - Võsu,3,00933C,Lääne-Viru MV
+7ce4afe21f58c762e1a320de7e54083a,60,38,Põlva - Tilsi - Kanepi - Põlva,3,00933C,Põlva MV
+26a1e4887cd7acf05bc996a5b8b7b9cd,25,38,Lihula - Vigala,3,00933C,Lääne MV
+23cf23e07a90934a2b47af1733092392,632,380,Tartu - Otepää - Valga,3,E6FA32,Maanteeamet
+9a2ff7aed417003f9fd97e83ed645f91,632,381,Valga - Tõrva - Elva - Tartu,3,E6FA32,Maanteeamet
+962c9fe88f1f6db53bca4de3f0981ff7,632,382,Tartu - Viljandi - Kilingi-Nõmme - Pärnu,3,E6FA32,Maanteeamet
+a3c2da166a1da76aafa3025fa4cf2c09,71,385,Viljandi - Tartu,3,E6FA32,Maanteeamet
+4dc1f776fd00bad20db08ef2583747b5,71,386,Viljandi - Tartu,3,E6FA32,Maanteeamet
+2564bd616ac8deea78a472f668109791,227,39,Veerenni - Liikuri,3,DE2C42,Tallinna TA
+d5322aa2f60c2ded78bc18a07e0a75e2,71,39,Märjamaa - Vana-Vigala - Märjamaa,3,00933C,Rapla MV
+90b1c989593efcd65e404954aa9577f0,71,39,Võru - Vastseliina - Misso - Murati - Ruusmäe - Luutsniku - Rõuge - Võru,3,00933C,Võru MV
+1c0842efac19240229fef1dd4d522d02,100047,39,Pärnu - Tammiste - Urge - Sindi,3,00933C,Pärnu MV
+eafc755c393c0cb9fdddec43f8ab48a9,100047,39,Valga - Sangaste - Vidrike - Otepää,3,00933C,Valga MV
+696aa4d1d0c1323aafd4847592024258,100046,39,Paide bussijaam - Aravete - Tapa,3,00933C,Järvamaa ÜTK
+4a92f65bd335ee6e286f4d5f7229ad39,60,39,Simuna - Väike-Maarja - Tamsalu - Laekvere - Rakvere,3,00933C,Lääne-Viru MV
+2745fce5b7bd868da885b018523f9818,60,39,Põlva - Rosma - Ähnioru - Põlva,3,00933C,Põlva MV
+f8923f47f9fe13884be0e6db6a765a13,71,390,Tallinn - Paide - Türi - Viljandi,3,E6FA32,Maanteeamet
+cba61087be6e14494423bc9d87c9fda7,71,3k,Mahlamäe - Alu,3,00933C,Rapla MV
+dca809cd097eaa545fd0eee2d36391e7,100047,4,Kangelaste 34 - Joala,3,DE2C42,Narva LV
+2c20a39ce39c0ef0d2a216470b3f1144,100046,4,Keskväljak-TuulteR-Haigla-Kingu-Kudjape-Nooruse-Keskväljak,3,DE2C42,Saare MV
+afcfb88fd99590e4f28f69d6dfe9b610,60,4,Metsamajand - Merimetsa - Papiniidu - Haigla - Lina,3,DE2C42,Pärnu LV
+02a37622b713b6e81f4b5f4a719cd057,317,4,Suur-Lossi - Kalmistu,3,DE2C42,Lääne MV
+f10d200cb6fb5fcb5080d63535de43c0,50,4,Ringtee - Põllu - Ringtee,3,DE2C42,Tartu LV
+e9cc783cc2887d7d32fbb4d805c8d2d5,56,4,Väike-Õismäe - Tiskre,3,DE2C42,Tallinna TA
+93fbe2a4701b8d97222b806b20d54643,2,4,Ulvi - Kõrvemetsa - Adraku - Avinurme - Töökoja,3,00933C,Ida-Viru MV
+aa0cb7bf39e666380443f16dc94bc798,71,4,Rapla - Raikküla - Metsküla,3,00933C,Rapla MV
+5ee460eec26e2d16444c2c87e9a533e3,100047,4,Gümnaasiumi - Taagepera,3,00933C,Valga MV
+71f9e5f99f40da063b9b6b966f09225a,100046,4,Ardu - Pikaküla - Paide bussijaam,3,00933C,Järvamaa ÜTK
+f4c57b785e3c9c4a09f9e871008bb3b7,56,4,Tondi -Ülemiste jaam,0,8FD759,Tallinna TA
+8de0c5e0aaa226a18d90dcf215491cdc,56,4,Keskuse - Balti jaam,800,00A1DE,Tallinna TA
+760138b44a9f9f6f72e640f9ea1a67a1,56,40,Viru keskus - Pelguranna,3,DE2C42,Tallinna TA
+84b04bd80c1bf215a92c5b039f67293b,71,40,Võru - Tsolgo -Joosu - Põlva,3,00933C,Võru MV
+5f4dc5a4c590d43a5b09d2e77e21df9e,100047,40,Otepää - Puka - Valga,3,00933C,Valga MV
+0c7389f87392763a1557318df38de94b,100046,40,Aegviidu - Jäneda - Albu - Paide bussijaam,3,00933C,Järvamaa ÜTK
+345ba88e8510f7d41ef402c301cbbe84,100046,40,Suure-Jaani - Sürgavere - Viljandi,3,00933C,Viljandi MV
+746928e6a2fca3e44ea18b84b27f089f,60,40,Rakvere - Väike - Maarja - Kiltsi - Rakke,3,00933C,Lääne-Viru MV
+8fb67d20f14c0273aee1a34acc196fe4,208,40,Eidapere - Lelle - Kehtna - Kaerepere - Rapla,3,00933C,Rapla MV
+24b6a68952a1724e318533e2ba8a2c72,100047,400,Jõgeva - Aidu - Põltsamaa,3,00933C,Jõgeva ÜTK
+37c14505a4eccd6c8c4ea02081d5edc4,100047,401,Põltsamaa - Aidu - Jõgeva,3,00933C,Jõgeva ÜTK
+addde51594549c82f4863029fcd33512,60,401,Tartu - Elva (kiirliin),3,00933C,Tartu MV
+50c0a139a8f4c79893d0d973a8a72df6,100047,40-1,Pärnu - Sindi - Tammeoja,3,00933C,Pärnu MV
+34bc9eba89f69bc4585282a5ec1bf0e3,100047,402,Põltsamaa - Lustivere - Aidu - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+95514b15445f0ca27076a4bff1340dd9,60,402,Tartu - Elva (kiirliin),3,00933C,Tartu MV
+d1904a9bcf3f4e2cc7ee065048076d98,100047,40-2,Pärnu - Sindi - Tammeoja,3,00933C,Pärnu MV
+14bc6548dc70cba7e2a283f4660629df,100047,403,Jõgeva - Siimusti - Aidu - Lustivere - Põltsamaa,3,00933C,Jõgeva ÜTK
+d005573cef1b5346b0543cee40cdb7ac,60,403,Elva - Tartu (kiirliin),3,00933C,Tartu MV
+5bfa126c43f1617e97efa67ec2deb386,100047,40-3,Pärnu - Sindi - Tammeoja,3,00933C,Pärnu MV
+780c49c979b794902c0495d033c2a29e,100047,404,Jõgeva - Siimusti - Aidu - Lustivere - Põltsamaa,3,00933C,Jõgeva ÜTK
+267764748dc71478e7382c3baef875de,60,404,Elva - Tartu (kiirliin),3,00933C,Tartu MV
+366cd672fcba463844e9ded221f5d112,100047,40-4,Pärnu - Sindi - Tammeoja,3,00933C,Pärnu MV
+93e2b662ed828a969c44fc1bf5ebe5c8,100047,405,Põltsamaa - Lustivere - Aidu - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+81e481e8eae9e449ecaa3f160c839bab,60,405,Tartu - Nõo - Peedu - Elva,3,00933C,Tartu MV
+4b79c5b73c3118de3f5c457c5aad5552,100047,40-5,Pärnu - Sindi - Tammeoja,3,00933C,Pärnu MV
+3a2fc514e447fb5ac6f4e184b3e8710a,100047,406,Põltsamaa - Aidu - Siimusti -Jõgeva,3,00933C,Jõgeva ÜTK
+e7e777b9461538f80e48d6c49139d96e,60,406,Tartu - Nõo - Peedu - Elva,3,00933C,Tartu MV
+8f31c64aa421dd490cac0ba76c9d31f8,100047,407,Jõgeva - Siimusti - Aidu -  Lustivere - Põltsamaa,3,00933C,Jõgeva ÜTK
+1530252af5ccc55227ef196d500a2044,60,407,Elva - Peedu - Nõo - Tartu,3,00933C,Tartu MV
+3f8fe70d804bc29538638be5bed9937a,71,408,Viljandi - Tartu,3,E6FA32,Maanteeamet
+ed3a07fd0855ce8e1b91327fa7178bb8,60,409,Tartu - Nõo - Arbimäe - Elva,3,00933C,Tartu MV
+37b15cecb1c2ce21505fcf684a6315b4,60,40A,Kanepi - Liivakalda - Kooraste - Kanepi - Vaparisti - Kanepi,3,00933C,Põlva MV
+6ba2c4e76a47e7a464f05d504936ad1e,60,40B,Kanepi - Kooraste - Liivakalda - Kanepi,3,00933C,Põlva MV
+33bb8eb5651d778988f12c86423294e8,100047,41,Jäähall - Jaam - Jugla suvilad,3,DE2C42,Narva LV
+d3487cc1caad0c6dbc869ed2a64381ba,227,41,Balti jaam - Landi,3,DE2C42,Tallinna TA
+b2da49c0260c89372a7c2a50bdfe6d62,60,41,Rakvere - Ulvi - Rakvere,3,00933C,Lääne-Viru MV
+f94b4c11c14a3c7d8d1c20c8e242bdfa,60,41,Kanepi - Kaagvere - Kooraste - Kurvitsa - Kanepi,3,00933C,Põlva MV
+23f3bbc320ab48a1b8c111c60ca89b08,71,410,Tallinn - Paide - Türi - Viljandi,3,E6FA32,Maanteeamet
+92c38f276e3403f37eb8c874c23d4257,100047,410,Põltsamaa - Pauastvere - Kalana - Tapiku - Lahavere - Aidu - Jõgeva,3,00933C,Jõgeva ÜTK
+485e3fbcc5867db5e8202f32f895eae8,60,410,Tartu - Nõo - Arbimäe - Elva,3,00933C,Tartu MV
+e59333abe64ee7bd8f6faf7b3ac32a76,60,4101,Leisi-Eikla-Maleva-Kuressaare,3,00933C,Saare MV
+4a6c7261b2cf9bd8e9929a47fa6a4bad,60,4102,Kuressaare-Eikla-Leisi,3,00933C,Saare MV
+8f1b353a5e7ad038da4951036aebdd3e,60,4103,Leisi-Eikla-Kiratsi-Kuressaare,3,00933C,Saare MV
+229b7c6883a4857d5ce32f9156f27814,60,4104,Kuressaare-Eikla-Karja-Leisi,3,00933C,Saare MV
+ca4eefcd0c4eed0d0fe66eddde724aa0,60,4105,Leisi-Eikla-Kuressaare,3,00933C,Saare MV
+a45301286ed8e2fd2eaa470c1b57fea4,60,4106,Kuressaar-Eikla-Leisi-Pammana-Metsküla-Leisi-Kuress,3,00933C,Saare MV
+9b621ed1313820f06a53dcf7de646ae6,60,4108,Kuressaare-Eikla-Leisi-Metsküla-Soela-Leisi,3,00933C,Saare MV
+218a9aa807e521a46d518347ac4399f2,60,4109,Kuressaare-Maleva- Eikla-Tõrise-Kuressaare,3,00933C,Saare MV
+0b92f03ae2e4e07d7f298d8e276c1423,100047,411,Jõgeva - Aidu - Lahavere - Tapiku - Kalana - Pauastvere - Põltsamaa,3,00933C,Jõgeva ÜTK
+166aa261295b4ea8cc8af5b8bfaa31a0,60,411,Tartu - Nõo - Arbimäe - Elva,3,00933C,Tartu MV
+6b1133e66e749f1857941fb6fe9a545b,60,4110,Kuressaare-Leisi-Triigi sadam-Leisi-Kuressaare,3,00933C,Saare MV
+b487c68dddceac2178c2ea74a699077f,60,412,Tartu - Nõo - Arbimäe - Elva,3,00933C,Tartu MV
+c0c47f1950365751c36620602cf3d5e3,16,413,Tallinn - Aegviidu - Järva-Jaani - Koeru - Aruküla,3,E6FA32,Maanteeamet
+3030fb55b1a731a2765fce58c00ad5ea,60,413,Elva - Arbimäe - Nõo - Tartu,3,00933C,Tartu MV
+3187ea25e5160ca6fa4736afa7dedd63,60,414,Elva - Arbimäe - Nõo - Tartu,3,00933C,Tartu MV
+189173c96b1f10aa8b83da95cb22a661,71,415,Viljandi - Tallinn,3,E6FA32,Maanteeamet
+bb4c1b1ce5f58cecdafc26673be09542,60,415,Elva - Arbimäe - Nõo - Tartu,3,00933C,Tartu MV
+16261a60da741c7fdd9f8c515f3be910,60,416,Elva - Arbimäe - Nõo - Tartu,3,00933C,Tartu MV
+271d320c4d19433e0db4161e54150fbe,60,417,Elva - Arbimäe - Nõo - Tartu,3,00933C,Tartu MV
+33c869ffcdbcd8c01d46790a0d8178be,60,418,Tartu - Külitse järve - Haage - Tartu,3,00933C,Tartu MV
+b05be446b008b0cad27483b865e24e28,60,419,Tartu - Külitse järve - Haage - Tartu,3,00933C,Tartu MV
+a0470c4ad72d15b2aad8780defc1f892,227,41B,Balti jaam - Kakumäe,3,DE2C42,Tallinna TA
+c35b548d90857ab812ab9554034b97d3,56,42,Väike-Õismäe - Kaubamaja,3,DE2C42,Tallinna TA
+c87513f5571e409593ede7bda6629419,60,42,Rakvere - Võsu - Käsmu,3,00933C,Lääne-Viru MV
+bb7ff1c29dedca5c6bb8f5439a926677,632,42,Tartu - Võnnu - Lääniste,3,F55ADC,Tartu MV
+ab407fbfd726a233f29eec214a6e67c4,100047,420,Põltsamaa - Pisisaare - Põltsamaa,3,00933C,Jõgeva ÜTK
+1976e2d7148b9ad8796fef1cfe176efd,60,420,Tartu - Külitse järve - Tõrvandi - Tartu,3,00933C,Tartu MV
+de5a19e1fb24311571139879cbd8b6a7,60,4201,Kuressaare-Karja-Leisi,3,00933C,Saare MV
+371f2eb499f59d2980d4d19869f4788f,60,4202,Leisi-Roobaka-Pärsama-Kuressaare,3,00933C,Saare MV
+29a1054dda29fe7cc1769f252c4c1d8f,60,4205,Kuressaare-Pärsama-Leisi-Jõiste-Pärsama-Kuressaare,3,00933C,Saare MV
+0b5c5df2f1cd9203d1e7510a6cf76764,60,4206,Kuressaare-Pärsama-Leisi-Roobaka-Pärsama-Kuressaare,3,00933C,Saare MV
+0a4e7b7748244d645b3822c35e260c82,60,4207,Kuressaare-Pärsama-Angla-Leisi,3,00933C,Saare MV
+f83d744daf30f49d1eec3fbeb8727507,60,4208,Kuressaare-Pärsama-Angla-Leisi-Roobaka-Kuress,3,00933C,Saare MV
+c3f3ea1b9810650b7fdbb05bcc07744e,100047,421,Põltsamaa - Pisisaare - Põltsamaa,3,00933C,Jõgeva ÜTK
+4eec652cf146247b6e10063857e4dec9,71,42-1,Pärnu - Lehu,3,00933C,Pärnu MV
+278c234667cdda386b5302cd41b0559d,100047,422,Põltsamaa - Pisisaare - Põltsamaa,3,00933C,Jõgeva ÜTK
+f0166ab23dc106fa564f88fcf2b4fa8e,60,422,Elva - Peedu - Nõo - Nõgiaru - Tartu,3,00933C,Tartu MV
+76ce9cc67b1854b0c2b96573ebf87f33,71,42-2,Pärnu - Libatse,3,00933C,Pärnu MV
+a2607b67abd69d5231431100e07a0bad,100047,423,Põltsamaa - Pisisaare - Põltsamaa,3,00933C,Jõgeva ÜTK
+f3d27d70dc1fd6f9dac0b0efa82eadc6,60,423,Tartu - Tõravere - Nõgiaru - Tartu,3,00933C,Tartu MV
+4a344720413fffb15da6f0bfe87eff9e,71,42-3,Pärnu - Roogenese - Pööravere - Uduvere - Pärnu,3,00933C,Pärnu MV
+fc1087153ab037bced887d393c658ee2,100047,424,Põltsamaa - Pisisaare - Põltsamaa,3,00933C,Jõgeva ÜTK
+51534f186ed4ad7bfd4e8e0983b242bc,60,424,Tartu - Keeri - Tartu,3,00933C,Tartu MV
+d4916774d5781379da7e2429a18f4205,71,42-4,Pärnu-Jaagupi - Lehu,3,00933C,Pärnu MV
+561a0f03ca6dbc206fcf619c762f8e7e,60,425,Tartu - Keeri - Nõgiaru - (Teaduspark),3,00933C,Tartu MV
+7c6f2897b08105c5a58bbc5a23cbf47d,60,426,Nõgiaru - Keeri - Tartu,3,00933C,Tartu MV
+351058fd0a8b0086d3296969bb22612a,60,428,Tartu -Nõgiaru - Keeri,3,00933C,Tartu MV
+66a7b44252337c3ef632e33691a44096,60,429,Keeri - Nõgiaru - Tartu,3,00933C,Tartu MV
+365fa17b8e21ac93a05968362e5a9b21,60,42A,Kanepi - Heisri - Ihamaru - Põlva,3,00933C,Põlva MV
+7b08ae7e191ce4ce3e65f9e9f9ad7ecd,60,42B,Kanepi - Heisri - Ihamaru - Põlva,3,00933C,Põlva MV
+3011faf13ee04270f684f21e6d3f8a67,60,42C,Põlva - Ihamaru - Krootuse - Heisri - Kanepi,3,00933C,Põlva MV
+dfd329a4fc9336adf519150d35ae3d90,56,43,Väike-Õismäe - Balti jaam,3,DE2C42,Tallinna TA
+ca59674e03a0ecd906ad662758ccb632,71,43,Võru - Osula - Kanepi - Kärgula - Võru,3,00933C,Võru MV
+87daa45d89adad951fdfa05316931169,289,43,Järve tee - Viljandi,3,00933C,Viljandi MV
+99890e79660d1320d096fb7694cc4b03,60,43,Rakvere - Mädapea,3,00933C,Lääne-Viru MV
+4f296bf2f4fe5774a5aa3d299b0f7f72,60,43,Kanepi - Soodoma - Suureküla - Ala-Jakobi - Kanepi,3,00933C,Põlva MV
+94dab3505be7834812699f4fd2717fe5,50,43,Iidla - Jõhvi - Kohtla-Järve - Kohtla-Nõmme,3,00933C,Ida-Viru MV
+913a9c295a88c53df19fda92ba8d269f,100043,430,Tallinn - Orissaare - Kuressaare,3,E6FA32,Maanteeamet
+688c46765693fa546d33e6acc51c3e11,100047,430,Põltsamaa - Pisisaare - Kalana - Kütimäe - Põltsamaa,3,00933C,Jõgeva ÜTK
+ea2d79da95c6d86f889c78ac93a060c9,60,430,Tartu - Nõo - Arbimäe - Elva - Illi suvilad,3,00933C,Tartu MV
+7351e4c418fdd75f5b4374c10a7f35b9,100047,431,Põltsamaa - Pisisaare - Kalana - Kütimäe - Põltsamaa,3,00933C,Jõgeva ÜTK
+598574bff5cfd4f3f346efa14b35bbd4,60,431,Illi suvilad - Elva - Arbimäe - Nõo - Tartu,3,00933C,Tartu MV
+16c2d64ab3cb7c30bc93e5286d922190,100043,432,Tallinn - Orissaare - Kuressaare,3,E6FA32,Maanteeamet
+e0ab4faa1a40503178964e32f90ae3cf,100047,432,Piõltsamaa - Pisisaare - Kalana - Kütimäe - Põltsamaa,3,00933C,Jõgeva ÜTK
+40a7482a3bb8dcf159baabbfc774d5dd,60,432,Tartu - Luke - Elva - Rõngu - Elva,3,00933C,Tartu MV
+a27ba7699980a1f43dc090efd8fe9a36,100047,433,Põltsamaa - Pisisaare - Kütimäe - Pisisaare - Põltsamaa,3,00933C,Jõgeva ÜTK
+8bbcda4d7cf585ea9871b9b9fb404158,60,433,Elva - Luke - Tartu,3,00933C,Tartu MV
+a19735c40d405028cce91a04116a8cff,100047,434,Põltsamaa - Pisisaare - Kütimäe - Pisisaare - Põltsamaa,3,00933C,Jõgeva ÜTK
+36cc6d41e2064bb5d8b893e9a5b104bc,60,434,Tartu - Nõo - Luke - Laguja - Etsaste,3,00933C,Tartu MV
+3cd67c95e22e80aff043aa21d9591094,100047,435,Põltsamaa - Pisisaare - Kütimäe - Pisisaare - Põltsamaa,3,00933C,Jõgeva ÜTK
+a9784a656c3010ccf87ef954957e6b55,60,435,Etsaste - Laguja - Luke - Nõo - Tartu,3,00933C,Tartu MV
+814a3db7298b63f4a1be1dbb69b98d9e,100047,436,Põltsamaa - Pisisaare - Kalana - Pauastvere - Põltsamaa,3,00933C,Jõgeva ÜTK
+03cfc2f0f154e8fdff696acd03bfbeab,60,436,Tartu - Nõo - Peedu - Elva - Laguja,3,00933C,Tartu MV
+6d8979d376f3054411e8599bcc5af387,100047,437,Põltsamaa - Pajusi - Loopre - Pisisaare - Põltsamaa,3,00933C,Jõgeva ÜTK
+083745c9dc4ecc80d2bca39da85ed6e7,60,437,Laguja - Elva - Arbimäe - Nõo - Tartu,3,00933C,Tartu MV
+119cf5801572335f6b8b34a8cabe3fbc,100047,438,Põltsamaa - Pauastvere - Kalana - Pisisaare - Põltsamaa,3,00933C,Jõgeva ÜTK
+165bc845fb9809a6e56a3b0ccb1230f2,60,438,Tartu - Nõo - Arbimäe - Elva - (Rõngu),3,00933C,Tartu MV
+8423bcd88bebeba7f3f1dacfd9892d3b,100047,439,Põltsamaa - Pisisaare - Kütimäe - Päinurme - Pisisaare - Põltsamaa,3,00933C,Jõgeva ÜTK
+2845a216b94727f640a0dac19835fbd4,60,439,Rõngu - Elva - Peedu - Nõo - Tartu,3,00933C,Tartu MV
+62d6aba9da215a820ecf5cca8d497fd6,289,43A,Pahuvere - Kärstna - Mustla - Kärstna,3,00933C,Viljandi MV
+f4362f1a8906383765e75d9569e288ea,56,44,Viru keskus - P.Pinna,3,DE2C42,Tallinna TA
+a9305fa3c8a1975b95375857d931fb74,100046,44,Paide - Mündi - Valgma,3,00933C,Järvamaa ÜTK
+0bdf007c55cb9132cfbe262db09037b4,289,44,Viljandi - Mustla,3,00933C,Viljandi MV
+46b786f4346aeb893277f6ff8e416871,60,44,Rakvere - Väike-Maarja - Simuna - Roela - Rakvere,3,00933C,Lääne-Viru MV
+bc84d4257e0e6adc0aca146970acd823,60,44,Põlgaste - Kanepi - Soodoma - Ala-Jakobi - Kanepi,3,00933C,Põlva MV
+03bb752f0ca56703293f40ac5a0f65d6,100047,440,Põltsamaa - Pisisaare - Kütimäe - Põltsamaa,3,00933C,Jõgeva ÜTK
+818917c638ec4aed025824880d683bee,60,440,Tartu - Peedu - Elva - Rõngu - Rannu - Elva - Peedu - Tartu,3,00933C,Tartu MV
+1aa467dc8f3bf72ace8187ba78a84e76,100047,441,Põltsamaa - Pisisaare - Kütimäe - Kalana - Põltsamaa,3,00933C,Jõgeva ÜTK
+af76e6bfacdcb1ca33b20dc879d9ef31,60,441,Rannu - Valguta - Rõngu - Elva - Peedu - Nõo - Tartu,3,00933C,Tartu MV
+e55a75f4dbefbe6fc79a517a17e188df,60,442,Rõngu - Elva - Arbimäe - Nõo - Tartu,3,00933C,Tartu MV
+827b283852c21732cbbcfd5d019d8e9c,60,443,Tartu - Nõo - Arbimäe - Elva - Rõngu,3,00933C,Tartu MV
+803266375e4fe2c52e521aaa71b54844,60,444,Rõngu - Elva - Arbimäe - Nõo - Tartu,3,00933C,Tartu MV
+26315a9ae6dda54980975bfdbb174aa1,60,445,Tartu - Nõo - Arbimäe - Elva - Illi suvilad - Rõngu,3,00933C,Tartu MV
+ba3369a4b9f952dae1cf70629de17367,60,446,Tartu - Nõo - Arbimäe - Elva,3,00933C,Tartu MV
+998d3cf8bd7d2bbc72d0d8e0751a4c32,60,447,Elva - Arbimäe - Nõo - Tartu,3,00933C,Tartu MV
+30647ae615043148788f6540a5fe7128,60,448,Tartu - Elva - Erumäe - Karijärve -  Elva,3,00933C,Tartu MV
+17d9eb9119f39692b824092591983c42,60,449,Tartu - Elva (kiirliin),3,00933C,Tartu MV
+1fc81d729e1da52e126206c30d055ee1,56,45,Väike-Õismäe - Ülemiste,3,DE2C42,Tallinna TA
+877aba034d1bd8bcbeee24d7ac59a38d,71,45,Pärnu - Ata - Suigu - Tabria,3,00933C,Pärnu MV
+758e6cc651fc03eac0177195b8e8b7ed,60,45,Rakvere - Roela - Laekvere - Simuna - Väike-Maarja - Rakvere,3,00933C,Lääne-Viru MV
+7fec3b5575ce19143972dc583c1d142d,60,45,Põlva - Puskaru - Kanepi - Puskaru - Aarna - Põlva,3,00933C,Põlva MV
+4e04296c16259df1e13f98486805949b,100047,450,Põltsamaa - Adavere,3,00933C,Jõgeva ÜTK
+555a481dd054fa6ea5450a19974ef43b,60,450,Tartu - Nõo - Arbimäe - Elva - Luke - Kambja - Tartu,3,00933C,Tartu MV
+f0aca9bb2b2eca17ec60b0c248dc4502,100047,451,Adavere - Põltsamaa,3,00933C,Jõgeva ÜTK
+219d2d10923b020c03a7fa06a67b89ad,60,451,Elva - Peedu - Nõo - Tartu,3,00933C,Tartu MV
+22b8226702c1fa02d50244c9c930506b,100047,452,Põltsamaa - Adavere - Põltsamaa,3,00933C,Jõgeva ÜTK
+fb2337233fccfb937ffe2d5ef6ce6f5d,60,452,Tartu - Nõo - Elva - Karijärve - Puhja - Ulila - Tartu,3,00933C,Tartu MV
+7794649425709fc20bd3e283e349adf3,100047,453,Põltsamaa - Adavere -Puiatu- Adavere - Põltsamaa,3,00933C,Jõgeva ÜTK
+b079dd9e468f4b45f607ecf9ec0f6fac,100047,454,Põltsamaa - Adavere - Põltsamaa,3,00933C,Jõgeva ÜTK
+2d76a052ba57ee4185e381d9b2f6a4e0,100047,455,Põltsamaa - Adavere - Pilu - Põltsamaa,3,00933C,Jõgeva ÜTK
+b8610d2616beab6b6613e732dc849949,100047,456,Põltsamaa - Adavere - Imavere - Adavere - Põltsamaa,3,00933C,Jõgeva ÜTK
+8f201574876fce1ac0102193cb604fb6,100047,457,Põltsamaa - Adavere - Imavere mõis - Adavere - Põltsamaa,3,00933C,Jõgeva ÜTK
+60b689015dcf713d7fd48d6185501296,100047,458,Põltsamaa - Adavere - Imavere mõis - Adavere - Põltsamaa,3,00933C,Jõgeva ÜTK
+e58a789935b070973cf344800b0f515e,100047,459,Põltsamaa - Adavere - Imavere mõis - Adavere - Põltsamaa,3,00933C,Jõgeva ÜTK
+c68102b6d443e71058567b0a1f3b5621,56,46,Väike-Õismäe - Kunstiakadeemia,3,DE2C42,Tallinna TA
+7d905b5cdf5b6e4f8513e12a481faebd,71,46,Pärnu - Sauga alevik - Lepplaane - Eametsa - Pärnu,3,00933C,Pärnu MV
+8ecf3c1c29a895cbf375d7402c87c797,100046,46,Viljandi - Sürgavere - Aimla - Viljandi,3,00933C,Viljandi MV
+c63f46df9ec64ee6d741e1aecf0c0f45,60,46,Salda - Kiku - Saksi - Tapa,3,00933C,Lääne-Viru MV
+c49829772392bf0aaa30ae00ca123c9a,60,46,Põlva - Aarna - Puskaru - Põlgaste - Põlva,3,00933C,Põlva MV
+b81f3d329fa464872b05d8c0cf7e6067,100047,460,Põltsamaa - Puurmani - Jõune - Saduküla - Siimusti - Jõgeva,3,00933C,Jõgeva ÜTK
+e90b4b695ebabbb09cc84b5372e0ba15,100047,461,Jõgeva - Siimusti - Saduküla - Jõune - Puurmani - Põltsamaa,3,00933C,Jõgeva ÜTK
+453deb886275b890dd82ac664ac2abe6,100047,462,Põltsamaa - Puurmani - Saduküla - Siimusti  - Jõgeva,3,00933C,Jõgeva ÜTK
+715251220eac8e19c3665453aa32f132,100047,463,Jõgeva - Siimusti - Saduküla - Puurmani - Põltsamaa,3,00933C,Jõgeva ÜTK
+afd1183fb9effa981fbe8be764c906b4,100047,464,Põltsmaa - Neanurme - Lustivere - Põltsamaa,3,00933C,Jõgeva ÜTK
+0e9c5f2c4ed8dc1642a3a932318cc840,100047,465,Põltsamaa -Vägari - Lustivere - Põltsamaa,3,00933C,Jõgeva ÜTK
+68a8dce1fc6171a6f8036e3c40a3d0e2,48,466,Tallinn - Kuressaare,3,E6FA32,Maanteeamet
+064ed5bde49c4eada9203203fb3697d9,100047,466,Põltsamaa - Lustivere - Neanurme  - Lustivere - Põltsamaa,3,00933C,Jõgeva ÜTK
+9470d46311e869187f894a6cda3fd1dc,100047,467,Põltsamaa - Sulustvere - Lustivere - Neanurme - Põltsamaa,3,00933C,Jõgeva ÜTK
+3c378c500dd077f16ee5fbec7c16606d,100047,468,Põltsamaa - Lustivere - Põltsamaa,3,00933C,Jõgeva ÜTK
+2e6bd0f8e2627780219a02b9735dc1c2,100047,469,Põltsamaa - Lustivere - Põltsamaa,3,00933C,Jõgeva ÜTK
+b73108e4d2bcb49648556adebafde33f,56,47,Väike-Õismäe - Bussijaam,3,DE2C42,Tallinna TA
+8787bb5dfd06f97b0b0c92db152a5d89,71,47,Pärnu - Pärnu-Jaagupi - Koonga - Lõpe,3,00933C,Pärnu MV
+e9860df598d2320e734f1ece201dd0d1,219,47,Võru - Vastseliina - Meremäe - Obinitsa - Võru,3,00933C,Võru MV
+eb3f7307bffba025b347d4c8d80a8e0c,60,47,Rakvere - Ubja - Uhtna - Ubja - Rakvere,3,00933C,Lääne-Viru MV
+92c12a3766f3f793fcd9f9bbaafc6b45,60,47,Tartu - Põlva - Orava - Veriora - Põlva,3,00933C,Põlva MV
+1747e0238a782cf1b9506b2698f6b9b2,60,470,Tallinn - Kuressaare,3,E6FA32,Maanteeamet
+7a0fd08b36bc58f4d5f4ff074a6a0e77,56,48,Viru keskus - Pelguranna,3,DE2C42,Tallinna TA
+40d9277a1e2892ff8090a06ef9107bd1,100046,48,Viljandi - Tohvri - Lohu,3,00933C,Viljandi MV
+ac2429b028ca20b2053dc506a9b5dd2c,60,48,Rakvere - Veltsi,3,00933C,Lääne-Viru MV
+263eac1166905ecd4158f908bdb964c3,60,48,Krootuse - Prangli - Veski - Krootuse - Põlva,3,00933C,Põlva MV
+cd2a00b7cbbdf92d2a084461bc9c9013,100047,480,Põltsamaa - Kamari - Umbusi - Annikvere - Põltsamaa,3,00933C,Jõgeva ÜTK
+0b6b2d53a119e12840f7cd674073887e,100047,481,Põltsamaa - Kamari - Umbusi - Annikvere - Põltsamaa,3,00933C,Jõgeva ÜTK
+ec47809f292ae201981362dbd42d3193,71,48-1,Pärnu - Are - Suigu - Tootsi,3,00933C,Pärnu MV
+71e76b02b67d7fecb4df450be748f425,100047,482,Põltsamaa - Annikvere - Umbusi - Annikvere -  Põltsamaa,3,00933C,Jõgeva ÜTK
+c6ffb06bff930ca08dac8c9857b97366,71,48-2,Pärnu - Are  - Suigu - Tootsi,3,00933C,Pärnu MV
+38ae5d0f9e7af120e68fb31edc3d1ec9,100047,483,Põltsamaa - Annikvere - Umbusi - Annikvere - Põltsamaa,3,00933C,Jõgeva ÜTK
+4f59c0bcfbe989bb14423a42f0e7a564,100047,484,Põltsamaa - Annikvere - Umbusi - Annikvere - Põltsamaa,3,00933C,Jõgeva ÜTK
+a1d513fca94d7dc06a5bdf4f814e0a3d,100047,485,Põltsamaa - Neanurme - Umbusi - Annikvere - Põltsamaa,3,00933C,Jõgeva ÜTK
+71891b02e339589df7c1476d0686374c,100047,486,Põltsamaa - Annikvere - Umbusi - Neanurme - Põltsamaa,3,00933C,Jõgeva ÜTK
+ee259f89db32ebbb6f4743fab53fd02b,100047,487,Põltsamaa - Annikvere - Umbusi - Annikvere - Põltsamaa,3,00933C,Jõgeva ÜTK
+c0ae4a370c25b997852e2bfa72934a2c,100047,488,Põltsamaa - Sakala - Põltsamaa,3,00933C,Jõgeva ÜTK
+0b4baca71b2f2b8f913530e68c37a4a0,219,48A,Võru - Kütiorg - Vastseliina,3,00933C,Võru MV
+1ab261bb44fdc558f494822297e6157b,219,48B,Võru - Kütiorg -  Loosi - Lindora - Vastseliina,3,00933C,Võru MV
+e7e1dc62efd2a2008f7b846a0c08815b,219,48C,Vastseliina -  Loosi - Tüütsmäe -Vastseliina,3,00933C,Võru MV
+9bfaead84eaaaff3043492d321b61ea9,219,48D,Asunduse - Vastseliina,3,00933C,Võru MV
+6001f82acf7048898b801ef28acd8528,227,49,Ülemiste jaam - Merivälja,3,DE2C42,Tallinna TA
+bd58a87d1ac05849b1af60cf6e8e0569,289,49,Viljandi - Õisu - Abja-Paluoja - Mõisaküla,3,00933C,Viljandi MV
+f4e49f8a77e298aa3c074a1bf1036da4,60,49,Rakvere - Väike-Maarja - Kiltsi -  Rakke,3,00933C,Lääne-Viru MV
+38e0ea652a8d5cfe76de28c875c0374e,100047,490,Põltsamaa - Sakala - Põltsamaa,3,00933C,Jõgeva ÜTK
+b37d9b9ceb8fe2bc011df0e669d79d40,60,4901,Metsküla-Asuka-Pammana-Leisi,3,00933C,Saare MV
+2b6f33cdfab2fc4d36e07b4576ab880c,100047,491,Põltsamaa - Sakala - Põltsamaa,3,00933C,Jõgeva ÜTK
+b7af92ff225f95d101f28479ffc20e0c,100047,492,Põltsamaa - Kaarlimõisa - Põltsamaa,3,00933C,Jõgeva ÜTK
+714fbae6fffec85351fc3a652b83a9db,100047,493,Põltsamaa - Kaarlimõisa - Sakala - Põltsamaa,3,00933C,Jõgeva ÜTK
+37ae3ef17003684cc1c7c04cde8d04aa,100047,494,Põltsamaa - Annikvere - Põltsamaa,3,00933C,Jõgeva ÜTK
+a72f770a710d7b555cb62af5ae6c63aa,60,49A,Krootuse - Karilatsi - Ihamaru - Karaski põik - Krootuse,3,00933C,Põlva MV
+70b463458288da5b45748b959c955dba,60,49B,Krootuse - Karaski põik - Ihamaru - Karilatsi - Krootuse,3,00933C,Põlva MV
+3e2c6d78b32269f68953bcb7b1c39f25,60,49C,Krootuse - Karaski põik - Ihamaru - Karilatsi - Krootuse,3,00933C,Põlva MV
+c4862258999926019934f13f67d6a4d4,60,49D,Krootuse - Veski - Prangli - Tõdu - Krootuse,3,00933C,Põlva MV
+ddbae33e31dd3a7182b060abc085dbdb,60,49E,Krootuse - Veski - Prangli - Tõdu - Krootuse,3,00933C,Põlva MV
+0b062f880fbd666609227284c37ac26f,0,5,Kesklinn - V-Sauga -Teater,3,DE2C42,Pärnu LV
+0be60bd3b2f5eecfa297f1754144073d,100047,5,Sendi - Rahu 32 - Kangelaste 34 - Kalda - Jäähall - Paemurru,3,DE2C42,Narva LV
+6ffafaaaea27073512535742c0045686,317,5,Rägavere tee - Põhjakeskus,3,DE2C42,Lääne-Viru MV
+ab764f417b0c93376409919fefb9e136,50,5,Nõlvaku - Kivilinna - Kannikese - Kivilinna - Nõlvaku,3,DE2C42,Tartu LV
+a9e86e2d466e7431926fc36210bb310d,56,5,Männiku - Metsakooli tee,3,DE2C42,Tallinna TA
+1b0ee8ef419cc52a6a19dde927cc7a9e,100026,5,Kohtla-Järve-Iidla,3,FF6319,Kohtla-Järve LV
+68a130953f712af28f785a8d4c7305cc,71,5,Rapla - Juuru - Kaiu - Vahastu,3,00933C,Rapla MV
+7783f53426ff7c507dd351b63e391c0d,100046,5,Paide bussijaam - Pikaküla -  Vanaveski,3,00933C,Järvamaa ÜTK
+7a70fc6ae85aaa84b6373f96915d7b6e,12,5,Hargla - Saru - Hargla - Koikküla - Valga,3,00933C,Valga MV
+eef399aa7de8431cd957a06b14d1d0dd,185,5,Kärasi - Lohusuu - Avinurme - Kärasi,3,00933C,Ida-Viru MV
+7ae39f51495d6f59d64569918db6e8f3,56,5,Mustamäe - Balti jaam,800,00A1DE,Tallinna TA
+f8d25f5a08d5913f41dfe9da92da4f6d,56,50,Seli - Pae,3,DE2C42,Tallinna TA
+6c3e3cea7087e344c473c4b1ad84cfdb,289,50,Viljandi - Karksi-Nuia - Abja-Paluoja,3,00933C,Viljandi MV
+ed842d6d6e0e77d911dd7252926e3188,60,50,Simuna - Väike-Maarja - Assamalla - Rakvere,3,00933C,Lääne-Viru MV
+ff03d2ecffee4e7d71b0398558b8128f,60,50,Kanepi - Heisri - Kanepi - Vaparisti - Varbuse - Põlgaste,3,00933C,Põlva MV
+9ef309cbdb9ce59609071486e1298777,60,50,Ridala kool - Haapsalu,3,F55ADC,Lääne MV
+98a21114dd3e6d1e7b6262e0ec3aaccc,60,500,Kuressaare - Tallinn,3,E6FA32,Maanteeamet
+b0d3b63b45eec8a7a70f204d1c248c53,100047,500,Põltsamaa - Võisiku - Põltsamaa,3,00933C,Jõgeva ÜTK
+9588765af60d5dee7747b2b503c4082f,100047,501,Põltsamaa - Võisiku - Põltsamaa,3,00933C,Jõgeva ÜTK
+794c98bfa2220db00f6cc0d2a89ed7c1,60,501,Tartu - Ulila - Puhja - Kobilu teerist - (Annikoru),3,00933C,Tartu MV
+785cb02e0e5bc8727a15d9ce23931382,317,502,Rakvere - Tapa - Paide - Türi - Viljandi,3,E6FA32,Maanteeamet
+856dc2a8caf1de7b79157427714bb4f6,100047,502,Põltsamaa - Esku - Võisiku - Põltsamaa,3,00933C,Jõgeva ÜTK
+34237827e2cc75d31c835e5d678d9c4a,60,502,Karuputke - Ulila - Puhja - Annikoru - Puhja - Tartu,3,00933C,Tartu MV
+1ddfcfdde76896b9a1b4d9dc25358037,317,503,Haapsalu - Tallinn,3,E6FA32,Maanteeamet
+21948deb3d99c93e348c058962a89c75,100047,503,Põltsamaa - Esku - Võisiku - Põltsamaa,3,00933C,Jõgeva ÜTK
+aafad882d84ce403c7e1f64ba0002688,60,503,Tartu - Ulila - Puhja - Puhja kool,3,00933C,Tartu MV
+6578728f67bd4988af27bf6abfcdc342,50,503,Kohtla-Järve - Jõhvi - Sillamäe - Narva,3,F55ADC,Ida-Viru MV
+15beee57ec25c9db4a8c622d0331d153,100047,504,Põltsamaa - Võisiku - Esku - Võisiku - Põltsamaa,3,00933C,Jõgeva ÜTK
+8cabc46bb9179a0e41bae891b83ccdf6,60,504,Puhja kool - Puhja- Ulila  - Tartu,3,00933C,Tartu MV
+8baa12db1721899c08aaa751e1a51fa3,100047,505,Põltsamaa - Võisiku - Põltsamaa,3,00933C,Jõgeva ÜTK
+9a33634ed7320a6f151baff3b7dbb9ec,60,505,Tartu - Haage - Külitse järve - (Tartu),3,00933C,Tartu MV
+45187ba686f4d8eaf68498835bfc70ec,100036,506,Tartu - Jõgeva - Rakvere,3,E6FA32,Maanteeamet
+a3fdc3c6822af2d54bb18e31c22eedeb,100047,506,Põltsamaa - Võisiku - Esku - Põltsamaa,3,00933C,Jõgeva ÜTK
+4e73b723cee9f6c5deae442d84acb610,60,506,Tartu - Haage - Hobunurme - Tartu,3,00933C,Tartu MV
+78d3e67f25f7c79d6e0809bd8e6101ab,100047,507,Põltsamaa - Võisiku - Esku - Lebavere - Esku - Põltsamaa,3,00933C,Jõgeva ÜTK
+6f5f99c59ee4a8489ac6a6fba55c675f,60,507,Tartu - Haage - Tartu,3,00933C,Tartu MV
+5bc88d990c2d80b66626c8974838f495,100047,508,Põltsamaa - Esku - Lebavere - Vitsjärve - Esku - Põltsamaa,3,00933C,Jõgeva ÜTK
+ea369296f6076a554941192fc3bc8136,60,508,Tartu - Haage - Ilmatsalu - Tartu,3,00933C,Tartu MV
+d09215a4091fcbce2b79fa90f4b11f4c,100047,509,Põltsamaa- Esku - Vitsjärve - Esku - Põltsamaa,3,00933C,Jõgeva ÜTK
+5fddb4de2b4f5818b7babf7f29633f47,60,509,Tartu - Ilmatsalu - Tartu,3,00933C,Tartu MV
+ebd56c95579b672ea1a4b72106776118,56,51,Viru keskus - Priisle,3,DE2C42,Tallinna TA
+70056bac5c7a95f686f23f4392b8776e,289,51,Viljandi - Uue-Kariste - Abja-Paluoja - Laatre,3,00933C,Viljandi MV
+2e20ba24617760730a5aa063d83d3833,60,51,Tapa - Tamsalu - Rakvere,3,00933C,Lääne-Viru MV
+76b3b210eeeb21ab7df169daa9c33666,60,51,Põlgaste - Varbuse - Kanepi - Heisri - Kanepi - Põlgaste,3,00933C,Põlva MV
+17a92a7af93e964ef1c7fffc274378ba,100047,510,Põltsamaa - Võisiku - Esku - Vitsjärve - Esku - Põltsamaa,3,00933C,Jõgeva ÜTK
+3c07d697474762de3b83d5e668dfef3f,60,510,Tartu - Ilmatsalu - Tartu,3,00933C,Tartu MV
+2b42065d3518edf1625c3fbfeeb6b44d,60,5101,Hellamaa-Orissaare-Valjala-Kõljala-Kuressaare,3,00933C,Saare MV
+6bcc491050740d2226f1263b172501a7,60,5102,Kuivastu-Hellamaa-Liiva-Orissaare-Valjala-Kõljala-Kuressaare,3,00933C,Saare MV
+b7dfb7da4cc8d1a8c028527c30a2a1f2,60,5103,Kuressaare-Kallemäe-Laimjala-Kuivastu,3,00933C,Saare MV
+308b896d79dfe8a63b4a1022f42ff81e,60,5104,Kuressaare-Kõljala-Valjala,3,00933C,Saare MV
+c84e0f5c9a425c01261295f8638b502d,60,5105,Kuressaare Laimjala Liiva Orissaare Valjala Kuressaare,3,00933C,Saare MV
+c5163973d0c7fd59cd5eefec9d8693b4,60,5106,Orissaare-Laimjala-Valjala-Kõljala-Kuressaare,3,00933C,Saare MV
+48ee23117598071eedc728313b4725fd,60,5107,Kuressaare-Sakla-Kungla-Valjala-Tõnija-Valjala-Kuressaare,3,00933C,Saare MV
+efc863eae5ec937b7cc8f56e08a3fc62,60,5108,Valjala-Ariste-Kallemäe-Kõljala-Kuressaare,3,00933C,Saare MV
+0b93ba53a9abc49b4b3a239a0333f0ff,60,5109,Kuressaare-Kõljala-Valjala-Tõnija,3,00933C,Saare MV
+0c08d3f1cffa0de4d16b7d1aba1c8521,100047,511,Põltsamaa - Lebavere - Vitsjärve - Võisiku - Põltsamaa,3,00933C,Jõgeva ÜTK
+d6cacb0495733f0f1dbd0707af7f9f5e,60,511,Tartu - Ilmatsalu - Tartu,3,00933C,Tartu MV
+5f6aca93a5ba4647a697f25d34f6b005,60,5111,Tõnija-Valjala-Kõljala-Kuressaare,3,00933C,Saare MV
+9afe52445450f303579ab6a72bba5b2a,60,5113,Valjala-Lõõne-Kõnnu-Valjala,3,00933C,Saare MV
+ae7de5a883fba367d89d846893de3c8c,60,5114,Valjala-Ariste-Kallemäe-Kungla-Siiksaare-Sakla-Valjala,3,00933C,Saare MV
+0fa7f2058d40a380c4a2f181b511aba0,60,5115,Valjala-Tõnija-Valjala,3,00933C,Saare MV
+372cd58c70583dbee3254d2066f29bd0,100047,512,Põltsamaa - Võisiku - Esku - Eistvere tee - Põltsamaa,3,00933C,Jõgeva ÜTK
+5f0b103476568451a1ae4f59e149c9f2,60,512,Tartu - Ulila - Puhja - Ristimäe - (Vihavu),3,00933C,Tartu MV
+efb6168d93010078f9f4c7283b16fea8,60,513,Elva - Puhja - Ulila - Tartu,3,00933C,Tartu MV
+00eea6c52ab8f8d19939b8b72a4a2ab1,60,514,Elva - Puhja - Ulila - Tartu,3,00933C,Tartu MV
+d36f5e3b7b25604e57704fd52071f6b2,60,515,Kuressaare - Tallinn,3,E6FA32,Maanteeamet
+c720868b333f511143cf3981e723b208,60,515,Tartu - Ulila - Puhja - Annikoru - (Suure-Konguta),3,00933C,Tartu MV
+aecb6233d1642e148e1e63cb7c8ad916,60,516,Tartu - Ulila - Puhja - Rannu - Annikoru - Elva,3,00933C,Tartu MV
+8cc8087a1923ec9a0d155c91c99c08ab,60,517,Elva - Rõngu - Rannu - Annikoru - Puhja - Ulila - Tartu,3,00933C,Tartu MV
+4ad8695b0e8902ed9f43dd50f619e840,60,518,Elva - Annikoru - Rannu - Puhja - Ulila - Tartu,3,00933C,Tartu MV
+0cc01ac03fc252247ed7eece7fa9d6ed,100030,519,Kuressaare - Pärnu - Tõrva - Valga,3,E6FA32,Maanteeamet
+8d25d1d8c001b130483f3f88a20a82ae,60,519,Tartu - Ulila - Puhja - Limnoloogia - Rannu - Elva,3,00933C,Tartu MV
+3d56b71f8f26dad38dbfc1041abdbfeb,56,52,Kopli - Hobujaama,3,DE2C42,Tallinna TA
+17067c9cdeebed30a845fcbc6312801a,100046,52,Suure-Jaani - Võhma - Põltsamaa,3,00933C,Viljandi MV
+ba8c8680644c9adf2c7f9bc4eb41f2f1,60,52,Rakke - Väike-Maarja - Rakvere,3,00933C,Lääne-Viru MV
+f611346d0bcb030e0c36317f8420470c,60,52,Võru - Ridali - Tilsi - Laheda - Väimela - Võru,3,00933C,Põlva MV
+5fa8d581914965b9ad70d35bdc900c47,60,520,(V-Konguta) - Suure-Konguta - Annikoru - Puhja - Ulila - Tartu,3,00933C,Tartu MV
+a500073b011728b36292f3e39d7a1797,60,5201,Kuivastu-Pädaste-Liiva-Kallaste-Koguva-Orissaare-Tornimäe-Pöide-Laimjala-Kuressaare,3,00933C,Saare MV
+8dc7737a1368191f082c5b5b3d07e5e3,60,5202,Kuivastu-Hellamaa-Orissaare-Pöide-Laimjala-Kuressaare,3,00933C,Saare MV
+d7a9feebd4c09ee41f6a1306dbc35b10,60,5203,Kuressaare-Kõljala-Valjala-Laimjala-Orissaare-Liiva-Kuivastu,3,00933C,Saare MV
+b6b502fe049c4f8aaeda9b951062ff31,60,5204,Kuressaare-Kõljala-Laimjala-Tornimäe-Orissaare-Kuivastu,3,00933C,Saare MV
+958a13ac86e56950cc3079e63d2653c7,60,5205,Kuressaare-Laimjala-Pöide-Ariste-Orissaare-Hellamaa-Kuivastu,3,00933C,Saare MV
+74ce9a197167de20e3396b8028273e80,60,5209,Kuressaare-Laimjala-Pöide-Tornimäe-Kõrkvere-Orissaare-Koguva-Liiva-Nõmmküla-Kallaste-Liiva-Pädaste-Kuivastu,3,00933C,Saare MV
+377578258a52bdfc4ca6341f4eabaa6a,60,521,Tartu - Ilmatsalu kool - Laeva - Puurmani,3,00933C,Tartu MV
+e5d0943ac80b74e02e80b178ef901b47,60,5210,Kuivastu-Hellamaa-Orissaare-Laimjala-Kuressaare,3,00933C,Saare MV
+c43da6cc41a1591d59ee0149854803dc,60,5211,Kuressaare-Kõljala-Laimjala-Orissaare-Kuivastu,3,00933C,Saare MV
+998399b95ff239aba009970f9905c283,60,5212,Kuressaare-Laimjala-Tornimäe-Nenu-Orissaare-Kuivastu,3,00933C,Saare MV
+d8ac7cbef4e661e5a3ffc2cb31ccbba9,60,5213,Kuivastu-Hellamaa-Orissaare-Laimjala-Kuressaare,3,00933C,Saare MV
+f0cfe7bde15341313f9681a2bf4b9d5e,60,5214,Kuivastu-Orissaare-Tornimäe-Kõrkvere-Tornimäe-Laimjala-Kuressaare,3,00933C,Saare MV
+b19078fe015779faaadf0060720efd12,60,5215,Kuivastu-Orissaare-Laimjala-Kallemäe-Kuressaare,3,00933C,Saare MV
+945b52c21e126cf198c023ea723b46cf,60,5216,Kuressaare-Laimjala-Saareküla-Tornimäe-Pöide-Orissaare,3,00933C,Saare MV
+a2b80fc87b4974e1b26db655c19fda0f,60,5217,Kuressaare-Kõljala-Valjala-Laimjala-Orissaare-Hellamaa,3,00933C,Saare MV
+4d564eb5b1585465feeb35e4d8992073,60,522,Tartu - Puhja - Annikoru - Rannu - Rõngu - Elva,3,00933C,Tartu MV
+f0b00338cc5dbdbb8756df718b667a5d,100036,523,Tartu -  Põltsamaa - Võhma - Pärnu,3,E6FA32,Maanteeamet
+73f0173d1b5aafa1dfd10e450fd31665,60,524,Elva - Rõngu - Rannu - Annikoru - Puhja - Tartu,3,00933C,Tartu MV
+44cb060a9c3e862759f2015ceef5c9b2,60,525,Tartu - Ilmatsalu kool - Vorbuse - Tartu,3,00933C,Tartu MV
+bcdd68533892cd2de18e7f2e4d32f411,60,526,Külitse järve - Haage - Tartu,3,00933C,Tartu MV
+d04c4c86f1eca46bb8b8c6d9ef6f2e66,60,527,Puhja kool - Puhja - Ulila - Tartu,3,00933C,Tartu MV
+50357d173a8c17d9989fef51fd2c7c08,60,528,Erumäe - Annikoru - Puhja - Tartu,3,00933C,Tartu MV
+b0603149cb6f958a2718e0273f85a567,60,529,Tartu - Ulila - Puhja - Kobilu teerist - (Annikoru),3,00933C,Tartu MV
+263c61fb0c44c20f6aed51db86c18ab4,56,53,Priisle - Estonia,3,DE2C42,Tallinna TA
+d8aaf128fb5d20ba97f6492ae3ff2234,71,53,Pärnu - Kalli - Koonga,3,00933C,Pärnu MV
+e867f6bcf537e57db99b83dbbab88245,100046,53,Kõpu - Viljandi,3,00933C,Viljandi MV
+62f70c7fd8366876d4809c30b21bb08c,60,53,Tapa - Tamsalu,3,00933C,Lääne-Viru MV
+e100d9ac755a2b62e9b9413c431e818d,100040,530,Kiviõli - Kohtla-Järve - Jõhvi - Tartu,3,E6FA32,Maanteeamet
+5e63eb2110d9ac4cd214af4ad59c7836,60,53A,Võru - Ridali - Tilsi - Puskaru põik - Põlva,3,00933C,Põlva MV
+3f037010024494de2f270449f426f5f0,60,53B,Võru - Ridali - Tilsi - Puskaru põik - Aarna - Põlva,3,00933C,Põlva MV
+26eb3e850642d797893eefdefebea46a,56,54,Kurina - Estonia,3,DE2C42,Tallinna TA
+62e09f2c0d0e1d7d4b39848897139c6a,289,54,Viljandi - Õisu - Abja-Paluoja - Mõisaküla,3,00933C,Viljandi MV
+499906bc51afe3daadb3767fc2a2830b,60,54,Rakvere - Kantküla - Kiviõli - Vaeküla - Rakvere,3,00933C,Lääne-Viru MV
+824c94a8c87ca14dcaead0d3cc270411,7,541,Kohtla-Järve - Tartu,3,E6FA32,Maanteeamet
+d03b318debf4cd0ed92fd91fcfb013f4,71,54-1,Pärnu - Audru - Lavassaare,3,00933C,Pärnu MV
+ebcf02fcf07d75209269a16c1e774f9b,71,54-2,Pärnu - Sanga - Lavassaare,3,00933C,Pärnu MV
+e7e2cadf868e36ba813ad36251a0f01a,50,543,Jõhvi - Kauksi - Alajõe,3,00933C,Ida-Viru MV
+8a171a813f01108aebee2b46d0a8d8a4,71,54-3,Pärnu - Meremetsa - Audru - Lavassaare,3,00933C,Pärnu MV
+2e6eb0d0f1d3f57df6f2e5a9364ed1c8,50,545,Kohtla-Järve - Vasknarva,3,00933C,Ida-Viru MV
+087e1b704c0debdc590d7b0e060e9474,50,546,Kohtla-Järve - Gorodenka,3,00933C,Ida-Viru MV
+4d9c32a53aeffd68c65cfa0e3216849d,60,54A,Põlva - Meemaste - Tilsi - Ridali - Võru,3,00933C,Põlva MV
+63190a104963e278a42bba4d4ee88f60,60,54B,Võru - Ridali - Tilsi - Meemaste - Põlva,3,00933C,Põlva MV
+c7e487cc86e047e439a6f4eb39ff392c,60,54C,Põlva - Peri - Meemaste - Tilsi - Ridali - Võru,3,00933C,Põlva MV
+3e37ac7b0598145a139d32832e033391,56,55,P.Pinna - Kunstiakadeemia,3,DE2C42,Tallinna TA
+96c16564f740a83bd3af55d469695aee,71,55,Pärnu - Paadremaa,3,00933C,Pärnu MV
+bf97328cb4586769083606d3dd690bae,100046,55,Viljandi - Kõpu - Tipu,3,00933C,Viljandi MV
+aba475cdfd0df5ec9510d989357de991,60,55,Rakvere - Tudu - Tudulinna,3,00933C,Lääne-Viru MV
+ef45fc3a0572678e04ea99aa31f1acc1,50,552,Jõhvi - Avinurme - Laekannu,3,00933C,Ida-Viru MV
+aeb59a0acf191aa74c0eb2cc68d26222,50,553,Jõhvi - Roostoja - Laekannu,3,00933C,Ida-Viru MV
+18fe062a46d8855a3eec5e234852db1d,60,55A,Põlva - Meemaste - Väimela - Võru,3,00933C,Põlva MV
+3f4d930cd1889a37044573ce5b6bc678,60,55B,Võru - Väimela - Meemaste - Põlva,3,00933C,Põlva MV
+6cc7bcc9c948bd5b917c15c7609d0ae6,56,56,Seli - Estonia,3,DE2C42,Tallinna TA
+336554b5b622bd823616bda1439035c0,60,56,Viru-Nigula  - Rakvere,3,00933C,Lääne-Viru MV
+710b0640e268c7d9e65ad142e6dc8138,60,56,Kanepi - Saverna - Krootuse - Põlva,3,00933C,Põlva MV
+400e93350b8e000b9f9b6261353e3c79,60,56,Viru-Nigula - Rakvere,3,F55ADC,Lääne-Viru MV
+9e1c8c48d42abc912325c42cbfcb34d3,71,56-1,Roogenese - Pärnu-Jaagupi - Koonga - Pärnu,3,00933C,Pärnu MV
+4a124a0603fd0ed30d32f14fb0c65a49,71,56-2,Roogenese - Pärnu-Jaagupi - Koonga - Pärnu,3,00933C,Pärnu MV
+733476c5ef39e4e7a560dc3eeb1832c7,227,57,Raudalu - Kalev,3,DE2C42,Tallinna TA
+2aefb2b078df4d9e0854859d23cd7829,100047,57,Pärnu - Sauga - Sauga kool,3,00933C,Pärnu MV
+2d99594f5eb3f674cefd6838128f8dda,100046,57,Abja-Paluoja - Halliste kool,3,00933C,Viljandi MV
+dfc941eca526ae88deeed6fb7b11b629,289,57,Abja-Paluoja - Sika - Abja-Paluoja,3,00933C,Viljandi MV
+64b360de55b3c555538ecd05d1ac0f3f,60,57,Rakvere - Vaeküla - Rakvere,3,00933C,Lääne-Viru MV
+f951b89fe23cb1991f7b72cffc497260,60,57,Põlva - Puskaru - Kanepi,3,00933C,Põlva MV
+f7d85e50d0502886e97afbf2750f405b,60,5701,Orissaare-Tagavere-Orissaare,3,00933C,Saare MV
+51ca957840814c24a8d449c91217e23a,56,58,Priisle - Pae,3,DE2C42,Tallinna TA
+f66cf194dcee97e0fa49f6cd9f2e2267,100046,58,Suure-Jaani - Võhma - Viljandi,3,00933C,Viljandi MV
+69240daa1c55f2e3059f0b3d0bf3b929,60,58,Käsmu - Võsu - Palmse - Sagadi - Rakvere,3,00933C,Lääne-Viru MV
+464f9ee8d5b59bb553f86aa9cb38ba70,60,58,Põlva - Valgesoo - Ahja,3,00933C,Põlva MV
+738d899486f4a1e13ae52b01698e954d,60,5801,Orissaare-Pöide-Tornimäe-Orissaare,3,00933C,Saare MV
+3f1699dee929e75fe2110eb914b7cb54,60,5802,Orissaare-Tornimäe-Pöide-Laimjala-Kahtla-Tornimäe-Orissaare,3,00933C,Saare MV
+4861fe90488e6b3d2caac82347da7257,71,58-1,Mihkli - Koonga - Pärnu-Jaagupi - Roogenese,3,00933C,Pärnu MV
+2280a18823baf53b4fadd83f8ec54b02,71,58-2,Mihkli - Koonga - Pärnu-Jaagupi - Roogenese,3,00933C,Pärnu MV
+a448616dad9b9d08543f123ee6c7fef3,227,59,Balti jaam - Pikakari,3,DE2C42,Tallinna TA
+33c773e2230a6a0827bfce1c90bb2c92,100046,59,Viljandi - Võhma,3,00933C,Viljandi MV
+3a8ae028d80723e75dbf9590aca2d309,60,59,Väike-Maarja - Kiltsi - Aavere - Väike-Maarja,3,00933C,Lääne-Viru MV
+3dc386fd7d863f6114c4ad924705ffeb,60,59,Räpina - Linte - Naha - Kõnnu - Räpina,3,00933C,Põlva MV
+c20b1e7701dba57993e387c8863f63e1,60,5901,Orissaare-Taaliku-Randküla-Tagavere-Saikla-Orissaare,3,00933C,Saare MV
+afc519dc5d2ec259a1103b5938dd7871,60,5902,Orissaare-Saikla-Pahila-Randküla-Taaliku-Orissaare,3,00933C,Saare MV
+804a18e8fc48abcd4bcbb55f57147e63,100041,592,Tallinn - Rakvere - Roela - Avinurme - Mustvee - Kallaste - Alatskivi,3,E6FA32,Maanteeamet
+d35c299727d6dc1671873b05ac2a88a9,71,59-2,Pärnu - Koonga - Pärnu-Jaagupi,3,00933C,Pärnu MV
+9efd074e9ef8a02c5e9649c310f3398b,60,5A,Rägavere tee - Põhjakeskus,3,DE2C42,Lääne-Viru MV
+4fd372d5a64ee69552819fa45ea9e1b2,60,5A,Räpina - Linte - Kõnnu - Mägiotsa - Meelva - Räpina,3,00933C,Põlva MV
+732677622cc5652bf34e46fb72eda932,60,5B,Räpina - Linte - Kõnnu - Mägiotsa - Meelva - Räpina,3,00933C,Põlva MV
+d61c43e3df83d741b0c1225debd90c91,60,5C,Räpina - Linte - Naha - Kõnnu - Meelva - Räpina,3,00933C,Põlva MV
+58247175fd7c0eb21452de9669d9b1be,60,5D,Räpina - Linte - Naha - Kõnnu - Meelva - Räpina,3,00933C,Põlva MV
+584a5b9666720f6427bd8671ed65520f,100047,6,Nakro - Narova - KK Geneva - Paemurru - Nakro,3,DE2C42,Narva LV
+49ab219b1330cf11e8964918c4fe6a89,100046,6,Jakobsoni Kool - Haigla - Jakobsoni Kool,3,DE2C42,Viljandi MV
+7ff9e49f15c3bcf71b1327a1c8347eea,60,6,Koidula gümnaasium - Mai - Karja - Uus-Sauga - Vana-Sauga,3,DE2C42,Pärnu LV
+e93b93a0d0fba6d9bf1bf99782aba11d,50,6,Lõunakeskus - FI - Ropkamõisa - Kesklinn - Zoomeedikum,3,DE2C42,Tartu LV
+74e7e3a0862f8d777ea82a888cbea91c,56,6,Merivälja Pansion - Metsakooli tee,3,DE2C42,Tallinna TA
+d96be33587e283d0ab02f3012b463a04,71,6,Rapla - Ingliste - Juuru,3,00933C,Rapla MV
+0fbd2827760677fada391ad051dd5552,100046,6,Särevere - Türi - Paide keskväljak,3,00933C,Järvamaa ÜTK
+de5c2115c089ac535175ab44181648be,60,6,Kadrina - Aaspere - Viitna - Läsna - Kadrina,3,00933C,Lääne-Viru MV
+7704848cbbbb16976c1d56e027842b48,60,6,Räpina - Linte - Mehikoorma - Kõnnu - Meelva - Räpina,3,00933C,Põlva MV
+9a7807c35741d2266502e464a80e27fb,71,6.,Rapla - Ingliste - Juuru,3,00933C,Rapla MV
+60f9a84e0771f9d4105dc091a237d6a9,56,60,Priisle - Maneezi,3,DE2C42,Tallinna TA
+4f54076233301266165bd7b3cc8ddb96,100046,60,Pilistvere - Kõo - Võhma - Suure-Jaani - Sürgavere - Viljandi,3,00933C,Viljandi MV
+3967d75d4c1281c76b87a50768f580dd,60,60,Võsu - Käsmu - Viitna - Veltsi - Rakvere,3,00933C,Lääne-Viru MV
+7fd8f7fea4225db8290849c9ae904902,60,601,Tartu - Tabivere,3,00933C,Tartu MV
+263d329cc4d779cc24f7d78642cdbf2c,60,602,Tabivere - Tartu,3,00933C,Tartu MV
+3893c6caf790481fe411d26ca5570ba5,60,603,Tartu - Lähte - Kärkna - Vasula tee - (Tartu),3,00933C,Tartu MV
+4c183e7d46ce33ee8e9369dc16dd52d3,60,604,Kärkna - Õvi - Lähte - Tartu,3,00933C,Tartu MV
+a8c702983373b71adb840e341f09c0a3,60,605,Tartu - Kärkna - Lähte - Õvanurme - Juula,3,00933C,Tartu MV
+f8338ec296bdd59bfea3bba3a8315042,60,606,Juula - Lähte - Kärkna - Tartu,3,00933C,Tartu MV
+b083c2c6c28c7846b46667c37cac4036,60,607,Saadjärve - Lähte - Tartu,3,00933C,Tartu MV
+e10d7bef2860c337d4d7ce403c0d036d,60,608,Saadjärve - Õvanurme - Juula - Lähte - Kärkna - Tartu,3,00933C,Tartu MV
+6b2b05ad8ac3c69954c9fe091cdb388b,60,609,Tartu - Lähte - Kärkna - Tartu,3,00933C,Tartu MV
+cf4b3eb87380d05113b1e3f9fe1476bf,60,60A,Põlva - Taevaskoja - Maarja - Koorvere - Põlva,3,00933C,Põlva MV
+7cb6b2814927adf0b537f123b71df62f,60,60B,Põlva - Taevaskoja - Maarja - Kiidjärve - Koorvere - Põlva,3,00933C,Põlva MV
+9bd4da1be7336785803a25ddb7f57483,60,60C,Maarja - Taevaskoja - Põlva,3,00933C,Põlva MV
+3165c43cd83a82397e83a7aca4e49f1b,60,60D,Maarja - Taevaskoja - Põlva,3,00933C,Põlva MV
+17851d5eef1d57e3fbb5cb802423cacb,60,60F,Põlva - Taevaskoja - Maarja - Koorvere - Põlva,3,00933C,Põlva MV
+e74fb131459e91a6089bef08cc65a750,56,61,Astangu - Järve haigla,3,DE2C42,Tallinna TA
+e70cb28af438271a342d98c68f689008,71,61,Pärnu - Audru kool - Põldeotsa - Audru kirik - Pärnu,3,00933C,Pärnu MV
+2e88f9b7fbf025f2698fb5439b17d553,60,61,Põlva - Valgemetsa - Karilatsi - V-Kuuste - Vahemetsa - Ahja,3,00933C,Põlva MV
+a2861306fe17f1b085515ef560a825e1,100046,6-1,Jakobsoni Kool - Haigla - Jakobsoni Kool,3,DE2C42,Viljandi MV
+c2bdd2936badb3570f8ca9f3f7737343,60,610,Tartu - Kärkna - Lähte - Tartu,3,00933C,Tartu MV
+ef42377bf3f7a38385fc5def67c10448,60,6102,Tõlluste-Sandla-Pihtla-Kuressaare,3,00933C,Saare MV
+7762136c63fa4789cc6ff207eb646f54,60,6104,Kuressaare-Pihtla-Sandla-Tõlluste,3,00933C,Saare MV
+5fa29747eefcf074cd72b14327acf176,60,6105,Tõlluste-Sandla-Pihtla-Kuressaare,3,00933C,Saare MV
+9b0520d405e95bb34e2ecc7de8dd83bf,60,6107,Kuressaare-Pihtla-Sandla-Tõlluste,3,00933C,Saare MV
+fb74d55aeb3743c28b7db3577ebc1be0,60,611,Tartu - Lähte - Saadjärve - Lähte - Tartu,3,00933C,Tartu MV
+eb693184275038d6cdcd4b3989579138,60,6111,Kuressaare-Pihtla-Sandla-Tõlluste,3,00933C,Saare MV
+7701afea2cf3559190474344d1602aac,60,6112,Tõlluste-Sandla-Pihtla-Kuressaare,3,00933C,Saare MV
+fc8b7b4d1dc8ebf8f0d0274f6dac081f,60,612,Tartu - Lähte - Saadjärve - Lähte - Tartu,3,00933C,Tartu MV
+ee162b9125b46cc83488ed7554628827,60,613,Tartu - Lähte - Saadjärve - Tabivere - Tartu,3,00933C,Tartu MV
+e505cf0f919266a5ac6676391049184f,60,614,Tartu - Lähte - Juula - Vedu keskus - Kobratu,3,00933C,Tartu MV
+892495b715e0520aa8abc8313bdd9e87,71,62,Paikuse - Tammuru - Pärnu - Audru Kool - Tõstamaa - Varbla,3,00933C,Pärnu MV
+6c4aa2347d0ca633d63563a3574ef45c,60,62,Võsu - Vihula - Rakvere,3,00933C,Lääne-Viru MV
+934eb94cda74b9d22e86fe567702f2e2,60,6202,Suure-Rootsi-Kuressaare,3,00933C,Saare MV
+e32e6d7b736be809ddc50b15179cb534,60,6203,Kuressaare-Suure-Rootsi,3,00933C,Saare MV
+4a15b655c6e7554551169e36f41ba6d3,60,6204,Suure-Rootsi-Kuressaare,3,00933C,Saare MV
+f27b93208da56394dcf4300a9a00e4d7,60,6205,Kuressaare-Suure-Rootsi,3,00933C,Saare MV
+5c29061b38449b175124e814aefaea6b,71,625,Kärdla - Käina - Heltermaa - Käina - Õngu,3,00933C,Hiiu MV
+d9807a8072b4037547416125e1bd1b0f,71,626,Õngu - Emmaste - Valgu,3,00933C,Hiiu MV
+6381263506b5292c2316280f5f557295,71,627,Käina - Männamaa - Emmaste - Käina,3,00933C,Hiiu MV
+6680bd81c7c036ce0616efc95e4332b4,7,628,Narva - Jõhvi - Mustvee - Tartu - Põlva - Võru,3,E6FA32,Maanteeamet
+7615c02b858ebfbd5dd7c473ca023581,71,628,Aadma-Käina,3,00933C,Hiiu MV
+eefb2b894d8eb97fbb5da26fe1294f4e,71,629,Kärdla - Käina - Suuremõisa- Käina,3,00933C,Hiiu MV
+9ae66ed287e47e7952e808f85deed0d8,60,62A,Räpina - Veriora - Põlva,3,00933C,Põlva MV
+e48a2dc51e08a01c0756bf852d1b01f6,60,62B,Põlva - Vinso - Räpina - Veriora - Mikitamäe - Räpina,3,00933C,Põlva MV
+ba371ba21c2cddf7462e061f3b85829a,60,62C,Räpina - Orava - Veriora - Põlva,3,00933C,Põlva MV
+1346f6f53a54c055b8a72e53d51f2d8c,56,63,Priisle - Maneezi,3,DE2C42,Tallinna TA
+91648ea8af9a6e80780aa1cac6ac49e5,100046,63,Viljandi - Kõpu,3,00933C,Viljandi MV
+5ffc8b909bf79e006db1b764691366eb,60,63,Rakvere - Mädapea - Lasila,3,00933C,Lääne-Viru MV
+98f22d20b04c0941dbdb30086a9652f2,60,63,Põlva - Taevaskoja - Kiidjärve raudteejaam - (Tartu),3,00933C,Põlva MV
+d4ca588a8df16c5b26c201a45588f758,7,630,Narva - Jõhvi - Mustvee - Tartu - Otepää,3,E6FA32,Maanteeamet
+2dd78d5ab702f08f8acc618c9db586da,71,630,Käina - Kogri - Käina,3,00933C,Hiiu MV
+d84c8bbc834074489689d3197f49ccba,7,631,Narva - Jõhvi - Mustvee - Tartu,3,E6FA32,Maanteeamet
+0e0c93dbe5af100ae08c50e3a6149a7e,71,631,Kärdla - Kuri - Heltermaa - Käina - Kärdla,3,00933C,Hiiu MV
+e838838f3631c84d3dd65a664bdff4c0,71,63-1,Pärnu - Audru kirik - Järve - Liu - Kavaru,3,00933C,Pärnu MV
+2edfba2e4638a7ada08b9c6ed1652dc9,71,63-2,Pärnu - Audru kool - Liu,3,00933C,Pärnu MV
+a202097668a3064b893a481d3ef17b2b,71,633,Valgu - Heltermaa - Kuri - Kärdla,3,00933C,Hiiu MV
+cae81084d1fb5eb8cd4b09403ffc48a8,71,63-3,Pärnu - Audru kool - Liu - Kavaru,3,00933C,Pärnu MV
+93b00d90db00539e91a2eaa6bfbf37b0,71,633A,Kärdla - Kuri - Sarve -  Heltermaa - Kärdla,3,00933C,Hiiu MV
+13498c3e2c2d70c42bd7a9ba90ee2edb,71,634,Kärdla - Suuremõisa - Käina - Kärdla,3,00933C,Hiiu MV
+2bba42a40c6cf1e628ffdf045fe1a7b6,71,636,Kärdla - Heltermaa - Kärdla,3,00933C,Hiiu MV
+78511a5ac2687a1cc014b6c27ee7679f,71,637,Emmaste - Tohvri - Õngu - Emmaste,3,00933C,Hiiu MV
+1b54c3f899d916a38d521ec92e855601,71,638,Emmaste - Tohvri - Õngu,3,00933C,Hiiu MV
+5e3c8e06cb3506b52d7d46bbcee27ced,71,639,Kärdla - Kuri - Heltermaa - Männamaa - Käina - Kärdla,3,00933C,Hiiu MV
+da7301cebece383972835ec982bac2e7,71,64,Pärnu - Tõhela - Kiraste,3,00933C,Pärnu MV
+9b51a6be2fc99335838fdfafbbba6323,60,64,Tapa - Lehtse - Aegviidu,3,00933C,Lääne-Viru MV
+f0f7b976e1be91b2e1476bb9e327f510,60,64,Saverna - Valgjärve - Otepää - Valgjärve - Saverna - Kanepi,3,00933C,Põlva MV
+ded0150243f26c1e08f78d4e36737478,71,640,Õngu - Tohvri - Käina - Emmaste,3,00933C,Hiiu MV
+9eacb50c90c903bc0fe11f8c3d3dfa63,71,641,Kärdla - Õngu - Kärdla,3,00933C,Hiiu MV
+1d687ba941601d7a54bdb6c57a3cbeb7,71,642,Kärdla - Heltermaa - Kärdla,3,00933C,Hiiu MV
+b0b0fd6637d383c424612cfe6ee675ee,71,643,Käina - Aadma - Käina,3,00933C,Hiiu MV
+2b85915ea12bd315e74fcf994aa01942,71,644,Kärdla - Tohvri - Nurste - Kärdla,3,00933C,Hiiu MV
+fe9a9b23972b4806f948cb69d9e76b3f,71,645,Kärdla - Tohvri - Nurste - Kärdla,3,00933C,Hiiu MV
+e358176c64969d7dab9ea841dc06f706,71,646,Käina  - Kassari - Käina,3,00933C,Hiiu MV
+6a0cbdd429623fe71e8fd9a30b623c06,71,647,Kärdla - Tohvri - Õngu,3,00933C,Hiiu MV
+f5041101084f0c57451dbbdf987cecee,71,648,Kärdla - Tohvri - Õngu,3,00933C,Hiiu MV
+5129a75212ecbee392c1e0a0f7350191,227,65,Lasnamäe - Lennujaam,3,DE2C42,Tallinna TA
+c5847ec209014a72e49c66cfd251cb1d,71,65,Pärnu - Audru kool - Munalaiu - Tõstamaa,3,00933C,Pärnu MV
+533c66bb16e8cb964b988fbd578bb1e4,60,65,Rakvere - Roela - Laekvere - Mustvee,3,00933C,Lääne-Viru MV
+3fedc2ffdb3a195e3414ede8a7290a01,60,65,Saverna - Kanepi - Maaritsa - Otepää - Valgjärve - Krootuse,3,00933C,Põlva MV
+3fddcba9300439772f95795efb8ea798,71,650,Kärdla - Malvaste - Kiduspe - Kalana,3,00933C,Hiiu MV
+947b2c62478aa09f5388dc96265f3f82,71,651,Kärdla - Luidja - Kõpu - Kalana,3,00933C,Hiiu MV
+44c1487409bf4006c8a683bfd0cc799a,60,656,Kärdla- Luidja,3,00933C,Hiiu MV
+d4f27552b55b984bc9b8ced39143bee7,71,657,Kärdla - Tohvri - Nurste,3,00933C,Hiiu MV
+631b678f6372c288fe34c7015568fa46,71,658,Kärdla - Nurste - Kärdla,3,00933C,Hiiu MV
+6ef2dcde0aef68dff78bb99844d7887d,71,659,Õngu - Nurste - Tohvri - Käina - Kärdla,3,00933C,Hiiu MV
+36773ca7a5cb4e9f171bca9b27a171c6,71,66,Pärnu - Audru - Värati,3,00933C,Pärnu MV
+c26a4c41af5085752553e7507e56c41b,289,66,Viljandi - Viiratsi - Sillaotsa - Viljandi,3,00933C,Viljandi MV
+0a1e1bf7e52827b41c8f17a00b795bc5,60,66,Rakke - Kiltsi - Väike-Maarja - Tamsalu,3,00933C,Lääne-Viru MV
+7515b3e2cb2b655b0660900bcbb83f6d,60,66A,Leevi - Koolmajärve - Peri - Meemaste - Põlva,3,00933C,Põlva MV
+f2c5830fd60410ea011dffa0aba277ac,60,66B,Põlva - Meemaste - Peri - Koolmajärve - Leevi,3,00933C,Põlva MV
+1fd50282e2b8717630d45cec80594cad,56,67,Seli - Estonia,3,DE2C42,Tallinna TA
+d4a9327e752dc4678980cc7cded0b758,289,67-1,Karksi-Nuia - Pahuvere - Karksi-Nuia,3,00933C,Viljandi MV
+ec472f56b2e060b998dff328f905de8c,289,67-2,Karksi-Nuia - Pahuvere - Karksi-Nuia,3,00933C,Viljandi MV
+bb219465012a9633858ba93a97f0ee37,289,67-3,Karksi-Nuia - Pahuvere - Karksi-Nuia,3,00933C,Viljandi MV
+dcd3076ffd160914d04ebc2ca56ca266,60,67A,Põlva - Holvandi - Partsi - Tromsi - Põlva,3,00933C,Põlva MV
+ba7abe009977748639035e9ffcd99869,60,67B,Põlva - Peri - Tromsi - Partsi - Põlva,3,00933C,Põlva MV
+ededab1e8513600f4a330da7b870abfe,56,68,Priisle - Estonia,3,DE2C42,Tallinna TA
+bcd3c21d7d86e2f04e565355310c77bc,100046,68,Viljandi - Pärsti - Viljandi,3,00933C,Viljandi MV
+cb14d8ca3043ce1d1586ea8d7a97b0cd,60,68A,Mõisa - Peterselli - Rasina - Rae - Viisli - Põlva,3,00933C,Põlva MV
+7a98871b9595d1d15c56312cf206df3e,60,68B,Mõisa - Rasina - Rae - Peterselli - Mooste,3,00933C,Põlva MV
+c3649c390d64f1f1df29c62c12704aa4,60,68C,Põlva - Mooste - Rasina - Peterselli - Rae - Mooste,3,00933C,Põlva MV
+598ac78dc9c197af4c1f7fe2b8241a6b,60,68D,Mõisa - Peterselli - Rasina - Rae - Rasina - Mooste,3,00933C,Põlva MV
+a66ce7f5ac949d3cf9c39d192ea36530,289,69,Lõunakeskus - Turu,3,FF6319,Tartu LV
+b0e5be2e53b80b301770a3872699a3de,71,690,Tõrva - Viljandi - Türi - Paide - Tallinn,3,E6FA32,Maanteeamet
+c51be0962ead10afb1e18dd0afa27d0b,71,691,Tallinn - Viljandi - Tõrva,3,E6FA32,Maanteeamet
+b3900a2ae70daaaa1de1cc17dfcf5d82,60,69A,Põlva - Holvandi - Partsi - Põlva,3,00933C,Põlva MV
+63892f37d65871acd0b1aea020531948,60,69B,Põlva - Holvandi - Partsi - Põlva,3,00933C,Põlva MV
+26780a09bb3840c7123714680b3ec614,100047,6a,Kangelaste 34 - Nõudepeatus - Kreenholmi keskus - Arumäe,3,DE2C42,Narva LV
+9748a415c21e6e58c8609048f8539145,100047,7,Sendi - Polikliinik - Jõe- Siversti,3,DE2C42,Narva LV
+5cd427a8c269354510b0a73a336deb0a,100046,7,Jõhvi-Vana Ahtme,3,DE2C42,Kohtla-Järve LV
+a24700266d3ca5fee7d9f512afb9cd9b,100046,7,Raamatukogu - Männimäe,3,DE2C42,Viljandi MV
+7969a110903a4114559e9b96003dcbf2,60,7,Kaubajaama - Haigla - Oja - Tammsaare - Koidula gümnaasium,3,DE2C42,Pärnu LV
+a415000ff728e80fae2ee078884727d9,50,7,Lõunakeskus-Eerika-Kvissentali-Rdtj.-Eerika-Lõunakeskus,3,DE2C42,Tartu LV
+f32e973ddcd3c00e83c0b4e4cee61f7f,56,7,Seli - Sõjamäe,3,DE2C42,Tallinna TA
+62b7c77d571ec896857f87e5d3ef67d5,71,7,Rapla - Ingliste - Juuru -  Kaiu - Kuimetsa,3,00933C,Rapla MV
+bed13d77d0a3023fa591a0e1b7e486e2,100047,7,Hummuli - Koorküla - Alamõisa - Hummuli põhikool,3,00933C,Valga MV
+4dd4440faf7b132c8b9e35f2f6b438b7,100046,7,Türi bussijaam - Oisu - Kabala,3,00933C,Järvamaa ÜTK
+e9886528e4f7fb43afd30c0579e2f818,60,7,Võsu - Käsmu - Vihasoo - Kotka,3,00933C,Lääne-Viru MV
+45e4a359a4da3fef5c02361a7fc077a6,100043,700,Tallinn - Risti - Lihula - Kuivastu - Orissaare - Kuressaare,3,E6FA32,Maanteeamet
+72b907e9ccb9f028769a6ff9131448c9,47,701,Kuressaare - Tallinn,3,E6FA32,Maanteeamet
+6020033f9565f87d59bccbfbe5f70c76,60,701,Tartu - Koosa - Varnja - Alatskivi,3,00933C,Tartu MV
+b7cbbf0d17c0088d521111c166243a98,60,702,Kärdla - Haapsalu - Tallinn,3,E6FA32,Maanteeamet
+6603a41911ddbfdacb52cb32e603af8c,60,702,Alatskivi - Varnja - Koosa - Tartu,3,00933C,Tartu MV
+8f52600298580a573fddcedf599d5ec6,60,703,Tartu - Koosa - Varnja - Alatskivi - Kallaste - Kodavere,3,00933C,Tartu MV
+9ba8b0631200ebb391dee40375ad3202,60,704,Õngu - Käina - Tallinn,3,E6FA32,Maanteeamet
+8b30ab806f55b13a750b857001139c51,60,704,Kodavere - Kallaste - Alatskivi - Koosa - Tartu,3,00933C,Tartu MV
+729c4d100efdd2bf4f1673349bf1a344,60,705,Tallinn - Haapsalu - Kärdla - Viskoosa - Luidja,3,E6FA32,Maanteeamet
+2d2ac97bb91c50f0907773fd312be09c,60,705,Tartu - Koosa - Kallaste - Pala - Assikvere - (Kääpa),3,00933C,Tartu MV
+2a4aff82ff5ad50471addf8f4c0e4dc4,71,706,Tallinn - Mäo - Võhma - Viljandi,3,E6FA32,Maanteeamet
+92505ab022d94009a763d3bc7895d3d7,60,706,Kääpa - Assikvere -Pala - Kallaste - Koosa - Tartu,3,00933C,Tartu MV
+5264d70607ef4f63a692bebe1eda26e0,60,707,Tartu - Koosa - Varnja - Nina - Kallaste - Kokora - Alatskivi,3,00933C,Tartu MV
+591147a0cc20393d8629e39915bdd3b4,60,708,Alatskivi - Kokora - Kallaste - Varnja - Koosa - Tartu,3,00933C,Tartu MV
+40b79ea9e90846b17738fc228f3b2635,60,709,Tartu - Koosa - Alatskivi - Kallaste,3,00933C,Tartu MV
+12ed73506d7fd1315417cdbace366e44,60,70A,Kito - Kahkva - Mikitamäe - Laossina - Mikitamäe,3,00933C,Põlva MV
+92a2c454a810a88595ebd5aa96ac8f7f,60,70B,Mikitamäe - Kahkva - Kito - Laossina - Mikitamäe,3,00933C,Põlva MV
+7512ff26eb47cd09dec28d57342294df,60,71,Otepää - Pangodi - Kambja - Tartu,3,00933C,Valga MV
+d32895615f76ba3e11cffebde2cb813b,317,71,Pärnu - Võiste,3,00933C,Pärnu MV
+09f9d2fbaca43f75ff316c5741fe603d,60,710,Kallaste - Alatskivi - Koosa - Tartu,3,00933C,Tartu MV
+f3f520307451c9c022a168a7f561f4f3,60,711,Tartu - Koosa - Alatskivi - Kallaste,3,00933C,Tartu MV
+0e9d3acc82374d8a9773bcaa20355a42,60,712,Kallaste - Alatskivi - Koosa - Tartu,3,00933C,Tartu MV
+2c5f442953435052d1d8d6ee7affc396,317,712,Haapsalu - Keila - Tallinn,3,00933C,Lääne MV
+9bd51365b6fefbec18676a761028e31b,60,713,Haapsalu - Risti - Tallinn,3,E6FA32,Maanteeamet
+b5c6b37c64e2145ebaa5c9f79cc08302,60,713,Tartu - Koosa - Varnja - Kolkja,3,00933C,Tartu MV
+33d510988d1622477b41927153c6aaaf,100041,714,Tallinn - Kunda - Aseri -  Kohtla-Järve - Jõhvi - Narva-Jõesuu,3,E6FA32,Maanteeamet
+a07026334dd46e384b32552bf4b807bb,60,714,Kolkja - Varnja - Koosa - Tartu,3,00933C,Tartu MV
+dc772c1fb495ab7260bce994cba28815,60,715,Tallinn - Rohuküla - Haapsalu,3,E6FA32,Maanteeamet
+41e11c843b3f64ce31862e898c8c2964,60,715,Kallaste -Kokora - Alatskivi - Koosa - Tartu,3,00933C,Tartu MV
+36bdae70b3cadd51a9fc30c2cee761f4,100041,716,Tallinn - Paide - Põltsamaa - Tartu - Võru,3,E6FA32,Maanteeamet
+dc0aa9a2f40e5b5d53aabdc68d528444,60,717,Tallinn - Risti - Pürksi - Haapsalu,3,E6FA32,Maanteeamet
+8d89ec87277888c67a63063d80746268,60,717,Mäe - Juula - Lähte - Kõrveküla - Tartu,3,00933C,Tartu MV
+cd027040bdac43f02dab9798f97a97b3,78,718,Võru - Tallinn,3,E6FA32,Maanteeamet
+eb85f9a85b1fe022b8896d4b052f387b,60,718,Tartu - Koosa - Alatskivi - (Kallaste),3,00933C,Tartu MV
+e893da91b77af3f1188f00e063bb05c1,78,719,Tallinn - Tartu,3,E6FA32,Maanteeamet
+2016f99948acef60496d7640cdd44046,60,719,Nina - Alatskivi - Varnja - Koosa - Tartu,3,00933C,Tartu MV
+f28329a36bb141e1685b320649a2b3a1,60,71A,Mehitse - Palvemaja - Suurmetsa - Kauksi - Mooste,3,00933C,Põlva MV
+1550e1d4060136e519c75d4e7a129e46,60,71B,Mõisa - Mooste - Kauksi - Jaanimõisa - Mehitse,3,00933C,Põlva MV
+fed8f4910f6cab607115e8d252c69251,60,72,Elva - Otepää,3,00933C,Valga MV
+0fbae56d1f851fe4dce08d6bb24fe84d,317,72,Pärnu - Soometsa - Häädemeeste - Massiaru,3,00933C,Pärnu MV
+af346c864824e23eedd3055c06bda6c3,78,720,Tartu - Võru - Luhamaa,3,E6FA32,Maanteeamet
+413dbb70e60f7706399bdf5499ec6f26,60,720,Tartu - Välgi - Alatskivi - Savastvere - Kallaste,3,00933C,Tartu MV
+a8199cc613eb2110e59a2b1d683b0c40,78,721,Tallinn - Tartu,3,E6FA32,Maanteeamet
+67c6b2f38c5ab0806b691caaece3881c,60,721,Kallaste - Savastvere - Alatskivi - Välgi - Tartu,3,00933C,Tartu MV
+cbebc8dbefdb6d667f435ce090e84c65,100041,722,Tallinn - Palivere - Taebla - Haapsalu,3,E6FA32,Maanteeamet
+8bbf99e009d87cbb31ed94569d150360,60,722,Tartu - Taabri - Tartu,3,00933C,Tartu MV
+7843003274826917a39d79472605914c,78,724,Tallinn - Tartu,3,E6FA32,Maanteeamet
+163c73c1f2529a9e78af90d3f5816e84,100041,725,Tallinn - Risti - Lihula - Kuivastu - Orissaare - Kuressaare,3,E6FA32,Maanteeamet
+db315fe34beeb29a2c550ff082ee986d,60,725,Tartu - Elistvere - Lähte - Tartu,3,00933C,Tartu MV
+4b1fb2549d878e19cf3db9b0e38172ea,100041,726,Tallinn - Risti - Palivere - Taebla - Haapsalu,3,E6FA32,Maanteeamet
+818fb1e608f839291dbc5decb22c4b2d,60,726,Tartu - Tammistu - Puusepa - Koosa,3,00933C,Tartu MV
+8af3fd071587e5981d35a091f57de893,100041,727,Tallinn - Laitse - Risti - Palivere - Taebla - Haapsalu,3,E6FA32,Maanteeamet
+f5c741065d61cf63317d7bd36b3857db,60,727,Koosa - Puusepa - Tammistu - Tartu,3,00933C,Tartu MV
+8529f0ae31e8fd25560757242ce31c8d,78,728,Tartu - Tallinn,3,E6FA32,Maanteeamet
+013cca419ecc1669270ef21c3e9f5da2,60,728,Tartu - Koosa - Alatskivi - Kallaste - Pala - Kääpa,3,00933C,Tartu MV
+0f5f59a8bd1777f01580a0a4b5fe4fa4,78,729,Tallinn - Tartu,3,E6FA32,Maanteeamet
+82b61fe73e46043be47e4b425990cbed,60,729,Kääpa - Pala - Kallaste - Alatskivi - Koosa - Tartu,3,00933C,Tartu MV
+196bc408fd193f4a90729dbf70933f37,56,73,Veerenni - Tööstuse,3,DE2C42,Tallinna TA
+0fcce6905d4e64e61a974fd09c08ae0e,60,73,Vastse-Kuuste - Lootvina - Vastse-Kuuste - Ahja,3,00933C,Põlva MV
+cd4f0bc9d455ca124ba2877bba04af9b,60,73,Otepää - Kääriku - Otepää,3,00933C,Valga MV
+99470407add58c1df5d8ef858ade9c7d,78,730,Tallinn - Tartu,3,E6FA32,Maanteeamet
+fb00e186560285dca3a39fadb188841c,60,730,Tartu - Välgi - Kärgandi tee,3,00933C,Tartu MV
+631ebf624faf3b377162c7eb7ae62fb0,60,731,Kärgandi tee - Välgi - Tartu,3,00933C,Tartu MV
+67836c524876c765adb6dd5903115dcc,60,732,Tartu - Vasula - Lähte - Keskus - Tartu,3,00933C,Tartu MV
+5ac723ca58edc9965bab7c881c5fca57,317,732,Tallinn - Risti - Haapsalu,3,00933C,Lääne MV
+e91ff2089ab5e0d47ad9c58c5c3149ff,60,733,Tallinn - Risti - Haapsalu - Rohuküla,3,E6FA32,Maanteeamet
+4028e8d6b10231eb976cafe49d84918d,60,733,Tartu - Vasula - Lähte - Keskus - Tartu,3,00933C,Tartu MV
+7b858b2410a9cba164e5b82215af007c,60,734,Haapsalu - Risti - Tallinn,3,E6FA32,Maanteeamet
+4028e1c89e51da80dfbe3095f28a1bba,60,734,Tartu - Vasula - Tartu,3,00933C,Tartu MV
+96e67cf90b7b589f3b2ec38be6506638,100015,735,Vändra - Järvakandi - Rapla - Kohila - Tallinn,3,E6FA32,Pärnu MV
+45505e1002b704f46f6da1b98c4c22c9,60,735,Tartu - Vasula - Tartu,3,00933C,Tartu MV
+dab992118078bb97614971287796ba48,60,736,Tartu - Koosa - Varnja - Alatskivi - Kallaste,3,00933C,Tartu MV
+bb7e87a51ca1b289ea847bb4c7f2a264,60,737,Tartu - Kõrveküla - Tammistu - Aaviku,3,00933C,Tartu MV
+72bf5fa6b88dd0c5509b302f20f9a604,60,738,Tartu - Vasula - Lähte - (Keskus) - (Tabivere),3,00933C,Tartu MV
+c9249bb0ea7d9c34f48b55f307d04b6b,60,739,Vasula - Tartu,3,00933C,Tartu MV
+156b632407958a4f183b1052376a7c2d,60,74,Vastse-Kuuste - Lootvina - Laari,3,00933C,Põlva MV
+39539fa615e83f028f6fa8dc22d6fa3b,60,74,Otepää - Neeruti - Otepää,3,00933C,Valga MV
+a231f1e01a1791877b8bf35c7add4503,317,74,Pärnu - Häädemeeste - Ikla piiripunkt,3,00933C,Pärnu MV
+d2cb5005edffcade067dd0d46d4e71b8,78,740,Tallinn - Kuivastu - Orissaare - Kuressaare,3,E6FA32,Maanteeamet
+f676126ce8a80e202667ba49ba2cf304,60,740,Vana-Kubja - Keskus - Lähte - Vasula - Tartu,3,00933C,Tartu MV
+9561fc29f711b0e2c2ec683ba93ae53f,60,741,Tartu - Tammistu - Koosa - Alatskivi - Nõva,3,00933C,Tartu MV
+c823c0d87953ce28b4f1754796cba603,74,74-1,Pärnu - Ikla,3,00933C,Pärnu MV
+09bb2a9d5c7856e5a57b37ae75643092,100043,742,Tallinn - Aseri - Kohtla-Järve - Jõhvi - Narva,3,E6FA32,Maanteeamet
+ffdca0a4e484baa60604db22d0f94da8,60,742,Nõva - Alatskivi - Koosa - Tammistu - Tartu,3,00933C,Tartu MV
+c1eb622cb3fb2c070365020b65c09d0c,60,743,Tartu - Koosa - Varnja - Alatskivi - Kallaste,3,00933C,Tartu MV
+60902bebf28d3cbd99546e249fe3e698,60,744,Kääpa - Pala - Kallaste - Alatskivi - Koosa - Tartu,3,00933C,Tartu MV
+13cf29ff830c752b3363e91692b563de,78,745,Tallinn - Kuivastu - Orissaare - Kuressaare,3,E6FA32,Maanteeamet
+df87d1b829544058a78a67b1e47d4303,100041,746,Tallinn - Rakvere - Jõhvi - Narva - Narva-Jõesuu,3,E6FA32,Maanteeamet
+6d86b7b9c01935488dbe0ede2af08ea1,78,747,Tallinn - Kohtla-Järve - Jõhvi - Narva,3,E6FA32,Maanteeamet
+fd6780bbb5524507318e080fe724a7ff,100041,748,Tallinn - Rakvere - Aseri - Jõhvi - Sillamäe - Narva,3,E6FA32,Maanteeamet
+b036642f03b901ca62b663c30ade9a28,60,75,Põlva - Mooste - Ahja,3,00933C,Põlva MV
+5307de2fa5bd9e65f59f6e591f9344b3,317,75,Pärnu - Häädemeeste,3,00933C,Pärnu MV
+b6e4551218e9288b5287c0e2c9bfac2c,100041,754,Tartu - Tallinn,3,E6FA32,Maanteeamet
+88a07031f0ec5eeaf300d92f13fb5b8e,60,76,Ahja - Valgesoo - Põlva,3,00933C,Põlva MV
+8b845e6ba936d9e3937cedb9c3e42f90,60,76,Otepää - Anne - Antsla,3,00933C,Valga MV
+a8dd10e8403ac080d2cb7f6767dce1f6,317,77,Pärnu - Kabli,3,00933C,Pärnu MV
+0a863d005c0d4cba8375911f891d0105,47,770,Kuressaare - Tallinn,3,E6FA32,Maanteeamet
+e0d162c3b64520d8e7db0d5ed05b66b6,47,772,Kuressaare - Tartu,3,E6FA32,Maanteeamet
+c3adf5480bf85d323477c048a8cb90c9,47,773,Kuressaare - Pärnu - Paide,3,E6FA32,Maanteeamet
+336f0736a42ffc83f650a084f3b7d9c3,60,77A,Mehitse - Kauksi - Mooste - Lillemäe - Kauksi kool,3,00933C,Põlva MV
+a0a69ce7be0f6daf3b06105abb011c5a,60,77B,Mooste - Kauksi - Lillemäe - Koka,3,00933C,Põlva MV
+589d2e792cf2ba6f5d5652c5442c1401,60,77C,Kauksi kool - Lillemäe - Mooste - Kaaru,3,00933C,Põlva MV
+7aae723174c70f5208ba380cd05f4ca4,317,78,Pärnu - Soometsa - Häädemeeste - Kilingi-Nõmme,3,00933C,Pärnu MV
+2d4bbc340cc9f57af21da1210b897493,6,781,Paide - Ardu - Kose - Tallinn,3,E6FA32,Maanteeamet
+ab2f5a7edec9d3062052d310811ca9ad,60,78A,Nooritsmetsa - Mooste - Kauksi - Põlva,3,00933C,Põlva MV
+6c17fa056190a0205eec3bb35f295cc2,60,78B,Põlva - Kauksi - Mooste - Rasina - Mehitse,3,00933C,Põlva MV
+717a0afbb21142fa6e83a60ac6ff1c2d,317,79,Ikla piiripunkt - Häädemeeste - Soometsa - Pärnu,3,00933C,Pärnu MV
+3b1f132e4d717bcfc707ff84c206ea73,31,791,Tallinn - Rakvere - Aseri - Jõhvi - Narva,3,E6FA32,Maanteeamet
+c4b5ee5e428346bca8a33c51e6088410,31,792,Narva - Aseri - Rakvere - Tallinn,3,E6FA32,Maanteeamet
+a3be13d4610453ad608759c49e067e6e,60,79A,Värska - Podmotsa - Värska,3,00933C,Põlva MV
+b3ae04b778ca79ffd6302f5da5308bd6,60,79B,Värska - Podmotsa - Värska,3,00933C,Põlva MV
+eefcc25254ce53ed6233ffc43512215f,60,7A,Räpina - Leevaku - Meelva - Kõnnu - Linte - Räpina,3,00933C,Põlva MV
+fb922c4b448b7e92d86c0b08084c960e,0,7B,Mere - Tammsaare - Uus-Sauga - Oja - Kaubajaama,3,DE2C42,Pärnu LV
+a80cc07ed09f612497ccefe7ff8e3c91,60,7B,Räpina - Leevaku - Meelva - Kõnnu - Linte - Räpina,3,00933C,Põlva MV
+d8268c184ec5b122f20f9189ccfaa48d,71,7k,Rapla - Ingliste - Juuru - Kaiu - Kuimetsa,3,00933C,Rapla MV
+6e56f2b03518a666232a559d17249ad5,100047,8,Kangelaste 34 - Kalda - Jäähall - Paemurru,3,DE2C42,Narva LV
+eabbb8c05b6cf5fc098ad4645026ccd2,100046,8,Viiratsi - Peetrimõisa - RDTJ - Männimäe,3,DE2C42,Viljandi MV
+c4e3ef0b7578200bae38a2c081500e83,60,8,Koidula gümn.-Kuke-Teater-K-Kodu-Oja-Haigla-Pae-Metsamajand,3,DE2C42,Pärnu LV
+14c45d8f93c211a5c9658503d73d7549,50,8,Fi - Visa Hall - Tuglase - Turu,3,DE2C42,Tartu LV
+7ff738b99a72ce34deef4617a4676d2c,56,8,Viru keskus - Äigrumäe,3,DE2C42,Tallinna TA
+62d16e92df2277a2c9fcb23c353434ff,71,8,Rapla - Seli - Juuru - Purila - Rapla,3,00933C,Rapla MV
+731d3d0549f53e0127080e9731219048,100047,8,Priipalu - Killinge - Mõneku - Tsirguliina - Priipalu,3,00933C,Valga MV
+ec6b5c40d0e342fea517c2db6e73134d,100046,8,Paide bussijaam - Tarbja  - Mäo keskus - Paide bussijaam,3,00933C,Järvamaa ÜTK
+a010bd54444aeb28f35a65cc44544349,317,80,Pärnu - Tõitoja - Massiaru - Käära,3,00933C,Pärnu MV
+bce6ab637ce6f9d4d81f27486b43dbd7,100041,800,Narva - Sillamäe - Jõhvi - Mustvee - Tartu,3,E6FA32,Maanteeamet
+b16452e5b9e608459195592553791131,60,801,Tartu - Võnnu - (Ahunapalu) - Mehikoorma,3,00933C,Tartu MV
+9641c7c519d7189243f288c315ac8be1,60,802,Mehikoorma - Ahunapalu - Võnnu - Tartu,3,00933C,Tartu MV
+2ca60e0cb6338345db30ac3599215a6a,100041,803,Koidula - Värska - Räpina - Tartu,3,E6FA32,Maanteeamet
+9010d631ed74e88e0c26f455edf35cc1,100041,804,Tallinn - Rakvere,3,E6FA32,Maanteeamet
+6bb6781d3ae9e8b1ce356d2522136fea,60,804,Tartu - Võõpste - Tartu,3,00933C,Tartu MV
+9a3eb8c8a88971be56964cb9b008eda1,100041,805,Tartu - Jõhvi - Sillamäe - Narva,3,E6FA32,Maanteeamet
+2884e0049d5df1e0a89f2708c3509a49,60,806,Tartu - Järvselja - Mehikoorma - Arusoo - Tartu,3,00933C,Tartu MV
+35a72259342e450f2c977eaa213902f8,60,807,Tartu - Järvselja - Mehikoorma - Laaks.sadam - Arusoo - Tartu,3,00933C,Tartu MV
+5c0f03b7bf58c0d9b01759ee4276f7c7,632,808,Tallinn - Põltsamaa - Tartu,3,E6FA32,Maanteeamet
+c9fc1279836903e9c5a58d15012783a2,60,809,Tartu - Kavastu - Koosa - Alatskivi,3,00933C,Tartu MV
+68c813630eaeabbb436f0321782a06eb,60,80A,Sikamäe - Soe - Luuska - Orava - Orava raudteejaam,3,00933C,Põlva MV
+fd3baba9e6d369e79752a2e29222503d,60,80B,Orava raudteejaam - Orava - Luuska - Soe - Sikamäe,3,00933C,Põlva MV
+adc9608aa63d76f328f3eed6b61c70c1,60,81,Räpina - Mikitamäe - Ilumetsa - Kahkva - Räpina,3,00933C,Põlva MV
+bc1337f5e25e6e7121bf7e7a84a311b4,60,810,Alatskivi - Koosa - Kavastu - Tartu,3,00933C,Tartu MV
+4c707d849934ab36b7b799b76664bd1c,231,811,Tallinn - Vihasoo - Võsu - Vergi - Altja,3,E6FA32,Maanteeamet
+e2956f5e15d6a7e2b3d7a0f9502685e8,60,811,Tartu - Kavastu,3,00933C,Tartu MV
+c23cd07be154d8b22cbc7ca2ed2cd981,60,812,(Kavastu) - Kalda - Tartu,3,00933C,Tartu MV
+c97c8129ace181c791661b42cdd8c297,60,813,Tartu - Järvselja - Mehikoorma - Laaksaare sadam,3,00933C,Tartu MV
+32c70cdeb87be8584b6a28ef89336eea,60,814,Laaksaare sadam - Mehikoorma - Järvselja  - Tartu,3,00933C,Tartu MV
+b484b395c5fbdfd64984a04149f6859f,100041,815,Võru - Väimela - Põlva - Vastse-Kuuste - Tartu,3,E6FA32,Maanteeamet
+f0ce08295f2c82a712ef4e42285da828,60,816,Tartu - Kavastu - Koosa - Alatskivi - Kokora,3,00933C,Tartu MV
+f3bfb77ff48a0337417bf01778f8c64a,60,817,Kokora - Alatskivi - Koosa - Kavastu - Tartu,3,00933C,Tartu MV
+e4223d75dde7a22394ee2eb1217b15ba,60,818,Tordi - Viira - Kavastu - Tartu,3,00933C,Tartu MV
+d3923a077c1694420fcaa96db73f028e,60,819,Tartu - Kavastu -Sääsküla - Tartu,3,00933C,Tartu MV
+9310789d46f6d45e0b4a1f1f014316d2,317,82,Pärnu - Surju - Kilingi-Nõmme - Tihemetsa,3,00933C,Pärnu MV
+33e62dab7cac6cbb2adcb58a950f5749,100036,820,Jõgeva - Tabivere - Tartu,3,E6FA32,Maanteeamet
+a9c13255dc4eced61611271a5e35e4b4,100036,821,Jõgeva - Palamuse - Luua - Tartu,3,E6FA32,Maanteeamet
+20cf69ccda30ddcf25f65ad3476b1c3c,60,822,Tartu - Roiu - Kulpna - Tartu,3,00933C,Tartu MV
+be99e9c071b979d84eb354589d930d1f,60,823,Tartu - Luunja - Tammistu - Pilka - Tartu,3,00933C,Tartu MV
+6dc5a4e2506a45de3ef096256d156c23,60,824,Tartu - Roiu - Villemi,3,00933C,Tartu MV
+90234ca4dd47f8ab1bb8970cdba8941a,60,825,Villemi - Roiu - Tartu,3,00933C,Tartu MV
+e702742a100a1d160c9e5a8cae33ca76,60,826,Tartu - Mäksa - Võõpste - (Viira metsavaht),3,00933C,Tartu MV
+1cec5ab6eae83be6767df30e411d8900,60,827,Kaarlimõisa - Mäksa - Tartu,3,00933C,Tartu MV
+6dea9b72e447825ccab6c5c2ad22aee0,60,828,Tartu - Järvselja - Mehikoorma - (Arusoo),3,00933C,Tartu MV
+3d6fdf9ced823d6e4949991fc80a73f1,60,829,Arusoo - Mehikoorma - Järvselja - Tartu,3,00933C,Tartu MV
+099a5a4a669681ee55a2186d8f07fbc2,60,82A,Orava - Kahkva - Räpina,3,00933C,Põlva MV
+4a42233b652f7647caf1119469bf8a43,60,82B,Räpina - Kahkva - Hanikase,3,00933C,Põlva MV
+8cc44671c16bdfc79eaf445a31477761,60,82C,Räpina - Kahkva - Orava,3,00933C,Põlva MV
+ba9bceb3570fe3cf5a38f6de2896ecac,60,82D,Orava - Kahkva - Räpina,3,00933C,Põlva MV
+c2b4c8ca35766da1d11f8c807a8de440,60,82E,Hanikase - Kahkva - Räpina,3,00933C,Põlva MV
+9b096a30060ea7a4c0a3cf162b54cd4d,317,83,Pärnu - Vaskrääma - Surju - Saunametsa - Kikepera,3,00933C,Pärnu MV
+71db2ba228a364e3ad7bd1032d3abeaa,60,830,Tartu - Järvselja - Mehikoorma - (Laaksaare sadam) - (Arusoo),3,00933C,Tartu MV
+385f71adb0530d25ba5e9f6f618c002a,60,831,Arusoo - Laaksaare sadam - Mehikoorma - Järvselja - Tartu,3,00933C,Tartu MV
+f12069d9f31cc0035364c2ff9c201163,71,83-1,Pärnu - Paikuse - Tammuru - Postikooli,3,00933C,Pärnu MV
+8e905a8b3d9d6b2c6966e36e3aa46017,60,832,Tartu - Võõpste - Võnnu,3,00933C,Tartu MV
+357413bdb972d923074d5e764e05658b,317,83-2,Pärnu - Uulu Kool - Kiksu - Surju - Saunametsa (Kikepera),3,00933C,Pärnu MV
+130801602a3f65a82cd543dcaefc5177,60,833,Räpina - Mehikoorma - Rasina - Võnnu - Võõpste - Tartu,3,00933C,Tartu MV
+425ee2c5a14112ccbedb0c504b2c3901,60,835,Räpina - Mehikoorma - Järvselja - Võnnu - Võõpste - Tartu,3,00933C,Tartu MV
+71a7eee24f16952fbcf66285fc306fb5,60,836,Võnnu - Tartu,3,00933C,Tartu MV
+b741cb089eb1265a16e61cd1ec1952fe,60,837,Tartu - Võnnu - (Sikapalu),3,00933C,Tartu MV
+f1eac1e0e4f79796aed96ff718c86ca0,60,838,Võnnu - Tartu,3,00933C,Tartu MV
+9346f7a99e55a3a57d2aad65c1594bf3,60,839,Võnnu - Tartu,3,00933C,Tartu MV
+9535e17a7cfc694d21812724f4f17d53,60,83A,Hanikase - Koidula - Orava - Võru,3,00933C,Põlva MV
+9fd30ad5889cdbe8ed03091befa20235,60,83B,Võru - Orava - Koidula - Orava,3,00933C,Põlva MV
+f3a13829ac40ba48a1dd68af26ed2dc0,60,83C,Koidula - Orava - Võru,3,00933C,Põlva MV
+401ffd5ca7f53bf8b912c2620f19d6f0,60,83D,Võru - Orava - Koidula,3,00933C,Põlva MV
+49d4dc522a9dc06e4b7cae3a0b24db2f,60,84,Veriora - Orava,3,00933C,Põlva MV
+5fc01570a61b32e5060733c970aa2ede,317,84,Pärnu - Kilingi-Nõmme,3,00933C,Pärnu MV
+3822a794d9c7397e52fdd4d2ba5496db,60,840,Tartu - Pilka - Kavastu,3,00933C,Tartu MV
+a0380c33435c95ba6fb3b1a9e819462a,60,841,Kavastu - Pilka - Tartu,3,00933C,Tartu MV
+6902c18b1b13a599aa2de55e2817246d,60,842,Tartu - Võnnu,3,00933C,Tartu MV
+3ae843f7e6c0c1fab7fda3bb2f8a5c35,60,843,Võnnu - Tartu,3,00933C,Tartu MV
+d63f10fa31525ad270619c63e20541f5,60,844,(Sikapalu) - Võnnu - Võõpste - Tartu,3,00933C,Tartu MV
+869dab9e1b369b8ca55969a3bfa24aa4,60,845,Kallaste - Alatskivi - Koosa - Kavastu - Tartu,3,00933C,Tartu MV
+08915e15f0e2ada0290b94c7cb6d004d,60,846,Kallaste - Alatskivi - Koosa - Pilka - Tartu,3,00933C,Tartu MV
+870d7702e9cc17bcf43112beeff90fc2,60,847,Tartu - Pilka - Kavastu - Luunja - Tartu,3,00933C,Tartu MV
+69cf6036b6a638ba80598e497afab497,60,848,Tartu - Võnnu - (Võõpste),3,00933C,Tartu MV
+b4cc794a94d49a2ce11f158fca06adbc,60,849,Tartu - Mäksa - Võõpste - Melliste - Luunja,3,00933C,Tartu MV
+a2458570b40ae5b67448493583f93568,60,85,Orava - Lepassaare - Orava kool,3,00933C,Põlva MV
+61bc75463a0ab0cf007a05071b3774e2,317,85,Pärnu - Kilingi-Nõmme - Tõlla - Kanaküla,3,00933C,Pärnu MV
+261a711edbea943c3c519f76d95442e4,317,86,Pärnu - Kilingi-Nõmme - Punapargi,3,00933C,Pärnu MV
+de658bff85be8be7b2191829ea07ec90,60,863,Haapsalu - Tallinn,3,E6FA32,Maanteeamet
+8d863a3e813f4006b319da52d4be210b,14,864,Sadala - Torma - Voore - Vedu - Tartu,3,E6FA32,Maanteeamet
+968f4911393db8afeb895824ef249375,31,865,Tallinn - Kohtla-Järve - Jõhvi - Sillamäe - Narva,3,E6FA32,Maanteeamet
+a6a64c07703b264d401dd15322f22546,31,866,Tallinn - Kohtla-Järve - Jõhvi - Sillamäe - Narva,3,E6FA32,Maanteeamet
+7e88502d858459b867933e175df67121,31,867,Tallinn - Kohtla-Järve - Jõhvi - Sillamäe - Narva,3,E6FA32,Maanteeamet
+ad1c0df947850c7bae33fc6c8c51b29a,100041,868,Tallinn - Rakvere - Aseri - Kohtla-Järve - Jõhvi - Narva,3,E6FA32,Maanteeamet
+b1174ae52a8429615d5ecc6a8e3d2df4,60,86A,Põlva - Veriora - Orava - Lepassaare,3,00933C,Põlva MV
+b4c9800bca72412a3b85d090f70de1d3,60,86B,Lepassaare - Orava - Veriora - Põlva,3,00933C,Põlva MV
+7ae3dfaa68d29479f297c1ffe064bd78,60,86C,Orava - Veriora - Põlva,3,00933C,Põlva MV
+af1b96b65ad2520e6065b3cbb3ff4e26,60,870,Nurste - Käina - Haapsalu - Tallinn,3,E6FA32,Maanteeamet
+eb8229e0c9ddcb9ad3fe33ae1b5daacc,31,872,Rapla - Kohila - Tallinn,3,E6FA32,Maanteeamet
+9890736296a0b75565866909035ad6b8,100031,877,Võru - Kanepi - Tartu - Põltsamaa - Tallinn,3,E6FA32,Maanteeamet
+a89ebd1749267b4ba7aa0281d50126cd,100041,879,Võru - Kanepi - Tartu - Põltsamaa - Mäo - Tallinn,3,E6FA32,Maanteeamet
+1134ff6da38b559b9ef496f216c0d3e2,60,87A,Värska - Saatse - Perdaku,3,00933C,Põlva MV
+5594452e5b9652b0ad62fd4de9436617,60,87B,Perdaku - Saatse - Värska,3,00933C,Põlva MV
+ddb0d10932679e556262aae0b22ff392,60,87C,Värska - Saatse - Perdaku,3,00933C,Põlva MV
+0a0a66af1a0fa843f778d6ef83da5b9e,60,87D,Perdaku - Saatse - Värska,3,00933C,Põlva MV
+eee3b10b98380995a6d252daa0b064e6,295,880,Tallinn - Tartu,3,E6FA32,Maanteeamet
+b12e8eaaf97aaa6e0c66f12cb0b87aff,100055,881,Tallinn - Paide,3,E6FA32,Maanteeamet
+2af4ffd4e1de8aab95215f5aa22d7849,31,884,Tallinn - Tartu - Põlva - Võru - Haanja,3,E6FA32,Maanteeamet
+e1dd3d1cbc7ec04a2d34088df8f27471,31,886,Tallinn - Kiviõli - Kohtla-Järve - Jõhvi,3,E6FA32,Maanteeamet
+72c034fded8f286e1b733f7ae5dec448,31,887,Tallinn - Märjamaa - Pärnu - Ikla piiripunkt,3,E6FA32,Maanteeamet
+56edf8b50f064cf0cb8659c493a29394,31,889,Tallinn - Tartu - Põlva - Võru,3,E6FA32,Maanteeamet
+73c448bb637f842f37d4bf2748bb2c6d,60,88A,Värska - Koidula - Orava - Värska,3,00933C,Põlva MV
+fa7441dc8a9bd696c442cbd8e405d56c,60,88B,Värska - Orava - Koidula - Värska - Podmotsa - Värska,3,00933C,Põlva MV
+8199bbc3bc11b0f184b6b39bc7e6851e,60,89,Rebasmäe - Obinitsa - Orava - Kamnitsa,3,00933C,Põlva MV
+1a863ae82a49a31c72d4218304ac718b,317,89,Häädemeeste - Kilingi-Nõmme - Pärnu,3,00933C,Pärnu MV
+b460ca529033b0bc9d073e0d7a610852,100041,892,Narva - Tallinn,3,E6FA32,Maanteeamet
+a4f9b9139726c460e1a111aa3c5b1c86,100041,893,Narva - Tallinn,3,E6FA32,Maanteeamet
+17abd73c1d59f71fe22719d8818b9e5e,71,895,Tallinn - Viljandi,3,E6FA32,Maanteeamet
+33faf28d4ac595f7a70ed31c55ed4bb4,71,896,Viljandi - Türi - Paide - Tallinn,3,E6FA32,Maanteeamet
+99dbe74f319b818004a3705765b454bf,60,8A,Räpina - Veriora - Ruusa - Saare - Nulga - Räpina,3,00933C,Põlva MV
+c342f3c0a3207d193916d7766d01657c,60,8B,Räpina - Veriora - Ruusa - Saare - Nulga - Räpina,3,00933C,Põlva MV
+a3d3b72bdc699c6fc0c6ad98b2610363,71,8k,Rapla - Seli - Purila - Rapla,3,00933C,Rapla MV
+861930456b8b4be7329424e713dd9a2f,0,9,Mere - Karja - Vana-Pärnu,3,DE2C42,Pärnu LV
+c5bd7f7fe3ade5d4d5d0686daab91da8,100047,9,Kangelaste 34 - Kreenholmi 10 - Joala,3,DE2C42,Narva LV
+e40d3692d431879f5236900ac29b399f,100046,9,Viiratsi - Kantreküla,3,DE2C42,Viljandi MV
+31e39ffd49d5440d6ebc2262322f8e7b,50,9,Sepa Turg - Ropkamõisa - Kesklinn - Ropkamõisa - Sepa Turg,3,DE2C42,Tartu LV
+d0114168b3cd24d341bd8a2438e6e567,56,9,Kadaka - Kunstiakadeemia,3,DE2C42,Tallinna TA
+0e9fcff92278dcb91d5445aa19f5f622,71,9,Rapla - Hageri - Kohila,3,00933C,Rapla MV
+00882e27dee1533cb60c37ebd8ae9ca5,100047,9,Tuuri - Leebiku - Riidaja,3,00933C,Valga MV
+e0321ce4167abbce1a792a56c1388ac5,100046,9,Paide bussijaam - Peetri -Koeru,3,00933C,Järvamaa ÜTK
+1d2daa9dbc75c10ea5a15cd570505d5f,60,9,Kadrina - Undla - Vohnja - Tapa - Kadrina,3,00933C,Lääne-Viru MV
+76d5f6ec266f52512fb7291e87417308,60,9,Räpina - Veriora - Ruusa - Leevaku - Räpina,3,00933C,Põlva MV
+6276d88403640e16cd8049b4d8c05921,56,9,Keskuse - Kopli,800,00A1DE,Tallinna TA
+96c250ea4b5341bcd1d0954fd343bdc7,71,90,Pärnu - Urge - Kuiaru - Piistaoja - Tori,3,00933C,Pärnu MV
+93c2114fb1f8288575f36f0747870ff7,60,90,Värska - Saatse - Räpina - Kauksi - Põlva,3,00933C,Põlva MV
+1caec60ee4a47602c454aa7c8fd6d582,50,903,Narva - Sillamäe - Jõhvi - Kohtla-Järve,3,F55ADC,Ida-Viru MV
+1a3b5922273ab45b0d76dd9f4d290d44,60,904,Elva - Annikoru - Rannu - (Kureküla),3,00933C,Tartu MV
+e855de1752a20fafb3744d4d5bf4be8c,50,904,Narva - Laagna - Sinimäe - Sillamäe,3,00933C,Ida-Viru MV
+fd3b2578524ca6df536b4d235553041b,60,905,Kureküla - Rannu - Annikoru - Elva,3,00933C,Tartu MV
+6def1a4c3df97f4c941c05d5763c5e16,78,906,Tallinn - Aseri - Kohtla-Järve - Jõhvi - Sillamäe - Narva,3,E6FA32,Maanteeamet
+ccb78cc506ac45d335f37a566d0cabb8,60,906,Elva - Annikoru - Rannu - (Rannu apteek),3,00933C,Tartu MV
+8558d587faa297b4bbd78b93d8fadc65,60,907,Rannu apteek - Rannu - Annikoru - Elva,3,00933C,Tartu MV
+434ef5356e2261fca80ad357a7d939a1,60,908,Erumäe-Elva - Valguta - Rõngu,3,00933C,Tartu MV
+c556a396dbbc4789342c9902e99ee8cb,60,909,Rõngu kool - Valguta - Rõngu,3,00933C,Tartu MV
+2ab00cba499fa7960626dfccdcea4ef3,60,91,Räpina - Leevaku - Mooste - Põlva - Vastse-Kuuste - Tartu,3,00933C,Põlva MV
+e61e72a90fc2ab192b8b539f745f5cf7,60,910,Lootvina - Villemi - Suurekivi,3,00933C,Tartu MV
+a84e69d5309bfd4b8461829173a98594,60,911,Nõo - Luke - Elva - Rõngu,3,00933C,Tartu MV
+3355f92be7ef3b9654102bb3a42c189b,71,91-1,Pärnu - Vändra - Suurejõe - Kaansoo,3,00933C,Pärnu MV
+10d0a6689a22382916b022420786683f,60,912,Lähte - Kärkna - Õvi - Lähte,3,00933C,Tartu MV
+12e0e760a02573537b2ac8d07910a7ae,71,91-2,Kaansoo - Suurejõe - Vändra - Pärnu,3,00933C,Pärnu MV
+66071cb11ce306c1daeb850e1a446b8c,60,913,Lähte -Juula- Vedu keskus - Lähte,3,00933C,Tartu MV
+c92dfb6ce147e5ebc623314c3809bf9c,74,91-3,Vändra - Suurejõe - Vändra,3,00933C,Pärnu MV
+dcc9bd192417c1739fd2ea076a66a3b4,60,914,Lähte - Õvi - Kärkna - Lähte - Keskus,3,00933C,Tartu MV
+c556ebe053d4fe7c851900fc609c9fc4,60,915,Vanause - Puhja kool,3,00933C,Tartu MV
+9a03cb4153050330f45ee89c88671c1a,60,916,Puhja kool - Rämsi - Puhja kool,3,00933C,Tartu MV
+bf49b196bdb2e517f90cc4b91a7a7e74,60,917,Puhja kool - Ulila - Karijärve - Puhja asula,3,00933C,Tartu MV
+5a86ec142f3b903460efcf3eb79459ab,60,918,Puhja kool - Annikoru - Puhja asula,3,00933C,Tartu MV
+aded75672ad3442200d2884418501a8e,60,919,Rannu - Annikoru - Elva,3,00933C,Tartu MV
+dde034306ef5436e4a4cf4b9bb294dc5,60,920,Elva - Majala - Annikoru - Rannu - (Haani),3,00933C,Tartu MV
+f7c60bbdf981c6633a523418c73dbe2d,60,921,Elva - Karijärve - Erumäe - Majala -  Elva,3,00933C,Tartu MV
+dc8b3d627daa9ab7dc5ef718bde1f515,71,92-1,Vändra - Vihtra - Tori - Pärnu,3,00933C,Pärnu MV
+98cfe031f1af97b3baea19913ed769ce,60,922,Kokora - Alatskivi,3,00933C,Tartu MV
+e810f825747464e2b9f5878db8562ae9,71,92-2,Pärnu - Tori - Vihtra - Vändra,3,00933C,Pärnu MV
+66059d9727437136558f70a7c4192afe,60,923,Viira - Koosa -  Nina - Alatskivi - Kallaste,3,00933C,Tartu MV
+2dee641856294977994c19851ea43d65,71,92-3,Vändra - Vihtra - Tori,3,00933C,Pärnu MV
+052b6d105a480947bdc42ebc00c9fc44,60,924,Luunja kool - Melliste - Võõpste - Mäksa - (Sarakuste),3,00933C,Tartu MV
+6c572afdd70c5da8223116425a92ab76,60,927,Lähte - Kõrveküla - Tammistu,3,00933C,Tartu MV
+d549be183725e4bedf51d5930d654c84,60,928,Erumäe - Majala -  Elva,3,00933C,Tartu MV
+cac0e52b875d482dca6d72f7398d9f0a,60,929,(Andresjaani) - Väike-Rakke - Rannu - Annikoru - Elva,3,00933C,Tartu MV
+c27a2aba46aa2dceb61c3c7e9ac415cf,60,92A,Põlva - Kauksi - Räpina - Värska - Koidula,3,00933C,Põlva MV
+02db24fd951b0b6b3a9d29ce69dbac78,60,92B,Koidula - Värska - Räpina - Kauksi - Põlva,3,00933C,Põlva MV
+7fcb6eb62316057d3ba6f2fe544b73c0,60,92C,Põlva - Kauksi - Räpina - Värska - Koidula,3,00933C,Põlva MV
+861ffa4dccbaaa610f64a9168eb4c669,60,92D,Koidula - Värska - Räpina - Ruusa - Põlva,3,00933C,Põlva MV
+4a1d526a51a8e3d9d958fe1375b7be77,60,92E,Põlva - Kauksi - Räpina - Värska - Koidula,3,00933C,Põlva MV
+0f7a9e0f3fa166040da0d876f68fe3c5,60,92F,Koidula - Värska - Räpina - Kauksi - Põlva,3,00933C,Põlva MV
+5af798c1ad772c21a30ddcb19b65fa21,71,93,Pärnu - Tori - Tootsi,3,00933C,Pärnu MV
+fa46aff289f34280ecd7ed76dd944cca,60,93,Põlva - Kauksi - Räpina - Värska - Saatse - Värska,3,00933C,Põlva MV
+981328f5063417eb4355a929beebdc71,60,930,Elva - Annikoru - Rannu - Väike-Rakke - (Järveküla),3,00933C,Tartu MV
+ac8dfc888ed1a3d2e0fce4dd3c2f616a,60,932,Elva - Luke - Laguja - Illi - Elva,3,00933C,Tartu MV
+8ad1118ad3cf1af5326cd47d48ca42e6,60,933,Melliste - Roiu - Reola raudteejaam - Hammaste - Melliste,3,00933C,Tartu MV
+9700cd16c47324a209cc0b0cf4b072f0,100036,940,Pärnu - Võru - Värska,3,E6FA32,Maanteeamet
+7b5f072b87b8e72f0afc3f88364abf22,71,94-1,Pärnu - Vändra - Võidula - Kadjaste,3,00933C,Pärnu MV
+0235778a5de86dd7103a8812fcb89530,71,94-2,Rae - Vändra - Pärnu,3,00933C,Pärnu MV
+b17386a5e5cfb1539f5f97f87c7ab320,71,94-3,Pärnu - Tori - Vändra,3,00933C,Pärnu MV
+44466bb87b2ec4283e1eb630553d0941,60,94A,Põlva - Kauksi - Räpina - Värska - Saatse muuseum,3,00933C,Põlva MV
+289a662742e6936ded06e9bf67ba51c8,60,94B,Saatse - Värska - Räpina - Kauksi - Põlva,3,00933C,Põlva MV
+117af7c36ce188e722eb4a48dc115a48,71,95,Vändra - Vihtra - Suurejõe - Vändra,3,00933C,Pärnu MV
+1e05dded7ce33862bf0d5f6f58003943,219,95,Koidula - Obinitsa - Meremäe - Vastseliina - Võru,3,00933C,Võru MV
+9e723d1724dbc0f6881671a4785e7501,60,95,Tartu - Mooste - Kauksi - Räpina,3,00933C,Põlva MV
+44152742e4458640d337bbb9a9a2c5e6,295,96,Kesklinn - Prisma,3,FF6319,Tartu LV
+d74190849d5cf8316d4015823fca30fb,71,96,Vändra - Võidula - Kurgja - Rae,3,00933C,Pärnu MV
+e2b661faf47fdf423a378699182dd27a,219,96,Võru - Vastseliina - Meremäe - Obinitsa - Koidula,3,00933C,Võru MV
+a3f6c69f2babdcc9ede605fdea2798c8,60,96A,Koidula jaam - Värska - Räpina - Tartu,3,00933C,Põlva MV
+dbe2646118b13ee76051f69f490513b6,60,96B,Tartu - Räpina - Värska - Koidula jaam - Orava,3,00933C,Põlva MV
+67244bb61d85419b6d4b08485825c952,71,97,Vändra - Kaisma - Kõnnuveski,3,00933C,Pärnu MV
+fd0712533e91bd0bbc3df45cacbdb961,71,97-1,Vändra - Viluvere rdtj,3,00933C,Pärnu MV
+7905b541cfa161e50e4e8a1306dcb035,60,97A,Põlva - Vastse-Kuuste - Tartu,3,00933C,Põlva MV
+de7515168d6f7a072a2f5a82c04bb4b9,60,97B,Tartu - Vastse-Kuuste - Põlva,3,00933C,Põlva MV
+fae714a2839c97f4dc01de82f7d0133e,60,97C,Põlva - Vastse-Kuuste - Tartu,3,00933C,Põlva MV
+bfbd157e11a721297b452d4cd2a37be5,71,98,Vändra - Tootsi - Piistaoja - Tori - Vihtra - Vändra,3,00933C,Pärnu MV
+654f525a0e4bbff0f0eecf09badf309c,27,98,Purtse - Lüganuse,3,00933C,Ida-Viru MV
+d45f527c5d862a8b6dab8bce0bdc6493,60,98A,Põlva - Varbuse - Krootuse - Liiva - Tartu,3,00933C,Põlva MV
+13306661b6cc2f84b76ff8aef8e4c2f5,60,98B,Tartu - Liiva - Krootuse - Varbuse - Põlva,3,00933C,Põlva MV
+99d5b65375562bcf8e939a038d2d3939,71,99,Pärnu - Tori - Aesoo,3,00933C,Pärnu MV
+055307dd154adb7df74d7e8e08c86a6f,42,99,Aseri - Kiviõli,3,00933C,Ida-Viru MV
+72c4585c7e7a3f37c3c33f4c71ae3f38,60,99A,Lao - Põlva - Taevaskoja - Vastse-Kuuste - Tartu,3,00933C,Põlva MV
+c44da35b159883e85665139f9032f591,60,99B,Tartu - Vastse-Kuuste - Taevaskoja - Põlva,3,00933C,Põlva MV
+e4a4d39e79e4af91dec013f1dc380a31,60,99C,Põlva - Taevaskoja - Vastse-Kuuste - Tartu,3,00933C,Põlva MV
+d2b0b239b92c1709da45771af694ac97,60,99D,Tartu - Vastse-Kuuste - Taevaskoja - Põlva,3,00933C,Põlva MV
+bd55d7da3ce16cb8bdd429d883717ae5,60,99E,Põlva - Taevaskoja - Vastse-Kuuste - Tartu,3,00933C,Põlva MV
+d5a0ad0b2c35ba2c6a130e4a945d8857,60,99F,Tartu - Vastse-Kuuste - Taevaskoja - Põlva,3,00933C,Põlva MV
+2d9298dc50e2ef3f62a452713cb918bd,60,99G,Põlva - Taevaskoja - Vastse-Kuuste - Tartu,3,00933C,Põlva MV
+d4a356621b59eea7d105e6a0dd6531a2,60,99H,Tartu - Vastse-Kuuste - Taevaskoja - Põlva,3,00933C,Põlva MV
+3518f0afa5282e78455eb093cb67bfaf,100046,9a,Vao keskus - Abaja - Koeru,3,00933C,Järvamaa ÜTK
+c8a7e9a21b8c53d7770223de2c6a2f92,82,ELR1,Tallinn - Tartu (ekspress),2,969696,Maanteeamet
+6f7140640252290327f66078a3ddc31d,82,ELR2,Tallinn - Tartu,2,969696,Maanteeamet
+f13beb56aacef1aa8d47f30fe2542490,82,ELR22,Tallinn - Narva,2,969696,Maanteeamet
+ba5c756aa70db73ae0205953e17071fe,82,ELR23,Tallinn - Rakvere,2,969696,Maanteeamet
+ca9dd3b433f6fcfa27ddab9c3e1e9701,82,ELR24,Tallinn - Viljandi,2,969696,Maanteeamet
+0feff6bb8654c39c7ecb0cdb0a73c3a8,82,ELR26,Tallinn - Rapla,2,969696,Maanteeamet
+832a6717591d257a3f1e5a6d45fb3979,82,ELR3,Tallinn - Türi,2,969696,Maanteeamet
+f5c83750b921bd3a1e40d1f9772d8de7,82,ELR30,Tallinn - Pärnu,2,969696,Maanteeamet
+f3781b2b75907a7b99cfe1518ee5a706,82,ELR32,Jõgeva - Tartu,2,969696,Maanteeamet
+877cd6ad87097769c9ee5dbc1e713a9c,82,ELR33,Tartu - Valga,2,969696,Maanteeamet
+9717380dfa2fb6c0a3b7affa000d254b,82,ELR38,Tartu - Koidula,2,969696,Maanteeamet
+08d72e3a86de91b7171248fdc8586bb0,82,ELR4,Viljandi (kiirrong) - Tallinn,2,969696,Maanteeamet
+95c5fa8689299d61de3802efc47c96ce,82,ELR40,Tallinn - Aegviidu,2,969696,Maanteeamet
+11cc0e18c17d511f1dfa11540cf3e008,82,ELR44,Tallinn - Viljandi (kiirrong),2,969696,Maanteeamet
+957785d7732ce87c3eec9b65045aa572,82,ELR5,Tallinn - Paldiski,2,969696,Maanteeamet
+b71678df5f62226afb34899f2ea092c5,82,ELR51,Tallinn - Riisipere,2,969696,Maanteeamet
+4223e2abb45c3505a771a60d74a74222,82,ELR52,Tallinn - Kloogaranna,2,969696,Maanteeamet
+7a58367fba325459a05d5a5c7aefeaf3,82,ELR53,Tallinn - Keila,2,969696,Maanteeamet
+55f11820da541eef9b45c9862aec4075,82,ELR7,Tallinn - Pääsküla,2,969696,Maanteeamet
+21ee3319efae2e5f855ec17b04860044,100046,H1,Kumna - Vääna - Suurupi - Tabasalu - Harkujärve,3,00933C,Harjumaa ÜTK
+c6e11fba7996b3a873f04c1dc74c2fbb,100046,H10,Harkujärve - Tabasalu - Liikva - Vääna - Harku - Tabasalu,3,00933C,Harjumaa ÜTK
+f53980a91eee661c54d0a8a52bdc96d1,100046,H2,Naage - Adra - Vääna - Vääna-Jõesuu - Suurupi - Muraste,3,00933C,Harjumaa ÜTK
+5040170d5bf4593f6ad8718a4b2ac501,100046,H3,Keila-Joa - Mäe - Vääna -Kiia- Harku - Harkuj. - Tabasalu,3,00933C,Harjumaa ÜTK
+4493e6d0f4aa140a521ec613f112a41f,100046,H4,Vääna - V-Jõesuu - Tabasalu - Harku - Suurupi - Keila-Joa,3,00933C,Harjumaa ÜTK
+fd478cf760384e8b9a9290961a2fd620,100046,H5,Harkujärve - Tabasalu - Vääna - Tutermaa - Kumna- Kütke,3,00933C,Harjumaa ÜTK
+427f25be4796ecd63f14c054fa0972de,100046,H6,Vääna - Humala - Tutermaa - Kumna - Keila,3,00933C,Harjumaa ÜTK
+abef9a92fa9f60769223304f071b7679,100046,H7,Harkujärve - Tabasalu - Suurupi - Vääna - Vääna-Jõesuu,3,00933C,Harjumaa ÜTK
+aa1b819502e27c2d3fe5fd8a137e034d,100046,H8,Keila - Kumna - Vääna,3,00933C,Harjumaa ÜTK
+5c04995121af1360c6bb183df661c41f,100046,H9,Vääna-Jõesuu - Suurupi- Tabasalu- Harkuj - Sõrve-Suurupi,3,00933C,Harjumaa ÜTK
+c308574a58434cddb9fb4188a78ff4c7,100046,J1,Tallinn - Laagna - Rebala - Jõelähtme - Ihasalu -  Neeme,3,00933C,Harjumaa ÜTK
+c78716519f84158515068ca6ddc7613c,100046,J10,Manniva - Jõelähtme - Neeme tee - Jõelähtme - Rebala - Kostivere,3,00933C,Harjumaa ÜTK
+52f2472f98367df8f6c57be35ad9ec7f,100046,J11,Loo - Kostivere - Rebala - Jõelähtme - Jägala - Kostivere - Jägala - Jõelähtme - Kostivere,3,00933C,Harjumaa ÜTK
+44213195340adf06753ae5371d393782,100046,J12,Kostivere - Jõelähtme - Kuusalu kool - Kaberneeme - Neeme - Jõelähtme - Kostivere,3,00933C,Harjumaa ÜTK
+328bab4319e71fe9d77c0c9630efba02,100046,J13,Loo - Kostivere - Kurgla-Rebala-Jõelähtme-Jägala-Kostivere,3,00933C,Harjumaa ÜTK
+6a980d60e4c5cffd99ef57db1dbc2ce3,100046,J14,Neeme tee - Jõelähtme - Loo - Lagedi kool - Loo,3,00933C,Harjumaa ÜTK
+d9c25e281711b214eec6fa7aacc62afe,100046,J15,Pirita jõgi - Saviranna - Ülgase - Liivamäe küla - Loo,3,00933C,Harjumaa ÜTK
+e4366b69d274b4841796f7f21b5a4cf3,100046,J2,Jõelähtme - Kaberneeme - Kullamäe,3,00933C,Harjumaa ÜTK
+ae13ac6e1d772384df6f4018942ebf76,100046,J3,Kallavere - Iru - Loo,3,00933C,Harjumaa ÜTK
+39351453b3a78ee52dbcc507c7446fca,100046,J4,Neeme tee - Kaberneeme - Kuusalu kool - Jägala - Haljava - Kostivere,3,00933C,Harjumaa ÜTK
+07737c9dd5d1899fb488ee9dd5e840ae,100046,J5,Kostivere - Koogi kpl - Rebala - Kostivere - Loo - Kostivere,3,00933C,Harjumaa ÜTK
+a04b609b9032a408c682fdd68d79cf47,100046,J6,Loo - Iru - Muuga - Kallavere - Ülgase - Maardu - Maardu järv,3,00933C,Harjumaa ÜTK
+cae1f213fa27b7e629959ce5023e3acd,100046,J7,Kostivere kool - Loo - Lagedi mõis - Kostivere,3,00933C,Harjumaa ÜTK
+4955d15fcf0ccd8306a92a0017c7773f,100046,J8,Loo - Kostivere - Rebala -Manniva-Jõelähtme-Sambu-Neeme,3,00933C,Harjumaa ÜTK
+0569fdbd14af39726d4caafb7a168bdc,100046,J9,Loo - Iru - Muuga - Saviranna - Ülgase - Ellandvahe-Kostivere,3,00933C,Harjumaa ÜTK
+2cccb9235098ebb887c760045261f453,100046,K1,GMN - Kose - Kose-Uuemõisa - Sepa - Oru,3,00933C,Harjumaa ÜTK
+b5ec562f864241d2479f37fde2ac7bb4,99,K11,Rõõmu - Keila Veskid- Apteek- Põhja- Haigla- Karjaküla- SOS,3,00933C,Harjumaa ÜTK
+8306414883670a516c32b796b095a1a3,99,K12,Rõõmu - Apteek - Haigla - SOS,3,00933C,Harjumaa ÜTK
+6c854750a3d542dbf45392cbdedc12c2,100046,K2,Kose - Ravila - Palvere - Vilama,3,00933C,Harjumaa ÜTK
+b07d90b5c23fd4d3339e9719e3def1fe,99,K3,Kose - Habaja - Kuimetsa - Kaiu,3,00933C,Harjumaa ÜTK
+78b37b47d47819284a876db5e8f48dec,100046,K4,GMN - Kose - Viskla - Algkool - GMN - Kose,3,00933C,Harjumaa ÜTK
+67e1f735bdf0d3f5b2d0f38ddfa44be3,100046,K5,Oru - Sepiku - Kanavere - Kolu - Kose - Algkool,3,00933C,Harjumaa ÜTK
+2ca313d94a770ef5821c8e1e99dbce58,99,K6,Kose - Alavere - Kehra,3,00933C,Harjumaa ÜTK
+5b91890202f49c860e8b1f564a538145,100046,K7,Ardu - Kõue - Kose - Harmi - Habaja - Virla - Kõue - Ardu,3,00933C,Harjumaa ÜTK
+0bba4ad3f7d5ccfe7448b18854e230f4,100046,K8,Kose - Ojasoo - Virla - Ardu,3,00933C,Harjumaa ÜTK
+bf84385f374fa9252ae732ea592aa7b0,100046,KV1,Põllküla - Kloogaranna - Laulasmaa,3,00933C,Harjumaa ÜTK
+a3d1e52848389a407ab8b480bd33bcb3,100046,KV2,Tõmmiku - Meremõisa - Laulasmaa,3,00933C,Harjumaa ÜTK
+eea40840d022603e71471e7de460b5d9,100046,KV3,Loigu - Keila-Joa - Laulasmaa,3,00933C,Harjumaa ÜTK
+d350fd5e033fb25c1f43393eb349501c,100046,KV4,Lohusalu - Laulasmaa,3,00933C,Harjumaa ÜTK
+834864db67e45432ceb26ecf8d8fa49e,100046,KV5,Ohtu - Lehola - Keila,3,00933C,Harjumaa ÜTK
+d4e26c9321bb151ea8ff290c613421a5,100046,KV6,Lohusalu - Laulasmaa - Kloogaranna - Keila,3,00933C,Harjumaa ÜTK
+35dcc695cd19cbe6e2e4e67a9b8e6269,100046,KV7,Laulasmaa - Keila-Joa - Keila,3,00933C,Harjumaa ÜTK
+6ace2977247fef6b7d787f8ca1427c6a,100046,KV8,Laoküla - Madise - Põllküla - Kersalu - Keila,3,00933C,Harjumaa ÜTK
+7ecae8eb3ef9732c32964e008ff81922,100002,LP,Laaksaare - Piirissaare,4,8BB4C5,Tartu MV
+a5fcadb704ba26e24c7ba10471dc4a7a,295,R1,Jüri Gümnaasium - Lehmja -  Rae küla -  Kuldala - Assaku,3,00933C,Harjumaa ÜTK
+c4ec11f40830b9d7754092bc64f58cea,295,R10,Järveküla - Mõigu - Peetri - Järveküla,3,00933C,Harjumaa ÜTK
+b1a6060732e7e98014fbfabde4de5b50,295,R2,Lagedi - Saha - Lagedi - Jüri Gümnaasium,3,00933C,Harjumaa ÜTK
+11d67948df8b8c5f3081723050bfe0d6,295,R3,Jüri GMN- Kurna - Vana-Aaviku - Vaida - Aruvalla,3,00933C,Harjumaa ÜTK
+b05fbd36679a974be71c414b18bd20ae,295,R4,Jüri Gümnaasium - Aaviku - Puraviku - Vaida,3,00933C,Harjumaa ÜTK
+c106e3de6ca8ba9cf6b1da5232ef1c74,295,R5,Suursoo - Veskimäe - Urvaste - Ellaku -Aruvalla - Vaida,3,00933C,Harjumaa ÜTK
+4f54f33805f9e1cf7e1d8adb6741d6c3,295,R6,Uuesalu -  Peetri kool,3,00933C,Harjumaa ÜTK
+073ce228ff88f630da05e6bee72caff8,295,R7,Rae - Peetri kool,3,00933C,Harjumaa ÜTK
+15f1b5ae6c6f91726e8ac1e40ec3c82d,295,R8,Peetri kool - Uuesalu - Rae,3,00933C,Harjumaa ÜTK
+57e7a4697bc9580e46321fc7b6d4aac3,295,R9,Järveküla kool - Peetri kool,3,00933C,Harjumaa ÜTK
+8d705e4a2895a76dc7e81cdd2f810eb5,99,S1,Liidumäe - Jõgisoo - Valingu - Saue G- Vanamõisa - Laagri,3,00933C,Harjumaa ÜTK
+a08f732d7a0a97cdad6ced288aeb8f6a,99,S2,Püha - Laagri kool - Koidu - Saue Gümnaasium,3,00933C,Harjumaa ÜTK
+db7c61b9d664ceebf9f43f937675aa13,99,S3,Kindluse - Vatsla - Harku - Laagri kool - Pääsküla G,3,00933C,Harjumaa ÜTK
+7ab706fef393cfca2d9705379e45eedf,99,S4,Saue Gümnaasium - Laagri - Hüüru - Vanamõisa - Jõgisoo,3,00933C,Harjumaa ÜTK
+da1b60e96dbd473f9cdb6ad5d8a1959d,99,S5,Saue Gümnaasium - Laagri kool - Valingu - Jõgisoo,3,00933C,Harjumaa ÜTK
+82462c72c29b7f33bb9a38c106184949,99,S6,Püha - Seltsimaja - Vanamõisa - Saue Gümnaasium,3,00933C,Harjumaa ÜTK
+e5eb2f7df868098b47937474dfc69916,100002,SV,Sviby - Rohuküla,4,8BB4C5,Lääne MV
+49e3e724636e11e47c00ef67fb3f84fe,71,V1,Haabneeme - Rohuneeme,3,00933C,Harjumaa ÜTK
+d54f4d8b8fe79a37b3dfb2ee858df515,71,V2,Haabneeme - Leppneeme - Randvere,3,00933C,Harjumaa ÜTK
+1c8f82d503e3315d4b75b7b60d8d729a,71,V3,Haabneeme - Viimsi - Soosepa,3,00933C,Harjumaa ÜTK
+f97d8b62757ec3a0752e40c37624c559,71,V4,Haabneeme - Leppneeme - Randvere - Mähe - Viimsi - Haabneeme,3,00933C,Harjumaa ÜTK
+9497c8af81dc638e3413cf1edb12cd53,71,V5,Haabneeme - Kelvingi - Leppneeme,3,00933C,Harjumaa ÜTK
+b8c4e1ccde3542e900b76e76cc04aabf,71,V6,Haabneeme - Leppneeme - Randvere - Mähe - Muuga,3,00933C,Harjumaa ÜTK
+207c53b88e0f171997cb86c8e4f03719,71,V7,Haabneeme - Leppneeme-Randvere-Muuga-Mähe-Viimsi-Haabneeme,3,00933C,Harjumaa ÜTK
+83dae62743b76a4dab6263c2b0ceae29,71,V8,Haabneeme - Viimsi - Mähe - Randvere - Leppneeme - Haabneeme,3,00933C,Harjumaa ÜTK
+8f5d26bab875421acf38842ca53d5b9f,71,V9,Haabneeme - Viimsi - Mähe-Muuga-Randvere-Leppneeme - Haabneeme,3,00933C,Harjumaa ÜTK
+0917d1b9b27a0a183b495b8de4e54ff6,99,Ä1,Ääsmäe - Tuula - Keila - Valingu - Orava - Ääsmäe,3,00933C,Harjumaa ÜTK
+dcccd5e383a249e9639e530bee93e790,99,Ä2,Maidla - Ääsmäe - Jõgisoo - Voore - Ääsmäe,3,00933C,Harjumaa ÜTK
+7f773b57391fb20da0c9a278b984ea0d,99,Ä3,Ääsmäe - Jõgisoo - Valingu - Keila - Tuula - Ääsmäe,3,00933C,Harjumaa ÜTK
+001f1476c24bad2f951dd393738b508e,99,Ä4,Ääsmäe - Maidla - Ääsmäe,3,00933C,Harjumaa ÜTK
