@@ -24,6 +24,11 @@ Aastal 2015 korraldati IT-sekoris hange ostmaks sisse arendusresurssi. Hankele o
 <i>App</i>, kus kasutaja saab vaadata, millistel Eesti teadlastel on enim rahastust ja kellel mitte niipalju. Andmed pärinevad [Etisest](https://www.etis.ee/Portal/Projects/). Projekti raames esitatud andmefail ja kood on leitavad [githubis](https://github.com/andmeteadus/2017/tree/gh-pages/Rakendused/Teadusraha). (Erineb vähesel määral veebis olevast versioonist.)
 <br><br>
 
+## [TOHOH!](https://andmeteadus2017.shinyapps.io/TOHOH/)
+<i>App</i>, kus visualiseeritakse nelja Eesti uudisteportaali (Delfi, ERR, Õhtuleht ja Postimees) pealkirjades esinevaid sõnu. Kasutatud on ajavahemikus 12-28.aprill 2017 kord päevas kogutud artiklite pealkirju. Esitatud andmefailid ja koodid on leitavad [githubis](https://github.com/andmeteadus/2017/tree/gh-pages/Rakendused/TOHOH).
+<br><br>
+
+
 <!--
 {% for post in site.posts %}
 ## [ {{ post.title }} ](..{{ post.url }})
