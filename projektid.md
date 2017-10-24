@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: Projektid
 ---
@@ -17,7 +17,11 @@ Aastal 2015 korraldati IT-sekoris hange ostmaks sisse arendusresurssi. Hankele o
 <br><br>
 
 ## [Bussiliiklus](https://andmeteadus2017.shinyapps.io/Bussiliiklus/)
-<i>App</i>, kus kasutaja saab vaadata nii linna- kui maaliinide aegu ja marsruute. Andmed pärinevad <a>www.peatus.ee/gtfs/</a>. Failid ja kood on leitavad githubis
+<i>App</i>, kus kasutaja saab vaadata nii linna- kui maaliinide aegu ja marsruute. Andmed pärinevad <a>www.peatus.ee/gtfs/</a>. Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2017/tree/gh-pages/Rakendused/Bussiliiklus)
+<br><br>
+
+## [Teadusrahastus](https://andmeteadus2017.shinyapps.io/Teadusraha/)
+<i>App</i>, kus kasutaja saab vaadata, millistel Eesti teadlastel on enim rahastust ja kellel mitte niipalju. Andmed pärinevad lehelt <a>https://www.etis.ee/Portal/Projects/</a>. Projekti raames esitatud andmefail ja kood on leitavad [githubis](https://github.com/andmeteadus/2017/tree/gh-pages/Rakendused/Teadusraha). (Erineb vähesel määral veebis olevast versioonist.)
 <br><br>
 
 <!--

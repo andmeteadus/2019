@@ -211,7 +211,7 @@ body = dashboardBody(
               p('Linnaliinibusse saab vaadata külgribalt "Linnaliinide" alt.'),
               p('Numbrite huviliste jaoks on "Statistika" ribal välja toodud mõned huvitavamad graafikud.'),
               br(),
-              p('Autorid: Birgit Kadastik ja Markus Ellisaar'),
+              p('Autorid: Birgit Kadastik ja Markus Ellisaar'), # Taavi lisatud
               br(),
               br(),
               img(src='fun.png',height=300,weight=300,
