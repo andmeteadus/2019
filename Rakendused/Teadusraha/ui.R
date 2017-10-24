@@ -6,7 +6,7 @@ shinyUI(fluidPage(
   
   # Application title
   titlePanel("Projekt Statistiline andmeteadus ja visualiseerimine"),
-  
+  h3("Kristi Krebs ja Ahto Salumets"), # Taavi lisatud
   sidebarLayout(
     sidebarPanel(
       p("Siin saab valida kuvatavaid arve ja isikuid "),
