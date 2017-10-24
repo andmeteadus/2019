@@ -17,7 +17,7 @@ Aastal 2015 korraldati IT-sekoris hange ostmaks sisse arendusresurssi. Hankele o
 <br><br>
 
 ## [Bussiliiklus](https://andmeteadus2017.shinyapps.io/Bussiliiklus/)
-<i>App</i>, kus kasutaja saab vaadata nii linna- kui maaliinide aegu ja marsruute. Andmed pärinevad lehelt [peatus.ee](www.peatus.ee/gtfs/). Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2017/tree/gh-pages/Rakendused/Bussiliiklus).
+<i>App</i>, kus kasutaja saab vaadata nii linna- kui maaliinide aegu ja marsruute. Andmed pärinevad lehelt <a>www.peatus.ee/gtfs/</a>. Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2017/tree/gh-pages/Rakendused/Bussiliiklus).
 <br><br>
 
 ## [Teadusrahastus](https://andmeteadus2017.shinyapps.io/Teadusraha/)
