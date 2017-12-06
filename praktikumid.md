@@ -7,7 +7,7 @@ Praktikumi materjalid täienevad jooksvalt, 2016. aasta materjalidega saab tutvu
 
 ## Praktikum 1
 
-10.02.2017 
+12.02.2017 
 
 Sissejuhatus ainesse, reprodutseeritavasse analüüsi ja automatiseeritud statistikasse. Tarkvara R meeldetuletamine. 
 Pakett knitr. Markdown. Pakett dplyr. Näide: automaatne aktsiaturu ülevaade. 
@@ -20,7 +20,7 @@ Pakett knitr. Markdown. Pakett dplyr. Näide: automaatne aktsiaturu ülevaade.
     * [dplyr minimalistlik näide](../praktikum1_dplyr)
 * [Automaatne aktsiaturu ülevaade](../praktikum1_aktsiad)
 * [Kodutöö](../praktikum1_kodutoo)
-    * Tähtaeg 16.02.2017 kell 23:59.
+    * Tähtaeg 18.02.2017 kell 23:59.
 
 
 ## Praktikum 2
