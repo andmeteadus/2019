@@ -79,14 +79,14 @@ Aine läbimiseks on vaja:
 
 # Tunniplaan
 
-Õppeaine toimub 2016/2017. õppeaasta kevadsemestril. 
+Õppeaine toimub 2017/2018. õppeaasta kevadsemestril. 
 
-* **Praktikumid reedeti kell 14.15** ruumis 203
-(nädalatel 24 - 25, 27 - 32). 
+* **Praktikumid esmaspäeviti kell 14.15** ruumis 003
+(nädalatel 24 - 31). 
 
 # Kontakt ja küsimused
 
 * Taavi Unt
-* Oliver Aasmets
+* Merli Mändul
 
-Meiega saab ühendust aadressidel taavi.unt [at] ut.ee ja oliver.aasmets [at] gmail.com
+Meiega saab ühendust aadressidel taavi.unt [at] ut.ee ja merli.mandul [at] ut.ee
