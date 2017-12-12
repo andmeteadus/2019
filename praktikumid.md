@@ -1,9 +1,9 @@
----
+﻿---
 layout: page
 title: Praktikumimaterjalid
 ---
 
-Praktikumi materjalid täienevad jooksvalt, 2016. aasta materjalidega saab tutvuda [siin](../../2016/praktikumid/).
+Praktikumi materjalid täienevad jooksvalt, 2017. aasta materjalidega saab tutvuda [siin](../../2017/praktikumid/).
 
 ## Praktikum 1
 
