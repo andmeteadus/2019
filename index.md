@@ -1,4 +1,4 @@
----
+﻿---
 layout: frontpage
 ---
 
@@ -63,7 +63,7 @@ Lisaks praktikumidele sisaldab õppeaine järgnevaid komponente:
   * Kodutöö võib sisaldada ka küsimusi iseseisvalt õpitu (näiteks videoloengu) kohta. 
 * **Projekt:** Lisaks tuleb läbi viia üks praktiline andmeanalüüs ning kirjutada populaarteaduslikus vormis artikkel saadud tulemustest. 
 Artikkel on illustreeritud asjakohaste joonistega ning on arusaadav ka mittestatistikule. 
-Projekti võib teha kas üksinda või paaristööna. Tulemusi on vaja esitleda suulisel kaitsmisel. Soovi korral võib tutvuda [2015. aasta projektidega](../2015/projektid/).
+Projekti võib teha kas üksinda või paaristööna. Tulemusi on vaja esitleda suulisel kaitsmisel. Soovi korral võib tutvuda [2015.](../2015/projektid/) ja [2017.](../2017/projektid/) aasta projektidega.
 
 Aine läbimiseks on vaja:
 
@@ -81,7 +81,7 @@ Aine läbimiseks on vaja:
 
 Õppeaine toimub 2017/2018. õppeaasta kevadsemestril. 
 
-* **Praktikumid esmaspäeviti kell 14.15** ruumis 003
+* **Praktikumid kolmapäeviti kell 16.15** ruumis 004
 (nädalatel 24 - 31). 
 
 # Kontakt ja küsimused
