@@ -81,8 +81,9 @@ Aine läbimiseks on vaja:
 
 Õppeaine toimub 2017/2018. õppeaasta kevadsemestril. 
 
-* **Praktikumid kolmapäeviti kell 16.15** ruumis 004
+* **Praktikumid kolmapäeviti kell 16:15** ruumis 004
 (nädalatel 24 - 31). 
+* **Projektide ettekandmine kolmapäeval 9. mail kell 16:15** ruumis **403** (nädal 36).
 
 # Kontakt ja küsimused
 
