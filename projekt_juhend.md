@@ -1,17 +1,14 @@
----
+﻿---
 layout: page
 ---
 
 Aine läbimiseks tuleb läbi viia kas praktiline andmeanalüüs ning kirjutada saadud tulemustest populaarteaduslikus vormis artikkel või teha Shiny rakendus. Projekti tulem on illustreeritud asjakohaste joonistega ning on arusaadav ka mittestatistikule. Projekti võib teha kas üksinda või paaristööna. Tulemusi on vaja esitleda suulisel kaitsmisel.
 
-### Tähtajad
+### Tähtajad (võivad veel muutuda)
 
-* Teema valimine - 07.04.2017
-* Projekti esitamise tähtaeg - 28.04.2017 kell 23.59.
-* Projekti tulemuste müümine (st esitlus) - 05.05.2017
-
-Mõned meie välja pakutud teemad on [siin](https://docs.google.com/spreadsheets/d/1Gf7461XDLC867SNEo1SLY3hfE0bGADlQ0hJnPnSLMhs/).
-Samas failis saab ka oma teemad registreerida.
+* Teema valimine - 04.04.2018
+* Projekti esitamise tähtaeg - 02.05.2018 kell 23.59.
+* Projekti tulemuste müümine (st esitlus) - 09.05.2018
 
 ### Mida on vaja esitada?
 
