@@ -20,7 +20,7 @@ Eesmärgiks on koostada automaatselt uuenev raport, kus on:
 * aktsiaturu ülevaade sektorite lõikes;
 * aktsiate ostusoovitused.
 
-Andmetabelist info kättesaamiseks kasutame R-i paketti *dplyr*. Selle paketi kohta loe täpsemalt [praktikumimaterjalist](/2016/praktikum1_dplyr) ning uuri sealseid minimalistlikke näiteid. 
+Andmetabelist info kättesaamiseks kasutame R-i paketti *dplyr*. Selle paketi kohta loe täpsemalt [praktikumimaterjalist](/2018/praktikum1_dplyr) ning uuri sealseid minimalistlikke näiteid. 
 
 ## Ülevaade andmestikust
 
@@ -35,7 +35,7 @@ Andmestikus on näidatud 505 ettevõtte (kõik need ettevõtted, mis on kuulsas 
 * *kasum_aktsia_kohta*: ettevõtte aastakasum / aktsiate koguarv
 * *dividend_aktsia_kohta*: väljamakstud dividendid aastas / aktsiate koguarv
 
-Laadi alla andmestik [Aktsiad 2017.csv](/2017/data/Aktsiad 2017.csv) ning loe andmestik töökeskonda.
+Laadi alla andmestik [Aktsiad 2018.csv](/2018/data/Aktsiad 2018.csv) ning loe andmestik töökeskonda.
 
 ## Kodutöö raport
 
@@ -98,7 +98,8 @@ Kui eelnevaga oled hakkama saanud, siis proovi eelnev kood kirjutada funktsiooni
 
 ```{r, eval=FALSE}
 kauplemisalgoritm = function(x){
-  # tekitame andmestikule x juurde tunnuse kasumi-aktsiahinna suhe ja dividendi määr
+  # tekitame andmestikule x juurde tunnused kasumi-aktsiahinna suhe 
+  # ja dividendi määr
   # [sinu kood]
   
   # arvutame iga aktsia kohta atraktiivsuse skoori
@@ -113,11 +114,11 @@ kauplemisalgoritm = function(x){
 
 > Mati ei ole veel vanemanalüütiku staatust saanud ning ta kardab veidi oma soovituste pärast. Mis juhtub kui aktsiasoovitus osutub katastroofiks? Kui kliendid saavad Mati soovituste pärast hiigelsuuri kahjumeid, siis kõigub ka tema töökoht. Mis oleks kui soovitada ainult populaarseid aktsiaid? Siis saab ju alati öelda, et vanemanalüütikud teistes pankades soovitasid ka ...
 
-Nüüd kirjuta funktsioon *kauplemisalgoritm_turvaline*, kus valid atraktiivseid aktsiaid vaid populaarsete aktsiate hulgast. Populaarsed aktsiad on järgnevad: AAPL, AMZN, FB, GOOG, IBM. 
+Nüüd kirjuta funktsioon *kauplemisalgoritm_turvaline*, kus valid atraktiivseid aktsiaid vaid populaarsete aktsiate hulgast. Populaarsed aktsiad on järgnevad: AAPL, AMZN, FB, GOOG, IBM, NFLX, NVDA. 
 
 Juhised:
 
-* Vali andmestikust välja ainult aktsiad AAPL, AMZN, FB, GOOG, IBM.
+* Vali andmestikust välja ainult aktsiad AAPL, AMZN, FB, GOOG, IBM, NFLX, NVDA.
 * Rakenda saadud alamandmestikul eelnevas ülesandes kirjutatud funktsiooni. 
 
 Kui eelnev töötab, siis kirjuta eelnev kood funktsiooniks.
@@ -128,13 +129,14 @@ kauplemisalgoritm_turvaline = function(x){
 }
 ```
 
+
 Kasutades funktsiooni *kauplemisalgoritm_turvaline*, väljasta 3 ostusoovitust. 
 
 ### Ülesanne 5 (5 punkti) - raporti vormistamine
 
 Vormistage eelnevate ülesannete lahendused selliseks *knitr* raportiks (html või pdf formaadis), et 
 
-* Kõik andmestike väljatrükid oleks toodud tabelitena (selleks kasuta näiteks funktsiooni `kable`).
+* Kõik andmestike väljatrükid oleks toodud tabelitena. Selleks kasuta näiteks funktsiooni `kable`. (Näpunäide: funktsiooni `kable` kasutades saab komakohtade arvu määrata parameetri `digits` abil ja selleks, et suured arvud paremini loetavad oleks, saab täiendava argumendina lisada `format.args = list(big.mark = " ")`, mis lisab tuhandeliste vahele tühiku. Selleks, et vabaneda teaduslikust arvuformaadist, st arvu eksponentkujul esitamisest, tuleb koodi algusesse lisada `options(scipen=1000)`.)
 * Ostusoovitus (ül 4 tulemus) lisage teksti sisse reasisese R-i koodi abil (*inline R code*). 
 * Ära raportis R-i koodi näita. Selleks kasuta näiteks `echo=FALSE` iga koodibloki jaoks või globaalset sätet, kus lisad `.Rmd` faili algusesse
 
@@ -146,9 +148,9 @@ opts_chunk$set(echo=FALSE, message=FALSE)
 
 ### Näidisraport
 
-Raport võiks välja näha umbes selline (pildil ei ole näidatud ilmtingimata õiged arvulised väärtused): 
+Raport võiks välja näha umbes selline (pildil ei ole näidatud ilmtingimata õiged väärtused): 
 
-![](kodutoo1_naide.png "Näide")
+![](kodutoo1_naide2.png "Näide")
 
 ### Mida on vaja esitada?
 
@@ -168,5 +170,21 @@ Mõned näpunäited:
 * kasuks tuleb funktsioon `getQuote`
 * tunnuste loetelu nägemiseks, mida on võimalik *finance.yahoo.com* portaalist saada, on abiks funktsioon `yahooQF()`
 * hinnana kasuta tunnust *Last Trade (Price Only)*, sümbolina *Symbol*, tootlusena *Change in Percent*, kogusena *Volume*, kasumina aktsia kohta *Earnings/Share*, dividendina aktsia kohta *Dividend/Share* 
-* ettevõtte *sektor*ja *nimi* võta failist *Aktsiad 2017.csv*. Ühenda see alamandmestik Yahoo'st saadud andmestikuga tunnuse *symbol* alusel (vt`?join` või `?merge`)
+* ettevõtete nime ja sektori saab Wikipedia lehelt alla laadida järgmise koodijupi abil:
+
+```{r, eval=FALSE}
+library(rvest) # Vajalik eelnevalt installida pakett rvest
+sp500_wiki <- read_html(
+  "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies")
+
+aktsiad_wiki <- sp500_wiki %>%
+  html_nodes("table.wikitable:nth-child(6)") %>%
+  html_table()
+
+aktsiad_wiki <- aktsiad_wiki[[1]][,c(1,2,4)]
+colnames(aktsiad_wiki) = c("symbol", "nimi", "sektor")
+aktsiad_wiki$symbol = gsub(".", "-", aktsiad_wiki$symbol, fixed = TRUE)
+```
+
+* ühenda Wikist laetud andmestik Yahoo'st saadud andmestikuga tunnuse *symbol* alusel (vt`?join` või `?merge`)
 * juhime tähelepanu, et tunnus *tootlus* vajab puhastamist
