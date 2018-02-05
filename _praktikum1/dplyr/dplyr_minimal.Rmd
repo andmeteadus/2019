@@ -28,6 +28,7 @@ Paketi *dplyr* peamised käsud on:
 * `mutate()`: lisa uusi veerge
 * `summarise()`: agregeeri mitu väärtust üheks tunnuseks
 * `group_by()`: muuda andmestik grupeeritud andmestikuks, et seejärel rakendada funktsioone igale grupile eraldi
+* `ungroup()`: eemaldab andmetabelilt grupeeringu
 * `top_n()`: vali n esimest/viimast vaatlust
 
 Nende funktsioonide esimeseks argumendiks on alati *data.frame* ning alati tagastatakse *data.frame*.
@@ -48,7 +49,7 @@ andmed
 ### select()
 vali alamhulk veergudest
 
-![alt text](joonis1.png "Näide")
+![](joonis1.png "Näide")
 
 ```{r}
 # Näide 1
@@ -66,7 +67,7 @@ select(andmed, -pikkus)
 
 vali alamhulk ridadest
 
-![alt text](joonis2.png "Näide")
+![](joonis2.png "Näide")
 
 ```{r}
 # Näide 1
@@ -83,7 +84,7 @@ filter(andmed, pikkus > 160 & vanus > 30)
 
 sorteeri ridu
 
-![alt text](joonis_arrange.png "Näide")
+![](joonis_arrange.png "Näide")
 
 ```{r}
 # Näide 1
@@ -97,7 +98,7 @@ arrange(andmed, desc(pikkus))
 
 lisa uusi veerge
 
-![alt text](joonis3.png "Näide")
+![](joonis3.png "Näide")
 
 ```{r}
 # Näide 1
@@ -105,14 +106,15 @@ mutate(andmed, pikkus2 = pikkus/100)
 
 # Näide 2 (mitme tunnuse lisamine)
 mutate(andmed, pikkus2 = pikkus/100,
-       suvaline_tunnus = pikkus*vanus)
+       suvaline_tunnus = pikkus*vanus,
+       keskmine_vanus = mean(vanus))
 ```
 
 ### summarise()
 
 agregeeri tunnuse väärtused üheks väärtuseks
 
-![alt text](joonis_summarise.png "Näide")
+![](joonis_summarise.png "Näide")
 
 ```{r}
 summarise(andmed, keskmine_pikkus = mean(pikkus))
@@ -122,7 +124,7 @@ summarise(andmed, keskmine_pikkus = mean(pikkus))
 
 muuda andmestik grupeeritud andmestikuks, kus funktsioone rakendatakse eraldi gruppidele
 
-![alt text](joonis_groupby_ja_summarise_long.png "Näide")
+![](joonis_groupby_ja_summarise_long.png "Näide")
 
 ```{r}
 andmed_grupeeritult = group_by(andmed, sugu)
@@ -140,6 +142,10 @@ Sageli muudavad analüüsi kiireks ja mugavaks funktsioonid:
 * `sample_n()` - tõmba n juhuslikku väärtust etteantud veerust
 * `n()` - loe kokku andmepunktide arv
 * `n_distinct()` - loe kokku unikaalsete väärtuste arv
+
+### ungroup()
+
+muuda grupeeritud andmestik grupeerimata andmestikuks. Oluline näiteks olukorras, kus on soov filtereerida andmestikku, mis koosneb paljudest pisikestest andmestikest (palju gruppe). Grupeeritud andmestiku korral filtreeritakse igat gruppi eraldi, mis tingib suurt ebaefektiivsust ja koodi aeglust. 
 
 ### top_n()
 
@@ -239,5 +245,5 @@ c(1,3) %>% mean() %>% log(base=2)
 
 Täiendavat informatsiooni *dplyr* funktsionaalsuse kohta leiab:
 
-* [Introduction to dplyr](http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html)
+* [Introduction to dplyr](https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html)
 * [dplyr dokumentatsioon](http://cran.r-project.org/web/packages/dplyr/dplyr.pdf)
