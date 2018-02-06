@@ -4,6 +4,8 @@ layout: page
 
 Aine läbimiseks tuleb läbi viia kas praktiline andmeanalüüs ning kirjutada saadud tulemustest populaarteaduslikus vormis artikkel või teha Shiny rakendus. Projekti tulem on illustreeritud asjakohaste joonistega ning on arusaadav ka mittestatistikule. Projekti võib teha kas üksinda või paaristööna. Tulemusi on vaja esitleda suulisel kaitsmisel.
 
+Inspiratsiooniks saab vaadata [2015.](https://andmeteadus.github.io/2015/projektid/) ja [2017.](https://andmeteadus.github.io/2017/projektid/) aasta projekte. 
+
 ### Tähtajad (võivad veel muutuda)
 
 * Teema valimine - 04.04.2018
