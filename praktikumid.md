@@ -15,7 +15,7 @@ Pakett knitr. Markdown. Pakett dplyr. Näide: automaatne aktsiaturu ülevaade.
 * [Kursuse "Rakendustarkvara: R" õppematerjal](../rakendustarkvara_R). 
 * Praktikumis kasutatud materjalid:
     * [Slaidid](../pr1_esitlus.pdf) (korralduslik info)
-    * Astuge [jututuppa](https://andmeteadus2017.shinyapps.io/jututuba/)
+    * Sisenege [Socrative](https://b.socrative.com/login/student/) keskkonda
     * [knitr ja R Markdown sissejuhatus](../praktikum1_knitr)
     * [dplyr minimalistlik näide](../praktikum1_dplyr)
 * [Automaatne aktsiaturu ülevaade](../praktikum1_aktsiad)

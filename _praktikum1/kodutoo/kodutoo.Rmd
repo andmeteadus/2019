@@ -24,7 +24,8 @@ Vasta järgmisele küsimusele:
 
 * Nimeta vähemalt 3 viga andmete talletamises ning andmehalduses, millele videos viidati.
 
-3. (**2 punkti**) Loe artiklit [Researchers Finally Replicated Reinhart-Rogoff, and There Are Serious Problems](http://rooseveltforward.org/researchers-finally-replicated-reinhart-rogoff-and-there-are-serious-pr).
+3. (**2 punkti**) Loe artiklit [Researchers Finally Replicated Reinhart-Rogoff, and There Are Serious Problems](http://rooseveltinstitute.org/researchers-finally-replicated-reinhart-rogoff-and-there-are-serious-problems/).
+
 
 Artikkel kirjeldab majandusteadlaste Reinhart'i ja Rogoff'i 2010. aasta publikatsiooni *Growth in a Time of Debt* ning mis vigu riigivõla ja majanduskasvu uurimisel tehti. Järgmises praktikumis uurime sama andmestikku, mida käsitleti ka Reinhart'i ja Rogoff'i artiklis.
 
