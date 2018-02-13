@@ -35,7 +35,7 @@ Vasta järgmistele küsimustele:
 * Nimeta, mis oli Reinhart'i ja Rogoff'i artikli üks olulisemaid tulemusi.
 * Millel põhines teadlaste Herndon'i, Ash'i ja Pollin'i kriitika majandusteadlaste Reinhart'i ja Rogoff'i teadusartiklile *Growth in a Time of Debt.* (nimeta 3 probleemi).
 
-# II osa - andmete analüüs (21 punkti)
+# II osa - andmete analüüs (20 punkti)
 Lõpeta praktikumis alustatud [automaatse aktsiaturu ülevaate genereerimise ülesanded](../praktikum1_aktsiad).
 
 Abimaterjalid:

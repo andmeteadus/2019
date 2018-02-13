@@ -57,7 +57,7 @@ Seejärel leia kolm kõige madalama päevase tootlusega aktsiat ning väljasta n
 Näpunäide: Abiks on funktsioonid `arrange()`, `select()` ja `top_n()`.
 
 
-### Ülesanne 2 (6 punkti) - Ülevaade sektorite lõikes
+### Ülesanne 2 (5 punkti) - Ülevaade sektorite lõikes
 
 > Mati soovib raportis näidata ülevaadet ka sektorite lõikes, sest kliente võib huvitadada, kas ehitussektori aktsiatega kaubeldi rohkem kui IT-sektori aktsiatega?
 
