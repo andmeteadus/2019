@@ -49,7 +49,8 @@ Kõigepealt leia kolm kõige suurema päevase tootlusega aktsiat ning väljasta 
 
 1. ettevõtte sümbol
 2. ettevõtte nimi
-3. tootlus.
+3. hind
+4. tootlus.
 
 Seejärel leia kolm kõige madalama päevase tootlusega aktsiat ning väljasta nende kohta samasugune info. 
 
@@ -78,6 +79,7 @@ Juhised:
   Näpunäide 1: Kasuta paketi *dplyr* funktsioone `group_by()` ja `summarise()`.  
   Näpunäide 2: Summade ja keskmiste arvutamisel ära võta arvesse puuduvaid väärtusi (puuduvate väärtuse välja jätmiseks võib funktsioonide `sum` ja `mean` argumendi `na.rm` väärtuseks seada `TRUE`).
 * Näita ainult neid sektoreid, kus on vähemalt 30 ettevõtet.
+* Sorteeri tabel tunnuse *kogukäive* alusel kahanevalt.
 
 
 ### Ülesanne 3 (5 punkti) - kauplemisalgoritm
@@ -138,11 +140,11 @@ Vormistage eelnevate ülesannete lahendused selliseks *knitr* raportiks (html v�
 
 * Kõik andmestike väljatrükid oleks toodud tabelitena. Selleks kasuta näiteks funktsiooni `kable`. (Näpunäide: funktsiooni `kable` kasutades saab komakohtade arvu määrata parameetri `digits` abil ja selleks, et suured arvud paremini loetavad oleks, saab täiendava argumendina lisada `format.args = list(big.mark = " ")`, mis lisab tuhandeliste vahele tühiku. Selleks, et vabaneda teaduslikust arvuformaadist, st arvu eksponentkujul esitamisest, tuleb koodi algusesse lisada `options(scipen=1000)`.)
 * Ostusoovitus (ül 4 tulemus) lisage teksti sisse reasisese R-i koodi abil (*inline R code*). 
-* Ära raportis R-i koodi näita. Selleks kasuta näiteks `echo=FALSE` iga koodibloki jaoks või globaalset sätet, kus lisad `.Rmd` faili algusesse
+* Ära raportis R-i koodi (ega muud müra) näita. Koodi väljajätmiseks kasuta näiteks iga koodibloki päises valikut `echo=FALSE`. Teine variant on muuta globaalseid sätteid, kus lisad `.Rmd` faili algusesse
 
 <pre class="markdown"><code>&#96;&#96;&#96;{r, echo=FALSE}
 library(knitr)
-opts_chunk$set(echo=FALSE, message=FALSE)
+opts_chunk$set(echo=FALSE, message=FALSE, warning = FALSE)
 &#96;&#96;&#96;
 </code></pre>
 
@@ -158,11 +160,11 @@ Esitada tuleb nii raport (html või pdf formaadis) kui ka selle lähtekood .Rmd 
 
 ### Boonusülesanne 1 (1 punkt): raporti täiendamine
 
-Mõtle välja ning lisa raportisse veel üks sektsioon, mis täiendaks Mati aktsiaturuülevaadet. 
+Kasuta paketti `kableExtra`, et vormindada ühte või enamat raportis olevat tabelit. Paketi võimalustega tutvumiseks saab kasutada näiteks seda [abimaterjali](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html). 
 
 ### Boonusülesanne 2 (3 punkti): andmete automaatne uuenemine
 
-Muuda kodutööd selliselt, et staatilise faili *Aktsiad 2017.csv* asemel kasutatakse reaalajas andmeid, mis on saadud portaalist *finance.yahoo.com*.
+Muuda kodutööd selliselt, et staatilise faili *Aktsiad 2018.csv* asemel kasutatakse reaalajas andmeid, mis on saadud portaalist *finance.yahoo.com*.
 
 Mõned näpunäited:
 

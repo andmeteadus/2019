@@ -1,506 +1,506 @@
 "symbol";"nimi";"sektor";"hind";"tootlus";"kogus";"kasum_aktsia_kohta";"dividend_aktsia_kohta"
-"A";"Agilent Technologies Inc";"Health Care";71.25;-2.1694381;1955697;2.1;0.528
-"AAL";"American Airlines Group";"Industrials";52.1;-3.3036425;5109361;3.9;0.4
-"AAP";"Advance Auto Parts";"Consumer Discretionary";113.93;-2.8646948;1092333;4.763;0.24
-"AAPL";"Apple Inc.";"Information Technology";160.5;-4.3390145;86593825;9.7;2.46
-"ABBV";"AbbVie Inc.";"Health Care";115.17;-1.0056715;7184413;3.3;2.63
-"ABC";"AmerisourceBergen Corp";"Health Care";96.02;-3.2933872;1660267;1.64;1.46
-"ABT";"Abbott Laboratories";"Health Care";61.69;-0.7880375;12346542;0.271;1.075
-"ACN";"Accenture plc";"Information Technology";156.9;-2.2186294;2183611;5.642;2.54
-"ADBE";"Adobe Systems Inc";"Information Technology";195.64;-1.8758178;2813785;3.38;NA
-"ADI";"Analog Devices, Inc.";"Information Technology";89.11;-2.7714138;2922619;2.07;1.8
-"ADM";"Archer-Daniels-Midland Co";"Consumer Staples";41.43;-2.4258099;3016081;2.136;1.26
-"ADP";"Automatic Data Processing";"Information Technology";118.57;-1.5362884;2903751;3.87;2.34
-"ADS";"Alliance Data Systems";"Information Technology";249.91;-2.800351;441101;14.1;2.08
-"ADSK";"Autodesk Inc";"Information Technology";111.64;-3.4005365;1808333;-2.576;NA
-"AEE";"Ameren Corp";"Utilities";54.89;-0.5796046;1440562;2.512;1.76
-"AEP";"American Electric Power";"Utilities";67.75;-0.1326597;2800181;3.889;2.39
-"AES";"AES Corp";"Utilities";11.12;-3.388361;10120041;-1.166;0.47
-"AET";"Aetna Inc";"Health Care";185;-1.2754146;2199354;5.677;2
-"AFL";"AFLAC Inc";"Financials";88.95;-0.8250702;2348537;10.96;1.74
-"AGN";"Allergan, Plc";"Health Care";172.51;-3.377394;3388432;-22.133;2.1
-"AIG";"American International Group, Inc.";"Financials";63.04;-1.7609432;4294412;-2.581;1.28
-"AIZ";"Assurant Inc";"Financials";91.95;-1.1927795;547787;4.244;2.12
-"AIV";"Apartment Investment & Management";"Real Estate";40.55;-0.6127451;1829187;1.96;1.46
-"AJG";"Arthur J. Gallagher & Co.";"Financials";68.57;-0.89608717;849877;2.54;1.56
-"AKAM";"Akamai Technologies Inc";"Information Technology";65.72;-2.7234998;1650847;1.672;NA
-"ALB";"Albemarle Corp";"Materials";105.51;-3.3791163;2738581;7.766;1.265
-"ALGN";"Align Technology";"Health Care";257.38;0.7082199;1622810;2.83;NA
-"ALK";"Alaska Air Group Inc";"Industrials";64.56;0.749057;5700907;8.3;1.2
-"ALL";"Allstate Corp";"Financials";97.94;-0.7901122;2300754;7.201;1.44
-"ALLE";"Allegion";"Industrials";81.85;-3.898086;896471;3.518;0.6
-"ALXN";"Alexion Pharmaceuticals";"Health Care";116.15;-1.6428103;1389226;2.238;NA
-"AMAT";"Applied Materials Inc";"Information Technology";50.68;-4.879877;16813121;3.17;0.4
-"AMD";"Advanced Micro Devices Inc";"Information Technology";12.45;-6.0377374;79432558;0.04;NA
-"AME";"AMETEK Inc";"Industrials";77.25;-0.84713596;1949820;2.94;0.36
-"AMG";"Affiliated Managers Group Inc";"Financials";197.11;-2.3047154;450329;12.031;0.8
-"AMGN";"Amgen Inc";"Health Care";187.01;0.7814168;7030078;2.69;4.6
-"AMP";"Ameriprise Financial";"Financials";167.5;-2.0925891;1095363;9.44;3.24
-"AMZN";"Amazon.com Inc";"Consumer Discretionary";1429.95;2.8740973;11125722;6.15;NA
-"AMT";"American Tower Corp A";"Real Estate";145.22;-1.2511876;2474550;2.631;2.5
-"ANDV";"Andeavor";"Energy";103.53;-3.0708725;2046331;5.519;2.24
-"ANSS";"ANSYS";"Information Technology";160.29;-1.9033052;379979;3.181;NA
-"ANTM";"Anthem Inc.";"Health Care";239.18;-1.94728;1380018;14.35;2.7
-"AON";"Aon plc";"Financials";143.59;-0.6160018;2229826;4.706;1.41
-"AOS";"A.O. Smith Corp";"Industrials";64.64;-3.219047;1005986;1.698;0.56
-"APA";"Apache Corporation";"Energy";42.82;-4.184379;5153633;1.75;1
-"APC";"Anadarko Petroleum Corp";"Energy";59.11;-3.6825783;8902338;-3.542;0.2
-"APD";"Air Products & Chemicals Inc";"Materials";162.84;-2.3682458;1356909;12.968;3.8
-"APH";"Amphenol Corp";"Information Technology";91.25;-1.6914455;1700830;2.06;0.7
-"APTV";"Aptiv Plc";"Consumer Discretionary";94.21;-1.6597118;2546866;5.06;1.16
-"ARE";"Alexandria Real Estate Equities Inc";"Real Estate";124.12;-0.8784527;672220;1.58;3.45
-"ARNC";"Arconic Inc";"Industrials";29.11;-3.3211555;7621840;-1.533;0.27
-"AZO";"AutoZone Inc";"Consumer Discretionary";750.58;-1.8053832;338797;44.79;NA
-"ATVI";"Activision Blizzard";"Information Technology";71.42;-2.6312206;6198415;1.46;0.3
-"AVB";"AvalonBay Communities, Inc.";"Real Estate";163.96;-0.09139839;1754212;6.35;5.68
-"AVGO";"Broadcom";"Information Technology";235.48;-1.3861543;5835231;4.016;4.81
-"AWK";"American Water Works Company Inc";"Utilities";81.22;-0.7575698;1101786;2.96;1.58
-"AVY";"Avery Dennison Corp";"Materials";117.63;-2.268198;923292;3.128;1.76
-"AXP";"American Express Co";"Financials";96.68;-3.3199997;4663298;2.97;1.34
-"AYI";"Acuity Brands Inc";"Industrials";149.95;-2.4144258;719873;7.273;0.52
-"BA";"Boeing Company";"Industrials";348.91;-2.2496774;5486074;13.43;5.68
-"BAC";"Bank of America Corp";"Financials";31.95;-1.6923053;96971924;1.56;0.39
-"BAX";"Baxter International Inc.";"Health Care";68.55;-2.001421;4099999;1.287;0.61
-"BBT";"BB&T Corporation";"Financials";55.11;-1.0592463;4409807;2.74;1.26
-"BBY";"Best Buy Co. Inc.";"Consumer Discretionary";71.24;-2.5444605;5040360;3.981;1.36
-"BDX";"Becton Dickinson";"Health Care";237.11;-1.8259373;1346496;4.6;2.92
-"BEN";"Franklin Resources";"Financials";40.88;-2.8286157;3831607;1.194;0.83
-"BF-B";"Brown-Forman Corp.";"Consumer Staples";67;-2.58796;667343;1.92;0.73
-"BHF";"Brighthouse Financial Inc";"Financials";62.15;-3.0269854;976065;-23.469;NA
-"BHGE";"Baker Hughes, a GE Company";"Energy";31.05;-3.7806048;6506376;0.255;0.35
-"BIIB";"Biogen Inc.";"Health Care";343.83;-0.6271715;1094965;11.92;NA
-"BK";"The Bank of New York Mellon Corp.";"Financials";56.33;-2.0347795;4359936;3.72;0.86
-"BLK";"BlackRock";"Financials";548.32;-2.984836;808150;30.23;10
-"BLL";"Ball Corp";"Materials";37.46;-2.3207285;1848653;0.752;0.33
-"BMY";"Bristol-Myers Squibb";"Health Care";63.48;1.082803;11719210;2.549;1.56
-"BRK-B";"Berkshire Hathaway";"Financials";209.12;-3.7422347;6080558;7.57;NA
-"BSX";"Boston Scientific";"Health Care";27.39;-0.8686203;9756177;0.076;NA
-"BWA";"BorgWarner";"Consumer Discretionary";54.47;-3.4048557;1234726;1.386;0.56
-"BXP";"Boston Properties";"Real Estate";119.34;0.12584436;977951;3.21;3
-"C";"Citigroup Inc.";"Financials";77.02;-2.358013;18561206;-2.762;0.96
-"CA";"CA, Inc.";"Information Technology";34.97;-1.1588464;3037256;1.012;1.02
-"CAG";"Conagra Brands";"Consumer Staples";36.71;-2.3929846;3424861;1.668;0.825
-"CAH";"Cardinal Health Inc.";"Health Care";67.46;-2.3168237;3430387;3.432;1.823
-"CAT";"Caterpillar Inc.";"Industrials";157.49;-2.927761;7602821;1.26;3.11
-"CB";"Chubb Limited";"Financials";153.25;-1.4342654;1469096;8.19;2.82
-"CBG";"CBRE Group";"Real Estate";44.11;-3.7109818;2750645;2.318;NA
-"CBOE";"CBOE Holdings";"Financials";134.65;-1.3986553;861578;1.871;1.02
-"CBS";"CBS Corp.";"Consumer Discretionary";55.4;-5.9901557;7625902;0.683;0.72
-"CCI";"Crown Castle International Corp.";"Real Estate";112.1;-0.8578767;1809706;1.01;3.9
-"CCL";"Carnival Corp.";"Consumer Discretionary";69.95;-1.6312805;2577684;3.59;1.6
-"CDNS";"Cadence Design Systems";"Information Technology";41.1;-2.6758254;3802854;0.73;NA
-"CELG";"Celgene Corp.";"Health Care";99.8;-0.53816354;5659319;3.64;NA
-"CERN";"Cerner";"Health Care";66.39;-2.7822542;2217960;2.009;NA
-"CF";"CF Industries Holdings Inc";"Materials";39.91;-3.9932642;1911132;-1.841;1.2
-"CFG";"Citizens Financial Group";"Financials";46.02;-1.6876755;6066636;3.25;0.64
-"CHD";"Church & Dwight";"Consumer Staples";46.33;-4.4545264;5484508;1.74;0.75
-"CHK";"Chesapeake Energy";"Energy";3.33;-3.7572286;42975946;-33.878593;0
-"CHRW";"C. H. Robinson Worldwide";"Industrials";91.79;-0.2065693;2046080;3.57;1.81
-"CHTR";"Charter Communications";"Consumer Discretionary";387.5;4.3967905;4374876;3.017;NA
-"CI";"CIGNA Corp.";"Health Care";204.46;-0.26827365;2158303;8.77;0.04
-"CINF";"Cincinnati Financial";"Financials";76.38;-1.0237151;459841;3.02;1.98
-"CL";"Colgate-Palmolive";"Consumer Staples";72.43;-1.2273306;5130483;2.28;1.59
-"CLX";"The Clorox Company";"Consumer Staples";130.91;-6.7127476;3511141;5.435;3.28
-"CMA";"Comerica Inc.";"Financials";94.96;-2.1333604;1932682;4.14;1.09
-"CMCSA";"Comcast Corp.";"Consumer Discretionary";41.11;-1.8620167;32030561;4.746;0.63
-"CME";"CME Group Inc.";"Financials";159.11;0.12585548;3012924;4.41;2.58
-"CMG";"Chipotle Mexican Grill";"Consumer Discretionary";311.64;-0.9786434;951975;5.135;NA
-"CMI";"Cummins Inc.";"Industrials";184.31;-2.569118;1574525;9.841;4.155
-"CMS";"CMS Energy";"Utilities";43.48;-1.5398557;4428461;1.931;1.308
-"CNC";"Centene Corporation";"Health Care";103.75;-2.7920952;1202247;4.874;NA
-"CNP";"CenterPoint Energy";"Utilities";27.55;-0.6132759;4374318;1.38;1.06
-"COF";"Capital One Financial";"Financials";101.57;-3.0080228;1826633;3.484;1.6
-"COG";"Cabot Oil & Gas";"Energy";25.19;-3.8549623;6586802;-0.32;0.14
-"COL";"Rockwell Collins";"Industrials";137.68;-1.2409519;845136;5.396;1.32
-"COO";"The Cooper Companies";"Health Care";241.32;-0.9400243;1079721;7.52;0.06
-"COP";"ConocoPhillips";"Energy";57.72;-2.746415;8433342;-2.005;1.045
-"COST";"Costco Wholesale Corp.";"Consumer Staples";190.99;-1.2818502;2386573;6.29;1.95
-"COTY";"Coty, Inc";"Consumer Staples";18.05;-4.294811;6702014;-0.599;0.5
-"CPB";"Campbell Soup";"Consumer Staples";44.6;-4.660112;3419266;2.855;1.4
-"CRM";"Salesforce.com";"Information Technology";110.78;-1.7385128;4403837;0.012;NA
-"CSCO";"Cisco Systems";"Information Technology";40.93;-1.8465238;27224206;1.92;1.13
-"CSRA";"CSRA Inc.";"Information Technology";32.35;-3.9774423;799693;1.91;0.4
-"CSX";"CSX Corp.";"Industrials";55.25;-2.350657;9275832;5.986;0.78
-"CTAS";"Cintas Corporation";"Industrials";161.82;-2.0341358;446660;5.045;1.62
-"CTL";"CenturyLink Inc";"Telecommunication Services";17.73;-1.2256335;13646270;0.58;2.16
-"CTSH";"Cognizant Technology Solutions";"Information Technology";75.72;-2.2967725;5256383;3.227;0.3
-"CTXS";"Citrix Systems";"Information Technology";92.19;-1.3271946;1959731;-0.135;NA
-"CVS";"CVS Health";"Consumer Staples";76.45;-2.9699252;10395622;4.853;1.925
-"CVX";"Chevron Corp.";"Energy";118.58;-5.5666146;13182551;3.435;4.32
-"CXO";"Concho Resources";"Energy";154.53;-2.9699836;1718302;3.809;NA
-"D";"Dominion Energy";"Utilities";75.68;-0.28985667;3528869;4.93;3.035
-"DAL";"Delta Air Lines Inc.";"Industrials";54.62;-3.190357;8963034;4.95;1.015
-"DE";"Deere & Co.";"Industrials";164.96;-1.7217749;2568696;6.68;2.4
-"DFS";"Discover Financial Services";"Financials";78.97;-2.0466404;2176141;5.42;1.3
-"DG";"Dollar General";"Consumer Discretionary";99.44;-2.7766879;4381165;4.513;1.03
-"DGX";"Quest Diagnostics";"Health Care";103.11;-0.4537567;1320905;5.5;1.8
-"DHI";"D. R. Horton";"Consumer Discretionary";46.37;-3.5565782;7556650;2.677;0.425
-"DHR";"Danaher Corp.";"Health Care";102.18;0.31415638;4556900;3.532;0.56
-"DIS";"The Walt Disney Company";"Consumer Discretionary";108.7;-1.620057;9947657;5.69;1.62
-"DISCA";"Discovery Communications-A";"Consumer Discretionary";23.81;-5.8148785;7838761;1.901;NA
-"DISCK";"Discovery Communications-C";"Consumer Discretionary";22.8;-5.668187;3897540;1.901;NA
-"DISH";"Dish Network";"Consumer Discretionary";46.79;-0.7845609;1960223;2.058;NA
-"DLR";"Digital Realty Trust Inc";"Real Estate";107.71;-0.25005028;1562448;1.21;3.67
-"DLTR";"Dollar Tree";"Consumer Discretionary";108.83;-4.4261003;2159934;4.189;NA
-"DOV";"Dover Corp.";"Industrials";103.22;-2.0125263;1554715;5.15;1.82
-"DPS";"Dr Pepper Snapple Group";"Consumer Staples";118.71;-1.1573683;4400516;3.987;2.27
-"DRE";"Duke Realty Corp";"Real Estate";26.78;-0.7044814;3895970;4.197;0.77
-"DRI";"Darden Restaurants";"Consumer Discretionary";96.04;-1.5075389;1701877;3.901;2.38
-"DTE";"DTE Energy Co.";"Utilities";103.28;-0.9019406;2009781;5.427;3.3
-"DUK";"Duke Energy";"Utilities";76.53;-0.40343255;4252429;3.041;3.455
-"DVA";"DaVita Inc.";"Health Care";75.65;-2.4500341;1577999;2.658;NA
-"DWDP";"DowDuPont";"Materials";70.89;-3.551021;12794618;1.895;0.46
-"DVN";"Devon Energy Corp.";"Energy";40.03;-5.1871204;6009878;2.939;0.24
-"DXC";"DXC Technology";"Information Technology";98.89;-0.60307413;1862932;1.375;0.08
-"EA";"Electronic Arts";"Information Technology";124.53;-2.8475535;6471203;3.206;NA
-"EBAY";"eBay Inc.";"Information Technology";44.3;-4.0917935;19255592;-0.955;NA
-"ECL";"Ecolab Inc.";"Materials";137.06;-1.0325712;1641098;4.432;1.48
-"ED";"Consolidated Edison";"Utilities";77.96;-1.0031757;2621622;3.978;2.74
-"EFX";"Equifax Inc.";"Industrials";121.49;-2.1425724;1661142;4.43;1.5
-"EIX";"Edison Int'l";"Utilities";61.6;-0.22676256;4418230;4.378;2.17
-"EL";"Estee Lauder Cos.";"Consumer Staples";134.39;-0.12633634;3279624;3.701;1.36
-"EMN";"Eastman Chemical";"Materials";99.27;0.8636441;3279652;10.09;2.04
-"EMR";"Emerson Electric Company";"Industrials";70.57;-2.7693608;4852958;2.346;1.92
-"EOG";"EOG Resources";"Energy";112.83;-3.1668339;2549409;0.012;0.67
-"EQIX";"Equinix";"Real Estate";437.35;-1.6174028;533040;3.035;7.75
-"EQR";"Equity Residential";"Real Estate";59.95;-0.62987083;2488610;1.63;2.015
-"EQT";"EQT Corporation";"Energy";51.91;-2.6444108;4048034;0.211;0.12
-"ES";"Eversource Energy";"Utilities";59.35;-1.3464118;6519772;3.08;1.865
-"ESRX";"Express Scripts";"Health Care";76.5;-2.0486538;3456709;6.092;NA
-"ESS";"Essex Property Trust, Inc.";"Real Estate";225.38;-0.7879532;366583;7.976;6.85
-"ETFC";"E*Trade";"Financials";52.57;-2.828094;2166744;2.15;NA
-"ETN";"Eaton Corporation";"Industrials";85.09;-3.1527479;6100278;6.68;2.37
-"ETR";"Entergy Corp.";"Utilities";75.98;-1.478215;1209803;-4.897;3.48
-"EW";"Edwards Lifesciences";"Health Care";131.83;3.8194976;3309483;2.88;NA
-"EVHC";"Envision Healthcare";"Health Care";35;-1.9607865;1286062;-4.698;NA
-"EXC";"Exelon Corp.";"Utilities";37.72;-0.3171219;5533555;2.235;1.296
-"EXPD";"Expeditors International";"Industrials";63.61;-1.4867572;965575;2.38;0.82
-"EXPE";"Expedia Inc.";"Consumer Discretionary";126.64;-1.9130982;1909019;2.571;1.12
-"EXR";"Extra Space Storage";"Real Estate";81.84;-0.26809803;1219523;2.729;3.12
-"F";"Ford Motor";"Consumer Discretionary";10.71;-1.9230772;72312922;1.9;0.6
-"FAST";"Fastenal Co";"Industrials";53.56;-1.724768;2684006;2.008;1.28
-"FB";"Facebook, Inc.";"Information Technology";190.28;-1.4552786;26677484;5.161;NA
-"FBHS";"Fortune Brands Home & Security";"Industrials";64.9;-7.046689;4064665;2.859;0.7
-"FCX";"Freeport-McMoRan Inc.";"Materials";17.97;-7.6092615;25449182;1.253;0.05
-"FDX";"FedEx Corporation";"Industrials";255.87;-2.276283;1655040;10.857;1.9
-"FE";"FirstEnergy Corp";"Utilities";32.11;-1.563453;7225872;-11.405;1.44
-"FFIV";"F5 Networks";"Information Technology";144.13;-0.62055707;1235409;6.48;NA
-"FIS";"Fidelity National Information Services";"Information Technology";100.81;-1.2731397;1612556;1.616;1.13
-"FISV";"Fiserv Inc";"Information Technology";137.55;-1.8201306;1160638;4.197;NA
-"FITB";"Fifth Third Bancorp";"Financials";33.13;-1.5745656;4954114;2.83;0.6
-"FL";"Foot Locker Inc";"Consumer Discretionary";48.38;-1.6866452;3464544;3.973;1.205
-"FLIR";"FLIR Systems";"Information Technology";49.94;-2.8782568;919329;1.57;0.57
-"FLR";"Fluor Corp.";"Industrials";58.79;-2.7299764;2243326;1.43;0.84
-"FLS";"Flowserve Corporation";"Industrials";44.57;-2.2373338;1222674;1.289;0.76
-"FMC";"FMC Corporation";"Materials";85.72;-3.922887;1778954;0.158;0.66
-"FOX";"Twenty-First Century Fox Class B";"Consumer Discretionary";36.22;-1.3347803;2921141;1.608;0.36
-"FOXA";"Twenty-First Century Fox Class A";"Consumer Discretionary";36.72;-0.78356427;8101544;1.608;0.36
-"FRT";"Federal Realty Investment Trust";"Real Estate";115.54;-1.8768569;663502;4.102;3.94
-"FTI";"TechnipFMC";"Energy";32.68;-2.00899;4313191;0.191;0.13
-"FTV";"Fortive Corp";"Industrials";75.35;-0.2647314;1406302;2.65;0.28
-"GD";"General Dynamics";"Industrials";221.72;-1.5496671;1377865;9.56;3.36
-"GE";"General Electric";"Industrials";15.64;-2.3720355;82294807;-0.716;0.84
-"GGP";"General Growth Properties Inc.";"Real Estate";22.52;-1.4010495;4854950;0.72;0.88
-"GILD";"Gilead Sciences";"Health Care";81.73;-2.1080303;9356342;8.786;2.03
-"GIS";"General Mills";"Consumer Staples";55.95;-3.3344858;4130248;2.727;1.94
-"GLW";"Corning Inc.";"Information Technology";31.28;-1.293783;6868012;-0.665;0.62
-"GM";"General Motors";"Consumer Discretionary";41;-3.3702574;13982144;2.049;1.52
-"GOOG";"Alphabet Inc Class C";"Information Technology";1111.9;-4.778619;4857943;18.224;NA
-"GOOGL";"Alphabet Inc Class A";"Information Technology";1119.2;-5.2801747;5892122;18.224;NA
-"GPC";"Genuine Parts";"Consumer Discretionary";102.19;-0.988273;1091379;4.469;2.682
-"GPN";"Global Payments Inc.";"Information Technology";108.72;-2.5719109;1053201;1.629;0.064
-"GPS";"Gap Inc.";"Consumer Discretionary";32.09;-2.402679;4474828;2.17;0.92
-"GRMN";"Garmin Ltd.";"Consumer Discretionary";62.41;-0.43076015;975208;3.669;2.04
-"GS";"Goldman Sachs Group";"Financials";260.04;-4.4778323;5913920;9.008;2.9
-"GT";"Goodyear Tire & Rubber";"Consumer Discretionary";34.35;-0.46363333;2273962;3.902;0.4
-"GWW";"Grainger (W.W.) Inc.";"Industrials";259.69;-2.4198709;845462;10.021;5.06
-"HAL";"Halliburton Co.";"Energy";52.19;-4.2560997;14070770;-0.532;0.72
-"HAS";"Hasbro Inc.";"Consumer Discretionary";94.12;-1.6920778;1823310;4.68;2.22
-"HBAN";"Huntington Bancshares";"Financials";16.08;-1.5911887;12434608;1;0.35
-"HBI";"Hanesbrands Inc";"Consumer Discretionary";20.99;-2.1445267;10024136;1.619;0.56
-"HCA";"HCA Holdings";"Health Care";99.69;-2.494127;2417630;5.95;NA
-"HCN";"Welltower Inc.";"Real Estate";58.45;0.7064091;2827526;2.474;3.48
-"HCP";"HCP Inc.";"Real Estate";23.86;1.2303815;4547463;1.131;1.48
-"HD";"Home Depot";"Consumer Discretionary";193.97;-2.9664795;6178952;7.2;3.56
-"HES";"Hess Corporation";"Energy";47.79;-5.534689;5479678;-20.167;1
-"HIG";"Hartford Financial Svc.Gp.";"Financials";58.01;-1.2931805;1782351;1.315;0.92
-"HII";"Huntington Ingalls Industries";"Industrials";243.77;0.9525006;514749;13.284;2.4
-"HLT";"Hilton Worldwide Holdings Inc";"Consumer Discretionary";82.65;-3.6263998;2718375;0.098;0.66
-"HOG";"Harley-Davidson";"Consumer Discretionary";47.5;-2.423994;2698865;3.02;1.46
-"HOLX";"Hologic";"Health Care";42.04;-1.2682031;1921760;2.64;NA
-"HON";"Honeywell Int'l Inc.";"Industrials";156.65;-1.8791106;4208686;2.14;2.74
-"HP";"Helmerich & Payne";"Energy";70.11;-3.8930726;1593963;3.694;2.8
-"HPE";"Hewlett Packard Enterprise";"Information Technology";16.65;-0.83383733;13333953;0.205;0.26
-"HPQ";"HP Inc.";"Information Technology";22.48;-3.5193124;9163108;1.48;0.531
-"HRB";"Block H&R";"Financials";25.46;-2.6386254;2913591;1.871;0.92
-"HRL";"Hormel Foods Corp.";"Consumer Staples";33.65;-1.261738;2169027;1.57;0.68
-"HRS";"Harris Corporation";"Information Technology";155.9;-1.1288679;788591;4.48;2.16
-"HSIC";"Henry Schein";"Health Care";74.35;-1.2353883;1344649;3.477;NA
-"HST";"Host Hotels & Resorts";"Real Estate";20.11;-2.2362618;5685855;0.809;0.8
-"HSY";"The Hershey Company";"Consumer Staples";102.97;-0.7709313;2333373;3.66;2.548
-"HUM";"Humana Inc.";"Health Care";276.5;-1.1688133;939990;12.609;1.49
-"IBM";"International Business Machines";"Information Technology";159.03;-2.0751202;5251938;6.135;5.9
-"ICE";"Intercontinental Exchange";"Financials";73.98;-1.0962563;2540319;2.749;0.77
-"IDXX";"IDEXX Laboratories";"Health Care";186.36;-3.913378;770643;2.94;NA
-"IFF";"Intl Flavors & Fragrances";"Materials";146.13;-1.256842;382191;5.217;2.61
-"ILMN";"Illumina Inc";"Health Care";220.18;-4.390117;1538819;4.92;NA
-"INCY";"Incyte";"Health Care";85.92;-4.1820006;2394510;-0.777;NA
-"INFO";"IHS Markit Ltd.";"Industrials";47.02;-1.2184832;2108075;1;NA
-"INTC";"Intel Corp.";"Information Technology";46.15;-3.1479537;28663029;1.99;1.077
-"INTU";"Intuit Inc.";"Information Technology";163.42;-1.3462094;1412876;3.777;1.41
-"IP";"International Paper";"Materials";62.17;0.81076694;4226295;5.131;1.863
-"IPG";"Interpublic Group";"Consumer Discretionary";21.29;-2.204867;4854953;1.451;0.69
-"IQV";"IQVIA Holdings Inc.";"Health Care";100.54;-3.438342;827650;0.244;NA
-"IR";"Ingersoll-Rand PLC";"Industrials";95.24;-1.4078681;2601308;5.042;1.7
-"IRM";"Iron Mountain Incorporated";"Real Estate";33.66;-2.772961;2364154;0.789;2.204
-"ISRG";"Intuitive Surgical Inc.";"Health Care";416.96;-2.1036866;939639;5.67;NA
-"IT";"Gartner Inc";"Information Technology";135.19;-2.6219113;523225;-0.439;NA
-"ITW";"Illinois Tool Works";"Industrials";170.38;-1.5599705;1518796;4.86;2.86
-"IVZ";"Invesco Ltd.";"Financials";35.16;-2.4146516;5003882;2.75;1.16
-"JBHT";"J. B. Hunt Transport Services";"Industrials";118.17;-2.169056;1853774;6.18;0.92
-"JCI";"Johnson Controls International";"Industrials";39.53;-0.7033474;5307497;1.612;1.01
-"JEC";"Jacobs Engineering Group";"Industrials";67.12;-4.1416655;1043291;2.42;0.45
-"JNJ";"Johnson & Johnson";"Health Care";137.68;-1.671198;9262508;0.47;3.32
-"JNPR";"Juniper Networks";"Information Technology";26.26;-1.092275;5380633;0.8;0.4
-"JPM";"JPMorgan Chase & Co.";"Financials";114.28;-2.216141;16477307;6.31;2.12
-"JWN";"Nordstrom";"Consumer Discretionary";47.85;-2.8031712;1842334;2.867;1.48
-"K";"Kellogg Co.";"Consumer Staples";65.45;-4.200824;3240426;2.234;2.1
-"KEY";"KeyCorp";"Financials";21.76;-0.7751941;15179486;1.126;0.38
-"KHC";"Kraft Heinz Co";"Consumer Staples";77.19;-1.756392;5239738;3.2;2.425
-"KIM";"Kimco Realty";"Real Estate";14.87;-3.1901028;11164094;0.859;1.08
-"KLAC";"KLA-Tencor Corp.";"Information Technology";106.52;-4.1655464;1504833;4.16;2.26
-"KMB";"Kimberly-Clark";"Consumer Staples";116.21;-1.4334202;2614075;6.4;3.88
-"KMI";"Kinder Morgan";"Energy";17.5;-3.1007724;18493464;0.012;0.5
-"KMX";"Carmax Inc";"Consumer Discretionary";68.75;-2.9091902;2090244;3.737;NA
-"KO";"Coca-Cola Company (The)";"Consumer Staples";46.73;-1.5173893;12912307;1.038;1.46
-"KORS";"Michael Kors Holdings";"Consumer Discretionary";65.27;-1.0010673;2476029;3.597;NA
-"KR";"Kroger Co.";"Consumer Staples";29.34;-2.8798378;7695934;1.685;0.49
-"KSS";"Kohl's Corp.";"Consumer Discretionary";63.47;-2.4888542;4562577;3.789;2.15
-"KSU";"Kansas City Southern";"Industrials";110.15;-2.409853;1051910;9.16;1.38
-"L";"Loews Corp.";"Financials";50.82;-1.4925382;1320550;2.871;0.25
-"LB";"L Brands Inc.";"Consumer Discretionary";47.51;-3.7284706;5217878;3.294;2.4
-"LEG";"Leggett & Platt";"Consumer Discretionary";45.05;-1.292726;1512723;2.453;1.4
-"LEN";"Lennar Corp.";"Consumer Discretionary";60.02;-4.487587;4867369;3.38;0.157
-"LH";"Laboratory Corp. of America Holding";"Health Care";169.66;-1.9532998;668510;7.17;NA
-"LKQ";"LKQ Corporation";"Consumer Discretionary";40.93;-2.05791;1411218;1.593;NA
-"LLL";"L-3 Communications Holdings";"Industrials";210.5;-1.6722729;593002;8.505;3
-"LLY";"Lilly (Eli) & Co.";"Health Care";81.18;-1.4925413;5152459;-0.194;2.08
-"LMT";"Lockheed Martin Corp.";"Industrials";352.66;-1.3207233;1958577;6.891;7.46
-"LNC";"Lincoln National";"Financials";83.04;-3.3407085;1686756;9.22;1.16
-"LNT";"Alliant Energy Corp";"Utilities";38.91;-0.43501016;1888751;1.863;1.239
-"LOW";"Lowe's Cos.";"Consumer Discretionary";101.5;-2.2722902;6247851;4.149;1.52
-"LRCX";"Lam Research";"Information Technology";179.06;-5.3143687;5527560;9.105;1.85
-"LUK";"Leucadia National Corp.";"Financials";26.29;-2.737698;1645311;1.542;0.287
-"LUV";"Southwest Airlines";"Industrials";58.71;-2.6529634;4480194;5.79;0.475
-"LYB";"LyondellBasell";"Materials";112.17;-4.5848923;4224647;9.319;3.5
-"M";"Macy's Inc.";"Consumer Discretionary";24.89;-2.8493419;10778585;2.277;1.51
-"MA";"Mastercard Inc.";"Information Technology";170.55;-1.3762735;6556476;4.286;0.88
-"MAA";"Mid-America Apartments";"Real Estate";91.69;-0.065392435;875143;2.86;3.48
-"MAC";"Macerich";"Real Estate";61.46;-2.0245504;3492954;1.044;2.84
-"MAR";"Marriott Int'l.";"Consumer Discretionary";141.17;-4.3045053;2672334;3.671;1.26
-"MAS";"Masco Corp.";"Industrials";42.9;-2.654863;3942852;1.676;0.405
-"MAT";"Mattel Inc.";"Consumer Discretionary";16.53;7.8981786;16567552;-3.07;0.91
-"MCD";"McDonald's Corp.";"Consumer Discretionary";169.38;-1.4659623;4604454;6.367;3.83
-"MCHP";"Microchip Technology";"Information Technology";93.31;-1.3010402;1945337;2.428;1.445
-"MCK";"McKesson Corp.";"Health Care";159.21;-4.2461042;2173949;22.735;1.24
-"MCO";"Moody's Corp";"Financials";158.61;-3.032345;786684;2.806;1.51
-"MDLZ";"Mondelez International";"Consumer Staples";45.5;-0.80662507;10937071;1.91;0.82
-"MDT";"Medtronic plc";"Health Care";84.45;-0.6236837;5564450;3.636;1.78
-"MET";"MetLife Inc.";"Financials";47.56;-0.8960206;9583793;-0.525;1.6
-"MGM";"MGM Resorts International";"Consumer Discretionary";35.58;-3.3939724;8430750;1.018;0.33
-"MHK";"Mohawk Industries";"Consumer Discretionary";270.58;-1.9921763;924211;49.89534;NA
-"MKC";"McCormick & Co.";"Consumer Staples";103.56;-3.6830351;1246461;3.72;1.88
-"MLM";"Martin Marietta Materials";"Materials";217.29;-3.0301716;1261778;6.848;1.7
-"MMC";"Marsh & McLennan";"Financials";84.69;-0.42328113;3418509;2.874;1.43
-"MMM";"3M Company";"Industrials";245.17;-1.1172075;3925658;7.93;4.7
-"MNST";"Monster Beverage";"Consumer Staples";66.63;-1.9137392;3118313;1.37;NA
-"MO";"Altria Group Inc";"Consumer Staples";69.4;-0.757899;8652367;5.314;2.54
-"MON";"Monsanto Co.";"Materials";121;-0.730166;2925969;5.39;2.16
-"MOS";"The Mosaic Company";"Materials";26.04;-3.0889463;5635018;0.957;0.85
-"MPC";"Marathon Petroleum";"Energy";67.41;-1.8634425;5035082;3.153;1.52
-"MRK";"Merck & Co.";"Health Care";58.56;-2.1717327;12264081;1.033;1.87
-"MRO";"Marathon Oil Corp.";"Energy";17.52;-4.9376006;10885077;-8.315;0.2
-"MS";"Morgan Stanley";"Financials";55.48;-3.429071;9783679;3.09;0.95
-"MSFT";"Microsoft Corp.";"Information Technology";91.78;-2.6310241;47867753;1.23;1.62
-"MSI";"Motorola Solutions Inc.";"Information Technology";103.87;4.792171;4455927;-0.952;1.93
-"MTB";"M&T Bank Corp.";"Financials";189.2;-1.8926674;568288;8.7;3
-"MTD";"Mettler Toledo";"Health Care";667.16;-2.4776735;176030;16.488;NA
-"MU";"Micron Technology";"Information Technology";40.82;-3.930341;40657381;6.398;NA
-"MYL";"Mylan N.V.";"Health Care";42.1;-2.206738;4230556;1.617;NA
-"NAVI";"Navient";"Financials";14.21;-2.202338;3150548;1.04;0.64
-"NBL";"Noble Energy Inc";"Energy";29.2;-5.471022;6180321;-4.092;0.4
-"NCLH";"Norwegian Cruise Line";"Consumer Discretionary";59;-2.6241956;1370249;3.203;NA
-"NDAQ";"Nasdaq, Inc.";"Financials";80.34;-1.2658306;1496022;1.558;1.4
-"NEE";"NextEra Energy";"Utilities";155.92;-0.2686441;2322781;11.37;3.93
-"NEM";"Newmont Mining Corporation";"Materials";38.97;-3.4440026;5936215;0.153;0.225
-"NFLX";"Netflix Inc.";"Information Technology";267.43;0.8903253;9123610;1.25;NA
-"NFX";"Newfield Exploration Co";"Energy";30.36;-5.30256;3736398;1.732;NA
-"NI";"NiSource Inc.";"Utilities";23.97;-1.1138632;2915597;0.819;0.7
-"NKE";"Nike";"Consumer Discretionary";67.22;-0.63562495;9348290;2.311;0.74
-"NLSN";"Nielsen Holdings";"Industrials";37.49;-2.648654;4037172;1.42;1.3
-"NOC";"Northrop Grumman Corp.";"Industrials";336.79;-1.7703953;1227003;11.47;3.9
-"NOV";"National Oilwell Varco Inc.";"Energy";35.69;-4.648682;2658658;-2.482;0.2
-"NRG";"NRG Energy";"Utilities";26.19;-0.90805817;4394222;-5.062;0.12
-"NSC";"Norfolk Southern Corp.";"Industrials";145.03;-2.316968;1774596;18.61;2.44
-"NTAP";"NetApp";"Information Technology";60.22;-3.120976;1914342;2.325;0.78
-"NTRS";"Northern Trust Corp.";"Financials";104.63;-2.013487;1453484;4.92;1.6
-"NUE";"Nucor Corp.";"Materials";64.24;-3.2238617;3814066;3.399;1.51
-"NVDA";"Nvidia Corporation";"Information Technology";233.52;-2.902285;17961555;4.001;0.56
-"NWL";"Newell Brands";"Consumer Discretionary";27.98;2.116788;19499209;2.582;0.84
-"NWS";"News Corp. Class B";"Consumer Discretionary";16.75;-2.3323593;308285;-1.129;0.2
-"NWSA";"News Corp. Class A";"Consumer Discretionary";16.41;-2.4375734;2367804;-1.129;0.2
-"O";"Realty Income Corporation";"Real Estate";51.25;-0.6590427;2514574;1.218;2.507
-"OKE";"ONEOK";"Energy";57.75;-3.3311043;2459850;1.624;2.72
-"OMC";"Omnicom Group";"Consumer Discretionary";74.91;-1.6800089;2955372;5.025;2.2
-"ORCL";"Oracle Corp.";"Information Technology";50.13;-2.9052875;17562215;2.328;0.72
-"ORLY";"O'Reilly Automotive";"Consumer Discretionary";252.64;-3.7121751;1470105;11.722;NA
-"OXY";"Occidental Petroleum";"Energy";73.58;-3.311428;5505047;0.704;3.05
-"PAYX";"Paychex Inc.";"Information Technology";66.6;-0.6415042;3252947;2.32;1.92
-"PBCT";"People's United Financial";"Financials";19.63;-0.9086336;3028480;0.97;0.688
-"PCAR";"PACCAR Inc.";"Industrials";72.6;-2.8372626;1944732;4.75;0.99
-"PCG";"PG&E Corp.";"Utilities";41.44;-2.6544542;5668493;4.349;2.035
-"PCLN";"Priceline.com Inc";"Consumer Discretionary";1859.1;-2.3422914;513771;71.303;NA
-"PDCO";"Patterson Companies";"Health Care";35.22;-1.2338717;1176925;1.671;1.02
-"PEG";"Public Serv. Enterprise Inc.";"Utilities";50.04;-1.2433339;3781253;1.029;1.7
-"PEP";"PepsiCo Inc.";"Consumer Staples";118.67;-1.3549501;3348919;4.839;3.115
-"PFE";"Pfizer Inc.";"Health Care";36.61;-0.59734243;24277891;3.52;1.28
-"PFG";"Principal Financial Group";"Financials";66.35;-3.0820928;1352538;7.88;1.87
-"PG";"Procter & Gamble";"Consumer Staples";84.25;-1.8637141;12846332;3.749;2.738
-"PGR";"Progressive Corp.";"Financials";53.24;-0.6345654;3004371;2.72;1.125
-"PH";"Parker-Hannifin";"Industrials";190.64;-1.46276;2002521;7.801;2.61
-"PHM";"Pulte Homes Inc.";"Consumer Discretionary";30.7;-2.4157608;5958311;1.44;0.36
-"PKG";"Packaging Corporation of America";"Materials";123.1;-0.35616192;1020102;7.07;2.52
-"PKI";"PerkinElmer";"Health Care";78.08;-2.4243875;624467;2.64;0.28
-"PLD";"Prologis";"Real Estate";63.83;0.1726312;2646791;3.057;1.76
-"PM";"Philip Morris International";"Consumer Staples";103.44;-1.6449517;6421805;4.53;4.19
-"PNC";"PNC Financial Services";"Financials";157.97;-0.74143434;2782046;10.364;2.6
-"PNR";"Pentair Ltd.";"Industrials";71.24;-1.2749525;1359906;3.625;1.38
-"PNW";"Pinnacle West Capital";"Utilities";77.73;-0.93040496;681587;4.642;2.62
-"PPG";"PPG Industries";"Materials";115.61;-1.7088947;1659166;6.313;1.7
-"PPL";"PPL Corp.";"Utilities";31.19;-0.1280788;5091639;2.209;1.565
-"PRGO";"Perrigo";"Health Care";90.4;-0.61565256;859882;-9.208;0.625
-"PRU";"Prudential Financial";"Financials";117.33;-2.6468594;2017827;9.928;2.95
-"PSA";"Public Storage";"Real Estate";190.31;-0.35082114;973962;6.84;8
-"PSX";"Phillips 66";"Energy";97.01;-3.8171709;4492340;3.964;2.66
-"PVH";"PVH Corp.";"Consumer Discretionary";151.07;-2.0107615;592840;6.707;0.15
-"PWR";"Quanta Services Inc.";"Industrials";36.09;-5.6717153;2779731;1.838;NA
-"PX";"Praxair Inc.";"Materials";155.05;-2.9906769;2086193;4.32;3.15
-"PXD";"Pioneer Natural Resources";"Energy";178.74;-4.237872;2306483;0.73;0.08
-"PYPL";"PayPal";"Information Technology";76.57;-2.3341858;21979787;1.47;NA
-"QCOM";"QUALCOMM Inc.";"Information Technology";66.07;-1.0928193;10971652;-2.832;2.24
-"QRVO";"Qorvo";"Information Technology";80.77;-3.083753;4082291;-0.141;NA
-"RCL";"Royal Caribbean Cruises Ltd";"Consumer Discretionary";129.66;-2.7379746;1416339;7.53;2.16
-"RE";"Everest Re Group Ltd.";"Financials";229.61;-0.23029406;346787;6.572;5
-"REG";"Regency Centers Corporation";"Real Estate";60.12;-0.9391988;859083;0.912;2.07
-"REGN";"Regeneron";"Health Care";347.86;0.5986225;1546555;11.028;NA
-"RF";"Regions Financial Corp.";"Financials";19.25;-1.4841397;14249800;1.005;0.315
-"RHI";"Robert Half International";"Industrials";56.24;-3.9125185;1994983;2.33;0.96
-"RHT";"Red Hat Inc.";"Information Technology";128.01;-1.9981632;1382548;1.851;NA
-"RJF";"Raymond James Financial Inc.";"Financials";94.33;-3.11216;659502;4.127;0.66
-"RL";"Polo Ralph Lauren Corp.";"Consumer Discretionary";109.8;-1.524661;1577202;-1.009;2
-"RMD";"ResMed";"Health Care";96.97;-2.689413;764510;1.987;1.38
-"ROK";"Rockwell Automation Inc.";"Industrials";194.02;-2.595511;1154594;2.895;3.115
-"ROP";"Roper Technologies";"Industrials";285.2;1.4044487;678260;6.889;1.4
-"ROST";"Ross Stores";"Consumer Discretionary";79.08;-3.5609734;3229972;3.131;0.64
-"RRC";"Range Resources Corp.";"Energy";13.55;-2.7279263;12546018;-0.209;0.08
-"RSG";"Republic Services Inc";"Industrials";68.24;-0.7995392;1492045;2.361;1.305
-"RTN";"Raytheon Co.";"Industrials";206.8;-1.9207982;2430464;6.947;3.19
-"SBAC";"SBA Communications";"Real Estate";173.21;-0.8699073;777709;0.835;NA
-"SBUX";"Starbucks Corp.";"Consumer Discretionary";55.77;-0.4107135;15358909;3.016;1.1
-"SCG";"SCANA Corp";"Utilities";39.17;0.25594696;2659891;3.146;2.413
-"SCHW";"Charles Schwab Corporation";"Financials";53.34;-2.8592236;9097595;1.61;0.32
-"SEE";"Sealed Air";"Materials";46.22;-1.7431965;2290446;5.254;0.64
-"SHW";"Sherwin-Williams";"Materials";403.13;-2.1837769;660187;18.672;3.4
-"SIG";"Signet Jewelers";"Consumer Discretionary";51.37;-2.412615;1965172;6.58;1.19
-"SJM";"JM Smucker";"Consumer Staples";120.12;-4.689357;1481681;4.94;3.06
-"SLB";"Schlumberger Ltd.";"Energy";73.69;-2.4102762;9066579;-1.084;2
-"SLG";"SL Green Realty";"Real Estate";98.07;-1.4371862;1426507;0.874;3.138
-"SNA";"Snap-On Inc.";"Consumer Discretionary";167.89;-1.1714183;793169;9.73;2.84
-"SNI";"Scripps Networks Interactive Inc.";"Consumer Discretionary";87.95;-0.7560435;1049095;4.666;1.15
-"SNPS";"Synopsys Inc.";"Information Technology";90.16;-1.3350773;1017540;0.88;NA
-"SO";"Southern Co.";"Utilities";44.17;-0.47319266;7211562;0.544;2.28
-"SPG";"Simon Property Group Inc";"Real Estate";156.52;-1.9605322;3166161;6.24;7.15
-"SPGI";"S&P Global, Inc.";"Financials";177.33;-2.565933;1118848;6.804;1.59
-"SRCL";"Stericycle Inc";"Industrials";73.38;-1.1717209;819571;-0.554;NA
-"SRE";"Sempra Energy";"Utilities";105.58;-0.89176476;2005608;4.515;3.217
-"STI";"SunTrust Banks";"Financials";69.48;-2.702703;4794080;4.47;1.32
-"STZ";"Constellation Brands";"Consumer Staples";215.89;-2.1749978;1745172;9.19;1.96
-"STT";"State Street Corp.";"Financials";107.47;-2.592224;2503658;5.24;1.6
-"STX";"Seagate Technology";"Information Technology";51.77;-4.904479;6567155;2.198;2.52
-"SWK";"Stanley Black & Decker";"Consumer Discretionary";163.84;-1.7569155;1309284;8.04;2.42
-"SWKS";"Skyworks Solutions";"Information Technology";98.96;-4.062048;3767699;5.41;1.16
-"SYF";"Synchrony Financial";"Financials";38.68;-2.100729;6191996;2.42;0.56
-"SYK";"Stryker Corp.";"Health Care";162.25;-1.5353798;1240948;2.68;1.7
-"SYMC";"Symantec Corp.";"Information Technology";27.02;-1.2426907;8481885;1.618;0.3
-"SYY";"Sysco Corp.";"Consumer Staples";61.18;-1.3066646;4004185;2.185;1.32
-"ZBH";"Zimmer Biomet Holdings";"Health Care";125.79;-1.8722222;1392663;9.03;0.96
-"ZION";"Zions Bancorp";"Financials";54.15;-1.5096363;4533570;2.6;0.44
-"ZTS";"Zoetis";"Health Care";76.78;-1.3364185;2595187;1.899;0.41
-"T";"AT&T Inc";"Telecommunication Services";38.07;-2.783453;46098657;4.76;1.97
-"TAP";"Molson Coors Brewing Company";"Consumer Staples";81.06;-2.9802577;1242601;10.363;1.64
-"TDG";"TransDigm Group";"Industrials";307.28;-2.5126946;466927;7.881;NA
-"TEL";"TE Connectivity Ltd.";"Information Technology";102.18;-1.5417215;2801881;3.462;1.57
-"TGT";"Target Corp.";"Consumer Discretionary";72.95;-2.6944168;6807824;4.772;2.42
-"TIF";"Tiffany & Co.";"Consumer Discretionary";105.51;-1.2540911;1599448;3.722;1.9
-"TJX";"TJX Companies Inc.";"Consumer Discretionary";78.47;-2.0349529;5735076;3.704;1.198
-"TMK";"Torchmark Corp.";"Financials";88.21;-2.788185;796937;4.695;0.59
-"TMO";"Thermo Fisher Scientific";"Health Care";217.69;-2.100197;1992430;5.592;0.6
-"TPR";"Tapestry, Inc.";"Consumer Discretionary";45.96;-2.1294718;2707572;1.604;1.35
-"TRIP";"TripAdvisor";"Consumer Discretionary";34.35;-0.77989733;1493803;0.465;NA
-"TROW";"T. Rowe Price Group";"Financials";109.89;-2.0238984;2512806;5.97;2.28
-"TRV";"The Travelers Companies Inc.";"Financials";147.95;-1.3666687;2297933;7.33;2.83
-"TSCO";"Tractor Supply Company";"Consumer Discretionary";67.88;-4.9832096;4546991;3.375;1.02
-"TSN";"Tyson Foods";"Consumer Staples";74.49;-1.6763519;1949559;4.79;0.9
-"TSS";"Total System Services";"Information Technology";86.83;-1.7982315;2023772;3.16;0.46
-"TWX";"Time Warner Inc.";"Consumer Discretionary";96.75;-0.25773194;6076612;6.64;1.61
-"TXN";"Texas Instruments";"Information Technology";107.66;-2.1983993;7474446;3.606;2.12
-"TXT";"Textron Inc.";"Industrials";59.06;-1.3034738;1747178;2.313;0.08
-"UA";"Under Armour Class C";"Consumer Discretionary";12.41;-2.2834644;2607829;0.325;NA
-"UAA";"Under Armour Class A";"Consumer Discretionary";13.65;-2.1505392;4974219;0.325;NA
-"UAL";"United Continental Holdings";"Industrials";65.68;-2.1891305;4189758;7.019;NA
-"UDR";"UDR Inc";"Real Estate";35.2;-0.3115282;1776916;1.056;1.225
-"UHS";"Universal Health Services, Inc.";"Health Care";119.3;-1.640694;638383;7.28;0.4
-"ULTA";"Ulta Salon Cosmetics & Fragrance Inc";"Consumer Discretionary";219.47;0.031908534;1030709;7.825;NA
-"UNH";"United Health Group Inc.";"Health Care";231.88;-1.4199457;3959904;10.719;2.875
-"UNM";"Unum Group";"Financials";52.71;-1.0698193;2412993;4.262;0.86
-"UNP";"Union Pacific";"Industrials";129.36;-2.2813146;8181225;13.36;2.48
-"UPS";"United Parcel Service";"Industrials";116.47;-2.543721;9235616;5.61;3.32
-"URI";"United Rentals, Inc.";"Industrials";173.3;-3.5346456;1496713;15.73;NA
-"USB";"U.S. Bancorp";"Financials";56.9;-0.9745868;7111310;3.51;1.16
-"UTX";"United Technologies";"Industrials";134.61;-2.682191;4684662;5.7;2.76
-"V";"Visa Inc.";"Information Technology";120.91;-3.8259604;13937710;3.01;0.735
-"VAR";"Varian Medical Systems";"Health Care";124.86;-1.9321388;692185;1.331;NA
-"WAT";"Waters Corporation";"Health Care";212.49;-2.2450154;642724;0.25;NA
-"WBA";"Walgreens Boots Alliance";"Consumer Staples";73.56;-3.2868788;7024843;3.625;1.55
-"WDC";"Western Digital";"Information Technology";85.25;-2.738165;5010389;1.283;2
-"WEC";"Wec Energy Group Inc";"Utilities";62.01;-0.9424923;1878203;3.79;2.08
-"VFC";"V.F. Corp.";"Consumer Discretionary";79.89;-0.90548664;3193930;2.378;1.68
-"WFC";"Wells Fargo";"Financials";64.07;-2.1981413;18905283;4.1;1.54
-"WHR";"Whirlpool Corp.";"Consumer Discretionary";178.06;-2.4275346;852221;4.7;4.3
-"VIAB";"Viacom Inc.";"Consumer Discretionary";32.22;-2.9810236;5548206;4.677;0.8
-"VLO";"Valero Energy";"Energy";93.19;-1.5841166;4656726;9.16;2.8
-"WLTW";"Willis Towers Watson";"Financials";161.66;-1.378718;431522;3.405;2.07
-"WM";"Waste Management Inc.";"Industrials";86.53;-1.5025609;2057055;3.12;1.685
-"WMB";"Williams Cos.";"Energy";30.7;-3.093433;4370785;0.585;1.1
-"VMC";"Vulcan Materials";"Materials";131;-2.4063144;1861538;2.865;0.95
-"WMT";"Wal-Mart Stores";"Consumer Staples";104.48;-0.9855888;9253068;3.767;2.03
-"VNO";"Vornado Realty Trust";"Real Estate";70.33;-0.22697693;2462362;4.118;2.65
-"WRK";"WestRock Company";"Materials";67.24;1.4483994;2711178;6.864;1.63
-"VRSK";"Verisk Analytics";"Industrials";98.83;-1.426292;1086583;2.72;NA
-"VRSN";"Verisign Inc.";"Information Technology";112.51;-1.9093242;860163;3.689;NA
-"VRTX";"Vertex Pharmaceuticals Inc";"Health Care";166.24;-3.9019597;3455085;1.04;NA
-"VZ";"Verizon Communications";"Telecommunication Services";52.98;-2.4309387;15574016;7.36;2.335
-"VTR";"Ventas Inc";"Real Estate";54.33;-0.12867591;2815322;3.264;3.1
-"WU";"Western Union Co";"Information Technology";20.28;-1.9816328;6520662;0.431;0.685
-"WY";"Weyerhaeuser Corp.";"Real Estate";35.68;-3.982776;10419440;1.147;1.24
-"WYN";"Wyndham Worldwide";"Consumer Discretionary";121.54;-2.8612547;763783;5.579;2.24
-"WYNN";"Wynn Resorts Ltd";"Consumer Discretionary";166.56;-2.305125;5398823;7.28;2
-"XEC";"Cimarex Energy";"Energy";110.95;-2.1691267;1162116;3.868;0.32
-"XEL";"Xcel Energy Inc";"Utilities";44.48;-0.7364468;2924433;2.33;1.42
-"XL";"XL Capital";"Financials";38.25;3.9684672;9168193;-2.156;0.88
-"XLNX";"Xilinx Inc";"Information Technology";70.64;-2.5520742;2935363;1.923;1.38
-"XOM";"Exxon Mobil Corp.";"Energy";84.53;-5.097116;29822144;3.074;3.04
-"XRAY";"Dentsply Sirona";"Health Care";60.06;-1.1032408;1374001;-3.448;0.34
-"XRX";"Xerox Corp.";"Information Technology";31.63;-3.41985;3526028;0.712;1
-"XYL";"Xylem Inc.";"Industrials";75.66;1.0956806;2171757;1.72;0.695
-"YUM";"Yum! Brands Inc";"Consumer Discretionary";82.63;-1.6075327;3161369;3.268;1.2
+"A";"Agilent Technologies Inc";"Health Care";68.43;2.1648207;4227645;2.1;0.528
+"AAL";"American Airlines Group";"Industrials";50.09;3.5773356;5437809;3.9;0.4
+"AAP";"Advance Auto Parts";"Consumer Discretionary";109.48;0.3115301;1181363;4.763;0.24
+"AAPL";"Apple Inc.";"Information Technology";162.71;4.0278773;60819539;9.7;2.46
+"ABBV";"AbbVie Inc.";"Health Care";111.93;0.5660352;4823261;3.3;2.63
+"ABC";"AmerisourceBergen Corp";"Health Care";89.45;0.29150635;2157414;4.42;1.475
+"ABT";"Abbott Laboratories";"Health Care";57.41;0.41980353;8232063;0.271;1.075
+"ACN";"Accenture plc";"Information Technology";154.95;0.72152925;2273661;5.642;2.54
+"ADBE";"Adobe Systems Inc";"Information Technology";192.15;2.2128773;2824726;3.38;NA
+"ADI";"Analog Devices, Inc.";"Information Technology";85.05;1.3344486;3287666;2.07;1.8
+"ADM";"Archer-Daniels-Midland Co";"Consumer Staples";41.27;-0.53025115;6433474;2.788;1.28
+"ADP";"Automatic Data Processing";"Information Technology";111.65;0.19743447;2040647;3.87;2.34
+"ADS";"Alliance Data Systems";"Information Technology";248.29;3.1661592;594776;14.1;2.08
+"ADSK";"Autodesk Inc";"Information Technology";108.38;2.3031855;1994120;-2.576;NA
+"AEE";"Ameren Corp";"Utilities";55.07;-0.6315382;1789098;2.512;1.76
+"AEP";"American Electric Power";"Utilities";64.8;0.123612225;3538230;3.889;2.39
+"AES";"AES Corp";"Utilities";10.27;0.6862809;9008788;-1.166;0.47
+"AET";"Aetna Inc";"Health Care";177.38;0.5612594;4543459;5.677;2
+"AFL";"AFLAC Inc";"Financials";85.13;0.42467928;1889596;10.96;1.74
+"AGN";"Allergan, Plc";"Health Care";162.46;-0.19045128;3066724;-13.197;2.8
+"AIG";"American International Group, Inc.";"Financials";59.61;-1.0129535;6074085;-2.581;1.28
+"AIZ";"Assurant Inc";"Financials";87.52;-0.55676115;526386;9.39;2.15
+"AIV";"Apartment Investment & Management";"Real Estate";39.27;-0.17793517;1428773;1.96;1.46
+"AJG";"Arthur J. Gallagher & Co.";"Financials";66.21;1.955646;1266981;2.54;1.56
+"AKAM";"Akamai Technologies Inc";"Information Technology";64.93;1.247471;1609848;1.672;NA
+"ALB";"Albemarle Corp";"Materials";111.59;3.5926433;2637077;7.766;1.265
+"ALGN";"Align Technology";"Health Care";233.13;1.6392771;1206753;2.83;NA
+"ALK";"Alaska Air Group Inc";"Industrials";66.01;1.9932028;3346500;8.3;1.2
+"ALL";"Allstate Corp";"Financials";90.73;-0.1760326;4116987;8.36;1.48
+"ALLE";"Allegion";"Industrials";79.75;1.6053028;1010618;3.518;0.6
+"ALXN";"Alexion Pharmaceuticals";"Health Care";115.43;6.2891364;2659627;1.97;NA
+"AMAT";"Applied Materials Inc";"Information Technology";49.5;2.953407;16326069;3.17;0.4
+"AMD";"Advanced Micro Devices Inc";"Information Technology";11.68;3.27144;63160875;0.04;NA
+"AME";"AMETEK Inc";"Industrials";74;2.3513098;1739764;2.94;0.36
+"AMG";"Affiliated Managers Group Inc";"Financials";181.19;0.5270733;381060;12.031;0.8
+"AMGN";"Amgen Inc";"Health Care";174.87;0.8128608;4324697;2.69;4.6
+"AMP";"Ameriprise Financial";"Financials";155.91;1.319209;1079021;9.44;3.24
+"AMZN";"Amazon.com Inc";"Consumer Discretionary";1386.23;3.4808903;6738944;6.15;NA
+"AMT";"American Tower Corp A";"Real Estate";136.23;0.13229892;3820973;2.631;2.5
+"ANDV";"Andeavor";"Energy";97.63;0.32884565;1293196;5.519;2.24
+"ANSS";"ANSYS";"Information Technology";153.74;2.2139497;455361;3.181;NA
+"ANTM";"Anthem Inc.";"Health Care";232.77;0.45746732;1790861;14.35;2.7
+"AON";"Aon plc";"Financials";139.96;1.4864788;1422535;4.706;1.41
+"AOS";"A.O. Smith Corp";"Industrials";61.98;1.673229;1063604;1.698;0.56
+"APA";"Apache Corporation";"Energy";38.11;2.3636882;5521996;1.75;1
+"APC";"Anadarko Petroleum Corp";"Energy";57.82;3.0108652;6654901;-0.85;0.2
+"APD";"Air Products & Chemicals Inc";"Materials";159.68;1.005754;1266296;12.968;3.8
+"APH";"Amphenol Corp";"Information Technology";86.41;1.922629;1797787;2.06;0.7
+"APTV";"Aptiv Plc";"Consumer Discretionary";91.44;3.252038;1973202;5.06;1.16
+"ARE";"Alexandria Real Estate Equities Inc";"Real Estate";119.08;0.8810581;920817;1.58;3.45
+"ARNC";"Arconic Inc";"Industrials";24.84;0.72992826;4938440;-0.28;0.24
+"AZO";"AutoZone Inc";"Consumer Discretionary";730.2;0.92605555;450664;44.79;NA
+"ATVI";"Activision Blizzard";"Information Technology";68.32;1.8485358;8315477;0.36;0.34
+"AVB";"AvalonBay Communities, Inc.";"Real Estate";158.75;-0.53881377;1427410;6.35;5.68
+"AVGO";"Broadcom";"Information Technology";244.4;3.7791908;3506266;4.016;4.81
+"AWK";"American Water Works Company Inc";"Utilities";77.92;-0.025666246;1016930;2.96;1.58
+"AVY";"Avery Dennison Corp";"Materials";115.65;3.7591982;989084;3.128;1.76
+"AXP";"American Express Co";"Financials";94.7;3.2490141;7419214;2.97;1.34
+"AYI";"Acuity Brands Inc";"Industrials";150.49;2.339342;562623;7.273;0.52
+"BA";"Boeing Company";"Industrials";343.8;3.2959774;6885010;13.43;5.68
+"BAC";"Bank of America Corp";"Financials";31.12;2.6046848;95055132;1.56;0.39
+"BAX";"Baxter International Inc.";"Health Care";65;1.0729319;4232741;1.287;0.61
+"BBT";"BB&T Corporation";"Financials";53;1.1064515;3681709;2.74;1.26
+"BBY";"Best Buy Co. Inc.";"Consumer Discretionary";70.35;-0.57942855;3257697;3.981;1.36
+"BDX";"Becton Dickinson";"Health Care";218.89;0.8059316;2318086;1.288;2.94
+"BEN";"Franklin Resources";"Financials";38.83;1.5960246;3152375;1.194;0.83
+"BF-B";"Brown-Forman Corp.";"Consumer Staples";66.24;1.3308783;785895;1.92;0.73
+"BHF";"Brighthouse Financial Inc";"Financials";58.23;2.1937523;1078591;-23.469;NA
+"BHGE";"Baker Hughes, a GE Company";"Energy";26.85;1.3207561;9381432;0.255;0.35
+"BIIB";"Biogen Inc.";"Health Care";316.63;-0.04734955;1330994;11.92;NA
+"BK";"The Bank of New York Mellon Corp.";"Financials";54.61;0.9800273;4857374;3.72;0.86
+"BLK";"BlackRock";"Financials";525.38;0.74207497;613425;30.23;10
+"BLL";"Ball Corp";"Materials";37.53;-0.89780873;5383314;1.12;0.365
+"BMY";"Bristol-Myers Squibb";"Health Care";63.16;0.73365086;7502933;0.61;1.57
+"BRK-B";"Berkshire Hathaway";"Financials";198.89;1.4641339;5128865;7.57;NA
+"BSX";"Boston Scientific";"Health Care";26.18;1.0030873;8449844;0.076;NA
+"BWA";"BorgWarner";"Consumer Discretionary";52.97;0.6842817;1709515;2.08;0.59
+"BXP";"Boston Properties";"Real Estate";115.14;-0.18205382;829181;3.21;3
+"C";"Citigroup Inc.";"Financials";74.76;1.4658005;16677666;-2.762;0.96
+"CA";"CA, Inc.";"Information Technology";34.02;1.7040349;2865499;1.012;1.02
+"CAG";"Conagra Brands";"Consumer Staples";35.7;0.39369905;5897999;1.668;0.825
+"CAH";"Cardinal Health Inc.";"Health Care";68.03;1.9634256;3319424;5.735;1.836
+"CAT";"Caterpillar Inc.";"Industrials";152.29;2.0641956;5756787;1.26;3.11
+"CB";"Chubb Limited";"Financials";144.61;0.062272582;2205831;8.19;2.82
+"CBG";"CBRE Group";"Real Estate";43.15;2.9832935;3063291;2.03;NA
+"CBOE";"CBOE Holdings";"Financials";110.68;3.3330216;2567309;1.871;1.02
+"CBS";"CBS Corp.";"Consumer Discretionary";53.16;0.758153;4591383;0.683;0.72
+"CCI";"Crown Castle International Corp.";"Real Estate";105.11;1.2035432;3325278;1.01;3.9
+"CCL";"Carnival Corp.";"Consumer Discretionary";68.77;2.5346608;3145990;3.59;1.6
+"CDNS";"Cadence Design Systems";"Information Technology";38.6;2.4416087;2417924;0.73;NA
+"CELG";"Celgene Corp.";"Health Care";91.51;-1.0809642;6663068;3.64;NA
+"CERN";"Cerner";"Health Care";62.49;1.9246457;2686857;2.009;NA
+"CF";"CF Industries Holdings Inc";"Materials";38.44;2.1796908;3115628;-1.841;1.2
+"CFG";"Citizens Financial Group";"Financials";43.96;2.1138208;4380953;3.25;0.64
+"CHD";"Church & Dwight";"Consumer Staples";48.63;0.14415093;2083859;2.9;0.76
+"CHK";"Chesapeake Energy";"Energy";2.85;0;32884839;-33.878593;0
+"CHRW";"C. H. Robinson Worldwide";"Industrials";91.18;2.0481274;1357120;3.57;1.81
+"CHTR";"Charter Communications";"Consumer Discretionary";357.88;2.4182274;855081;34.088;NA
+"CI";"CIGNA Corp.";"Health Care";193.56;-0.10837937;945445;8.77;0.04
+"CINF";"Cincinnati Financial";"Financials";74.31;3.0080373;1071362;3.02;1.98
+"CL";"Colgate-Palmolive";"Consumer Staples";70.19;0.61639947;3457558;2.28;1.59
+"CLX";"The Clorox Company";"Consumer Staples";127.95;-0.6599426;1166598;6.062;3.32
+"CMA";"Comerica Inc.";"Financials";93.3;1.8447794;1604950;4.14;1.09
+"CMCSA";"Comcast Corp.";"Consumer Discretionary";38.54;-0.0777775;30682529;4.75;0.63
+"CME";"CME Group Inc.";"Financials";160.13;2.0911689;1991376;11.94;2.64
+"CMG";"Chipotle Mexican Grill";"Consumer Discretionary";254.45;-0.39536902;1953508;6.17;NA
+"CMI";"Cummins Inc.";"Industrials";165.77;1.0484616;1912307;5.97;4.21
+"CMS";"CMS Energy";"Utilities";42.88;0.21032986;2640556;1.931;1.308
+"CNC";"Centene Corporation";"Health Care";103.09;1.4066423;1332143;4.69;NA
+"CNP";"CenterPoint Energy";"Utilities";26.73;0.8679228;2870879;1.38;1.06
+"COF";"Capital One Financial";"Financials";95.19;3.4449096;2766530;3.484;1.6
+"COG";"Cabot Oil & Gas";"Energy";23.84;0.84602696;7359145;-0.32;0.14
+"COL";"Rockwell Collins";"Industrials";134.68;1.0807469;1324260;5.396;1.32
+"COO";"The Cooper Companies";"Health Care";226.76;0;450687;7.52;0.06
+"COP";"ConocoPhillips";"Energy";53.41;2.672048;7035416;-0.7;1.06
+"COST";"Costco Wholesale Corp.";"Consumer Staples";181.06;0.18813431;1596154;6.29;1.95
+"COTY";"Coty, Inc";"Consumer Staples";20.42;2.8197353;9902160;-0.599;0.5
+"CPB";"Campbell Soup";"Consumer Staples";46.31;1.268318;3183051;2.855;1.4
+"CRM";"Salesforce.com";"Information Technology";108.55;1.4675636;4624113;0.012;NA
+"CSCO";"Cisco Systems";"Information Technology";40.6;2.7068043;38210735;1.92;1.13
+"CSRA";"CSRA Inc.";"Information Technology";40.39;31.051266;43756486;2.29;0.4
+"CSX";"CSX Corp.";"Industrials";53.16;4.4606023;11144717;5.99;0.78
+"CTAS";"Cintas Corporation";"Industrials";154.4;1.0934317;484797;5.045;1.62
+"CTL";"CenturyLink Inc";"Telecommunication Services";16.76;4.881106;12828667;0.58;2.16
+"CTSH";"Cognizant Technology Solutions";"Information Technology";77.43;1.4942973;5642765;2.53;0.45
+"CTXS";"Citrix Systems";"Information Technology";86.79;1.2128291;1644305;-0.135;NA
+"CVS";"CVS Health";"Consumer Staples";69.87;0.6917471;8943768;4.853;1.925
+"CVX";"Chevron Corp.";"Energy";113.98;0.42291045;8358207;4.85;4.32
+"CXO";"Concho Resources";"Energy";143.48;3.237876;1720352;3.809;NA
+"D";"Dominion Energy";"Utilities";75.26;1.1831204;4418624;4.93;3.035
+"DAL";"Delta Air Lines Inc.";"Industrials";52.05;3.151011;10610194;4.95;1.015
+"DE";"Deere & Co.";"Industrials";159.21;2.762547;2343108;6.68;2.4
+"DFS";"Discover Financial Services";"Financials";75.95;2.482791;2100298;5.42;1.3
+"DG";"Dollar General";"Consumer Discretionary";95.09;-3.2261405;4597555;4.513;1.03
+"DGX";"Quest Diagnostics";"Health Care";99.07;0.74232596;974006;5.5;1.8
+"DHI";"D. R. Horton";"Consumer Discretionary";44.84;1.724134;7880094;2.677;0.425
+"DHR";"Danaher Corp.";"Health Care";95.41;1.0057216;2247606;3.532;0.56
+"DIS";"The Walt Disney Company";"Consumer Discretionary";103.39;0.29101083;9584727;7.011;1.62
+"DISCA";"Discovery Communications-A";"Consumer Discretionary";23.09;2.1229525;3822111;1.901;NA
+"DISCK";"Discovery Communications-C";"Consumer Discretionary";21.87;2.2440462;2532720;1.901;NA
+"DISH";"Dish Network";"Consumer Discretionary";44;1.3824849;1955333;2.058;NA
+"DLR";"Digital Realty Trust Inc";"Real Estate";105.05;2.7785969;2390141;1.21;3.67
+"DLTR";"Dollar Tree";"Consumer Discretionary";104.74;-2.6760871;5204155;4.189;NA
+"DOV";"Dover Corp.";"Industrials";98.27;0.9450418;1052796;5.15;1.82
+"DPS";"Dr Pepper Snapple Group";"Consumer Staples";116.74;0.025703691;2754531;3.987;2.27
+"DRE";"Duke Realty Corp";"Real Estate";25.3;-0.27592275;4752037;4.197;0.77
+"DRI";"Darden Restaurants";"Consumer Discretionary";94.22;1.6506622;1343945;3.901;2.38
+"DTE";"DTE Energy Co.";"Utilities";101.25;0.18800955;1572728;5.427;3.3
+"DUK";"Duke Energy";"Utilities";76.81;0.9329817;4373075;3.041;3.455
+"DVA";"DaVita Inc.";"Health Care";73.41;0.60299087;1388096;2.658;NA
+"DWDP";"DowDuPont";"Materials";71.84;3.3966508;10242542;0.902;1.76
+"DVN";"Devon Energy Corp.";"Energy";35.78;3.1718526;6551611;2.939;0.24
+"DXC";"DXC Technology";"Information Technology";97.9;0.9382448;2544501;4.173;0.12
+"EA";"Electronic Arts";"Information Technology";122.22;1.3096833;3695119;3.206;NA
+"EBAY";"eBay Inc.";"Information Technology";42.32;1.5842531;11821321;-0.955;NA
+"ECL";"Ecolab Inc.";"Materials";130.16;1.2760655;1551406;4.432;1.48
+"ED";"Consolidated Edison";"Utilities";77.4;0.663288;2442921;3.978;2.74
+"EFX";"Equifax Inc.";"Industrials";114.4;1.9607885;1116958;4.43;1.5
+"EIX";"Edison Int'l";"Utilities";60.06;1.9002423;2853644;4.378;2.17
+"EL";"Estee Lauder Cos.";"Consumer Staples";137.03;1.6920213;2273358;2.87;1.4
+"EMN";"Eastman Chemical";"Materials";97.52;2.8691914;1763639;10.09;2.04
+"EMR";"Emerson Electric Company";"Industrials";70.31;1.795277;5187914;2.346;1.92
+"EOG";"EOG Resources";"Energy";103.14;3.0678523;3551493;0.012;0.67
+"EQIX";"Equinix";"Real Estate";431.45;1.3245379;876972;3.035;7.75
+"EQR";"Equity Residential";"Real Estate";56.61;-0.07061062;2982763;1.63;2.015
+"EQT";"EQT Corporation";"Energy";47.77;4.4609685;4466768;0.211;0.12
+"ES";"Eversource Energy";"Utilities";57.53;0.89442;2176612;3.08;1.865
+"ESRX";"Express Scripts";"Health Care";72.89;1.6455171;3796363;6.092;NA
+"ESS";"Essex Property Trust, Inc.";"Real Estate";227.85;-0.03948247;932798;6.57;7
+"ETFC";"E*Trade";"Financials";50.2;1.4756409;2764104;2.15;NA
+"ETN";"Eaton Corporation";"Industrials";82.02;1.5476043;2789839;6.68;2.4
+"ETR";"Entergy Corp.";"Utilities";74.63;0.67449075;1249783;-4.897;3.48
+"EW";"Edwards Lifesciences";"Health Care";126.89;0.49101353;1159630;2.7;NA
+"EVHC";"Envision Healthcare";"Health Care";36.69;-0.43419227;1831916;-4.698;NA
+"EXC";"Exelon Corp.";"Utilities";37.17;0.84101343;7420658;2.235;1.296
+"EXPD";"Expeditors International";"Industrials";62.37;2.886836;1817845;2.38;0.82
+"EXPE";"Expedia Inc.";"Consumer Discretionary";102.82;-1.1346157;4820580;2.42;1.16
+"EXR";"Extra Space Storage";"Real Estate";80.8;0.5100182;1196394;2.729;3.12
+"F";"Ford Motor";"Consumer Discretionary";10.7;1.6144358;49068946;1.9;0.6
+"FAST";"Fastenal Co";"Industrials";52.84;-1.1967078;3428028;2.008;1.28
+"FB";"Facebook, Inc.";"Information Technology";176.41;0.1703498;32092133;5.39;NA
+"FBHS";"Fortune Brands Home & Security";"Industrials";63.15;2.3334992;3198096;3.033;0.72
+"FCX";"Freeport-McMoRan Inc.";"Materials";17.57;0;26314090;1.253;0.05
+"FDX";"FedEx Corporation";"Industrials";239.93;1.9590282;2667200;10.857;1.9
+"FE";"FirstEnergy Corp";"Utilities";31.5;0.671138;7463103;-11.405;1.44
+"FFIV";"F5 Networks";"Information Technology";140.15;1.0891478;622824;6.48;NA
+"FIS";"Fidelity National Information Services";"Information Technology";95.15;0.1262788;1789938;1.616;1.13
+"FISV";"Fiserv Inc";"Information Technology";138.64;0.8584262;1832789;5.775;NA
+"FITB";"Fifth Third Bancorp";"Financials";32.25;0.8442791;5447267;2.83;0.6
+"FL";"Foot Locker Inc";"Consumer Discretionary";46.34;0.21625967;3269176;3.973;1.205
+"FLIR";"FLIR Systems";"Information Technology";47.68;1.3605429;996568;1.57;0.57
+"FLR";"Fluor Corp.";"Industrials";56.31;2.363212;1549137;1.43;0.84
+"FLS";"Flowserve Corporation";"Industrials";41.42;2.6263566;1415045;1.289;0.76
+"FMC";"FMC Corporation";"Materials";85.22;3.072086;2411423;0.158;0.66
+"FOX";"Twenty-First Century Fox Class B";"Consumer Discretionary";35.95;2.1597106;3098173;2.126;0.36
+"FOXA";"Twenty-First Century Fox Class A";"Consumer Discretionary";36.4;1.8751806;12466642;2.126;0.36
+"FRT";"Federal Realty Investment Trust";"Real Estate";110.24;0.30024037;678377;4.102;3.94
+"FTI";"TechnipFMC";"Energy";29.69;1.8874439;2766566;0.191;0.13
+"FTV";"Fortive Corp";"Industrials";74.3;2.5534937;3466852;2.65;0.28
+"GD";"General Dynamics";"Industrials";209.53;-1.211696;2698764;9.56;3.36
+"GE";"General Electric";"Industrials";14.82;-0.80321205;75582420;-0.716;0.84
+"GGP";"General Growth Properties Inc.";"Real Estate";22.5;1.3057224;10253353;0.68;0.88
+"GILD";"Gilead Sciences";"Health Care";80.14;1.0337868;10030660;3.51;2.08
+"GIS";"General Mills";"Consumer Staples";54.92;0.36549148;2589897;2.727;1.94
+"GLW";"Corning Inc.";"Information Technology";29.45;2.363574;9879495;-0.665;0.62
+"GM";"General Motors";"Consumer Discretionary";42;1.3024625;19392043;-2.603;1.52
+"GOOG";"Alphabet Inc Class C";"Information Technology";1051.94;1.3644425;2057718;18.224;NA
+"GOOGL";"Alphabet Inc Class A";"Information Technology";1054.56;0.79234225;2812011;18.224;NA
+"GPC";"Genuine Parts";"Consumer Discretionary";97.72;0.6903639;951601;4.469;2.682
+"GPN";"Global Payments Inc.";"Information Technology";106.4;2.3766007;1900242;1.629;0.064
+"GPS";"Gap Inc.";"Consumer Discretionary";31.42;-2.6943352;7131572;2.17;0.92
+"GRMN";"Garmin Ltd.";"Consumer Discretionary";61.97;1.2250898;1170595;3.669;2.04
+"GS";"Goldman Sachs Group";"Financials";253.16;1.5483356;3692544;9.008;2.9
+"GT";"Goodyear Tire & Rubber";"Consumer Discretionary";30.11;0.40013617;7102638;1.37;0.44
+"GWW";"Grainger (W.W.) Inc.";"Industrials";269.43;0.78177464;1331586;10.021;5.06
+"HAL";"Halliburton Co.";"Energy";47.92;2.6124141;12278292;-0.532;0.72
+"HAS";"Hasbro Inc.";"Consumer Discretionary";96.63;-1.1255562;1312963;3.12;2.28
+"HBAN";"Huntington Bancshares";"Financials";15.48;0.4542485;10565223;1;0.35
+"HBI";"Hanesbrands Inc";"Consumer Discretionary";19.69;2.232608;11778529;0.164;0.6
+"HCA";"HCA Holdings";"Health Care";98.28;0.44971636;1512175;5.95;NA
+"HCN";"Welltower Inc.";"Real Estate";54.27;-0.62259686;4115633;2.474;3.48
+"HCP";"HCP Inc.";"Real Estate";22.85;-1.5510501;6324376;1.131;1.48
+"HD";"Home Depot";"Consumer Discretionary";184.06;-0.03258612;6783710;7.2;3.56
+"HES";"Hess Corporation";"Energy";44.14;4.7958226;6991404;-13.12;1
+"HIG";"Hartford Financial Svc.Gp.";"Financials";53.5;-0.8892174;3342096;-8.609;0.94
+"HII";"Huntington Ingalls Industries";"Industrials";234.93;2.0059898;438813;13.284;2.4
+"HLT";"Hilton Worldwide Holdings Inc";"Consumer Discretionary";81.82;1.7282101;2435861;0.098;0.66
+"HOG";"Harley-Davidson";"Consumer Discretionary";48.35;1.0871767;1897782;3.02;1.46
+"HOLX";"Hologic";"Health Care";38.04;0.76821434;4473250;2.64;NA
+"HON";"Honeywell Int'l Inc.";"Industrials";149.47;1.061533;3455480;2.14;2.74
+"HP";"Helmerich & Payne";"Energy";64.64;1.6032702;2826121;3.701;2.8
+"HPE";"Hewlett Packard Enterprise";"Information Technology";15.75;2.9411752;7683571;0.205;0.26
+"HPQ";"HP Inc.";"Information Technology";20.41;1.4917912;12507871;1.48;0.531
+"HRB";"Block H&R";"Financials";25.13;0.842693;4988961;1.871;0.92
+"HRL";"Hormel Foods Corp.";"Consumer Staples";33.07;0.7924362;2382224;1.57;0.68
+"HRS";"Harris Corporation";"Information Technology";152.79;-0.15031432;828664;4.211;2.2
+"HSIC";"Henry Schein";"Health Care";72.18;0.59930354;2295407;3.477;NA
+"HST";"Host Hotels & Resorts";"Real Estate";19.42;-0.51229703;9087667;0.809;0.8
+"HSY";"The Hershey Company";"Consumer Staples";99.78;0.110364825;1234100;3.66;2.548
+"HUM";"Humana Inc.";"Health Care";267.05;0.6520354;1012137;16.81;1.6
+"IBM";"International Business Machines";"Information Technology";151.4;1.2641292;5881377;6.135;5.9
+"ICE";"Intercontinental Exchange";"Financials";68.6;0.21914029;4173510;4.23;0.8
+"IDXX";"IDEXX Laboratories";"Health Care";175.06;1.2200061;421891;2.94;NA
+"IFF";"Intl Flavors & Fragrances";"Materials";142.42;1.4387496;271004;5.217;2.61
+"ILMN";"Illumina Inc";"Health Care";221.03;1.7680354;1000033;4.92;NA
+"INCY";"Incyte";"Health Care";87.52;3.5739605;1745137;-0.777;NA
+"INFO";"IHS Markit Ltd.";"Industrials";45.21;2.031139;2525400;1;NA
+"INTC";"Intel Corp.";"Information Technology";44.83;2.0022779;28379521;1.99;1.077
+"INTU";"Intuit Inc.";"Information Technology";159.38;1.4771472;1484763;3.777;1.41
+"IP";"International Paper";"Materials";57.88;1.1888118;2578879;5.131;1.863
+"IPG";"Interpublic Group";"Consumer Discretionary";21.91;0.7819691;7735120;1.451;0.69
+"IQV";"IQVIA Holdings Inc.";"Health Care";98.63;2.6860948;1258340;0.244;NA
+"IR";"Ingersoll-Rand PLC";"Industrials";90.91;1.9627634;1484922;5.042;1.7
+"IRM";"Iron Mountain Incorporated";"Real Estate";33.3;0.60423195;2607790;0.789;2.204
+"ISRG";"Intuitive Surgical Inc.";"Health Care";398.51;1.4252644;845177;5.67;NA
+"IT";"Gartner Inc";"Information Technology";118.24;2.3811586;854227;0.037;NA
+"ITW";"Illinois Tool Works";"Industrials";161.42;0.8055912;1766375;4.86;2.86
+"IVZ";"Invesco Ltd.";"Financials";32.52;0.24661478;2720708;2.75;1.16
+"JBHT";"J. B. Hunt Transport Services";"Industrials";115.88;0.6689224;828238;6.18;0.92
+"JCI";"Johnson Controls International";"Industrials";37.41;3.0862465;8824991;1.612;1.01
+"JEC";"Jacobs Engineering Group";"Industrials";63.09;1.3819711;2033748;1.921;0.6
+"JNJ";"Johnson & Johnson";"Health Care";130.27;0.57130045;9963943;0.47;3.32
+"JNPR";"Juniper Networks";"Information Technology";25.8;1.4150892;3977759;0.8;0.4
+"JPM";"JPMorgan Chase & Co.";"Financials";111.74;1.54489;18043325;6.31;2.12
+"JWN";"Nordstrom";"Consumer Discretionary";48.37;1.002296;910082;2.867;1.48
+"K";"Kellogg Co.";"Consumer Staples";67.07;-0.38616088;3287655;2.234;2.1
+"KEY";"KeyCorp";"Financials";20.59;0.98087674;10382972;1.126;0.38
+"KHC";"Kraft Heinz Co";"Consumer Staples";71.81;0.6024101;4372905;3.2;2.425
+"KIM";"Kimco Realty";"Real Estate";14.32;0.98730177;7088667;0.859;1.08
+"KLAC";"KLA-Tencor Corp.";"Information Technology";103.91;2.9831538;1755823;4.16;2.26
+"KMB";"Kimberly-Clark";"Consumer Staples";113.67;2.0010731;2695238;6.4;3.88
+"KMI";"Kinder Morgan";"Energy";17.3;0.34802476;17073782;0.01;0.5
+"KMX";"Carmax Inc";"Consumer Discretionary";65.66;1.8142438;1473224;3.737;NA
+"KO";"Coca-Cola Company (The)";"Consumer Staples";43.97;1.9476006;14688426;1.038;1.46
+"KORS";"Michael Kors Holdings";"Consumer Discretionary";60.89;1.8227428;3656854;3.329;NA
+"KR";"Kroger Co.";"Consumer Staples";27.2;-1.663048;10827057;1.685;0.49
+"KSS";"Kohl's Corp.";"Consumer Discretionary";61.12;-0.56938714;3620632;3.789;2.15
+"KSU";"Kansas City Southern";"Industrials";105.42;1.5900565;1351430;9.16;1.38
+"L";"Loews Corp.";"Financials";47.5;1.6477648;1895401;2.871;0.25
+"LB";"L Brands Inc.";"Consumer Discretionary";48.7;0.10277335;3737225;3.294;2.4
+"LEG";"Leggett & Platt";"Consumer Discretionary";44.92;1.4453465;1300728;2.133;1.42
+"LEN";"Lennar Corp.";"Consumer Discretionary";59.34;1.1075166;18346861;3.38;0.157
+"LH";"Laboratory Corp. of America Holding";"Health Care";168.49;0.24393363;732490;12.21;NA
+"LKQ";"LKQ Corporation";"Consumer Discretionary";40.16;3.186027;2474859;1.593;NA
+"LLL";"L-3 Communications Holdings";"Industrials";204.44;0.95304334;587614;8.505;3
+"LLY";"Lilly (Eli) & Co.";"Health Care";76.25;0.026231984;6454242;-0.194;2.08
+"LMT";"Lockheed Martin Corp.";"Industrials";345.81;1.2858016;1829161;6.891;7.46
+"LNC";"Lincoln National";"Financials";75.47;0.11940033;1785527;9.221;1.2
+"LNT";"Alliant Energy Corp";"Utilities";38.48;0.15617225;2176856;1.863;1.239
+"LOW";"Lowe's Cos.";"Consumer Discretionary";97.78;0.62776643;8067603;4.149;1.52
+"LRCX";"Lam Research";"Information Technology";172.95;4.268404;4150722;9.105;1.85
+"LUK";"Leucadia National Corp.";"Financials";24.84;2.4329903;2251771;1.542;0.287
+"LUV";"Southwest Airlines";"Industrials";56.81;2.3603628;4427135;5.79;0.475
+"LYB";"LyondellBasell";"Materials";109.7;2.532946;2260652;12.228;3.55
+"M";"Macy's Inc.";"Consumer Discretionary";24.19;0.16563527;7716546;2.277;1.51
+"MA";"Mastercard Inc.";"Information Technology";168.19;1.8099308;5227367;3.65;0.91
+"MAA";"Mid-America Apartments";"Real Estate";87.74;-0.011398446;1060599;2.86;3.48
+"MAC";"Macerich";"Real Estate";60.8;0.64558744;1716119;1.02;2.87
+"MAR";"Marriott Int'l.";"Consumer Discretionary";139.1;2.0617895;2835140;3.671;1.26
+"MAS";"Masco Corp.";"Industrials";43.12;2.3498642;4981055;1.66;0.41
+"MAT";"Mattel Inc.";"Consumer Discretionary";17.36;0.5211358;6676597;-3.07;0.91
+"MCD";"McDonald's Corp.";"Consumer Discretionary";163.9;1.927855;5255925;6.367;3.83
+"MCHP";"Microchip Technology";"Information Technology";83.02;2.4432325;5019924;1.008;1.447
+"MCK";"McKesson Corp.";"Health Care";149.02;0.060438864;1261056;22.735;1.24
+"MCO";"Moody's Corp";"Financials";159.28;3.000517;1214585;2.806;1.51
+"MDLZ";"Mondelez International";"Consumer Staples";42.53;0.925485;15788648;1.91;0.82
+"MDT";"Medtronic plc";"Health Care";80.24;0.95620847;4314124;3.636;1.78
+"MET";"MetLife Inc.";"Financials";44.62;0.022412736;9935356;-0.525;1.6
+"MGM";"MGM Resorts International";"Consumer Discretionary";33.2;-0.6880034;9416459;1.018;0.33
+"MHK";"Mohawk Industries";"Consumer Discretionary";254.55;2.0404058;1524019;49.89534;NA
+"MKC";"McCormick & Co.";"Consumer Staples";102.3;0.45169556;697139;3.72;1.88
+"MLM";"Martin Marietta Materials";"Materials";212.76;-0.75567234;1073436;6.848;1.7
+"MMC";"Marsh & McLennan";"Financials";81.04;0.7584242;3075776;2.874;1.465
+"MMM";"3M Company";"Industrials";229.19;1.7672374;3290351;7.93;4.7
+"MNST";"Monster Beverage";"Consumer Staples";64.08;1.8921965;2051507;1.37;NA
+"MO";"Altria Group Inc";"Consumer Staples";65.35;2.0615332;6732941;5.314;2.54
+"MON";"Monsanto Co.";"Materials";120.44;1.5171975;3684840;5.39;2.16
+"MOS";"The Mosaic Company";"Materials";25.21;3.5318222;4535384;0.957;0.85
+"MPC";"Marathon Petroleum";"Energy";64.77;1.4567615;3423731;3.153;1.52
+"MRK";"Merck & Co.";"Health Care";55.43;1.0205966;12652181;0.93;1.88
+"MRO";"Marathon Oil Corp.";"Energy";16.27;4.900066;15792415;-8.315;0.2
+"MS";"Morgan Stanley";"Financials";53.43;2.4741101;11712927;3.09;0.95
+"MSFT";"Microsoft Corp.";"Information Technology";89.13;1.0773383;35720341;1.23;1.62
+"MSI";"Motorola Solutions Inc.";"Information Technology";101.3;2.1890507;1243518;-0.952;1.93
+"MTB";"M&T Bank Corp.";"Financials";184.75;1.1663591;783191;8.7;3
+"MTD";"Mettler Toledo";"Health Care";613.87;2.2486134;167981;14.24;NA
+"MU";"Micron Technology";"Information Technology";42.19;4.404847;47941060;6.398;NA
+"MYL";"Mylan N.V.";"Health Care";40.6;3.3604882;8377860;1.617;NA
+"NAVI";"Navient";"Financials";13.56;0.7429449;2095892;1.04;0.64
+"NBL";"Noble Energy Inc";"Energy";25.97;1.1292796;7218149;-4.092;0.4
+"NCLH";"Norwegian Cruise Line";"Consumer Discretionary";57.45;2.206016;1833033;3.203;NA
+"NDAQ";"Nasdaq, Inc.";"Financials";77.56;1.9051332;1139421;4.33;1.46
+"NEE";"NextEra Energy";"Utilities";150;1.2829127;2030793;11.37;3.93
+"NEM";"Newmont Mining Corporation";"Materials";36.91;0.40805638;6256718;0.153;0.225
+"NFLX";"Netflix Inc.";"Information Technology";257.95;3.3992107;8534906;1.25;NA
+"NFX";"Newfield Exploration Co";"Energy";26.78;3.0792964;3838653;1.732;NA
+"NI";"NiSource Inc.";"Utilities";23.11;0.08661956;3695404;0.819;0.7
+"NKE";"Nike";"Consumer Discretionary";65.98;0.74821424;9791663;2.311;0.74
+"NLSN";"Nielsen Holdings";"Industrials";33.6;-0.29674268;9335066;1.2;1.33
+"NOC";"Northrop Grumman Corp.";"Industrials";337.44;1.4277556;1284783;11.47;3.9
+"NOV";"National Oilwell Varco Inc.";"Energy";33.71;1.8736746;6053960;-0.63;0.2
+"NRG";"NRG Energy";"Utilities";24.72;0.5286668;8545296;-5.062;0.12
+"NSC";"Norfolk Southern Corp.";"Industrials";139.91;1.2226902;1762710;18.608;2.44
+"NTAP";"NetApp";"Information Technology";57.73;2.7772858;4354364;2.325;0.78
+"NTRS";"Northern Trust Corp.";"Financials";99.36;2.0332751;1386988;4.92;1.6
+"NUE";"Nucor Corp.";"Materials";63.44;2.703575;2800092;4.1;1.512
+"NVDA";"Nvidia Corporation";"Information Technology";228.03;-1.7450892;27329342;4.82;0.57
+"NWL";"Newell Brands";"Consumer Discretionary";27.3;-1.1227865;11506528;2.582;0.84
+"NWS";"News Corp. Class B";"Consumer Discretionary";16.15;0.9374976;1410839;-0.779;0.1
+"NWSA";"News Corp. Class A";"Consumer Discretionary";15.75;-0.12682599;2714308;-0.779;0.1
+"O";"Realty Income Corporation";"Real Estate";48.68;-0.44990024;4290564;1.218;2.507
+"OKE";"ONEOK";"Energy";56.55;4.0861354;2582646;1.624;2.72
+"OMC";"Omnicom Group";"Consumer Discretionary";78.78;2.3781703;5116659;5.025;2.2
+"ORCL";"Oracle Corp.";"Information Technology";48.15;0.8799539;16261649;2.328;0.72
+"ORLY";"O'Reilly Automotive";"Consumer Discretionary";248.25;-0.6324308;944453;12.67;NA
+"OXY";"Occidental Petroleum";"Energy";69.87;2.4787362;3951715;0.704;3.05
+"PAYX";"Paychex Inc.";"Information Technology";64.69;0.8260579;2112974;2.32;1.92
+"PBCT";"People's United Financial";"Financials";19.07;0.8461123;2095328;0.97;0.688
+"PCAR";"PACCAR Inc.";"Industrials";68.24;1.4721158;2130042;4.75;0.99
+"PCG";"PG&E Corp.";"Utilities";39.34;1.9963715;6050523;4.349;2.035
+"PCLN";"Priceline.com Inc";"Consumer Discretionary";1790;1.4164306;682342;71.303;NA
+"PDCO";"Patterson Companies";"Health Care";32.92;-0.6938261;1185421;1.671;1.02
+"PEG";"Public Serv. Enterprise Inc.";"Utilities";47.62;0.80439717;5126799;1.029;1.7
+"PEP";"PepsiCo Inc.";"Consumer Staples";111.93;0.67458177;4759243;4.839;3.115
+"PFE";"Pfizer Inc.";"Health Care";34.66;1.4637003;36758689;3.52;1.28
+"PFG";"Principal Financial Group";"Financials";61.84;0.73301965;2108864;7.88;1.87
+"PG";"Procter & Gamble";"Consumer Staples";81.33;1.7642688;10769039;3.749;2.738
+"PGR";"Progressive Corp.";"Financials";52.38;0.3063957;2850833;2.72;1.125
+"PH";"Parker-Hannifin";"Industrials";180.98;2.3121693;1528964;6.428;2.64
+"PHM";"Pulte Homes Inc.";"Consumer Discretionary";29.18;1.6370645;6652407;1.44;0.36
+"PKG";"Packaging Corporation of America";"Materials";116.69;2.575598;779146;7.07;2.52
+"PKI";"PerkinElmer";"Health Care";74.5;2.2930086;947866;2.64;0.28
+"PLD";"Prologis";"Real Estate";60.15;-0.2818272;3650514;3.057;1.76
+"PM";"Philip Morris International";"Consumer Staples";102.4;2.4614758;6468874;3.88;4.22
+"PNC";"PNC Financial Services";"Financials";152.28;0.3757116;2429130;10.364;2.6
+"PNR";"Pentair Ltd.";"Industrials";69.03;2.8916419;1808009;3.625;1.38
+"PNW";"Pinnacle West Capital";"Utilities";76.73;0.5767498;935318;4.642;2.62
+"PPG";"PPG Industries";"Materials";113.98;1.4327673;1242926;6.313;1.7
+"PPL";"PPL Corp.";"Utilities";30.46;1.3306707;6192598;2.209;1.565
+"PRGO";"Perrigo";"Health Care";85.3;-0.011715516;1001717;-9.208;0.625
+"PRU";"Prudential Financial";"Financials";107.86;1.716333;3459522;17.858;3
+"PSA";"Public Storage";"Real Estate";187.82;0.3526414;1405648;6.84;8
+"PSX";"Phillips 66";"Energy";93.59;1.0691122;1809007;9.85;2.73
+"PVH";"PVH Corp.";"Consumer Discretionary";146.78;1.8668904;698146;6.707;0.15
+"PWR";"Quanta Services Inc.";"Industrials";33.98;1.342084;1535663;1.838;NA
+"PX";"Praxair Inc.";"Materials";153.75;2.8565724;3099661;4.32;3.15
+"PXD";"Pioneer Natural Resources";"Energy";171.03;3.6231418;1981071;4.85;0.08
+"PYPL";"PayPal";"Information Technology";75.28;0.7090284;10419606;1.47;NA
+"QCOM";"QUALCOMM Inc.";"Information Technology";65.66;2.6097858;13692129;-2.832;2.24
+"QRVO";"Qorvo";"Information Technology";79.17;1.6955681;1615220;0.221;NA
+"RCL";"Royal Caribbean Cruises Ltd";"Consumer Discretionary";129.27;3.8563535;2081633;7.53;2.16
+"RE";"Everest Re Group Ltd.";"Financials";239.48;-0.12095281;472821;11.36;5.05
+"REG";"Regency Centers Corporation";"Real Estate";57.27;1.0052905;1343849;0.912;2.07
+"REGN";"Regeneron";"Health Care";342.67;1.8699116;1398200;10.34;NA
+"RF";"Regions Financial Corp.";"Financials";18.47;1.0946845;9323609;1.005;0.315
+"RHI";"Robert Half International";"Industrials";53.6;0.7140121;1211627;2.33;0.96
+"RHT";"Red Hat Inc.";"Information Technology";129.32;1.955228;1486616;1.851;NA
+"RJF";"Raymond James Financial Inc.";"Financials";89.01;2.2163532;1213371;4.123;0.91
+"RL";"Polo Ralph Lauren Corp.";"Consumer Discretionary";103.39;-0.09662622;797888;-1.009;2
+"RMD";"ResMed";"Health Care";91.73;0.7468427;663517;1.987;1.38
+"ROK";"Rockwell Automation Inc.";"Industrials";186.3;1.7810369;800394;2.895;3.115
+"ROP";"Roper Technologies";"Industrials";270.12;3.2845166;571766;9.39;1.462
+"ROST";"Ross Stores";"Consumer Discretionary";77.35;0.038798213;2302199;3.131;0.64
+"RRC";"Range Resources Corp.";"Energy";13.05;2.6750603;8504651;-0.209;0.08
+"RSG";"Republic Services Inc";"Industrials";62.62;1.0652031;2153533;2.361;1.305
+"RTN";"Raytheon Co.";"Industrials";207.52;1.4668492;2133947;6.947;3.19
+"SBAC";"SBA Communications";"Real Estate";159.63;-0.06259992;1271735;0.835;NA
+"SBUX";"Starbucks Corp.";"Consumer Discretionary";55.38;1.4657369;10968756;3.016;1.1
+"SCG";"SCANA Corp";"Utilities";35.66;-1.7630838;2519861;3.146;2.413
+"SCHW";"Charles Schwab Corporation";"Financials";50.94;1.6360728;7561259;1.61;0.32
+"SEE";"Sealed Air";"Materials";42.52;2.0643318;6423789;4.311;0.64
+"SHW";"Sherwin-Williams";"Materials";403.69;1.2109555;537275;18.672;3.4
+"SIG";"Signet Jewelers";"Consumer Discretionary";48.49;-0.95996207;1533521;6.58;1.19
+"SJM";"JM Smucker";"Consumer Staples";119.4;-0.10039753;893082;4.94;3.06
+"SLB";"Schlumberger Ltd.";"Energy";66.84;2.5310535;11382811;-1.084;2
+"SLG";"SL Green Realty";"Real Estate";92.69;0.55326766;996285;0.874;3.138
+"SNA";"Snap-On Inc.";"Consumer Discretionary";159.25;0.27706218;761604;9.52;2.95
+"SNI";"Scripps Networks Interactive Inc.";"Consumer Discretionary";87.29;0.7851291;682484;4.666;1.15
+"SNPS";"Synopsys Inc.";"Information Technology";85.33;1.1738268;908824;0.88;NA
+"SO";"Southern Co.";"Utilities";44.68;0.78952956;7209160;0.544;2.28
+"SPG";"Simon Property Group Inc";"Real Estate";156.8;-0.25444904;2338537;6.24;7.15
+"SPGI";"S&P Global, Inc.";"Financials";180.36;1.6112679;1723941;5.78;1.64
+"SRCL";"Stericycle Inc";"Industrials";71.37;1.7391322;522124;-0.554;NA
+"SRE";"Sempra Energy";"Utilities";106.62;0.48063532;1698124;4.515;3.217
+"STI";"SunTrust Banks";"Financials";67.59;0.16300085;4072605;4.47;1.32
+"STZ";"Constellation Brands";"Consumer Staples";213.01;1.3079045;3131603;9.19;1.96
+"STT";"State Street Corp.";"Financials";101.78;1.7698196;1404947;5.24;1.6
+"STX";"Seagate Technology";"Information Technology";49.17;2.8230834;3380139;2.198;2.52
+"SWK";"Stanley Black & Decker";"Consumer Discretionary";158.04;2.470335;1254451;8.04;2.42
+"SWKS";"Skyworks Solutions";"Information Technology";104.1;1.4224465;3045373;4.414;1.2
+"SYF";"Synchrony Financial";"Financials";36.24;3.4541905;7027417;2.42;0.56
+"SYK";"Stryker Corp.";"Health Care";153.66;1.6135448;1568564;2.68;1.7
+"SYMC";"Symantec Corp.";"Information Technology";26.1;0.7333097;9016663;1.618;0.3
+"SYY";"Sysco Corp.";"Consumer Staples";58.13;-0.342878;3809409;2.185;1.32
+"ZBH";"Zimmer Biomet Holdings";"Health Care";116.52;0.11169108;1467568;9.03;0.96
+"ZION";"Zions Bancorp";"Financials";52.06;0.8133269;2571306;2.6;0.44
+"ZTS";"Zoetis";"Health Care";73.19;1.1610284;3827959;1.899;0.41
+"T";"AT&T Inc";"Telecommunication Services";36.37;0.8876552;27750742;4.76;1.97
+"TAP";"Molson Coors Brewing Company";"Consumer Staples";75.77;2.1021392;1989488;10.363;1.64
+"TDG";"TransDigm Group";"Industrials";286.2;1.2918155;477808;12.177;NA
+"TEL";"TE Connectivity Ltd.";"Information Technology";98.7;2.3858874;2201810;3.462;1.57
+"TGT";"Target Corp.";"Consumer Discretionary";71.88;-0.78674906;4624506;4.772;2.42
+"TIF";"Tiffany & Co.";"Consumer Discretionary";100.73;-1.128773;1304151;3.722;1.9
+"TJX";"TJX Companies Inc.";"Consumer Discretionary";75.71;0.09254322;5103394;3.704;1.198
+"TMK";"Torchmark Corp.";"Financials";83.53;1.0769595;974373;12.226;0.6
+"TMO";"Thermo Fisher Scientific";"Health Care";204.51;2.1630542;1528150;5.592;0.6
+"TPR";"Tapestry, Inc.";"Consumer Discretionary";49.91;1.7325692;4946341;1.117;1.35
+"TRIP";"TripAdvisor";"Consumer Discretionary";37.71;-1.5661767;3842296;0.465;NA
+"TROW";"T. Rowe Price Group";"Financials";104.93;1.4698739;2370045;5.97;2.28
+"TRV";"The Travelers Companies Inc.";"Financials";138.14;0.7732693;2404566;7.33;2.83
+"TSCO";"Tractor Supply Company";"Consumer Discretionary";66.67;0.25563633;1768133;3.3;1.05
+"TSN";"Tyson Foods";"Consumer Staples";74.53;-0.45412573;2216563;7.609;0.975
+"TSS";"Total System Services";"Information Technology";84.04;0.82783735;1637644;3.16;0.46
+"TWX";"Time Warner Inc.";"Consumer Discretionary";93.61;1.3095227;5603534;6.64;1.61
+"TXN";"Texas Instruments";"Information Technology";101.94;1.4429342;6673726;3.606;2.12
+"TXT";"Textron Inc.";"Industrials";57.55;2.2020917;1801273;2.313;0.08
+"UA";"Under Armour Class C";"Consumer Discretionary";13.18;5.7784934;8042844;0.325;NA
+"UAA";"Under Armour Class A";"Consumer Discretionary";14.23;3.4909058;12275272;0.325;NA
+"UAL";"United Continental Holdings";"Industrials";64.14;1.8418543;3279782;7.019;NA
+"UDR";"UDR Inc";"Real Estate";33.73;-0.17757139;1864234;1.056;1.225
+"UHS";"Universal Health Services, Inc.";"Health Care";115.61;0.28626114;430050;7.28;0.4
+"ULTA";"Ulta Salon Cosmetics & Fragrance Inc";"Consumer Discretionary";209.48;-4.150083;2647360;7.825;NA
+"UNH";"United Health Group Inc.";"Health Care";225.69;2.140657;4912013;10.719;2.875
+"UNM";"Unum Group";"Financials";50.48;2.5807772;3594885;4.37;0.89
+"UNP";"Union Pacific";"Industrials";128.64;1.0685109;4161997;13.36;2.48
+"UPS";"United Parcel Service";"Industrials";106.31;-0.07519676;6677261;5.61;3.32
+"URI";"United Rentals, Inc.";"Industrials";166.06;1.0958257;1552071;15.73;NA
+"USB";"U.S. Bancorp";"Financials";53.97;0.4093046;7598607;3.51;1.16
+"UTX";"United Technologies";"Industrials";127.38;1.8795477;9548320;5.7;2.72
+"V";"Visa Inc.";"Information Technology";118.47;1.8483506;11526322;3.01;0.735
+"VAR";"Varian Medical Systems";"Health Care";116.7;1.9213947;793653;1.331;NA
+"WAT";"Waters Corporation";"Health Care";198.45;2.5104606;614505;0.25;NA
+"WBA";"Walgreens Boots Alliance";"Consumer Staples";68.46;0;3997992;3.625;1.55
+"WDC";"Western Digital";"Information Technology";82.34;2.1714854;3296765;1.283;2
+"WEC";"Wec Energy Group Inc";"Utilities";61.28;0.29459953;2359789;3.79;2.08
+"VFC";"V.F. Corp.";"Consumer Discretionary";80.7;1.7397847;4039383;2.378;1.68
+"WFC";"Wells Fargo";"Financials";56.5;0.65918213;24401292;4.1;1.54
+"WHR";"Whirlpool Corp.";"Consumer Discretionary";171.05;2.419022;930899;4.7;4.3
+"VIAB";"Viacom Inc.";"Consumer Discretionary";32.88;0.030429378;4408268;5.011;0.8
+"VLO";"Valero Energy";"Energy";88.84;1.6243402;4020910;9.16;2.8
+"WLTW";"Willis Towers Watson";"Financials";154.15;1.3211479;564631;3.405;2.07
+"WM";"Waste Management Inc.";"Industrials";80.57;0.5867681;3790422;3.12;1.685
+"WMB";"Williams Cos.";"Energy";29.42;2.8311758;6354024;0.585;1.1
+"VMC";"Vulcan Materials";"Materials";127.16;1.7280029;1613783;2.865;0.95
+"WMT";"Wal-Mart Stores";"Consumer Staples";99.55;0.1811415;9135144;3.767;2.03
+"VNO";"Vornado Realty Trust";"Real Estate";67.6;-0.13296494;1579291;4.118;2.65
+"WRK";"WestRock Company";"Materials";63.27;1.5080998;1777678;6.864;1.63
+"VRSK";"Verisk Analytics";"Industrials";94.3;1.4960707;900236;2.72;NA
+"VRSN";"Verisign Inc.";"Information Technology";111.03;1.7783504;3585784;3.68;NA
+"VRTX";"Vertex Pharmaceuticals Inc";"Health Care";152.01;-0.6210854;2242152;1.04;NA
+"VZ";"Verizon Communications";"Telecommunication Services";50.11;0.46110573;16903021;7.36;2.335
+"VTR";"Ventas Inc";"Real Estate";50.46;-2.190349;3986091;3.264;3.1
+"WU";"Western Union Co";"Information Technology";19.77;2.1177678;7008865;0.431;0.685
+"WY";"Weyerhaeuser Corp.";"Real Estate";34.36;1.6868887;4536521;1.147;1.24
+"WYN";"Wyndham Worldwide";"Consumer Discretionary";116.31;1.121545;1022520;5.579;2.24
+"WYNN";"Wynn Resorts Ltd";"Consumer Discretionary";162.92;-1.9853225;3427519;7.28;2
+"XEC";"Cimarex Energy";"Energy";100.9;0.7086526;993360;3.868;0.32
+"XEL";"Xcel Energy Inc";"Utilities";43.76;0.94578975;4518281;2.25;1.44
+"XL";"XL Capital";"Financials";41.6;-0.6211231;3929278;-2.156;0.88
+"XLNX";"Xilinx Inc";"Information Technology";65.12;-0.39766672;2895325;1.923;1.38
+"XOM";"Exxon Mobil Corp.";"Energy";76.42;0.8445492;19340419;4.63;3.06
+"XRAY";"Dentsply Sirona";"Health Care";57.38;0.34977397;1577783;-3.448;0.34
+"XRX";"Xerox Corp.";"Information Technology";29.95;1.1482612;3225071;0.712;1
+"XYL";"Xylem Inc.";"Industrials";71.93;1.5673548;1040463;1.83;0.72
+"YUM";"Yum! Brands Inc";"Consumer Discretionary";78.07;-1.5634824;3023822;3.77;1.26
