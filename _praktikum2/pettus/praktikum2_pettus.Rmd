@@ -83,7 +83,7 @@ Tee 3 joonist, mis iseloomustavad hästi seda andmestikku. Iga joonise juurde kir
 
 Kontrolli visuaalselt Benfordi seaduse kehtimist tunnustel *riiklikud_maksud* ja *toojoumaksud_ja_maksed*. Selleks tekita esinumbrite histogramm. Nulliga võrduvad väärtused jäta kõrvale. Tee vastav joonis ka FIE-de, äriühingute jne lõikes (vt tunnus *liik*).
 
-Näpunäide: esimest numbrit aitab eralda näiteks funktsioon `substr`.
+Näpunäide: esimest numbrit aitab eraldada näiteks funktsioon `substr`.
 
 ```{r}
 # sinu kood
