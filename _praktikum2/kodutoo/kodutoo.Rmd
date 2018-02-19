@@ -5,7 +5,7 @@ output:
     theme: null
 ---
 
-Tähtaeg: 01.03.2016 23:59
+Tähtaeg: 27.02.2018 23:59
 
 # I osa - veebiloengud, videod, artiklid (4 punkti)
 1. (**3 punkti**) Vaata Johns Hopkinsi andmeanalüüsi kursuse videosid:
@@ -35,5 +35,5 @@ Lahenda [pettuse tuvastamise ülesanded](../praktikum2_pettus).
 
 Lisaks võiksid mainida, kui palju aega kulus osa I, II ja III peale. Mida arvad ülesannetest ja videotest (kasulikkus, huvitavus)?
 
-Lahendused saata meili peale: markgimbutas@gmail.com
+Lahendused saata meili peale: taavi.unt@ut.ee
 
