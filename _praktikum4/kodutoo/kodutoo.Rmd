@@ -5,7 +5,7 @@ output:
     theme: null
 ---
 
-Tähtaeg: 15.03.2016 23:59
+Tähtaeg: 13.03.2018 23:59
 
 # I osa 
 (**11 punkti**) Lahenda praktikumis alustatud [*NBA*](../praktikum4_nba) ülesanded.
@@ -18,4 +18,4 @@ Tähtaeg: 15.03.2016 23:59
 
 * I ja II osa kohta tuleb esitada nii andmeanalüüsi raport (html või pdf formaadis) kui ka selle lähtekood .Rmd failina. Lisaks võiksid mainida, kui palju aega kulus I ja II osa peale. Mida arvad ülesannetest?
 
-Lahendused saata meili peale: markgimbutas@gmail.com
+Lahendused saata meili peale: taavi.unt@ut.ee
