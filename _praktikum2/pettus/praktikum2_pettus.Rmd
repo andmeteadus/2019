@@ -65,7 +65,7 @@ Loe sisse Maksu- ja Tolliameti 2014. aasta [maksude andmestik](../data/maksude_a
 * *registrikood*: juriidilise isiku registrikood
 * *nimi*: juriidilise isiku nimi
 * *liik*: kas tegemist on äriühingu, MTÜ, FIE vms
-* *kaibemaksukohustlane*: kas juriidiline isik on käibemaksukohustlane
+* *kaibemaksukohuslane*: kas juriidiline isik on käibemaksukohuslane
 * *maakond*: millises maakonnas on juriidiline isik registreeritud
 * *riiklikud_maksud*: käibemaks, tollimaks jne
 * *toojoumaksud_ja_maksed*: sotsiaalmaks, töötuskindlustusmakse jne
