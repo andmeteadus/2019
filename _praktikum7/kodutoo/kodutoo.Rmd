@@ -5,7 +5,7 @@ output:
     theme: null
 ---
 
-Tähtaeg: 05.04.2016 kell 23:59.
+Tähtaeg: 03.04.2018 kell 23:59.
 
 # I osa
 
@@ -33,4 +33,4 @@ Kuidas saavutada 100\% tundlikkus?
 * I osa kohta tuleb esitada nii andmeanalüüsi raport (html või pdf formaadis) kui ka selle lähtekood .Rmd failina.
 * II osa vastused tuleb kirjutada meili sisusse või esitada tekstifailina. Lisaks palun kirjuta, kui palju aega kulus I ja II osa peale. Kas logistiline regressioon ja mitmese testimise korrektsioon olid sinu jaoks uued mõisted? Kuivõrd arusaadav oli nende idee? Mida arvad ülesannetest (kasulikkus, huvitavus)?
 
-Lahendused saata meili peale: markgimbutas@gmail.com
+Lahendused saata meili peale: taavi.unt@ut.ee
