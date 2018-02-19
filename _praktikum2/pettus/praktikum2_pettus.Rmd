@@ -24,7 +24,7 @@ Tema ametirelvaks on Benfordi seadus.
 
 Benfordi seadus (sageli nimetatud kui esimese numbri seadus) kirjeldab arvu esimese numbri sagedust. Paljudes reaalsetes andmetes esineb number 1 esinumbrina umbes 30% juhtudest ning iga järgneva numbri sagedus kahaneb monotoonselt.
 
-![alt text](benfordi_seadus.png "Näide")
+![](benfordi_seadus.png "Näide")
 
 Empiiriliselt on näidatud, et Benfordi seadus kehtib näiteks aktsiahindade, jõgede pikkuse, riikide rahvaarvu andmetel. Järgneval joonisel on toodud kaks näidet Benfordi seaduse *kehtimisest*.
 
