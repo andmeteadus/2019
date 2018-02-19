@@ -5,7 +5,7 @@ output:
     theme: null
 ---
 
-Tähtaeg: 08.03.2017 23:59 GMT
+Tähtaeg: 06.03.2018 23:59 GMT
 
 
 (**25 punkti + boonuspunktid**) Lahenda praktikumis alustatud [**õppetulemuste visualiseerimise**](../praktikum3_oppeained) ülesanded.
@@ -15,4 +15,4 @@ Tähtaeg: 08.03.2017 23:59 GMT
 * Ülesande 3 kohta tuleb esitada zip fail, kus oleks kõik, mis vajalik shiny rakenduse töötamiseks, sealhulgas *server.R*, *ui.R* ning andmestiku fail.
 * Ülejäänud ülesannete kohta tuleb esitada nii andmeanalüüsi raport (html või pdf formaadis) kui ka selle lähtekood .Rmd failina.
 
-Lahendused saata meili peale: markgimbutas@gmail.com
+Lahendused saata meili peale: taavi.unt@ut.ee
