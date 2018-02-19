@@ -3,7 +3,16 @@ title: "Kuidas avastada pettust?"
 output: 
   html_document:
     theme: null
+editor_options: 
+  chunk_output_type: console
 ---
+
+```{r, include = FALSE}
+# See fail ei tee html faili päris sellisel kujul nagu vaja!
+
+# Viimased joonised on välja võetud, muidu annaks siinset koodi githubist otse ümber kopida. 
+```
+
 
 ## Sissejuhatus
 
@@ -44,14 +53,14 @@ Markuse ametivennad on järeldanud Benfordi seadusest kõrvalekaldumisest, et Kree
 
 Selles kodutöös on sinu ülesandeks uurida: 
 
-* kas Benfordi seaduse põhjal võib väita, et FIE-d võltsivad maksunäitajaid, 
-* kas Benfordi seaduse põhjal võib väita, et 2013. aasta kohaliku omavalitsuse volikogu valimistel toimus pettus.
+* kas Benfordi seaduse põhjal võib väita, et FIE-d on võltsinud maksunäitajaid, 
+* kas Benfordi seaduse põhjal võib väita, et 2017. aasta kohaliku omavalitsuse volikogu valimistel toimus pettus.
 
 Kuna ülesannetes on vaja teha *ggplot2* abil jooniseid, soovitame esmalt vaadata ära osa III videod *ggplot2* kohta. 
 
 ## Maksude andmestik
 
-Loe sisse Maksu- ja Tolliameti [maksude andmestik](../data/tolliamet_maksud.csv) ja tutvu andmetega. Andmestikus on järgnevad tunnused:
+Loe sisse Maksu- ja Tolliameti 2014. aasta [maksude andmestik](../data/maksude_andmestik.csv) ja tutvu andmetega. Andmestikus on järgnevad tunnused:
 
 * *registrikood*: juriidilise isiku registrikood
 * *nimi*: juriidilise isiku nimi
@@ -60,6 +69,7 @@ Loe sisse Maksu- ja Tolliameti [maksude andmestik](../data/tolliamet_maksud.csv)
 * *maakond*: millises maakonnas on juriidiline isik registreeritud
 * *riiklikud_maksud*: käibemaks, tollimaks jne
 * *toojoumaksud_ja_maksed*: sotsiaalmaks, töötuskindlustusmakse jne
+
 
 ### Ülesanne 1 (2 punkti)
 
@@ -84,22 +94,25 @@ Kommenteeri tulemusi.
 Kas sellest võib järeldada, et FIE-d jahmerdavad maksudega?
 
 
-## 2013 KOV valimiste hääletustulemuste andmestik
+## 2017 KOV valimiste hääletustulemuste andmestik
 
-Loe sisse [andmestik](../data/KOV_valimised_2013.csv) ja tutvu andmetega. Andmestikus on järgnevad tunnused:
+Loe sisse [andmestik](../data/KOV_valimised_2017.csv) ja tutvu andmetega. Andmestikus on järgnevad tunnused:
 
-* *id*: kandidaadi ID
-* *KOV*
-* *maakond* 
-* *nimekiri* - partei või valimisliit, kuhu kandidaat kuulub
-* *partei* - kas Keskerakond, Reformierakond, IRL, SDE või Muu
+* *nimi* - kandidaadi nimi
 * *nr* - kandidaadi number
-* *haali* - kandidaadi poolt saadud koguhäälte arv (st paberhääled + ehääled)
+* *Maakond*
+* *Omavalitsus*
+* *Kood* - omavalitsuse kood
+* *nimekiri* - partei või valimisliit, kuhu kandidaat kuulub
+* *paberhaali* - kandidaadi poolt saadud paberhäälte arv
 * *ehaali* - kandidaadi poolt saadud e-häälte arv
+* *valitud* - kas kandidaat osutus valituks (*true*) või mitte (*false*)
 
 ### Ülesanne 3 (2 punkti)
 
-Tee 3 joonist, mis iseloomustavad hästi seda andmestikku. Iga joonise juurde kirjuta üks lause, mida see joonis sinu arvates näitab.
+* Esmalt tee juurde tunnus, mis näitab kandidaadile antud koguhäälte arvu (paberhäälte ja e-häälte summa). 
+* Seejärel tekita tunnus, mille väärtusteks on *Eesti Keskerakond*, *Eesti Reformierakond*, *Sotsiaaldemokraatlik Erakond*, *Erakond Isamaa ja Res Publica Liit*, *Eesti Konservatiivne Rahvaerakond* ja *Muu*, st väiksemad erakonnad ja valimisliidud on ühte gruppi kokku võetud.
+* Tee 3 joonist, mis iseloomustavad hästi seda andmestikku. Iga joonise juurde kirjuta üks lause, mida see joonis sinu arvates näitab.
 
 ```{r}
 # sinu kood
@@ -107,7 +120,8 @@ Tee 3 joonist, mis iseloomustavad hästi seda andmestikku. Iga joonise juurde kir
 
 
 ```{r, include=FALSE}
-data2 = read.table("../../data/KOV_valimised_2013.csv", sep=";", header=T, quote="")
+andmed = read.table("../../data/KOV_valimised_2017.csv", sep=";", header=T)
+
 ```
 
 
@@ -130,33 +144,24 @@ Seejärel tee eelnevad joonised ka erakondade kaupa. Kommenteeri tulemusi.
 
 Tee järgnevale joonisele võimalikult sarnane. 
 
-```{r, echo=FALSE}
-levels(data2$partei) = c("KESK", "REF", "IRL", "Muu", "SDE")
-ggplot(data2, aes(x=haali, y=ehaali)) + 
-  geom_point(data=data2, aes(x=haali, y=ehaali, color=partei, alpha=0.5)) + 
-  scale_x_log10() + scale_y_log10() + facet_wrap(~partei) + theme(legend.position="none") +
-  scale_color_manual(values=c("#00983A", "#FFDE00", "#009FE3", "#82368C","#E30613"))
+```{r, echo=FALSE, warning=FALSE, message=FALSE }
+# Kood
 ```
 
 Näpunäited:
 
 * Log-skaala kasutamiseks uuri [järgmisi ggplot2 näiteid.](http://docs.ggplot2.org/current/scale_continuous.html)
 * Legendi peitmiseks uuri [järgmisi ggplot2 näiteid.](http://docs.ggplot2.org/current/theme.html)  (märksõnaks on `legend.position`)
-* Et muuta värvid vastavaks erakonna sümboolikaga, kasuta värve "#00983A, #FFDE00, #009FE3, #82368C, #E30613" (vastavalt KESK, REF, IRL, Muu, SDE värvid.)
+* Käsuga `facet_wrap` saab joonise jaotada tükkideks (Mõned [näited](http://docs.ggplot2.org/current/facet_wrap.html).)
+* Et muuta värvid vastavaks erakonna sümboolikaga, kasuta värve "#00983A", "#FFDE00","#E30613", "#009FE3","#8B4513", "#82368C" (vastavalt KESK, REF, SDE, IRL, EKRE, Muu).
 * Värvide muutmiseks uuri [järgmisi ggplot2 näiteid.](http://docs.ggplot2.org/current/scale_manual.html)
-* Käsuga `facet_wrap` tükkideks jagatud joonistel on võimalik lubada erinevatele tükkidele erineva ulatusega skaalasid. Selleks uuri [näiteid](http://docs.ggplot2.org/current/facet_wrap.html).
+* Pööra tähelepanu n-ö akende pealkirjadele ja järjekorrale. Abiks võib olla funktsioon `factor`.
 
 
 ### Boonusülesanne 1 (2 punkti)
 
 Lisa hallid mummud taustale. Tulemus peaks olema selline:
 
-```{r, echo=FALSE}
-levels(data2$partei) = c("KESK", "REF", "IRL", "Muu", "SDE")
-ggplot(data2, aes(x=haali, y=ehaali)) + 
-  geom_point(data = transform(data2, partei = NULL), colour = "grey", alpha=0.5) +
-  geom_point(data=data2, aes(x=haali, y=ehaali, color=partei, alpha=0.5)) + 
-  scale_x_log10() + scale_y_log10() + facet_wrap(~partei) + theme(legend.position="none") +
-  scale_color_manual(values=c("#00983A", "#FFDE00", "#009FE3", "#82368C","#E30613"))
-
+```{r, echo=FALSE, warning=FALSE, message=FALSE }
+#Kood
 ```
