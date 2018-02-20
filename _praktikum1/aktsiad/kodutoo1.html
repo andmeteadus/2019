@@ -207,7 +207,7 @@ sp500_wiki &lt;- read_html(
   &quot;https://en.wikipedia.org/wiki/List_of_S%26P_500_companies&quot;)
 
 aktsiad_wiki &lt;- sp500_wiki %&gt;%
-  html_nodes(&quot;table.wikitable:nth-child(6)&quot;) %&gt;%
+  html_nodes(&quot;table.wikitable:nth-child(7)&quot;) %&gt;%
   html_table()
 
 aktsiad_wiki &lt;- aktsiad_wiki[[1]][,c(1,2,4)]
