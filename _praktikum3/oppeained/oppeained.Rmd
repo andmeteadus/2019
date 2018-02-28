@@ -149,9 +149,9 @@ Näiteid Shiny rakendustest:
 * [R Graph Catalog (ggplot2)](http://shinyapps.stat.ubc.ca/r-graph-catalog/)
 -->
 
-### Boonusülesanne 1: Interaktiivsus (**2 boonuspunkti**)
+### Boonusülesanne 1: Interaktiivsus (**1 boonuspunkt**)
 
-Kuva rakenduses oleva staatilise joonise asemel interaktiivne joonis. Kõige lihtsam viis joonistele interaktiivsuse lisamiseks on kasutada [plotly](https://plot.ly/r/) funktsionaalsust, kus olemasolevale ggplot objektile saab rakendada funktsiooni *ggpplotly()*. Tulpdiagrammide korral võib selline lähenemine anda aga mõnikord vigaseid tulemusi. Nende korral on soovitatav katsetada [highcharter](http://jkunst.com/highcharter/) võimekust. 
+Kuva rakenduses oleva staatilise joonise asemel interaktiivne joonis. Kõige lihtsam viis joonistele interaktiivsuse lisamiseks on kasutada [plotly](https://plot.ly/r/) funktsionaalsust, kus olemasolevale ggplot objektile saab rakendada funktsiooni *ggplotly()*. Tulpdiagrammide korral võib selline lähenemine anda aga mõnikord vigaseid tulemusi. Nende korral on soovitatav katsetada [highcharter](http://jkunst.com/highcharter/) võimekust. 
 
 Ülevaade interaktiivsete jooniste võimalustest ja edasised viited on leitavad [siit](http://www.htmlwidgets.org/showcase_highcharts.html).    
 
