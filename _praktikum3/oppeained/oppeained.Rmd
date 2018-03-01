@@ -101,7 +101,7 @@ Praeguseks võiks sinu rakendus välja näha umbes selline:
 
 4. Tööta läbi *lesson 4*. Uuri, kuidas kuvada erinevat tüüpi objekte.
 
-5. Tutvu *lesson 5*-st muuhulgas [sellega](http://shiny.rstudio.com/tutorial/lesson5/#execution), millist osa `server.R` failist jooksutatakse ainult üks kord ning millist korduvalt. 
+5. Tutvu *lesson 5*-st muuhulgas sellega, millist osa `server.R` failist jooksutatakse ainult üks kord ning millist korduvalt. 
     * Lisa oma rakenduse kataloogi kasutatava andmestiku fail (näiteks kas `csv` või `RData` failina).
     * Loe see fail sisse, et kasutada seda rakenduses.
     
