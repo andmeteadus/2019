@@ -60,7 +60,9 @@ lon_liivi = 26.713199
 lat_fb = 37.485245
 lon_fb = -122.148807
 
-gc_points = gcIntermediate(c(lon_liivi, lat_liivi), c(lon_fb, lat_fb), n=50, addStartEnd=TRUE)
+gc_points = gcIntermediate(c(lon_liivi, lat_liivi), 
+                           c(lon_fb, lat_fb), 
+                           n=50, addStartEnd=TRUE)
 lines(gc_points)
 ```
 
@@ -80,7 +82,9 @@ lon_eyjafjallajokull = -19.36480
 map <- get_map(location = 'Europe', zoom = 3 ,source = "google")
 a <- ggmap(map)
 
-gc_points = gcIntermediate(c(lon_liivi, lat_liivi), c(lon_eyjafjallajokull, lat_eyjafjallajokull), n=50, addStartEnd=TRUE)
+gc_points = gcIntermediate(c(lon_liivi, lat_liivi), 
+                           c(lon_eyjafjallajokull, lat_eyjafjallajokull),
+                           n=50, addStartEnd=TRUE)
 gc = data.frame(gc_points)
 
 a <- a + geom_path(data = gc, aes(x = lon, y = lat, colour = 'red'))
@@ -111,8 +115,8 @@ gc_points = gcIntermediate(c(lon_liivi, lat_liivi),
 gc = data.frame(gc_points)
 
 m = m %>% #punktide lisamine kaardile
-  addCircles(lng = lon_liivi, lat = lat_liivi, color = 'red', weight = 3) %>%
-  addCircles(lng = lon_pitsa, lat = lat_pitsa, color = 'red', weight = 3)
+  addCircles(lng = lon_liivi,lat = lat_liivi,color = 'red',weight = 3) %>%
+  addCircles(lng = lon_pitsa,lat = lat_pitsa,color = 'red',weight = 3)
 
 m = m %>% #joonte lisamine kaardile
   addPolylines(lng = gc$lon, lat = gc$lat, weight = 3, color = 'red')

@@ -150,8 +150,8 @@ Näpunäited:
 ```{r, fig.height=3,eval=FALSE}
 kuusnurk = function(x, y, pindala){
     r = sqrt(2*sqrt(3)/9*pindala)
-    x_coord = x + c(0, sqrt(3)/2*r, sqrt(3)/2*r, 0, -sqrt(3)/2*r, -sqrt(3)/2*r) 
-    y_coord = y + c(r, r/2, -r/2, -r, -r/2, r/2)
+    x_coord=x+c(0,sqrt(3)/2*r,sqrt(3)/2*r,0,-sqrt(3)/2*r,-sqrt(3)/2*r) 
+    y_coord=y+c(r, r/2, -r/2, -r, -r/2, r/2)
     return(data.frame(x_kuusnurk=x_coord,y_kuusnurk=y_coord))
   }
 
@@ -185,7 +185,9 @@ server <- function(input, output, session) {
   observe({
 
     # Sinu kood
-    ## Vali välja nende mängijate nimed, kes kuuluvad (või on kuulunud) valitud meeskonda
+    ## Vali välja nende mängijate nimed, kes kuuluvad (või on kuulunud) 
+    ## valitud meeskonda
+    
     ## mangijad_meeskonnas = ...
     
     updateSelectizeInput(session, "mangija",
@@ -195,6 +197,7 @@ server <- function(input, output, session) {
   })
 ```
   - `observe()` sisuks on jälgida, kas mõni temas sisalduv sisendi väärtus on muutunud (antud kontekstis meeskonna valik). Kui on, siis jooksutatakse läbi kogu observe() funktsioonis sisalduv kood.
+  - Kontrolli, kas kood töötab nii nagu vaja.
 3. Väljasta valitud meeskonna ja mängija viskeprofiili joonis (vt ülesanne 5).
 4. Eemalda jooniselt kõik üleliigne (telgede tekst, tick’d, joonise raam ja ruudustik (grid)). Kasuta selleks funktsiooni `theme()`.
 

@@ -155,8 +155,8 @@ valjak &lt;- ggplot(valitud_mangija, aes(x = x, y = y)) +
 </ul>
 <pre class="r"><code>kuusnurk = function(x, y, pindala){
     r = sqrt(2*sqrt(3)/9*pindala)
-    x_coord = x + c(0, sqrt(3)/2*r, sqrt(3)/2*r, 0, -sqrt(3)/2*r, -sqrt(3)/2*r) 
-    y_coord = y + c(r, r/2, -r/2, -r, -r/2, r/2)
+    x_coord=x+c(0,sqrt(3)/2*r,sqrt(3)/2*r,0,-sqrt(3)/2*r,-sqrt(3)/2*r) 
+    y_coord=y+c(r, r/2, -r/2, -r, -r/2, r/2)
     return(data.frame(x_kuusnurk=x_coord,y_kuusnurk=y_coord))
   }
 
@@ -193,7 +193,9 @@ valjak &lt;- ggplot(valitud_mangija, aes(x = x, y = y)) +
 <pre class="r"><code>  observe({
 
     # Sinu kood
-    ## Vali välja nende mängijate nimed, kes kuuluvad (või on kuulunud) valitud meeskonda
+    ## Vali välja nende mängijate nimed, kes kuuluvad (või on kuulunud) 
+    ## valitud meeskonda
+    
     ## mangijad_meeskonnas = ...
     
     updateSelectizeInput(session, &quot;mangija&quot;,
@@ -203,6 +205,7 @@ valjak &lt;- ggplot(valitud_mangija, aes(x = x, y = y)) +
   })</code></pre>
 <ul>
 <li><code>observe()</code> sisuks on jälgida, kas mõni temas sisalduv sisendi väärtus on muutunud (antud kontekstis meeskonna valik). Kui on, siis jooksutatakse läbi kogu observe() funktsioonis sisalduv kood.</li>
+<li>Kontrolli, kas kood töötab nii nagu vaja.</li>
 </ul>
 <ol start="3" style="list-style-type: decimal">
 <li>Väljasta valitud meeskonna ja mängija viskeprofiili joonis (vt ülesanne 5).</li>
