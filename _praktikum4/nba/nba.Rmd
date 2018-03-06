@@ -2,6 +2,8 @@
 output: 
   html_document:
     theme: null
+editor_options: 
+  chunk_output_type: console
 ---
 
 Jaanus "Sops" Kolmene käib jõusaalis kolm korda nädalas. Järgmisel kuul sisustab ta ka reede õhtupooliku raskusi tõstes, sest tema rinnalihas on statistiku jaoks liiga nõrk. Nimelt otsib korvpalliklubi Brooklyn Nets oma ridadesse statistikut, kes analüüsiks korvpalliandmeid ja aitaks seeläbi optimiseerida meeskonna mängustrateegiat. Kandidaadi nõuete seas on ka 50 kg rinnalt surumine.
@@ -18,33 +20,31 @@ Selles praktikumis uurime, kuidas teha sarnast joonist R-i vahenditega.
 
 ### Tutvumine andmestikuga
 
-Kasutame NBA 2013/14 hooaja andmeid. Andmestikus on järgnevad tunnused:
+Kasutame NBA 2016/17 hooaja andmeid. Selleks installi pakett `NBAapi`.
 
-* *name* - korvpalluri nimi
-* *team_name* - korvpalluri meeskonna nimi
-* *opponent* - vastasmeeskonna nimi
-* *game_date* - mängu kuupäev
-* *shot_made_flag* - kas vise läks korvi
-* *shot_type* - kas oli 2-punkti või 3-punkti vise
-* *x* - viske x-koordinaat
-* *y* - viske y-koordinaat
+```{r, eval = FALSE}
+install.packages("NBAapi")
+library(NBAapi)
 
-Laadi alla andmestik [nba_2013.csv](../data/nba_2013.csv) ja loe töökeskkonda.
-
-
-### Ülesanne 1 (1 punkt)
-
-Visualiseeri NBA meeskonna Miami Heat viskekohti hajuvusdiagrammi abil kasutades tunnuseid *x* ja *y*. Iga sooritatud vise näita täpikesena. 
-
-Näpunäited: 
-
-* kasuta käsku `coord_fixed(ratio = 1)`.
-
-```{r}
-# sinu kood
+#visete andmestik, mis tuli paketiga kaasa
+str(shots_1617) 
 ```
 
-### Ülesanne 2 (2 punkti)
+
+Tunnused, mida järgnevalt vaja läheb, on:
+
+* *PLAYER_NAME* - korvpalluri nimi
+* *TEAM_NAME* - korvpalluri meeskonna nimi
+* *SHOT_MADE_FLAG* - kas vise läks korvi
+* *LOC_X* - viske x-koordinaat
+* *LOC_Y* - viske y-koordinaat
+
+Andmestikust ülevaate saamiseks võid enda jaoks visualiseerida huvipakkuva mängija viskekohti hajuvusdiagrammi abil, kus iga vise oleks punktike. Kasuta tunnuseid *LOC_X* ja *LOC_Y*.
+
+Näpunäide: kasuta käsku `coord_fixed(ratio = 1)` (ka edaspidiselt).
+
+
+### Ülesanne 1 - väljak diskreetseks (2 punkti)
 
 Diskretiseeri mänguväljak (jaga mänguväljak tükkideks). 
 
@@ -55,6 +55,8 @@ Tükid moodusta nii, et ümarda x- ja y-koordinaat kümnelisteni. Iga kastikese 
 * visete arv
 * tabavusprotsent
 
+Tee seda iga algandmestikus oleva mängija puhul, võttes arvesse ka mängija meeskondlikku kuuluvust (mängija võib hooaja keskel meeskonda vahetada).
+
 Näpunäited: 
 
 * uuri, mida teeb käsk `round(21:30, -1)`.
@@ -64,17 +66,9 @@ Näpunäited:
 # sinu kood
 ```
 
-### Ülesanne 3 (2 punkti)
+### Ülesanne 2 - mänguväljaku põhja lisamine (2 punkti)
 
-Visualiseeri eelmise ülesande tulemusena saadud andmeid. Iga diskretiseeritud kastikese kohta joonista ring. Ringi pindala olgu proportsionaalne visete arvuga.
-
-Näpunäited: 
-
-* uuri, mida teeb käsk `scale_size_area()`,
-* kasuta funktsiooni `theme()`, et eemalda jooniselt telgede tekst, *tick*'d, joonise raam ja ruudustik (*grid*),
-* määra `ylim(-50,300)`.
-
-Kasuta visualiseerimisel järgnevat koodi mänguväljaku loomiseks:
+Kasuta edasisel visualiseerimisel järgnevat koodi näidist mänguväljaku loomiseks:
 
 ```{r,eval=FALSE}
 library(grid) 
@@ -83,50 +77,56 @@ library(RCurl)
 
 #loome mänguväljaku
 courtImg.URL <- "https://thedatagame.files.wordpress.com/2016/03/nba_court.jpg"
-court <- rasterGrob(readJPEG(getURLContent(courtImg.URL)),
+manguvaljak <- rasterGrob(readJPEG(getURLContent(courtImg.URL)),
                     width=unit(1,"npc"), height=unit(1,"npc"))
                     
-valjak <- ggplot(miami, aes(x = x, y = y)) + 
-  annotation_custom(court, -250, 250, -50, 420) + geom_point()
+valjak <- ggplot(valitud_mangija, aes(x = x, y = y)) + 
+  annotation_custom(manguvaljak, -250, 250, -50, 420) + geom_point()
   
 # sinu kood
 
 ```
 
-### Ülesanne 4 - suuruse muutmine (2 punkti)
 
-a.) NY Timesi graafikaosakond on jaganud visete arvu kolme kategooriasse: low, medium, high. Vali välja piirid, mille põhjal jaotatakse visete arv kolme kategooriasse (low, medium, high). Iga kategooria jaoks vali sobiv pindala suurus (kontrolli, et tulemus oleks visuaalselt kena). Kirjuta funktsioon `get_radius`, mis vastavalt valitud raadiusele ning kategooriate piiridele tagastab andmestiku, kus tunnus "uus_raadius" vastab kategooria raadiusele.
+Visualiseeri enda jaoks ülesandes 1 saadud andmeid (valitud mängija korral). Iga diskretiseeritud kastikese kohta joonista ring. Ringi pindala olgu proportsionaalne visete arvuga.
+
+Näpunäited: 
+
+* kasuta selleks käsku `scale_size_area()` (uuri, mida see teeb)
+* määra `ylim(-50,300)`.
+
+
+### Ülesanne 3 - suuruse muutmine (2 punkti)
+
+NY Timesi graafikaosakond on jaganud visete arvu kolme kategooriasse: *low*, *medium*, *high*. Vali välja piirid, mille põhjal jaotatakse visete arv kolme kategooriasse (*low*, *medium*, *high*). Iga kategooria jaoks vali sobiv pindala suurus (kontrolli, et tulemus oleks visuaalselt kena). Kirjuta funktsioon `kolm_suurust`, mis vastavalt valitud suuruste väärtustele ning kategooriate piiridele tagastab andmestiku, kus tunnus "uus_suurus" vastab kategooria suurusele.
 
 ```{r, eval=FALSE}
-get_radius = function(andmed, r1, r2, r3, piir1, piir2){
-  # Kui visete_arv<=piir1, siis uus_raadius=r1,
-  # kui piir1 > visete_arv <=piir2, siis uus_raadius=r2,
-  # kui visete_arv>piir2, siis uus_raadius=r3
+kolm_suurust = function(andmed, suurus1, suurus2, suurus3, piir1, piir2){
+  # Kui visete_arv <= piir1, siis uus_suurus = suurus1,
+  # kui piir1 > visete_arv <= piir2, siis uus_suurus = suurus2,
+  # kui visete_arv>piir2, siis uus_suurus = suurus3
   
   # sinu kood
 }
 ```
 
 
-b.) Visualiseeri nüüd viskepositsioone sarnaselt eelmisele ülesandele, kui ringidel on vaid 3 erinevat suurust.
-
-```{r}
-# sinu kood
-```
+Visualiseeri enda jaoks viskepositsioone sarnaselt eelmisele joonisele, kuid nüüd olgu ringidel vaid 3 erinevat suurust.
 
 
-### Ülesanne 5 - värvid (1 punkti)
+
+### Ülesanne 4 - värvid (1 punkti)
 
 Uuri, mida tähistavad [NY Times'i graafikul](http://www.nytimes.com/interactive/2012/06/11/sports/basketball/nba-shot-analysis.html) punane ja roheline värv.
 
-Lisa nüüd ringidele värv vastavalt visketabavusele. Kasuta sarnast värvigammat, näiteks värvikoodid *#E82123*, *#F1E471* ja *#329932*.
+Lisa nüüd ringidele värv vastavalt visketabavusele. Kasuta sarnast värvigammat, näiteks värvikoodid *#ABCDBC*, *#EFF471* ja *#D9060B*.
 
 Näpunäide:
 
-* uuri, mida teeb käsk `scale_color_gradient2()`.
+* uuri, mida teeb käsk `scale_color_gradient2()`, sh parameeter *midpoint*.
 
 
-### Ülesanne 6 - kuusnurgad (3 punkti)
+### Ülesanne 5 - kuusnurgad (3 punkti)
 
 Kasuta nüüd ringide asemel kuusnurki. 
 
@@ -139,8 +139,8 @@ Meeldetuletus kuusnurkadest:
 Näpunäited:
 
 * uuri, mida teeb funktsioon `geom_polygon()`
-* uuri, mida teeb funktsioon `kuusnurk` ühe vaatluse korral
-* moodusta uus andmestik, kus olemasoleva andmestiku iga rida on dubleeritud 6 korda, et kuusnurga iga tipu kohta oleks sama info
+* uuri, mida teeb funktsioon `kuusnurk` ühe vaatluse korral (st fikseeritud koordinaatide x ja y ning pindala korral)
+* moodusta eelnevalt valitud mängijale vastav uus andmestik, kus olemasoleva andmestiku iga rida on dubleeritud 6 korda, et kuusnurga iga tipu kohta oleks sama info
 * kuusnurkade eristamiseks tuleks lisada grupeeriv tunnus, mida `ggplot` joonist tehes parameetri `group` puhul kasutada
 * kuusnurki saab seest värvida parameetri `fill` abil ja kontuure parameetri `color` abil.
 * uuri, mida teeb funktsioon `scale_fill_gradient2()`
@@ -159,7 +159,68 @@ kuusnurk = function(x, y, pindala){
 
 ```
 
-### Boonusülesanne 1 - shiny rakendus (3 punkti)
+### Ülesanne 6 - shiny rakendus (3 punkti)
 
-Loo shiny rakendus kasutades ülesandes 6 saadud tulemust. Rakendus peaks esitama valitud meeskonna ning mängija korral profiili: kust visatakse ning kust tabatakse.
+Ehita Shiny rakendus, kus kasutaja saab valida meeskonna ja valitud meeskonnas oleva mängija. Seejärel peab rakendus kuvama valitud mängijale vastava viskeprofiili.
 
+Juhend:
+
+* Tekita esmalt võimalus meeskonna valikuks
+
+  - Kasuta ui osas funktsiooni `selectInput()`
+  - parameetri *choices* valikuks olgu algandmetes olevate meeskondade nimed tähestiku järjekorras
+  - testi enda jaoks, kas see valik töötab
+  
+* Tekita juurde võimalus mängija valikuks. Kasutajale kuvatakse vaid neid mängijaid, kes kuuluvad (või on hooaja jooksul kuulunud) valitud meeskonda.
+
+  - Kasuta ui osas funktsiooni `selectInput()`
+  - parameetri *choices* väärtuseks olgu esialgu tühisõne, st "",
+  
+```{r, eval = FALSE}
+selectInput("mangija", "Vali mängija", choices = "")
+```
+
+  - `server` funktsioonile lisa juurde parameeter *session*
+  
+```{r, eval = FALSE}
+server <- function(input, output, session) {
+```
+
+  - kasuta server funktsiooni sees funktsiooni `observe()` (selleks, et kui meeskonna valikut on muudetud, uuendataks ka mängijate nimekirja)
+  - funktsiooni `observe()` sees kasuta omakorda funktsiooni `updateSelectizeInput` (uuri ka, mida see teeb):
+  
+```{r, eval = FALSE}
+  observe({
+
+    # Sinu kood
+    ## Vali välja nende mängijate nimed, kes kuuluvad (või on kuulunud) valitud meeskonda
+    ## mangijad_meeskonnas = ...
+    
+    updateSelectizeInput(session, "mangija",
+                         label = "Vali mängija",
+                         choices = mangijad_meeskonnas,
+                         selected = head(mangijad_meeskonnas, 1))
+  })
+```
+
+  - `observe()` sisuks on jälgida, kas mõni temas sisalduv sisendi väärtus on muutunud (antud kontekstis meeskonna valik). Kui on, siis jooksutatakse läbi kogu observe() funktsioonis sisalduv kood.
+  
+* Väljasta valitud meeskonna ja mängija viskeprofiili joonis (vt ülesanne 5).
+* Eemalda jooniselt kõik üleliigne (telgede tekst, tick’d, joonise raam ja ruudustik (grid)). Kasuta selleks funktsiooni `theme()`.
+
+Lõplik tulemus võiks välja nähe umbes selline:
+
+![](Shiny_kuva.png "Shiny")
+
+* suv v
+  - s2
+  - s2
+
+
+### Boonusülesanne 1 - mängijate valik (2 punkt)
+
+Muuda mängijate valikut selliselt, et mängijaid kuvatakse vastavalt sooritatud visete arvule (rohkem viskeid teinud mängijad eespool).
+
+### Boonusülesanne 2 - geomeetria (1 punkt)
+
+Kui võrrelda meie kuusnurki NY Times'i omadega, siis on näha, et NY Times'i omi on 90 kraadi pööratud. Muuda funktsiooni `kuusnurk()` selliselt, et selle väljundiks olev kuusnurk oleks 90 kraadi pööratud.
