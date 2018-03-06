@@ -6,7 +6,12 @@ output:
 
 Paul Butler oli 2010. aasta lõpus Facebookis praktikal. Ta visualiseeris sotsiaalvõrgustiku andmeid tõmmates jooni sõprade asukohtade vahel.
 
-![alt text](facebook_map.png "Näide")
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+
+![](facebook_map.png "Näide")
 
 Joonis on atraktiivne ja annab hästi edasi FB visiooni. Seda sama joonist näidatakse igapäevaselt FB kontoris hiigelsuurelt ekraanilt ja kasutati näiteks FB aktsiaemissiooni prospektis, et meelde tuletada või selgitada ettevõtte missiooni. Paul tegi selle joonise [kasutades R-i.](http://paulbutler.org/archives/visualizing-facebook-friends/) Kuna FB meile andmeid ei andnud, vaatame selles kodutöös, kuidas lennuliiklus ühendab maailma.
 
@@ -38,7 +43,7 @@ Paul Butler kasutas suurringjooni, et visualiseerida ühendusi sõprade vahel. K
 
 Järgneval joonisel on see tähistatud punase joonega.
 
-![alt text](great_circle.jpg "Näide")
+![](great_circle.jpg "Näide")
 
 ### Näide1: suurringjoon R-is
 
@@ -93,6 +98,8 @@ lon_liivi = 26.713199
 lat_pitsa = 41.535158
 lon_pitsa = 12.306798
 
+library(leaflet)
+
 m = leaflet() #koordinaatsüsteemis sisse lugemine
 
 m = addTiles(m) #kaardikihtide lisamine
@@ -116,7 +123,7 @@ m = m %>%
 m
 ```
 
-### Ülesanne 1 (5 punkti)
+### Ülesanne 1 (4 punkti)
 
 Visualiseeri suurringjoonte abil ühendusi, kuhu saab Tallinna lennujaamast otselennuga. Võid kasutada vabalt valitud meetodit eelnevalt toodud näidete seast. 
 
@@ -132,7 +139,7 @@ Näpunäited:
 
 ```
 
-### Ülesanne 2 (9 punkti)
+### Ülesanne 2 (6 punkti)
 
 Visualiseeri ühendusi, kuhu saab Tallinna lennujaamast otselennu või ühe vahepeatusega. Võid kasutada esimeses ning kolmandas näites tutvustatud võimalusi.
 
@@ -150,11 +157,11 @@ Näpunäited:
 
 Sinu joonis võiks tulla umbes selline:
 
-![alt text](otselend_voi_yks_vahepeatus.png "Näide1")
+![](otselend_voi_yks_vahepeatus.png "Näide1")
 
 või selline:
 
-![alt text](otselend_voi_yks_vahepeatus2.png "Näide2")
+![](otselend_voi_yks_vahepeatus2.png "Näide2")
 
 ### Boonusülesanne 1 (1 punkt) - Juhuslik ekslemine eralennukiga
 

@@ -8,14 +8,16 @@ output:
 Tähtaeg: 13.03.2018 23:59
 
 # I osa 
-(**11 punkti**) Lahenda praktikumis alustatud [*NBA*](../praktikum4_nba) ülesanded.
+(**15 punkti**) Lahenda praktikumis alustatud [*NBA*](../praktikum4_nba) ülesanded.
 
 # II osa
-(**14 punkti**) Lahenda [lennuliikluse visualiseerimise](../praktikum4_geo) ülesanded.
+(**10 punkti**) Lahenda [lennuliikluse visualiseerimise](../praktikum4_geo) ülesanded.
 
 
 # Mida on vaja esitada?
 
-* I ja II osa kohta tuleb esitada nii andmeanalüüsi raport (html või pdf formaadis) kui ka selle lähtekood .Rmd failina. Lisaks võiksid mainida, kui palju aega kulus I ja II osa peale. Mida arvad ülesannetest?
+* I osa kohta tuleb esitada Shiny rakenduse fail (app.R või ui.R ja server.R). 
+* II osa kohta tuleb esitada nii andmeanalüüsi raport (html formaadis) kui ka selle lähtekood .Rmd failina. 
+* Lisaks võiksid mainida, kui palju aega kulus I ja II osa peale. Mida arvad ülesannetest?
 
 Lahendused saata meili peale: taavi.unt@ut.ee

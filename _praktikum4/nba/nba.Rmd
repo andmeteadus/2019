@@ -66,7 +66,7 @@ Näpunäited:
 # sinu kood
 ```
 
-### Ülesanne 2 - mänguväljaku põhja lisamine (2 punkti)
+### Ülesanne 2 - mänguväljaku põhja lisamine (1 punkti)
 
 Kasuta edasisel visualiseerimisel järgnevat koodi näidist mänguväljaku loomiseks:
 
@@ -96,7 +96,7 @@ Näpunäited:
 * määra `ylim(-50,300)`.
 
 
-### Ülesanne 3 - suuruse muutmine (2 punkti)
+### Ülesanne 3 - suuruse muutmine (1 punkti)
 
 NY Timesi graafikaosakond on jaganud visete arvu kolme kategooriasse: *low*, *medium*, *high*. Vali välja piirid, mille põhjal jaotatakse visete arv kolme kategooriasse (*low*, *medium*, *high*). Iga kategooria jaoks vali sobiv pindala suurus (kontrolli, et tulemus oleks visuaalselt kena). Kirjuta funktsioon `kolm_suurust`, mis vastavalt valitud suuruste väärtustele ning kategooriate piiridele tagastab andmestiku, kus tunnus "uus_suurus" vastab kategooria suurusele.
 
@@ -159,36 +159,28 @@ kuusnurk = function(x, y, pindala){
 
 ```
 
-### Ülesanne 6 - shiny rakendus (3 punkti)
+### Ülesanne 6 - shiny rakendus (7 punkti)
 
 Ehita Shiny rakendus, kus kasutaja saab valida meeskonna ja valitud meeskonnas oleva mängija. Seejärel peab rakendus kuvama valitud mängijale vastava viskeprofiili.
 
 Juhend:
 
-* Tekita esmalt võimalus meeskonna valikuks
-
+1. Tekita esmalt võimalus meeskonna valikuks
   - Kasuta ui osas funktsiooni `selectInput()`
   - parameetri *choices* valikuks olgu algandmetes olevate meeskondade nimed tähestiku järjekorras
   - testi enda jaoks, kas see valik töötab
-  
-* Tekita juurde võimalus mängija valikuks. Kasutajale kuvatakse vaid neid mängijaid, kes kuuluvad (või on hooaja jooksul kuulunud) valitud meeskonda.
-
+2. Tekita juurde võimalus mängija valikuks. Kasutajale kuvatakse vaid neid mängijaid, kes kuuluvad (või on hooaja jooksul kuulunud) valitud meeskonda.
   - Kasuta ui osas funktsiooni `selectInput()`
   - parameetri *choices* väärtuseks olgu esialgu tühisõne, st "",
-  
 ```{r, eval = FALSE}
 selectInput("mangija", "Vali mängija", choices = "")
 ```
-
   - `server` funktsioonile lisa juurde parameeter *session*
-  
 ```{r, eval = FALSE}
 server <- function(input, output, session) {
 ```
-
   - kasuta server funktsiooni sees funktsiooni `observe()` (selleks, et kui meeskonna valikut on muudetud, uuendataks ka mängijate nimekirja)
   - funktsiooni `observe()` sees kasuta omakorda funktsiooni `updateSelectizeInput` (uuri ka, mida see teeb):
-  
 ```{r, eval = FALSE}
   observe({
 
@@ -202,19 +194,14 @@ server <- function(input, output, session) {
                          selected = head(mangijad_meeskonnas, 1))
   })
 ```
-
   - `observe()` sisuks on jälgida, kas mõni temas sisalduv sisendi väärtus on muutunud (antud kontekstis meeskonna valik). Kui on, siis jooksutatakse läbi kogu observe() funktsioonis sisalduv kood.
-  
-* Väljasta valitud meeskonna ja mängija viskeprofiili joonis (vt ülesanne 5).
-* Eemalda jooniselt kõik üleliigne (telgede tekst, tick’d, joonise raam ja ruudustik (grid)). Kasuta selleks funktsiooni `theme()`.
+3. Väljasta valitud meeskonna ja mängija viskeprofiili joonis (vt ülesanne 5).
+4. Eemalda jooniselt kõik üleliigne (telgede tekst, tick’d, joonise raam ja ruudustik (grid)). Kasuta selleks funktsiooni `theme()`.
 
 Lõplik tulemus võiks välja nähe umbes selline:
 
 ![](Shiny_kuva.png "Shiny")
 
-* suv v
-  - s2
-  - s2
 
 
 ### Boonusülesanne 1 - mängijate valik (2 punkt)
