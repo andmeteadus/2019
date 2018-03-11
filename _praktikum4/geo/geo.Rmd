@@ -8,6 +8,8 @@ Paul Butler oli 2010. aasta lõpus Facebookis praktikal. Ta visualiseeris sotsia
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(leaflet)
+library(ggmap)
 ```
 
 
@@ -33,7 +35,7 @@ Andmestik *flights.csv* sisaldab infot lendude kohta. Selles on järgnevad tunnu
 * *airline* - lennukompanii lühend
 * *airline_id* - lennukompanii id
 * *source_airport* - lähtekoha lennujaama lühend
-* *source_airport_id* - lähtekoha lennujaama lühend
+* *source_airport_id* - lähtekoha lennujaama id
 * *dest_airport* - sihtkoha lennujaama lühend
 * *dest_airport_id* - sithkoha lennujaama id
 

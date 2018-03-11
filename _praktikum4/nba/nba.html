@@ -55,7 +55,8 @@ if (window.hljs) {
 <div id="tutvumine-andmestikuga" class="section level3">
 <h3>Tutvumine andmestikuga</h3>
 <p>Kasutame NBA 2016/17 hooaja andmeid. Selleks installi pakett <code>NBAapi</code>.</p>
-<pre class="r"><code>install.packages(&quot;NBAapi&quot;)
+<pre class="r"><code># Vajalik paketi devtools olemasolu
+devtools::install_github(&quot;imadmali/NBAapi&quot;) 
 library(NBAapi)
 
 #visete andmestik, mis tuli paketiga kaasa

@@ -23,7 +23,8 @@ Selles praktikumis uurime, kuidas teha sarnast joonist R-i vahenditega.
 Kasutame NBA 2016/17 hooaja andmeid. Selleks installi pakett `NBAapi`.
 
 ```{r, eval = FALSE}
-install.packages("NBAapi")
+# Vajalik paketi devtools olemasolu
+devtools::install_github("imadmali/NBAapi") 
 library(NBAapi)
 
 #visete andmestik, mis tuli paketiga kaasa
