@@ -16,7 +16,8 @@ Täpsemalt, uurime
 
 * kuidas eraldada Riigikogu hääletamistulemusi,
 * kuidas eraldada Postimehe uudiste pealkirju,
-* kuidas eraldada ilmajaama vaatlusandmeid. 
+* kuidas eraldada ilmajaama vaatlusandmeid,
+* kuidas lotot mängides rikastuda?
 
 ![](veebi_kraapimise_naide.png "Näide")
 
@@ -35,14 +36,14 @@ Eralda [html koodis](../examples/html1.html) sinisena olev tekst muutujasse `tek
 * Minimalistliku näite põhjal peaksid oskama eraldada lähtekoodis olevad 4 lõiku. Et eraldada lõik, kus id="p01", pead teadma, kuidas CSS-is tähistatakse id-sid.
 Suur vihje on olemas eelneva html koodi < style > blokis. Abiks võib-olla ka [CSS selektorite interaktiivne testnäide](http://www.w3schools.com/cssref/trysel.asp).
 
-* (**1 boonuspunkt**) CSS selektorite õppimiseks on tore tutorial http://flukeout.github.io/. Tee läbi esimesed 6 taset ja saada vastused tekstina.
+* (**1 boonuspunkt**) CSS selektorite õppimiseks on tore tutorial http://flukeout.github.io/. Tee läbi esimesed 6 taset ja lisa vastused tekstina kodutöö raportisse.
 
 * Uuri paketi [*rvest* dokumentatsiooni](http://cran.r-project.org/web/packages/rvest/rvest.pdf). Kasuks tulevad funktsioonid `read_html`, `html_node`, `html_nodes` ja `html_text`.
 
 * Lõpptulemus peaks olema selline: `tekst = c("I am different.")`
 
 ```{r}
-url = "http://andmeteadus.github.io/2017/examples/html1.html"
+url = "https://andmeteadus.github.io/2018/examples/html1.html"
 
 # sinu kood
 ```
@@ -88,7 +89,7 @@ Eralda [html koodis](../examples/html2.html) punaselt olev tekst muutujasse `tek
 * Lõpptulemuse peaks olema selline: `tekst = c("I am different.", "I am different too.")`
 
 ```{r}
-url = "http://andmeteadus.github.io/examples/html2.html"
+url = "https://andmeteadus.github.io/2018/examples/html2.html"
 
 # sinu kood
 ```
@@ -125,7 +126,7 @@ print(tekst)
 
 ### Ülesanne 3 (3 punkti)
 
-Eralda Riigikogu hääletamistulemuste  [veebilehelt](https://www.riigikogu.ee/tegevus/tooulevaade/haaletused/haaletustulemused-kohalolekukontroll/b3d7e354-3656-477a-8482-fbdd2ddbe64c/) (lähtekoodi nägemiseks paremklikk ja Wiew Page Source), mitu saadikut hääletas "kobarseaduse":
+Eralda Riigikogu hääletamistulemuste  [veebilehelt](https://www.riigikogu.ee/tegevus/tooulevaade/haaletused/haaletustulemused-kohalolekukontroll/0b930644-4291-451d-94b1-83776cdcd10b) (lähtekoodi nägemiseks paremklikk ja Wiew Page Source), mitu saadikut hääletas Eesti Vabariigi hümni seaduse tagasi lükkamise:
 
 * poolt
 * vastu
@@ -146,7 +147,7 @@ Vihjed:
 * Kasutada paketi *readr* funktsiooni `parse_number()` kui sa ei taha regulaaravaldistega mässata. Vaata näiteks, mida teeb järgmine koodirida `"Kokku: 101 liiget" %>% parse_number()`
 
 ```{r}
-url = "https://www.riigikogu.ee/tegevus/tooulevaade/haaletused/haaletustulemused-kohalolekukontroll/b3d7e354-3656-477a-8482-fbdd2ddbe64c/"
+url = "https://www.riigikogu.ee/tegevus/tooulevaade/haaletused/haaletustulemused-kohalolekukontroll/0b930644-4291-451d-94b1-83776cdcd10b"
 
 # sinu kood
 
@@ -155,7 +156,7 @@ url = "https://www.riigikogu.ee/tegevus/tooulevaade/haaletused/haaletustulemused
 
 ### Ülesanne 4 (3 punkti)
 
-Eralda "kobarseaduse" hääletamistulemuste andmetabel, kus on 101 rida ja tunnused *Nimi*, *Otsus* ja *Fraktsioon*.
+Eralda hümni seaduse tagasilükkamise hääletamistulemuste andmetabel, kus on 101 rida ja tunnused *Nimi*, *Otsus* ja *Fraktsioon*.
 
 Vihjed: 
 
@@ -176,63 +177,6 @@ Visualiseeri, kuidas jaotusid otsused fraktsioonide lõikes.
  # sinu kood
   
 ```
-
-
-<!--
-
-### Ülesanne 5 (5 punkti) - andmestiku ehitamine
-
-Ülesandes 4 tegid läbi Riigikogu saadikute hääletamistulemuste eraldamise kooseluseaduse korral. Failis [htmls.zip](../data/htmls.zip) on olemas veebilehed kõigi Riigikogu XII hääletuste kohta. Sinu ülesandeks on koostada andmetabel, kus ridades on Riigikogu saadiku nimi ja veergudes kõik hääletamiskorrad. Seda andmestikku läheb vaja järgmises praktikumis, kus uurime hääletamismustreid.
-
-1. Kõigepealt paki lahti zip fail ja loe R-i sisse kõigi html failide nimed.  
-Näpunäide: Järgnev kood aitab kätte saada kõigi antud kaustas olevad csv-failide nimed (seejuures argument `full.names` võimaldab tagastada terve failitee).
-
-```{r, eval=FALSE}
-filenames = list.files("C:/Users/Kasutaja/andmeteadus/kodutoo5/", pattern = "*.csv", full.names=TRUE)
-```
-
-2. Esialgu loe sisse umbes 5 erinevat html faili.  
-
-* NB! Alles siis, kui oled täiesti kindel, et sinu kood töötab korrektselt, võta kasutusele kõik html failid.
-* Näpunäide: Järgnev kood loeb sisse kõik muutujas `filenames` olevad `csv` andmestikud ja tekitab neist listi. 
-
-```{r, eval=FALSE}
-list_of_dataframes = list()
-for(i in 1:length(filenames)){
-  temp = read.csv(filenames[i])
-  list_of_dataframes[[i]] = temp
-}
-```
-
-* Praegu pole sul `read.csv` käsuga midagi peale hakata, sest tegeleme html failidega. Kasuta ülesandes 4 kirjutatud funktsiooni `extract_table`.
-* Eelneva `for`-tsükli asemel võid kasutada funktsiooni `lapply`. 
-
-3. Lisa igal tsükli sammul andmestikule hääletuse indeks või muu identifikaator. Näiteks `temp$haaletus = i`. 
-
-4. Nüüdseks peaksid olema saanud listi, mille elementideks on erinevad andmetabelid (kõiki faile kasutades peaks nende koguarv olema 1845). Tee nendest andmetabelitest üks suur (pikk) andmetabel, paigutades need üksteise otsa. Seda aitab teha paketi dplyr funktsioon `rbind_all`. Tulemuseks peaksid saama andmetabeli, mille ridade arv on 101 * "sinu kasutatud failide arv". 
-
-5. Muuda pikk andmetabel laiaks. Seda aitab teha paketi reshape2 käsk `dcast`. Uuri funktsiooni `dcast` minimalistlikku näidet [siit](../praktikum3_reshape/#dcast).
-
-6. Kui kõik eelnev töötab, tee eelnev läbi kõikide html failidega. Ära kohku, kui kõikide html tabelite eraldamisega läheb aega 5 minutit või rohkem. 
-
-7. Soovitus: Kui oled eelneva ühe korra läbi teinud, pole vaja knitri raporti genereerimisel enam sedasama korrata. Saadud andmetabeli saad endale salvestada käsuga `save(andmed, file="riigikogu.RData")`. Raportis võid muuta vastava koodiploki `eval=FALSE`. 
-
-
-
-```{r}
-# sinu kood
-```
-
-Lõpptulemuseks võiksid saada järgneva andmestiku, kus on 143 rida ning 1846 veergu. 
-
-
-|Nimi         |1     |2     |3     |4     |...   |1844   |1845   |
-|:------------|:-----|:-----|:-----|:-----|:-----|:------|:------|
-|Aadu Must    |vastu |poolt |vastu |poolt |... |NA     |NA     |
-|Aare Heinvee |poolt |poolt |poolt |poolt |... |poolt  |poolt  |
-|Aivar Kokk   |poolt |poolt |poolt |poolt |... |puudub |puudub |
-
--->
 
 
 ### Ülesanne 6 (3 punkti)
@@ -280,11 +224,11 @@ Seepärast märgib ta iga lotokolmapäev Viking Lotto loositud numbrid üles ja uuri
 1.) Õpeta tehis-Eva tegema seda sama.
 
 * Eesti Loto veebilehel on toodud [statistika loositud pallide sagedusest](https://www.eestiloto.ee/osi/stats.do?lastDraws=250&gameCode=11&sort=frq0&action=searchNumbers).
-* Eralda vastav tabel, kus veergudes on tunnused *Number*, *Sagedus* ja *Sagedus protsentides*.
+* Eralda Vikinglotto põhinumbrite tabel, kus veergudes on tunnused *Number*, *Sagedus* ja *Sagedus protsentides*.
 * selectorgadget veab sind siin alt ning kergem on lähtekoodi inspekteerida brauseris olevate tööriistadega (Chrome's vajuta `Ctrl + Shift + I` või tee parem klikk ja vajuta inspekteeri elementi).
 * Visualiseeri saadud andmetabelit. Tee näiteks tulpdiagramm, kus x-teljel on arvud 1-48 ning y-telg tähistab sagedust.
 
-2.) (**2 boonuspunkti + lisaboonuspunkt**) Viimase 250 loosiga on pall 35 tulnud 31 korral, pall 43 aga 61 korral. Uuri, kas on alust arvata, et Viking Lotto süsteem on kallutatud. Selleks mõtle välja, kuidas seda kontrollida (näiteks võid kasutada simulatsioonidel põhinevat lähenemist). Selgita lühidalt oma lähenemist ja raporteeri, millise tulemuse said. Lisaboonuspunkti saamiseks visualiseeri seda tulemust.
+2.) (**2 boonuspunkti + lisaboonuspunkt**) Viimase 250 loosiga on pall 35 tulnud 18 korral, pall 2 aga 43 korral. Uuri, kas on alust arvata, et Viking Lotto süsteem on kallutatud. Selleks mõtle välja, kuidas seda kontrollida (näiteks võid kasutada simulatsioonidel põhinevat lähenemist). Selgita lühidalt oma lähenemist ja raporteeri, millise tulemuse said. Lisaboonuspunkti saamiseks visualiseeri seda tulemust.
 
 
 ### Boonusülesanne 1 (kuni 5 punkti) - Kas kõik teed viivad Facebooki? (ehk juhuslik ekslemine veebilehtedel)
