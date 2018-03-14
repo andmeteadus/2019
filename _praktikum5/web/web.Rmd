@@ -161,7 +161,7 @@ Eralda hümni seaduse tagasilükkamise hääletamistulemuste andmetabel, kus on 101 
 Vihjed: 
 
 * kasuta funktsiooni `html_table`,
-* tabelis veeru *Otsus* puhastamiseks saab kasutada näiteks paketi *stringr* funktsioone `str_sub()` ja `str_locate()` (viimasega otsida näiteks topelt tühikute asukohta). 
+* tabelis veeru *Otsus* puhastamiseks saab kasutada näiteks paketi *stringr* funktsiooni `str_split_fixed()`. 
 
 
 ```{r}
@@ -221,21 +221,23 @@ Näpunäide:
 > Eva "Usin" Masin on lotohuviline, aga ta pole aastaid Viking Lottoga võitnud. Ta arvab, et lototulemused pole päris juhuslikud ning lotos on võimalik statistiline eelis saada.
 Seepärast märgib ta iga lotokolmapäev Viking Lotto loositud numbrid üles ja uurib, kas number kahtesid loositakse rohkem välja, kui juhus lubaks.
 
-1.) Õpeta tehis-Eva tegema seda sama.
+1) Õpeta tehis-Eva tegema seda sama.
 
 * Eesti Loto veebilehel on toodud [statistika loositud pallide sagedusest](https://www.eestiloto.ee/osi/stats.do?lastDraws=250&gameCode=11&sort=frq0&action=searchNumbers).
 * Eralda Vikinglotto põhinumbrite tabel, kus veergudes on tunnused *Number*, *Sagedus* ja *Sagedus protsentides*.
-* selectorgadget veab sind siin alt ning kergem on lähtekoodi inspekteerida brauseris olevate tööriistadega (Chrome's vajuta `Ctrl + Shift + I` või tee parem klikk ja vajuta inspekteeri elementi).
+* selectorgadget võib sind siin alt vedada ning kergem on lähtekoodi inspekteerida brauseris olevate tööriistadega (Chrome's vajuta `Ctrl + Shift + I` või tee parem klikk ja vajuta inspekteeri elementi).
 * Visualiseeri saadud andmetabelit. Tee näiteks tulpdiagramm, kus x-teljel on arvud 1-48 ning y-telg tähistab sagedust.
 
-2.) (**2 boonuspunkti + lisaboonuspunkt**) Viimase 250 loosiga on pall 35 tulnud 18 korral, pall 2 aga 43 korral. Uuri, kas on alust arvata, et Viking Lotto süsteem on kallutatud. Selleks mõtle välja, kuidas seda kontrollida (näiteks võid kasutada simulatsioonidel põhinevat lähenemist). Selgita lühidalt oma lähenemist ja raporteeri, millise tulemuse said. Lisaboonuspunkti saamiseks visualiseeri seda tulemust.
+2) (**Boonusülesanne 1 (3 punkti)**) Viimase 250 loosiga on pall 35 tulnud 18 korral, pall 2 aga 43 korral. Uuri, kas on alust arvata, et Viking Lotto süsteem on kallutatud. Selleks mõtle välja, kuidas seda kontrollida (näiteks võid kasutada simulatsioonidel põhinevat lähenemist). Selgita lühidalt oma lähenemist ja raporteeri, millise tulemuse said. Visualiseeri saadud tulemust.
 
 
-### Boonusülesanne 1 (kuni 5 punkti) - Kas kõik teed viivad Facebooki? (ehk juhuslik ekslemine veebilehtedel)
+### Boonusülesanne 2 (5 punkti) - Kas kõik teed viivad Facebooki? (ehk juhuslik ekslemine veebilehtedel)
 
 Alusta suvaliselt veebilehelt. Eralda kõik väljuvad lingid. Vali üks neist linkidest suvaliselt. Hüppa sellele lingile. Kui sellel leheküljel pole ühtegi väljuvat linki, mine tagasi. Kui väljuvaid linke on mitmeid, vali jälle välja suvaline ja hüppa sinna. Kui jõudsid Facebooki, on katse lõppenud. Korda seda protsessi mitu korda ja erinevate alglehtedega. Uuri, mitmel juhul jõudsid FBsse.
 
 Näpunäide: Abiks on paketi rvest funktsioon `follow_link()`. 
+
+<!--
 
 ### Boonusülesanne 2 - Facebooki API kasutamine
 
@@ -245,11 +247,10 @@ Kasuta paketti *Rfacebook* ning leia:
 
 **(5 boonuspunkti :-))** Kasuta R-i, et uuendada oma staatust tekstiga 'Teen aine "Statistiline andmeteadus ja visualiseerimine" kodutööd. Väga põnev! :-)'. Abiks on käsk `updateStatus`.
 
-<!--
-**(3 boonuspunkti)** Kui sulle ei meeldi Facebooki algoritm, mille põhjal ta postitusi ja pilte uudisvoos järjestab, mõtle välja algoritm, mis selle parandab. Implementeeri selle prototüüp (kasuks tuleb käsk `getNewsfeed`).
---->
 
 Abistavad lingid:
 
 * Kuidas autentida: http://thinktostart.com/analyzing-facebook-with-r/
 * Rfacebook dokumentatsioon: http://cran.r-project.org/web/packages/Rfacebook/Rfacebook.pdf
+
+--->

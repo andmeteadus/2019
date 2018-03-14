@@ -182,7 +182,7 @@ print(tekst)
 <p>Vihjed:</p>
 <ul>
 <li>kasuta funktsiooni <code>html_table</code>,</li>
-<li>tabelis veeru <em>Otsus</em> puhastamiseks saab kasutada näiteks paketi <em>stringr</em> funktsioone <code>str_sub()</code> ja <code>str_locate()</code> (viimasega otsida näiteks topelt tühikute asukohta).</li>
+<li>tabelis veeru <em>Otsus</em> puhastamiseks saab kasutada näiteks paketi <em>stringr</em> funktsiooni <code>str_split_fixed()</code>.</li>
 </ul>
 <pre class="r"><code> # sinu kood</code></pre>
 </div>
@@ -234,33 +234,40 @@ print(tekst)
 <blockquote>
 <p>Eva “Usin” Masin on lotohuviline, aga ta pole aastaid Viking Lottoga võitnud. Ta arvab, et lototulemused pole päris juhuslikud ning lotos on võimalik statistiline eelis saada. Seepärast märgib ta iga lotokolmapäev Viking Lotto loositud numbrid üles ja uurib, kas number kahtesid loositakse rohkem välja, kui juhus lubaks.</p>
 </blockquote>
-<p>1.) Õpeta tehis-Eva tegema seda sama.</p>
+<ol style="list-style-type: decimal">
+<li>Õpeta tehis-Eva tegema seda sama.</li>
+</ol>
 <ul>
 <li>Eesti Loto veebilehel on toodud <a href="https://www.eestiloto.ee/osi/stats.do?lastDraws=250&amp;gameCode=11&amp;sort=frq0&amp;action=searchNumbers">statistika loositud pallide sagedusest</a>.</li>
 <li>Eralda Vikinglotto põhinumbrite tabel, kus veergudes on tunnused <em>Number</em>, <em>Sagedus</em> ja <em>Sagedus protsentides</em>.</li>
-<li>selectorgadget veab sind siin alt ning kergem on lähtekoodi inspekteerida brauseris olevate tööriistadega (Chrome’s vajuta <code>Ctrl + Shift + I</code> või tee parem klikk ja vajuta inspekteeri elementi).</li>
+<li>selectorgadget võib sind siin alt vedada ning kergem on lähtekoodi inspekteerida brauseris olevate tööriistadega (Chrome’s vajuta <code>Ctrl + Shift + I</code> või tee parem klikk ja vajuta inspekteeri elementi).</li>
 <li>Visualiseeri saadud andmetabelit. Tee näiteks tulpdiagramm, kus x-teljel on arvud 1-48 ning y-telg tähistab sagedust.</li>
 </ul>
-<p>2.) (<strong>2 boonuspunkti + lisaboonuspunkt</strong>) Viimase 250 loosiga on pall 35 tulnud 18 korral, pall 2 aga 43 korral. Uuri, kas on alust arvata, et Viking Lotto süsteem on kallutatud. Selleks mõtle välja, kuidas seda kontrollida (näiteks võid kasutada simulatsioonidel põhinevat lähenemist). Selgita lühidalt oma lähenemist ja raporteeri, millise tulemuse said. Lisaboonuspunkti saamiseks visualiseeri seda tulemust.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>(<strong>Boonusülesanne 1 (3 punkti)</strong>) Viimase 250 loosiga on pall 35 tulnud 18 korral, pall 2 aga 43 korral. Uuri, kas on alust arvata, et Viking Lotto süsteem on kallutatud. Selleks mõtle välja, kuidas seda kontrollida (näiteks võid kasutada simulatsioonidel põhinevat lähenemist). Selgita lühidalt oma lähenemist ja raporteeri, millise tulemuse said. Visualiseeri saadud tulemust.</li>
+</ol>
 </div>
-<div id="boonusulesanne-1-kuni-5-punkti---kas-koik-teed-viivad-facebooki-ehk-juhuslik-ekslemine-veebilehtedel" class="section level3">
-<h3>Boonusülesanne 1 (kuni 5 punkti) - Kas kõik teed viivad Facebooki? (ehk juhuslik ekslemine veebilehtedel)</h3>
+<div id="boonusulesanne-2-5-punkti---kas-koik-teed-viivad-facebooki-ehk-juhuslik-ekslemine-veebilehtedel" class="section level3">
+<h3>Boonusülesanne 2 (5 punkti) - Kas kõik teed viivad Facebooki? (ehk juhuslik ekslemine veebilehtedel)</h3>
 <p>Alusta suvaliselt veebilehelt. Eralda kõik väljuvad lingid. Vali üks neist linkidest suvaliselt. Hüppa sellele lingile. Kui sellel leheküljel pole ühtegi väljuvat linki, mine tagasi. Kui väljuvaid linke on mitmeid, vali jälle välja suvaline ja hüppa sinna. Kui jõudsid Facebooki, on katse lõppenud. Korda seda protsessi mitu korda ja erinevate alglehtedega. Uuri, mitmel juhul jõudsid FBsse.</p>
 <p>Näpunäide: Abiks on paketi rvest funktsioon <code>follow_link()</code>.</p>
-</div>
-<div id="boonusulesanne-2---facebooki-api-kasutamine" class="section level3">
-<h3>Boonusülesanne 2 - Facebooki API kasutamine</h3>
-<p>Kasuta paketti <em>Rfacebook</em> ning leia:</p>
-<p><strong>(1 boonuspunkt)</strong> Mis on olnud Tartu Ülikooli Facebooki lehe kõige populaarsem postitus? Mis on olnud matemaatika ja statistika intituudi Facebooki lehe kõige populaarsem postitus?</p>
-<p><strong>(5 boonuspunkti :-))</strong> Kasuta R-i, et uuendada oma staatust tekstiga ‘Teen aine “Statistiline andmeteadus ja visualiseerimine” kodutööd. Väga põnev! :-)’. Abiks on käsk <code>updateStatus</code>.</p>
 <!--
-**(3 boonuspunkti)** Kui sulle ei meeldi Facebooki algoritm, mille põhjal ta postitusi ja pilte uudisvoos järjestab, mõtle välja algoritm, mis selle parandab. Implementeeri selle prototüüp (kasuks tuleb käsk `getNewsfeed`).
+
+### Boonusülesanne 2 - Facebooki API kasutamine
+
+Kasuta paketti *Rfacebook* ning leia:
+
+**(1 boonuspunkt)** Mis on olnud Tartu Ülikooli Facebooki lehe kõige populaarsem postitus? Mis on olnud matemaatika ja statistika intituudi Facebooki lehe kõige populaarsem postitus?
+
+**(5 boonuspunkti :-))** Kasuta R-i, et uuendada oma staatust tekstiga 'Teen aine "Statistiline andmeteadus ja visualiseerimine" kodutööd. Väga põnev! :-)'. Abiks on käsk `updateStatus`.
+
+
+Abistavad lingid:
+
+* Kuidas autentida: http://thinktostart.com/analyzing-facebook-with-r/
+* Rfacebook dokumentatsioon: http://cran.r-project.org/web/packages/Rfacebook/Rfacebook.pdf
+
 --->
-<p>Abistavad lingid:</p>
-<ul>
-<li>Kuidas autentida: <a href="http://thinktostart.com/analyzing-facebook-with-r/" class="uri">http://thinktostart.com/analyzing-facebook-with-r/</a></li>
-<li>Rfacebook dokumentatsioon: <a href="http://cran.r-project.org/web/packages/Rfacebook/Rfacebook.pdf" class="uri">http://cran.r-project.org/web/packages/Rfacebook/Rfacebook.pdf</a></li>
-</ul>
 </div>
 
 
