@@ -22,7 +22,7 @@ Tegeleme andmestikuga, mis kajastab Riigikogu 13. koosseisu hääletusi. Kui viien
 * kpv - hääletuse kuupäev
 * id - hääletuse id
 
-Laadi alla andmestik [*Riigikogu_XIII.csv*](../data/Riigikogu_XII.csv) ja loe töökeskkonda.
+Laadi alla andmestik [*Riigikogu_XIII.csv*](../data/Riigikogu_XIII.csv) ja loe töökeskkonda.
 
 ### Ülesanne 1 (2 punkt) - andmestiku mudimine
 
