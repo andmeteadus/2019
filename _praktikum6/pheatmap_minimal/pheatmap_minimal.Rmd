@@ -82,7 +82,7 @@ ggplot(test_pikk, aes(x = Veerg, y = Rida, fill = Vaartus)) +
 
 2. [*Superheat*](https://rlbarter.github.io/superheat/index.html) - väga palju võimalusi joonise disainimiseks.
 
-```{r, fig.height=4}
+```{r, fig.height=6}
 library(superheat)
 superheat(test,
           bottom.label.text.angle = -60,
@@ -95,7 +95,7 @@ superheat(test,
 
 ```{r, fig.height=4}
 library(d3heatmap)
-d3heatmap(test, Rowv = FALSE, Colv = TRUE, colors="YlOrRd")
+d3heatmap(test, Rowv = FALSE, Colv = TRUE, colors="YlOrRd", cellnote = test)
 ```
 
   - [*plotly*](https://plot.ly/r/heatmaps/)
