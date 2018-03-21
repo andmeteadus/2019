@@ -26,7 +26,7 @@ Laadi alla andmestik [*Riigikogu_XIII.csv*](../data/Riigikogu_XIII.csv) ja loe t
 
 ### ‹lesanne 1 (2 punkt) - andmestiku mudimine
 
-a) Muuda tunnused numbriliseks. Selleks kodeeri h‰‰letused j‰rgmiselt:
+a) Muuda tunnus *Otsus* numbriliseks. Selleks kodeeri h‰‰letused j‰rgmiselt:
 
 * *Vastu* t‰hista arvuga -1
 * *Poolt* t‰hista arvuga 1
@@ -43,6 +43,10 @@ b) J‰ta v‰lja saadikud, keda esineb andmestikus alla 5 korra.
 ### ‹lesanne 2 (3 punkti) - visualiseeri andmeid heatmapi abil
 
 a) Sorteeri andmestiku read fraktsiooni pıhjal ja visualiseeri neid heatmapi abil. Tılgenda tulemusi.
+
+N‰pun‰ide: 
+
+* Selleks, et kasutada n‰iteks funktsiooni `pheatmap`, tuleb tekitada andmemaatriks, kus ridades on numbrilisele kujule viidud saadikute h‰‰letused.
 
 ```{r}
 # sinu kood
@@ -84,6 +88,10 @@ N‰pun‰ide:
 ### ‹lesanne 4 (3 punkti)
 
 a) Tee PCA esialgsele andmestikule. Visualiseeri kahte esimest peakomponenti hajuvusdiagrammi abil, seejuures v‰rvi punktid fraktsioonide alusel. Tılgenda tulemusi.
+
+N‰pun‰ide:
+
+* PCA tegemiseks on vaja kasutada laias formaadis andmestikku, kus iga saadik on eraldi real ja veergudes on toimunud h‰‰letustele vastavad otsused.
 
 ```{r}
 # sinu kood
