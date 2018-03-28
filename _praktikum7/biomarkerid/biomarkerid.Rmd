@@ -120,7 +120,7 @@ biomarkeri_pvaartus_kordaja("LDL_D", formula0, data)
 ```
 
 
-Käsitsi 106 korda antud funktsiooni läbi jooksutada ei tundu hea mõte olevat. Seega tuleks mudelite hindamisprotsess automatiseerida. Üks variant on kasutada `for` tsüklit. Teine võimalus (soovitatav!) on kasutada funktsiooni `lapply` (väljundiks list), mille esimeseks parameetriks on vektor väärtustega, mida etteantud funktsiooni (teine parameeter) esimeseks sisendiks määrata. Selle funktsiooni ülejäänud parameetrid määratakse kui funktsiooni `lapply` parameetritena.
+Käsitsi 106 korda antud funktsiooni läbi jooksutada ei tundu hea mõte olevat. Seega tuleks mudelite hindamisprotsess automatiseerida. Üks variant on kasutada `for` tsüklit. Teine võimalus on kasutada funktsiooni `lapply` (väljundiks list), mille esimeseks parameetriks on vektor väärtustega, mida etteantud funktsiooni (teine parameeter) esimeseks sisendiks määrata. Selle funktsiooni ülejäänud parameetrid saab määrata justkui need oleksid funktsiooni `lapply` parameetriteks.
 
 a. Kirjuta funktsioon `biomarkerite_olulisus`, mis leiab nii kordaja kui p-väärtuse kõikidele biomarkeritele, mis funktsiooni ühe sisendina ette antakse. Kasuta selle funktsiooni sees funktsiooni `biomarkeri_pvaartus_kordaja`. Funktsiooni sisenditeks on
   - biomarkerid - vektor biomarkeritest, millele kordaja ja p-väärtus leida
@@ -154,11 +154,46 @@ data.frame("biomarker" = c("LDL_D", "HDL_C"),
 
 b. Kasuta nüüd eelnevalt kirjutatud funktsiooni kõigi 106 biomarkeri jaoks. Prindi välja iga biomarkeri p-väärtus ning kordaja hinnang. 
 
+### Boonusülesanne 1 (2 punkti) - paralleelarvutus
+
+Muuda funktsiooni `biomarkerite_olulisus` selliselt, et selle sees oleks kasutatud paralleelarvutust, st biomarkeritele vastavate mudelite hindamine oleks jaotatud protsessorituumade vahel. 
+
+Selleks tuleks tavapärane `for` tsükkel või funktsioon `lapply` asendada näiteks funktsiooniga `parLapply` (pakett *parallel*) või funktsiooniga `foreach` ja operaatoriga `%dopar%` (pakett *foreach*). Vali neist välja meelepärasem või rakenda soovi korral mõnda muud paralleelarvutuste võimalust.  
+
+Uuri, mida teevad järgmised näited:
+
+```{r, eval = FALSE}
+library(foreach)
+library(doParallel)
+tuumade_arv <- detectCores(logical = FALSE) # Füüsiliste tuumade arv
+klaster <- makeCluster(tuumade_arv)
+registerDoParallel(klaster)
+
+foreach(i = letters[1:10], .combine = c) %dopar%
+  toupper(i)
+
+stopCluster(klaster)
+```
+
+
+```{r, eval = FALSE}
+library(parallel)
+tuumade_arv <- detectCores(logical = FALSE) # Füüsiliste tuumade arv
+klaster <- makeCluster(tuumade_arv)
+
+parLapply(klaster,letters[1:10], toupper)
+
+stopCluster(klaster)
+```
+
+Kas paralleelarvutusega võitsid kiiruses?
+
+
 ### Ülesanne 5 (1 punkt)
 
 Visualiseeri saadud tulemust. Võid teha näiteks sellise joonise p-väärtustest log-skaalal
 
-![](example_plot_biomarkers_uus.png)
+![](example_plot_biomarkers_uus2.png)
 
 ### Ülesanne 6 (4 punkti + 1 boonuspunkt) - p-väärtuse piiri paikapanek
 
@@ -174,7 +209,7 @@ Kuna testisime kõigi 106 biomarkeri olulisust surma ennustamisel, puutume kokku 
 
 Selgita, miks kasutati sellist p-väärtuse piiri (aga mitte klassikalist `p < 0.05`)?
 
-(**2 punkti**) Veendumaks, et `p < 0.05` kasutamisel võime tõepoolest saada liiga palju valepositiivseid tulemusi, tekita andmestik, kus puudub seos tunnuse *s5* ja biomarkerite vahel. Selleks tekita uus tunnus, kus oleks *s5* väärtuseid permuteeritud suvaliselt. Sobita nüüd mudelid, kus prognoosiksid permuteeritud *s5* väärtuseid biomarkerite põhjal (selleks võid kasutada ülesandes 5 kirjutatud funktsiooni). 
+(**2 punkti**) Veendumaks, et `p < 0.05` kasutamisel võime tõepoolest saada liiga palju valepositiivseid tulemusi, tekita andmestik, kus puudub seos tunnuse *s5* ja biomarkerite vahel. Selleks tekita uus tunnus, kus oleks *s5* väärtuseid permuteeritud suvaliselt. Sobita nüüd mudelid, kus prognoosiksid permuteeritud *s5* väärtuseid biomarkerite põhjal (selleks võid kasutada ülesandes 4 kirjutatud funktsiooni). 
 
 * Mitme biomarkeri p-väärtused tulid väiksemad kui 0.05? 
 * Aga mitu tükki olid olulised Bonferroni korrektsiooni järgi?
@@ -190,7 +225,7 @@ Juhised:
 * Rakenda andmestikul PCA-d ning leia, mitu peakomponenti seletavad näiteks 99\% variatsioonist. 
 * Leitud peakomponentide arv näitabki ligikaudu sõltumatute tunnuste arvu meie andmestikus. Tee Bonferroni korrektsioon selle arvu järgi. Millise p-väärtuse piiri saad?
 
-### Boonusülesanne 1 (2 punkti) - usaldusintervallid kordajate jaoks
+### Boonusülesanne 2 (2 punkti) - usaldusintervallid kordajate jaoks
 
 (**1 boonuspunkt**) Muuda funktsiooni `biomarkeri_pvaartus_kordaja` selliselt, et iga biomarkeri kordajale arvutad ka 95% usaldusintervalli. Võid kasutada normaaljaotusel põhinevat lähendit ning arvutada selle `kordaja_hinnang +- 1.96 * SE`, kus SE on `summary(model)` väljundis toodud `Std. Error`. Funktsiooni tagastatavas andmetabelis peaksid nüüd olema ka veerud `UI_alumine` ja `UI_ylemine`. 
 

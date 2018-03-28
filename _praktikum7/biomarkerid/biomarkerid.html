@@ -168,7 +168,7 @@ biomarkerite_olulisus(c(&quot;LDL_D&quot;, &quot;HDL_C&quot;), f, data)</code></
 <div id="boonusulesanne-1-2-punkti---paralleelarvutus" class="section level3">
 <h3>Boonusülesanne 1 (2 punkti) - paralleelarvutus</h3>
 <p>Muuda funktsiooni <code>biomarkerite_olulisus</code> selliselt, et selle sees oleks kasutatud paralleelarvutust, st biomarkeritele vastavate mudelite hindamine oleks jaotatud protsessorituumade vahel.</p>
-<p>Selleks tuleks tavapärane <code>for</code> tsükkel või funktsioon <code>lapply</code> asendada näiteks funktsiooniga <code>parLapply</code> (pakett <em>parallel</em>) või funktsiooniga <code>foreach</code> ja operaatoriga <code>%dopar%</code> (pakett <em>foreach</em>).</p>
+<p>Selleks tuleks tavapärane <code>for</code> tsükkel või funktsioon <code>lapply</code> asendada näiteks funktsiooniga <code>parLapply</code> (pakett <em>parallel</em>) või funktsiooniga <code>foreach</code> ja operaatoriga <code>%dopar%</code> (pakett <em>foreach</em>). Vali neist välja meelepärasem või rakenda soovi korral mõnda muud paralleelarvutuste võimalust.</p>
 <p>Uuri, mida teevad järgmised näited:</p>
 <pre class="r"><code>library(foreach)
 library(doParallel)
@@ -182,7 +182,7 @@ foreach(i = letters[1:10], .combine = c) %dopar%
 stopCluster(klaster)</code></pre>
 <pre class="r"><code>library(parallel)
 tuumade_arv &lt;- detectCores(logical = FALSE) # Füüsiliste tuumade arv
-klaster &lt;- makeCluster(tuumade_arv) #
+klaster &lt;- makeCluster(tuumade_arv)
 
 parLapply(klaster,letters[1:10], toupper)
 
@@ -224,8 +224,8 @@ stopCluster(klaster)</code></pre>
 <li>Leitud peakomponentide arv näitabki ligikaudu sõltumatute tunnuste arvu meie andmestikus. Tee Bonferroni korrektsioon selle arvu järgi. Millise p-väärtuse piiri saad?</li>
 </ul>
 </div>
-<div id="boonusulesanne-1-2-punkti---usaldusintervallid-kordajate-jaoks" class="section level3">
-<h3>Boonusülesanne 1 (2 punkti) - usaldusintervallid kordajate jaoks</h3>
+<div id="boonusulesanne-2-2-punkti---usaldusintervallid-kordajate-jaoks" class="section level3">
+<h3>Boonusülesanne 2 (2 punkti) - usaldusintervallid kordajate jaoks</h3>
 <p>(<strong>1 boonuspunkt</strong>) Muuda funktsiooni <code>biomarkeri_pvaartus_kordaja</code> selliselt, et iga biomarkeri kordajale arvutad ka 95% usaldusintervalli. Võid kasutada normaaljaotusel põhinevat lähendit ning arvutada selle <code>kordaja_hinnang +- 1.96 * SE</code>, kus SE on <code>summary(model)</code> väljundis toodud <code>Std. Error</code>. Funktsiooni tagastatavas andmetabelis peaksid nüüd olema ka veerud <code>UI_alumine</code> ja <code>UI_ylemine</code>.</p>
 <p>(<strong>1 boonuspunkt</strong>) Visualiseeri tulemust (näiteks iga biomarkeri kohta näita kordaja hinnangut koos usaldusintervalliga).</p>
 </div>
