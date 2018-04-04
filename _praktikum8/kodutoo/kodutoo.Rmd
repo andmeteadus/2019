@@ -5,7 +5,7 @@ output:
     theme: null
 ---
 
-Tähtaeg: 12.04.2016 23:59
+Tähtaeg: 10.04.2018 23:59
 
 
 (**25 punkti**) Lahenda praktikumis alustatud [dopingutesti ülesanded](../praktikum8_doping).
