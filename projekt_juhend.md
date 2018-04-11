@@ -6,11 +6,11 @@ Aine läbimiseks tuleb läbi viia kas praktiline andmeanalüüs ning kirjutada s
 
 Inspiratsiooniks saab vaadata [2015.](https://andmeteadus.github.io/2015/projektid/) ja [2017.](https://andmeteadus.github.io/2017/projektid/) aasta projekte. 
 
-### Tähtajad (võivad veel muutuda)
+### Tähtajad 
 
 * Teema valimine - 04.04.2018
-* Projekti esitamise tähtaeg - 02.05.2018 kell 23.59.
-* Projekti tulemuste müümine (st esitlus) - 09.05.2018
+* Projekti esitamise tähtaeg - 14.05.2018 kell 23.59.
+* Projekti tulemuste müümine (st esitlus) - 23.05.2018 kell 16:15 ruumis 403
 
 Mõned meie välja pakutud teemad on [siin](https://docs.google.com/spreadsheets/d/1OF39eei2jLbRxb31osRMTG1Kla8sOmcq9YYJBfcjPMA/edit#gid=0). Samas failis saab ka oma teemad registreerida.
 
