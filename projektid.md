@@ -29,11 +29,11 @@ Oma ema rinnapiima peetakse parimaks toiduks vastsündinule. Muude heade omadust
 <br><br>
 
 ## [Kuritegevus Eestis](https://andmeteadus2018.shinyapps.io/KuritegevusEestis/)
-<i>App</i>, mis kujutab Eestis asetleidnud kuritegevust ja seaduserikkumisi. Andmed pärinevad lehelt <a>https://www2.politsei.ee/et/organisatsioon/analuus-ja-statistika/avaandmed.dot</a>. Kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/KuritegevusEestis).
+<i>App</i>, mis kujutab Eestis asetleidnud kuritegevust ja seaduserikkumisi. Andmed pärinevad lehelt <a>https://www2.politsei.ee/et/organisatsioon/analuus-ja-statistika/avaandmed.dot</a>. Kood on leitav [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/KuritegevusEestis).
 <br><br>
 
 ## [Pensionifondide võrdlus](https://andmeteadus18.shinyapps.io/PensionifondideVordlus/)
-<i>App</i>, mis aitab võrrelda erinevate pensionifondide tulemusi vastavalt kasutaja ajaloolistele sissemaksetele. Andmed pärinevad lehelt <a>http://www.pensionikeskus.ee/statistika/ii-sammas/kogumispensioni-fondide-nav/</a>. Kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/PensionifondideVordlus).
+<i>App</i>, mis aitab võrrelda erinevate pensionifondide tulemusi vastavalt kasutaja ajaloolistele sissemaksetele. Andmed pärinevad lehelt <a>http://www.pensionikeskus.ee/statistika/ii-sammas/kogumispensioni-fondide-nav/</a>. Kood on leitav [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/PensionifondideVordlus).
 <br><br>
 
 ## [ZetaView Graphs](https://andmeteadus18.shinyapps.io/ZetaViewGraphs/)
