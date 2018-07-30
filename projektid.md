@@ -16,6 +16,9 @@ Oma ema rinnapiima peetakse parimaks toiduks vastsündinule. Muude heade omadust
 [ (loe edasi) ](http://htmlpreview.github.io/?https://github.com/andmeteadus/2018/blob/gh-pages/Emade_rinnapiima_kolonisatsioon_patogeensete_bakteritega.html)
 <br><br>
 
+## [Alkoholiregister](https://andmeteadus2018.shinyapps.io/Alkoholiregister/)
+<i>App</i>, mis võimaldab kasutajal otsida tooteid riiklikku alkoholiregistrisse kantud jookide seast ning näha andmetel põhinevat statistikat. Andmed pärinevad lehelt <a>https://alkoreg.agri.ee/avaandmed</a>. Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/Alkoholiregister).
+<br><br>
 
 <!--
 {% for post in site.posts %}
