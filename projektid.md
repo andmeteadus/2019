@@ -32,7 +32,7 @@ Oma ema rinnapiima peetakse parimaks toiduks vastsündinule. Muude heade omadust
 <i>App</i>, mis kujutab Eestis asetleidnud kuritegevust ja seaduserikkumisi. Andmed pärinevad lehelt <a>https://www2.politsei.ee/et/organisatsioon/analuus-ja-statistika/avaandmed.dot</a>. Kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/KuritegevusEestis).
 <br><br>
 
-## [Pensionifondide võrdlus(https://andmeteadus18.shinyapps.io/PensionifondideVordlus/)
+## [Pensionifondide võrdlus](https://andmeteadus18.shinyapps.io/PensionifondideVordlus/)
 <i>App</i>, mis aitab võrrelda erinevate pensionifondide tulemusi vastavalt kasutaja ajaloolistele sissemaksetele. Andmed pärinevad lehelt <a>http://www.pensionikeskus.ee/statistika/ii-sammas/kogumispensioni-fondide-nav/</a>. Kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/PensionifondideVordlus).
 <br><br>
 
