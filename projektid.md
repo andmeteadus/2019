@@ -20,6 +20,35 @@ Oma ema rinnapiima peetakse parimaks toiduks vastsündinule. Muude heade omadust
 <i>App</i>, mis võimaldab kasutajal otsida tooteid riiklikku alkoholiregistrisse kantud jookide seast ning näha andmetel põhinevat statistikat. Andmed pärinevad lehelt <a>https://alkoreg.agri.ee/avaandmed</a>. Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/Alkoholiregister).
 <br><br>
 
+## [Image Compression](https://andmeteadus2018.shinyapps.io/ImageCompression/)
+<i>App</i>, mis k-keskmise klasteranalüüsi meetodi abil surub kokku PNG formaadis pilte. Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/ImageCompression).
+<br><br>
+
+## [IMDB](https://andmeteadus2018.shinyapps.io/IMDB/)
+<i>App</i>, mille abil saab kasutaja uurida filmide hinnanguid ja kõrvutada neid teiste filmide skooridega. Andmed pärinevad lehelt <a>https://datasets.imdbws.com/</a>. Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/IMDB).
+<br><br>
+
+## [Kuritegevus Eestis](https://andmeteadus2018.shinyapps.io/KuritegevusEestis/)
+<i>App</i>, mis kujutab Eestis asetleidnud kuritegevust ja seaduserikkumisi. Andmed pärinevad lehelt <a>https://www2.politsei.ee/et/organisatsioon/analuus-ja-statistika/avaandmed.dot</a>. Kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/KuritegevusEestis).
+<br><br>
+
+## [Pensionifondide võrdlus(https://andmeteadus18.shinyapps.io/PensionifondideVordlus/)
+<i>App</i>, mis aitab võrrelda erinevate pensionifondide tulemusi vastavalt kasutaja ajaloolistele sissemaksetele. Andmed pärinevad lehelt <a>http://www.pensionikeskus.ee/statistika/ii-sammas/kogumispensioni-fondide-nav/</a>. Kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/PensionifondideVordlus).
+<br><br>
+
+## [ZetaView Graphs](https://andmeteadus18.shinyapps.io/ZetaViewGraphs/)
+<i>App</i>, mis ühendab ja visualiseerib meditsiiniseadme ZetaView väljundeid, lihtsustades seeläbi teadlaste analüüsiprotsessi. Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/ZetaViewGraphs).
+<br><br>
+
+## [Toitumine](https://andmeteadus2018.shinyapps.io/Toitumine/)
+<i>App</i>, mis määrab kasutajaid vastavalt toitumismustritele klastritesse. Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/Toitumine).
+<br><br>
+
+## [Surmade kajstamine Vikipeedias](https://andmeteadus2018.shinyapps.io/Wiki_surmad/)
+<i>App</i>, mis kuvab populaarsemaid veebilehti surnud inimeste kohta. Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/Wiki_surmad).
+<br><br>
+
+
 <!--
 {% for post in site.posts %}
 ## [ {{ post.title }} ](..{{ post.url }})
