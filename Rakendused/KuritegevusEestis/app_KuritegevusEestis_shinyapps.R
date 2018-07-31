@@ -217,6 +217,35 @@ server <- function(input, output, session) {
     }
   })
   
+  andmete_valikud <- reactiveValues()
+  observe({
+    andmete_valikud$liiklusjarelevalve <- "liiklus" %in% input$checkGroup
+    andmete_valikud$avalik <- "avalik" %in% input$checkGroup
+    andmete_valikud$vara <- "vara" %in% input$checkGroup
+  })
+  
+  observe({
+    if (andmete_valikud$liiklusjarelevalve & exists("liiklusjarelevalve_1")){
+      updateCheckboxGroupInput(session, "checkGroup_liiklus", label ="Sõiduki liik", 
+                               choices =unique(liiklusjarelevalve_1$SoidukLiik_ilus),
+                               selected=unique(liiklusjarelevalve_1$SoidukLiik_ilus))
+    }
+  })
+  observe({
+    if (andmete_valikud$avalik & exists("avalik_1")){
+      updateCheckboxGroupInput(session, "checkGroup_avalik", label ="Avaliku koha süüteo paragrahv", 
+                               choices =unique(avalik_1$ParagrahvTais),
+                               selected=unique(avalik_1$ParagrahvTais))
+    }
+  })
+  observe({  
+    if (andmete_valikud$vara & exists("vara_1")){
+      updateCheckboxGroupInput(session, "checkGroup_vara", label ="Varavastase kuriteo paragrahv",
+                               choices =sort(unique(vara_1$ParagrahvTais)),
+                               selected=unique(vara_1$ParagrahvTais))
+    }
+  })
+
   output$Kaart<-renderLeaflet({
     
     map<-leaflet()
@@ -328,6 +357,7 @@ server <- function(input, output, session) {
     }
     #Kui on tehtud linnuke vara kasti juurde, siis kantakse graafikule varaga seotud süüteod.
     if("vara" %in% input$checkGroup){
+
       if (!exists("vara_1")){
         createAlert(session, "andmete_laadimine", "vara_laadimine", title = "Andmete laadimine",
                     content = "Varavastaste rikkumiste andmestiku laadimine....", append = FALSE,
