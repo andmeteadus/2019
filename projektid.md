@@ -40,11 +40,11 @@ Oma ema rinnapiima peetakse parimaks toiduks vastsündinule. Muude heade omadust
 <i>App</i>, mis ühendab ja visualiseerib meditsiiniseadme ZetaView väljundeid, lihtsustades seeläbi teadlaste analüüsiprotsessi. Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/ZetaViewGraphs).
 <br><br>
 
-## [Toitumine](https://andmeteadus2018.shinyapps.io/Toitumine/)
+## [Toitumine](https://andmeteadus18.shinyapps.io/Toitumine/)
 <i>App</i>, mis määrab kasutajaid vastavalt toitumismustritele klastritesse. Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/Toitumine).
 <br><br>
 
-## [Surmade kajstamine Vikipeedias](https://andmeteadus2018.shinyapps.io/Wiki_surmad/)
+## [Surmade kajastamine Vikipeedias](https://andmeteadus2018.shinyapps.io/Wiki_surmad/)
 <i>App</i>, mis kuvab populaarsemaid veebilehti surnud inimeste kohta. Failid ja kood on leitavad [githubis](https://github.com/andmeteadus/2018/tree/gh-pages/Rakendused/Wiki_surmad).
 <br><br>
 
