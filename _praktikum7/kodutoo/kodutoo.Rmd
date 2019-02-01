@@ -1,36 +1,37 @@
 ---
-title: "Kodutöö"
+title: "KodutÃ¶Ã¶"
 output: 
   html_document:
     theme: null
 ---
 
-Tähtaeg: 03.04.2018 kell 23:59.
+TÃ¤htaeg: 01.04.2019 kell 10:15.
 
 # I osa
 
-(**19 punkti**) Lahenda praktikumis alustatud [biomarkerite ülesanded](../praktikum7_biomarkerid).
+(**19 punkti**) Lahenda praktikumis alustatud [biomarkerite Ã¼lesanded](../praktikum7_biomarkerid).
 
 # II osa
 
-Järgmises praktikumis tegeleme dopingutesti uurimisega. Järgnev video ja artikkel annavad sissejuhatuse teemasse. 
+JÃ¤rgmises praktikumis tegeleme dopingutesti uurimisega. JÃ¤rgnev video ja artikkel annavad sissejuhatuse teemasse. 
 
 (**2 punkti**) Vaata videot [The tradeoff between sensitivity and specificity](https://www.youtube.com/watch?v=vtYDyGGeQyo) statistilise testi tundlikkuse ja spetsiifilisuse kohta. 
 
-* Mida näitab statistilise testi tundlikkus (*sensitivity*)? 
+* Mida nÃ¤itab statistilise testi tundlikkus (*sensitivity*)? 
 Kuidas saavutada 100\% tundlikkus?
-* Miks räägitakse kompromissi leidmisest tundlikkuse ja spetsiifilisuse vahel (*tradeoff between sensitivity and specificity*)?
+* Miks rÃ¤Ã¤gitakse kompromissi leidmisest tundlikkuse ja spetsiifilisuse vahel (*tradeoff between sensitivity and specificity*)?
 
-(**4 punkti**) Loe Krista Fischeri ja Donald A. Berry artiklit [Statisticians Introduce Science to International Doping Agency: The Andrus Veerpalu Case](http://chance.amstat.org/2014/09/doping/) ning vasta järgmistele küsimustele.
+(**4 punkti**) Loe Krista Fischeri ja Donald A. Berry artiklit [Statisticians Introduce Science to International Doping Agency: The Andrus Veerpalu Case](http://chance.amstat.org/2014/09/doping/) ning vasta jÃ¤rgmistele kÃ¼simustele.
 
-* Sportlase verest mõõdeti kasvuhormooni (*hGH*) kahte isovormi *recGH* ja *pitGH*. Millist teststatistikut kasutati? (Vihje: testi nimetati *hGH Isoform Ratio Test*)
-* Artiklis (sektsioonis *The hGH Doping Test*) on välja toodud neli eeldust, mis peaksid dopingutesti korral olema täidetud. Nimeta nende seast kaks ning selgita kummagi kohta lühidalt, miks need olulised on. 
-* Oleme koostanud [skeemi](../examples/doping.png), mis võtab kokku artiklis kirjeldatud protsessi otsustuspiiride paikapanekust ja verifitseerimisest. Täida skeemis olevad lüngad a ja b. 
-* Millised statistilised möödapanekud esinesid kasvuhormooni dopingutestis? Nimeta kaks.
+* Sportlase verest mÃµÃµdeti kasvuhormooni (*hGH*) kahte isovormi *recGH* ja *pitGH*. Millist teststatistikut kasutati? (Vihje: testi nimetati *hGH Isoform Ratio Test*)
+* Artiklis (sektsioonis *The hGH Doping Test*) on vÃ¤lja toodud neli eeldust, mis peaksid dopingutesti korral olema tÃ¤idetud. Nimeta nende seast kaks ning selgita kummagi kohta lÃ¼hidalt, miks need olulised on. 
+* Oleme koostanud [skeemi](../examples/doping.png), mis vÃµtab kokku artiklis kirjeldatud protsessi otsustuspiiride paikapanekust ja verifitseerimisest. TÃ¤ida skeemis olevad lÃ¼ngad a ja b. 
+* Millised statistilised mÃ¶Ã¶dapanekud esinesid kasvuhormooni dopingutestis? Nimeta kaks.
 
 # Mida on vaja esitada?
 
-* I osa kohta tuleb esitada nii andmeanalüüsi raport (html või pdf formaadis) kui ka selle lähtekood .Rmd failina.
-* II osa vastused tuleb kirjutada meili sisusse või esitada tekstifailina. Lisaks palun kirjuta, kui palju aega kulus I ja II osa peale. Kas logistiline regressioon ja mitmese testimise korrektsioon olid sinu jaoks uued mõisted? Kuivõrd arusaadav oli nende idee? Mida arvad ülesannetest (kasulikkus, huvitavus)?
+* I osa kohta tuleb esitada nii andmeanalÃ¼Ã¼si raport (html vÃµi pdf formaadis) kui ka selle lÃ¤htekood .Rmd failina.
+* II osa vastused tuleb kirjutada meili sisusse vÃµi esitada tekstifailina. Lisaks palun kirjuta, kui palju aega kulus I ja II osa peale. Kas logistiline regressioon ja mitmese testimise korrektsioon olid sinu jaoks uued mÃµisted? KuivÃµrd arusaadav oli nende idee? Mida arvad Ã¼lesannetest (kasulikkus, huvitavus)?
 
-Lahendused saata meili peale: taavi.unt@ut.ee
+
+Lahendused esitada [Moodle keskkonna](https://moodle.ut.ee/course/view.php?id=8013#section-1) kaudu.
