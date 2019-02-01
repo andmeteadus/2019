@@ -1,42 +1,42 @@
 ---
-title: "Kodutöö 1"
+title: "KodutÃ¶Ã¶ 1"
 output: 
   html_document:
     theme: null
 ---
 
-Tähtaeg: 20.02.2018 23:59
+TÃ¤htaeg: 18.02.2019 10:15
 
 # I osa - veebiloengud, videod, artiklid (5 punkti)
-1. (**2 punkti**) Vaata Johns Hopkinsi reprodutseeritava analüüsi videosid:
+1. (**2 punkti**) Vaata Johns Hopkinsi reprodutseeritava analÃ¼Ã¼si videosid:
 
 * [Reproducible Research: Concepts and Ideas (Part 1/3)](https://www.youtube.com/watch?v=4rBX6r5emgQ&index=1&list=PLjTlxb-wKvXOU4WW4p3qc4VKWTI4gLNUf)
 * [Reproducible Research: Concepts and Ideas (Part 2/3)](https://www.youtube.com/watch?v=GXSRP--d3Q4&index=2&list=PLjTlxb-wKvXOU4WW4p3qc4VKWTI4gLNUf)
 * [Reproducible Research: Concepts and Ideas (Part 3/3)](https://www.youtube.com/watch?v=bwQWhZQmDuc&list=PLjTlxb-wKvXOU4WW4p3qc4VKWTI4gLNUf&index=3)
 
-Vasta järgmistele küsimustele:
+Vasta jÃ¤rgmistele kÃ¼simustele:
 
-* Selgitage, mida tähendab, et *reprodutseeritav analüüs* on kompromiss *uuringu replikeerimise* ja *mitte millegi* vahel.
-* Mis on sinu arvates reprodutseeritava analüüsi suurim väljakutse? Põhjenda. Kuidas sellega toime tulla?
+* Selgitage, mida tÃ¤hendab, et *reprodutseeritav analÃ¼Ã¼s* on kompromiss *uuringu replikeerimise* ja *mitte millegi* vahel.
+* Mis on sinu arvates reprodutseeritava analÃ¼Ã¼si suurim vÃ¤ljakutse? PÃµhjenda. Kuidas sellega toime tulla?
 
 2. (**1 punkt**) Vaata videot [Data Management Course: Sharing your data](https://www.youtube.com/watch?v=eUC7MweyyFA)
 
-Vasta järgmisele küsimusele:
+Vasta jÃ¤rgmisele kÃ¼simusele:
 
-* Nimeta vähemalt 3 olulist aspekti seoses andmete talletamise ning andmehaldusega, millele videos viidati.
+* Nimeta vÃ¤hemalt 3 olulist aspekti seoses andmete talletamise ning andmehaldusega, millele videos viidati.
 
 3. (**2 punkti**) Loe artiklit [Researchers Finally Replicated Reinhart-Rogoff, and There Are Serious Problems](http://rooseveltinstitute.org/researchers-finally-replicated-reinhart-rogoff-and-there-are-serious-problems/).
 
 
-Artikkel kirjeldab majandusteadlaste Reinhart'i ja Rogoff'i 2010. aasta publikatsiooni *Growth in a Time of Debt* ning mis vigu riigivõla ja majanduskasvu uurimisel tehti. Järgmises praktikumis uurime sama andmestikku, mida käsitleti ka Reinhart'i ja Rogoff'i artiklis.
+Artikkel kirjeldab majandusteadlaste Reinhart'i ja Rogoff'i 2010. aasta publikatsiooni *Growth in a Time of Debt* ning mis vigu riigivÃµla ja majanduskasvu uurimisel tehti. JÃ¤rgmises praktikumis uurime sama andmestikku, mida kÃ¤sitleti ka Reinhart'i ja Rogoff'i artiklis.
 
-Vasta järgmistele küsimustele:
+Vasta jÃ¤rgmistele kÃ¼simustele:
 
-* Nimeta, mis oli Reinhart'i ja Rogoff'i artikli üks olulisemaid tulemusi.
-* Millel põhines teadlaste Herndon'i, Ash'i ja Pollin'i kriitika majandusteadlaste Reinhart'i ja Rogoff'i teadusartiklile *Growth in a Time of Debt.* (nimeta 3 probleemi).
+* Nimeta, mis oli Reinhart'i ja Rogoff'i artikli Ã¼ks olulisemaid tulemusi.
+* Millel pÃµhines teadlaste Herndon'i, Ash'i ja Pollin'i kriitika majandusteadlaste Reinhart'i ja Rogoff'i teadusartiklile *Growth in a Time of Debt.* (nimeta 3 probleemi).
 
-# II osa - andmete analüüs (20 punkti)
-Lõpeta praktikumis alustatud [automaatse aktsiaturu ülevaate genereerimise ülesanded](../praktikum1_aktsiad).
+# II osa - andmete analÃ¼Ã¼s (20 punkti)
+LÃµpeta praktikumis alustatud [automaatse aktsiaturu Ã¼levaate genereerimise Ã¼lesanded](../praktikum1_aktsiad).
 
 Abimaterjalid:
 
@@ -44,21 +44,21 @@ Abimaterjalid:
 * [dplyr](../praktikum1_dplyr)
 
 <div class="message">
-Kui tunned ennast veel ebakindlalt *dplyr* paketi kasutamise osas, siis soovitame ühte järgnevatest:
+Kui tunned ennast veel ebakindlalt *dplyr* paketi kasutamise osas, siis soovitame Ã¼hte jÃ¤rgnevatest:
 
 * Lugeda juhendit [Introduction to dplyr](http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html)
-* Vaadata videot https://www.youtube.com/watch?v=8SGif63VW6E&t=4m5s, kus Hadley Wickham, kes on *dplyr* paketi autor, õpetab *UseR 2014* konverentsil seda paketti
-    * 4:05 - 8:25 sissejuhatus, ülevaade andmestikest
+* Vaadata videot https://www.youtube.com/watch?v=8SGif63VW6E&t=4m5s, kus Hadley Wickham, kes on *dplyr* paketi autor, Ãµpetab *UseR 2014* konverentsil seda paketti
+    * 4:05 - 8:25 sissejuhatus, Ã¼levaade andmestikest
     * 8:25 - 27:45 funktsioonid `filter`, `select`, `arrange`, `mutate`
     * 27:45 - 35:40 funktsioonid `summarise`, `group_by`
 </div>
 
 # Mida on vaja esitada?
 
-* I osa kohta tuleb esitada vastused tekstifailis või kirjutada vastused meili sisusse. 
-* II osa kohta tuleb esitada nii andmeanalüüsi raport (html või pdf formaadis) kui ka selle lähtekood .Rmd failina.
+* I osa kohta tuleb esitada vastused tekstifailis vÃµi kirjutada vastused meili sisusse. 
+* II osa kohta tuleb esitada nii andmeanalÃ¼Ã¼si raport (html vÃµi pdf formaadis) kui ka selle lÃ¤htekood .Rmd failina.
 
 
-Lahendused saata meili peale: taavi.unt@ut.ee
+Lahendused esitada [Moodle keskkonna](https://moodle.ut.ee/course/view.php?id=8013#section-1) kaudu.
 
 
