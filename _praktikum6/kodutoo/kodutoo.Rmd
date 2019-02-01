@@ -1,11 +1,11 @@
 ---
-title: "Kodutöö"
+title: "KodutÃ¶Ã¶"
 output: 
   html_document:
     theme: null
 ---
 
-Tähtaeg: 29.03.2016 23:59 GMT
+TÃ¤htaeg: 25.03.2019 10:15.
 
 # I osa
 
@@ -15,40 +15,41 @@ Mida (uut) said teada hierarhilisest klasterdamisest?
 
 (**1 punkt**) Vaata Johns Hopkinsi videot [logistilise regressiooni kohta](https://www.youtube.com/watch?v=79q9avsyG9Y)
 
-Nimeta üks põhjus, miks lineaarne regressioon ei ole mõistlik valik binaarse y-tunnuse modelleerimiseks?
+Nimeta Ã¼ks pÃµhjus, miks lineaarne regressioon ei ole mÃµistlik valik binaarse y-tunnuse modelleerimiseks?
 
-(**2 punkti**) Joonista R-is logistiliste kõverate 
+(**2 punkti**) Joonista R-is logistiliste kÃµverate 
 $$y = \frac{e^{\beta_0 + \beta_1 x}}{1 + e^{\beta_0 + \beta_1 x}}$$
 graafikud:
 
-* Ühel joonisel $\beta_0 \in \{-1, 0, 1\}$ ja $\beta_1 = 1$.
+* Ãœhel joonisel $\beta_0 \in \{-1, 0, 1\}$ ja $\beta_1 = 1$.
 * Teisel joonisel $\beta_0 = 0$ ja $\beta_1 \in \{0.5, 1, 2\}$. 
 
 ```{r}
 # sinu kood
 ```
 
-Selgita, millist mõju omab $\beta_0$ ja millist $\beta_1$ muutmine. 
+Selgita, millist mÃµju omab $\beta_0$ ja millist $\beta_1$ muutmine. 
 
 (**1 punkt**) Loe artiklit http://www.postimees.ee/2721878/hoiatus-meie-vereproovist
 
-Nimeta jutuks olnud teadusartikli põhitulemus. 
+Nimeta jutuks olnud teadusartikli pÃµhitulemus. 
 
-Soovitame sul katsuda jõudu ka teadusartikli endaga [Biomarker Profiling by Nuclear Magnetic Resonance Spectroscopy for the Prediction of All-Cause Mortality: An Observational Study of 17,345 Persons](http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001606). Järgmises praktikumis kasutame sedasama andmestikku, millel see artikkel põhineb. 
+Soovitame sul katsuda jÃµudu ka teadusartikli endaga [Biomarker Profiling by Nuclear Magnetic Resonance Spectroscopy for the Prediction of All-Cause Mortality: An Observational Study of 17,345 Persons](http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001606). JÃ¤rgmises praktikumis kasutame sedasama andmestikku, millel see artikkel pÃµhineb. 
 
 # II osa
 
-(**10 punkti**) Lahenda praktikumis alustatud [käsitsi kirjutatud numbrite ülesanded](../praktikum6_numbrid).
+(**10 punkti**) Lahenda praktikumis alustatud [kÃ¤sitsi kirjutatud numbrite Ã¼lesanded](../praktikum6_numbrid).
 
 # III osa
 
-(**10 punkti**) Analüüsi [riigikogu hääletusmustreid](../praktikum6_polaarsus). 
+(**10 punkti**) AnalÃ¼Ã¼si [riigikogu hÃ¤Ã¤letusmustreid](../praktikum6_polaarsus). 
 
 
 # Mida on vaja esitada?
 
-* I osa vastused tuleb kirjutada meili sisusse või esitada tekstifailina.
-* II ja III osa kohta tuleb esitada nii andmeanalüüsi raport (html või pdf formaadis) kui ka selle lähtekood .Rmd failina.
-* Lisaks võiksid mainida, kui palju aega kulus I, II ja III osa peale. Mida arvad ülesannetest?
+* I osa vastused tuleb kirjutada meili sisusse vÃµi esitada tekstifailina.
+* II ja III osa kohta tuleb esitada nii andmeanalÃ¼Ã¼si raport (html vÃµi pdf formaadis) kui ka selle lÃ¤htekood .Rmd failina.
+* Lisaks vÃµiksid mainida, kui palju aega kulus I, II ja III osa peale. Mida arvad Ã¼lesannetest?
 
-Lahendused saata meili peale: markgimbutas@gmail.com
+
+Lahendused esitada [Moodle keskkonna](https://moodle.ut.ee/course/view.php?id=8013#section-1) kaudu.
