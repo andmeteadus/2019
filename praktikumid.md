@@ -3,11 +3,11 @@ layout: page
 title: Praktikumimaterjalid
 ---
 
-Praktikumi materjalid täienevad jooksvalt, 2017. aasta materjalidega saab tutvuda [siin](../../2017/praktikumid/).
+Praktikumi materjalid täienevad jooksvalt, 2018. aasta materjalidega saab tutvuda [siin](../../2018/praktikumid/).
 
 ## Praktikum 1
 
-14.02.2018 
+11.02.2019 
 
 Sissejuhatus ainesse, reprodutseeritavasse analüüsi ja automatiseeritud statistikasse. Tarkvara R meeldetuletamine. 
 Pakett knitr. Markdown. Pakett dplyr. Näide: automaatne aktsiaturu ülevaade. 
@@ -20,12 +20,12 @@ Pakett knitr. Markdown. Pakett dplyr. Näide: automaatne aktsiaturu ülevaade.
     * [dplyr minimalistlik näide](../praktikum1_dplyr)
 * [Automaatne aktsiaturu ülevaade](../praktikum1_aktsiad)
 * [Kodutöö](../praktikum1_kodutoo)
-    * Tähtaeg 20.02.2018 kell 23:59.
+    * Tähtaeg 18.02.2019 kell 10:15.
 
 
 ## Praktikum 2
 
-21.02.2018
+18.02.2019
 
 Reprodutseeritav analüüs. Näide: Kas suur võlakoorem vähendab riigi majanduskasvu? Joonised paketiga ggplot2.
 Pettuse tuvastamine Benfordi seaduse abil.
@@ -36,11 +36,11 @@ Pettuse tuvastamine Benfordi seaduse abil.
 * [*Growth in a time of debt*: riigi võlakoormuse ja SKP vaheline seos](../praktikum2_riigivolg)
 * [Pettuse tuvastamise ülesanded](../praktikum2_pettus)
 * [Kodutöö](../praktikum2_kodutoo)
-    * Tähtaeg 27.02.2018 kell 23:59.
+    * Tähtaeg 25.02.2019 kell 10:15.
 
 ## Praktikum 3
 
-28.02.2018
+25.02.2019
 
 Joonised paketiga ggplot2: erinevad joonisetüübid. Interaktiivsed rakendused paketiga shiny. Näide: ÕISi tagasiside visualiseerimine. 
 
@@ -49,22 +49,22 @@ Joonised paketiga ggplot2: erinevad joonisetüübid. Interaktiivsed rakendused p
     * [jaotuste ära arvamise ülesanne](../praktikum3_quiz1) ja [graafikute tajumise ülesanne](../praktikum3_quiz2)
 * [Õppetulemuste visualiseerimise ülesanded](../praktikum3_oppeained)
 * [Kodutöö](../praktikum3_kodutoo)
-    * Tähtaeg 06.03.2018 kell 23:59.
+    * Tähtaeg 04.03.2019 kell 10:15.
 
 ## Praktikum 4
 
-07.03.2018
+04.03.2019
 
 Mittestandardne graafika. Kuidas teha sama häid jooniseid nagu NY Times seda teeb? Näide: NBA andmestik.
 
 * [NBA ülesanded](../praktikum4_nba)
 * [Lennuliikluse visualiseerimise ülesanded](../praktikum4_geo)
 * [Kodutöö](../praktikum4_kodutoo)
-    * Tähtaeg 13.03.2018 kell 23:59.
+    * Tähtaeg 11.03.2019 kell 10:15.
 
 ## Praktikum 5
 
-14.03.2018
+11.03.2019
 
 Andmete kraapimine veebist. Näide: Riigikogu saadikute hääletamismustrid.
 
@@ -72,11 +72,11 @@ Andmete kraapimine veebist. Näide: Riigikogu saadikute hääletamismustrid.
     * [rvest minimalistlik näide](../praktikum5_rvest_minimal)
 * [Veebi kraapimise ülesanded](../praktikum5_web)
 * [Kodutöö](../praktikum5_kodutoo)
-    * Tähtaeg 20.03.2018 kell 23:59.
+    * Tähtaeg 18.03.2019 kell 10:15.
 
 ## Praktikum 6
 
-21.03.2018
+18.03.2019
 
 Heatmap. Peakomponentanalüüs. Näide (jätkub): Riigikogu saadikute hääletamismustrid. Käsitsi kirjutatud numbrite andmestik.
 
@@ -86,11 +86,11 @@ Heatmap. Peakomponentanalüüs. Näide (jätkub): Riigikogu saadikute hääletam
 * [Käsitsi kirjutatud numbritel põhinevad ülesanded](../praktikum6_numbrid)
 * [Riigikogu saadikute hääletusmustrite analüüs](../praktikum6_polaarsus)
 * [Kodutöö](../praktikum6_kodutoo)
-    * Tähtaeg 27.03.2018 kell 23:59.
+    * Tähtaeg 25.03.2019 kell 10:15.
 
 ## Praktikum 7
 
-28.03.2018
+25.03.2019
 
 Logistiline regressioon. Mitmese testimise probleem. Näide: biomarkerid ja statistika (ehk kuidas ennustada surma).
 
@@ -98,15 +98,15 @@ Logistiline regressioon. Mitmese testimise probleem. Näide: biomarkerid ja stat
     * [Logistilise regressiooni minimalistlik näide](../praktikum7_logreg_minimal)
 * [Biomarkerite abil surma prognoosimine](../praktikum7_biomarkerid)
 * [Kodutöö](../praktikum7_kodutoo)
-    * Tähtaeg 03.04.2018 kell 23:59.
+    * Tähtaeg 01.04.2019 kell 10:15.
 
 ## Praktikum 8
 
-04.04.2018
+01.04.2019
 
 Doping ja statistika. Statistiline test. Näide: ühe dopingujuhtumi analüüs.
 
 * [Dopingutesti ülesanded](../praktikum8_doping)
 * [Kodutöö](../praktikum8_kodutoo)
-    * Tähtaeg 10.04.2018 kell 23:59.
+    * Tähtaeg 08.04.2019 kell 10:15.
 
