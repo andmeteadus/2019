@@ -1,39 +1,40 @@
 ---
-title: "Kodutöö"
+title: "KodutÃ¶Ã¶"
 output: 
   html_document:
     theme: null
 ---
 
-Tähtaeg: 27.02.2018 23:59
+TÃ¤htaeg: 25.02.2019 10:15
 
 # I osa - veebiloengud, videod, artiklid (4 punkti)
-1. (**3 punkti**) Vaata Johns Hopkinsi andmeanalüüsi kursuse videosid:
+1. (**3 punkti**) Vaata Johns Hopkinsi andmeanalÃ¼Ã¼si kursuse videosid:
 
 * [The ggplot2 Plotting System - Part 2 (1/3)](https://www.youtube.com/watch?v=zLwrYvH2Hg0&list=PLjTlxb-wKvXPhZ7tQwlROtFjorSj9tUyZ&index=13)
 * [The ggplot2 Plotting System - Part 2 (2/3)](https://www.youtube.com/watch?v=Z3WP_Up8b5I&list=PLjTlxb-wKvXPhZ7tQwlROtFjorSj9tUyZ&index=14)
 * [The ggplot2 Plotting System - Part 2 (3/3)](https://www.youtube.com/watch?v=gU8w0gjSx40&list=PLjTlxb-wKvXPhZ7tQwlROtFjorSj9tUyZ&index=15)
 
-Nimeta kolm kasulikku teadmist, mis videotest teada said. Juhul kui sa kõike juba teadsid, siis nimeta kolm sellist videos mainitud teadmist, mida sa kõige sagedamini kasutad.
+Nimeta kolm kasulikku teadmist, mis videotest teada said. Juhul kui sa kÃµike juba teadsid, siis nimeta kolm sellist videos mainitud teadmist, mida sa kÃµige sagedamini kasutad.
 
 2. (**1 punkt**) Vaata https://www.youtube.com/watch?v=5Dnw46eC-0o
 
-Võta selle video idee ühe lausega kokku.
+VÃµta selle video idee Ã¼he lausega kokku.
 
 # II osa (10 punkti)
 
-Lahenda praktikumis alustatud [*Growth in a Time of Debt*](../praktikum2_riigivolg) ülesanded.
+Lahenda praktikumis alustatud [*Growth in a Time of Debt*](../praktikum2_riigivolg) Ã¼lesanded.
 
 # III osa (11 punkti)
 
-Lahenda [pettuse tuvastamise ülesanded](../praktikum2_pettus). 
+Lahenda [pettuse tuvastamise Ã¼lesanded](../praktikum2_pettus). 
 
 # Mida on vaja esitada?
 
-* I osa kohta tuleb esitada vastused tekstifailis või kirjutada vastused meili sisusse. 
-* II ja III osa kohta tuleb esitada nii andmeanalüüsi raport (html või pdf formaadis) kui ka selle lähtekood .Rmd failina.
+* I osa kohta tuleb esitada vastused tekstifailis vÃµi kirjutada vastused meili sisusse. 
+* II ja III osa kohta tuleb esitada nii andmeanalÃ¼Ã¼si raport (html vÃµi pdf formaadis) kui ka selle lÃ¤htekood .Rmd failina.
 
-Lisaks võiksid mainida, kui palju aega kulus osa I, II ja III peale. Mida arvad ülesannetest ja videotest (kasulikkus, huvitavus)?
+Lisaks vÃµiksid mainida, kui palju aega kulus osa I, II ja III peale. Mida arvad Ã¼lesannetest ja videotest (kasulikkus, huvitavus)?
 
-Lahendused saata meili peale: taavi.unt@ut.ee
+
+Lahendused esitada [Moodle keskkonna](https://moodle.ut.ee/course/view.php?id=8013#section-1) kaudu.
 
