@@ -1,23 +1,23 @@
 ---
-title: "Kodutöö"
+title: "KodutÃ¶Ã¶"
 output: 
   html_document:
     theme: null
 ---
 
-Tähtaeg: 13.03.2018 23:59
+TÃ¤htaeg: 11.03.2019 10:15
 
 # I osa 
-(**15 punkti**) Lahenda praktikumis alustatud [*NBA*](../praktikum4_nba) ülesanded.
+(**15 punkti**) Lahenda praktikumis alustatud [*NBA*](../praktikum4_nba) Ã¼lesanded.
 
 # II osa
-(**10 punkti**) Lahenda [lennuliikluse visualiseerimise](../praktikum4_geo) ülesanded.
+(**10 punkti**) Lahenda [lennuliikluse visualiseerimise](../praktikum4_geo) Ã¼lesanded.
 
 
 # Mida on vaja esitada?
 
-* I osa kohta tuleb esitada Shiny rakenduse fail (app.R või ui.R ja server.R). 
-* II osa kohta tuleb esitada nii andmeanalüüsi raport (html formaadis) kui ka selle lähtekood .Rmd failina. 
-* Lisaks võiksid mainida, kui palju aega kulus I ja II osa peale. Mida arvad ülesannetest?
+* I osa kohta tuleb esitada Shiny rakenduse fail (app.R vÃµi ui.R ja server.R). 
+* II osa kohta tuleb esitada nii andmeanalÃ¼Ã¼si raport (html formaadis) kui ka selle lÃ¤htekood .Rmd failina. 
+* Lisaks vÃµiksid mainida, kui palju aega kulus I ja II osa peale. Mida arvad Ã¼lesannetest?
 
-Lahendused saata meili peale: taavi.unt@ut.ee
+Lahendused esitada [Moodle keskkonna](https://moodle.ut.ee/course/view.php?id=8013#section-1) kaudu.
