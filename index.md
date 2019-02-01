@@ -61,9 +61,11 @@ Lisaks praktikumidele sisaldab õppeaine järgnevaid komponente:
 * **Kodutööd:** Kokku antakse 8 kodutööd (igaüks 25 punkti). 
   * Kodutöö sisaldab enamasti andmete analüüsimist, visualiseerimist jne. Iga kodutöö tulemuseks on [knitr](http://yihui.name/knitr/)-i raport koos R-i koodi ning kommentaaridega. 
   * Kodutöö võib sisaldada ka küsimusi iseseisvalt õpitu (näiteks videoloengu) kohta. 
+  * Kodutööde esitamine käib läbi Moodle'i.
 * **Projekt:** Lisaks tuleb läbi viia üks praktiline andmeanalüüs ning kirjutada populaarteaduslikus vormis artikkel saadud tulemustest. 
 Artikkel on illustreeritud asjakohaste joonistega ning on arusaadav ka mittestatistikule. 
 Projekti võib teha kas üksinda või paaristööna. Tulemusi on vaja esitleda suulisel kaitsmisel. Soovi korral võib tutvuda [2015.](../2015/projektid/) ja [2017.](../2017/projektid/) aasta projektidega.
+ * Iga projekti esitanud tudeng(id) saavad ühe kaastudengi(te) projekti retsenseerimiseks.
 
 Aine läbimiseks on vaja:
 
@@ -83,7 +85,8 @@ Aine läbimiseks on vaja:
 
 * **Praktikumid esmaspäeviti kell 10:15** ruumis 004
 (nädalatel 24 - 31). 
-* **Projektide ettekandmine kolmapäeval 1. aprill kell 10:15** (nädal 22).
+* **Projektide tähtaeg kolmapäeval 14. mai kell 10:15** (nädal 37).
+* **Projektide ettekandmine esmaspäeval 20. mai kell 10:15** (nädal 38).
 
 # Kontakt ja küsimused
 
