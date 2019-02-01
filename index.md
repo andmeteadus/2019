@@ -79,15 +79,12 @@ Aine läbimiseks on vaja:
 
 # Tunniplaan
 
-Õppeaine toimub 2017/2018. õppeaasta kevadsemestril. 
+Õppeaine toimub 2018/2019. õppeaasta kevadsemestril. 
 
-* **Praktikumid kolmapäeviti kell 16:15** ruumis 004
+* **Praktikumid esmaspäeviti kell 10:15** ruumis 004
 (nädalatel 24 - 31). 
-* **Projektide ettekandmine kolmapäeval 9. mail kell 16:15** ruumis **403** (nädal 36).
+* **Projektide ettekandmine kolmapäeval 1. aprill kell 10:15** (nädal 22).
 
 # Kontakt ja küsimused
 
-* Taavi Unt
-* Merli Mändul
-
-Meiega saab ühendust aadressidel taavi.unt [at] ut.ee ja merli.mandul [at] ut.ee
+* Kaur Lumiste kaur.lumiste [at] ut.ee ja Liivi 2-519.
