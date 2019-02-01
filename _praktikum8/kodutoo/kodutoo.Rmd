@@ -1,20 +1,21 @@
 ---
-title: "Kodutöö"
+title: "KodutÃ¶Ã¶"
 output: 
   html_document:
     theme: null
 ---
 
-Tähtaeg: 10.04.2018 23:59
+TÃ¤htaeg: 08.04.2019 10:15
 
 
-(**25 punkti**) Lahenda praktikumis alustatud [dopingutesti ülesanded](../praktikum8_doping).
+(**25 punkti**) Lahenda praktikumis alustatud [dopingutesti Ã¼lesanded](../praktikum8_doping).
 
 
 # Mida on vaja esitada?
 
-* Tuleb esitada nii andmeanalüüsi raport (html või pdf formaadis) kui ka selle lähtekood .Rmd failina.
+* Tuleb esitada nii andmeanalÃ¼Ã¼si raport (html vÃµi pdf formaadis) kui ka selle lÃ¤htekood .Rmd failina.
 
-* Lisaks palun kirjutada, kui palju aega kulus ülesannete peale. Mida arvad ülesannetest (kasulikkus, huvitavus)?
+* Lisaks palun kirjutada, kui palju aega kulus Ã¼lesannete peale. Mida arvad Ã¼lesannetest (kasulikkus, huvitavus)?
 
-Lahendused saata meili peale: taavi.unt@ut.ee
+
+Lahendused esitada [Moodle keskkonna](https://moodle.ut.ee/course/view.php?id=8013#section-1) kaudu.
