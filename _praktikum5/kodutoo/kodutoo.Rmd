@@ -23,7 +23,7 @@ J채rgmises praktikumis kasutame peakomponentanal체체si, seet천ttu seisneb kodut�
 
 * Kuidas valitakse esimese peakomponendi suund (st millise kriteeriumi j채rgi valitakse esimene peakomponent)?
 
-(**1 punkt**) Vaata Stanfordi masin천ppe kursuse videot [Principal Component Analysis Problem Formulation](https://www.youtube.com/watch?v=WGXcIlJhc58)
+(**1 punkt**) Vaata Stanfordi masin천ppe kursuse videot [Principal Component Analysis Problem Formulation](https://www.youtube.com/watch?v=T-B8muDvzu0)
 
 * Mida uut said siit videost teada lisaks eelnevale kahele? Kumb meeldis rohkem? 
 
