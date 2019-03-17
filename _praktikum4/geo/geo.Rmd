@@ -70,7 +70,7 @@ lines(gc_points)
 
 ### Näide2: suurringjoon R-is
 
-Näide, kuidas joonistada suurringjoont R-is. Ühendame Liivi 2 maja Eyjafjallajökulliga kasutades `ggmap()` funktsiooni. Loe rohkem `ggmap()` funktsiooni kohta [siit.](https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf/)
+Näide, kuidas joonistada suurringjoont R-is. Ühendame Liivi 2 maja Eyjafjallajökulliga kasutades `ggmap()` funktsiooni. Loe rohkem `ggmap()` funktsiooni kohta [siit.](https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf)
 
 ```{r, message=FALSE}
 library(ggmap)
