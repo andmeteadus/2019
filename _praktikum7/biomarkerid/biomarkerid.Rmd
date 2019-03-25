@@ -35,7 +35,7 @@ Kasutame valimit Geenivaramu andmestikust, mida kasutati eelnevalt mainitud tead
 * ...
 * *Cit* - viimase biomarkeri väärtus
 
-Laadi ÕISist alla andmestik *biomarkerid.csv* ja loe töökeskkonda.
+Laadi Moodle-st alla andmestik *biomarkerid.csv* ja loe töökeskkonda.
 
 Analüüsi lihtsuse huvides eemalda puuduvaid andmeid sisaldavad read. Abiks on funktsioon `na.omit`. 
 
