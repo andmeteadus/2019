@@ -26,7 +26,7 @@ Sünteetilise kasvuhormooni kasutamist on raske tuvastada. Üks põhjustest on kasv
 
 ### Andmestik
 
-Laadi ÕISist alla andmestik *doping.csv* ja loe töökeskkonda. Andmestikus on järgmised tunnused:
+Laadi Moodle-st alla andmestik *doping.csv* ja loe töökeskkonda. Andmestikus on järgmised tunnused:
 
 * *ethnicity* - etnilisus: kas *african* või *caucasian*
 * *kit* - dopingutesti erinevad variandid (kit1 ja kit2)
