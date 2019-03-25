@@ -155,7 +155,7 @@ Esmased otsustuspiirid on määratud. Nüüd tuleb neid verifitseerida. Kuidas tegi 
 * Visati välja 10 *imelikku* (liiga kõrget) andmepunkti.
 * Selle andmestiku põhjal arvutatud kvantiilid tulid väiksemad kui esmase uuringu kvantiilid. Järeldati, et esmased piirmäärad on verifitseeritud.
 
-Laadi ÕISist alla andmestik *doping_verification.csv*. 
+Laadi Moodle-st alla andmestik *doping_verification.csv*. 
 
 ### Boonusülesanne (kuni 5 punkti)
 
