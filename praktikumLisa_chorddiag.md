@@ -2,4 +2,4 @@
 layout: page
 ---
 
-{% include_relative /__praktikumLisa/chorddiag.html %}
+{% include_relative /_praktikumLisa/chorddiag.html %}
