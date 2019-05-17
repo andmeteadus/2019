@@ -30,7 +30,12 @@ opilased = data.frame(Matem = c(50, 25, 5, 12),
 opilased = as.matrix(opilased)
 row.names(opilased) = c("Paralleel A", "Paralleel B", "Paralleel C", "Paralleel D")
 
-chorddiag(opilased, type = "bipartite", showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
+chorddiag(opilased, 
+          type = "bipartite", 
+          showTicks = F, 
+          groupnameFontsize = 14, 
+          groupnamePadding = 10, 
+          margin = 90)
 ```
 
 Graafikut analüüsides võib öelda esmalt, et B paralleel on kõige suurem, järgnevad A, D ja C. Teiseks on B paralleelis suur huvi spordi ja kunstiõpetuse vastu, füüsika ja matemaatika jäävad tahaplaanile. Kõige tasakaalukam lisakursuste osas on D paralleel kuna neil on õppeained kõige ühtlasemalt jaotunud.
