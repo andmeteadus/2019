@@ -7,28 +7,17 @@ output:
 
 ### Sissejuhatus
 
-**Sarnasus diagramm** (_chord diagram_) on maatriks tüüpi (üldiselt sarnasuste) andmete graafiline esitusviis. Tunnused esitatakse ringi kujuliselt ja tunnuste vahelised seosed on esitatud kaartena. Üldiselt ringist haaratud osa näitab tunnuse osakaalu kõikidest andmetest ja ühendatud kaarte laius seose tugevust.
+**Sarnasus diagramm** (_chord diagram_) on maatriks tüüpi (üldiselt sarnasuste aga võib ka kauguste või seoste) andmete graafiline esitusviis. Tunnused esitatakse ringi kujuliselt ja tunnuste vahelised seosed on esitatud kaartena. Üldiselt ringist haaratud osa võib näidata tunnuse osakaalu kõikidest andmetest ja ühendatud kaarte laius seose tugevust. Värvidega on võimalik näidata suunda.
 
+R-is võimaldab pakett `chorddiag` teha interaktiivseid sarnasus diagramme. Pakett kasutab JavaScripti D3 visulisatsiooni teeki. Diagramm väljastatakse R-is html väljundina, seega on R Markdown-ga lihtne haaravaid veebilehti vormistada.
 
-The chorddiag package in R allows to create interactive chord diagrams using the JavaScript visualization library D3 from within R using the htmlwidgets interfacing framework.
-
-In this blog post, we will see how to create interactive chord diagrams. You can hover over the arcs for each of the courses/sections below and see how many students from each section are taking each course.
-
-Sander "Gamma" Lognormaalsele meeldib võistelda. Eelmine nädal käis ta rahvusvahelisel statistikaolümpiaadil, kus ta ei suutnud enamat pronksmedalist. 
-
-
-Selles lisapraktikumis uurime sarnasuste esitamist eelmainitud graafiku abil ja kasutame selleks R-i `chorddiag` paketti.
+Selles lisapraktikumis uurime sarnasuste esitamist eelmainitud graafiku abil, valmistame ette andmed ja loome interaktiivse joonise. Selle saavutamiseks kasutame R-i `chorddiag` paketti.
 
 ### Lihtne näide
 
+Allolev graafik näitab palju põhikooli õpilasi igast klassi paralleelist on valinud omale lisakursuseid. Hiirega kaarte peale minnes kuvatakse sektsiooni ja ainet ühendav kaar ning selle taga peituv number. Näiteks paralleelist A on 50 õpilast soovinud ennast matemaatika rohkem harida ja paralleelist C on 29 õpilast valinud omale lisaõppeaineks füüsika.
 
-Sünteetilise kasvuhormooni kasutamist on raske tuvastada. Üks põhjustest on kasvuhormooni kontsentratsiooni suur varieeruvus päeva lõikes ning pulsseeruv sekretsioon.
-
-<!--
-![](plot1.png "Skitseering kasvuhormooni pulsseeruvast sekretsioonist artikli Hersch and Merriam (2008) põhjal.")
--->
-
-Lihtne näide
+Kood ja tulemus
 
 ```{r}
 library(chorddiag)
@@ -39,19 +28,36 @@ opilased = data.frame(Matem = c(50, 25, 5, 12),
                       KehalKasv = c(24,67,27,15))
 
 opilased = as.matrix(opilased)
-row.names(opilased) = c("Section A", "Section B", "Section C", "Section D")
+row.names(opilased) = c("Paralleel A", "Paralleel B", "Paralleel C", "Paralleel D")
 
 chorddiag(opilased, type = "bipartite", showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
 ```
 
+Graafikut analüüsides võib öelda esmalt, et B paralleel on kõige suurem, järgnevad A, D ja C. Teiseks on B paralleelis suur huvi spordi ja kunstiõpetuse vastu, füüsika ja matemaatika jäävad tahaplaanile. Kõige tasakaalukam lisakursuste osas on D paralleel kuna neil on õppeained kõige ühtlasemalt jaotunud.
 
+### Ülesanne 1 (4 punkti) 
 
+Uuri chorddiag dokumentatsiooni ja vasta järgmistele küsimustele:
+
+* Mida reguleerib argument `showTicks`?
+* Proovi lahti seletada, mis muutub graafikul kui argument `type` väärtus muuta `directional`? Mis sorti andmeid soovib funktsioon `chorddiag` kui `type = bipartite` ja milliseid kui `type = directional`?
+* Muuda eelmises näites argument `type = directional` ja oletame:
+  * Veergudes on ained, mis õpilased valisid esimese poolaasta lisakursuste blokiks ja 
+  * ridades on ained, mille hulgast valiti 2. poolaasta lisakursused. 
+
+Tõlgenda 2-3 juhtu joonise põhjal.
+
+```{r}
+# sinu kood
+```
+
+<!--
 ### Andmestik
 
 
 
 
-### Ülesanne 1 (3 punkt) -  andmete õigesse vormi viimine
+### Ülesanne 2 (3 punkt) -  andmete õigesse vormi viimine
 
 Vii andmed õigesse vormi, tulemuseks peaksid saama maatriksi, kus veergudes on tunnused ja ridades samuti tunnused ning maatriksi sees on mõõdetud sarnasus.
 
@@ -149,3 +155,5 @@ shinyServer(function(input, output) {
 Täienda shiny rakendust järgmiselt:
  - lisa raadionuppud "Turu" valikutega: "Ida", "Lääs", "Lõuna"
  - täiusta `server` koodi, nii, et raadionupu valik filtreeriks andmeid ja sarnasuste joonis muutuks.
+
+-->

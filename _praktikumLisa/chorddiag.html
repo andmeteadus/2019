@@ -51,19 +51,14 @@ if (window.hljs) {
 
 <div id="sissejuhatus" class="section level3">
 <h3>Sissejuhatus</h3>
-<p><strong>Sarnasus diagramm</strong> (<em>chord diagram</em>) on maatriks tüüpi (üldiselt sarnasuste) andmete graafiline esitusviis. Tunnused esitatakse ringi kujuliselt ja tunnuste vahelised seosed on esitatud kaartena. Üldiselt ringist haaratud osa näitab tunnuse osakaalu kõikidest andmetest ja ühendatud kaarte laius seose tugevust.</p>
-<p>The chorddiag package in R allows to create interactive chord diagrams using the JavaScript visualization library D3 from within R using the htmlwidgets interfacing framework.</p>
-<p>In this blog post, we will see how to create interactive chord diagrams. You can hover over the arcs for each of the courses/sections below and see how many students from each section are taking each course.</p>
-<p>Sander “Gamma” Lognormaalsele meeldib võistelda. Eelmine nädal käis ta rahvusvahelisel statistikaolümpiaadil, kus ta ei suutnud enamat pronksmedalist.</p>
-<p>Selles lisapraktikumis uurime sarnasuste esitamist eelmainitud graafiku abil ja kasutame selleks R-i <code>chorddiag</code> paketti.</p>
+<p><strong>Sarnasus diagramm</strong> (<em>chord diagram</em>) on maatriks tüüpi (üldiselt sarnasuste aga võib ka kauguste või seoste) andmete graafiline esitusviis. Tunnused esitatakse ringi kujuliselt ja tunnuste vahelised seosed on esitatud kaartena. Üldiselt ringist haaratud osa võib näidata tunnuse osakaalu kõikidest andmetest ja ühendatud kaarte laius seose tugevust. Värvidega on võimalik näidata suunda.</p>
+<p>R-is võimaldab pakett <code>chorddiag</code> teha interaktiivseid sarnasus diagramme. Pakett kasutab JavaScripti D3 visulisatsiooni teeki. Diagramm väljastatakse R-is html väljundina, seega on R Markdown-ga lihtne haaravaid veebilehti vormistada.</p>
+<p>Selles lisapraktikumis uurime sarnasuste esitamist eelmainitud graafiku abil, valmistame ette andmed ja loome interaktiivse joonise. Selle saavutamiseks kasutame R-i <code>chorddiag</code> paketti.</p>
 </div>
 <div id="lihtne-naide" class="section level3">
 <h3>Lihtne näide</h3>
-<p>Sünteetilise kasvuhormooni kasutamist on raske tuvastada. Üks põhjustest on kasvuhormooni kontsentratsiooni suur varieeruvus päeva lõikes ning pulsseeruv sekretsioon.</p>
-<!--
-![](plot1.png "Skitseering kasvuhormooni pulsseeruvast sekretsioonist artikli Hersch and Merriam (2008) põhjal.")
--->
-<p>Lihtne näide</p>
+<p>Allolev graafik näitab palju põhikooli õpilasi igast klassi paralleelist on valinud omale lisakursuseid. Hiirega kaarte peale minnes kuvatakse sektsiooni ja ainet ühendav kaar ning selle taga peituv number. Näiteks paralleelist A on 50 õpilast soovinud ennast matemaatika rohkem harida ja paralleelist C on 29 õpilast valinud omale lisaõppeaineks füüsika.</p>
+<p>Kood ja tulemus</p>
 <pre class="r"><code>library(chorddiag)
 
 opilased = data.frame(Matem = c(50, 25, 5, 12),
@@ -72,47 +67,87 @@ opilased = data.frame(Matem = c(50, 25, 5, 12),
                       KehalKasv = c(24,67,27,15))
 
 opilased = as.matrix(opilased)
-row.names(opilased) = c(&quot;Section A&quot;, &quot;Section B&quot;, &quot;Section C&quot;, &quot;Section D&quot;)
+row.names(opilased) = c(&quot;Paralleel A&quot;, &quot;Paralleel B&quot;, &quot;Paralleel C&quot;, &quot;Paralleel D&quot;)
 
 chorddiag(opilased, type = &quot;bipartite&quot;, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)</code></pre>
-<div id="htmlwidget-cca4161ae0686a1401f4" style="width:672px;height:480px;" class="chorddiag html-widget"></div>
-<script type="application/json" data-for="htmlwidget-cca4161ae0686a1401f4">{"x":{"matrix":[[0,0,0,0,50,10,45,24],[0,0,0,0,25,55,12,67],[0,0,0,0,5,5,29,27],[0,0,0,0,12,20,20,15],[50,25,5,12,0,0,0,0],[10,55,5,20,0,0,0,0],[45,12,29,20,0,0,0,0],[24,67,27,15,0,0,0,0]],"options":{"type":"bipartite","width":null,"height":null,"margin":90,"showGroupnames":true,"groupNames":["Section A","Section B","Section C","Section D","Matem","Kunst","Fyysika","KehalKasv"],"groupColors":["#F7F7F7","#CCCCCC","#969696","#525252","#1B9E77","#D95F02","#7570B3","#E7298A"],"groupThickness":0.1,"groupPadding":0.0349065850398866,"groupnamePadding":[10,10,10,10,10,10,10,10],"groupnameFontsize":14,"groupedgeColor":null,"chordedgeColor":"#808080","categoryNames":null,"categorynamePadding":100,"categorynameFontsize":28,"showTicks":false,"tickInterval":1,"ticklabelFontsize":10,"fadeLevel":0.1,"showTooltips":true,"showZeroTooltips":true,"tooltipNames":["Section A","Section B","Section C","Section D","Matem","Kunst","Fyysika","KehalKasv"],"tooltipFontsize":12,"tooltipUnit":"","tooltipGroupConnector":" &#x25B6; ","precision":"null","clickAction":null,"clickGroupAction":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-1594342e05f331d5da63" style="width:672px;height:480px;" class="chorddiag html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1594342e05f331d5da63">{"x":{"matrix":[[0,0,0,0,50,10,45,24],[0,0,0,0,25,55,12,67],[0,0,0,0,5,5,29,27],[0,0,0,0,12,20,20,15],[50,25,5,12,0,0,0,0],[10,55,5,20,0,0,0,0],[45,12,29,20,0,0,0,0],[24,67,27,15,0,0,0,0]],"options":{"type":"bipartite","width":null,"height":null,"margin":90,"showGroupnames":true,"groupNames":["Paralleel A","Paralleel B","Paralleel C","Paralleel D","Matem","Kunst","Fyysika","KehalKasv"],"groupColors":["#F7F7F7","#CCCCCC","#969696","#525252","#1B9E77","#D95F02","#7570B3","#E7298A"],"groupThickness":0.1,"groupPadding":0.0349065850398866,"groupnamePadding":[10,10,10,10,10,10,10,10],"groupnameFontsize":14,"groupedgeColor":null,"chordedgeColor":"#808080","categoryNames":null,"categorynamePadding":100,"categorynameFontsize":28,"showTicks":false,"tickInterval":1,"ticklabelFontsize":10,"fadeLevel":0.1,"showTooltips":true,"showZeroTooltips":true,"tooltipNames":["Paralleel A","Paralleel B","Paralleel C","Paralleel D","Matem","Kunst","Fyysika","KehalKasv"],"tooltipFontsize":12,"tooltipUnit":"","tooltipGroupConnector":" &#x25B6; ","precision":"null","clickAction":null,"clickGroupAction":null}},"evals":[],"jsHooks":[]}</script>
+<p>Graafikut analüüsides võib öelda esmalt, et B paralleel on kõige suurem, järgnevad A, D ja C. Teiseks on B paralleelis suur huvi spordi ja kunstiõpetuse vastu, füüsika ja matemaatika jäävad tahaplaanile. Kõige tasakaalukam lisakursuste osas on D paralleel kuna neil on õppeained kõige ühtlasemalt jaotunud.</p>
 </div>
-<div id="andmestik" class="section level3">
-<h3>Andmestik</h3>
-</div>
-<div id="ulesanne-1-3-punkt---andmete-oigesse-vormi-viimine" class="section level3">
-<h3>Ülesanne 1 (3 punkt) - andmete õigesse vormi viimine</h3>
-<p>Vii andmed õigesse vormi, tulemuseks peaksid saama maatriksi, kus veergudes on tunnused ja ridades samuti tunnused ning maatriksi sees on mõõdetud sarnasus.</p>
+<div id="ulesanne-1-4-punkti" class="section level3">
+<h3>Ülesanne 1 (4 punkti)</h3>
+<p>Uuri chorddiag dokumentatsiooni ja vasta järgmistele küsimustele:</p>
+<ul>
+<li>Mida reguleerib argument <code>showTicks</code>?</li>
+<li>Proovi lahti seletada, mis muutub graafikul kui argument <code>type</code> väärtus muuta <code>directional</code>? Mis sorti andmeid soovib funktsioon <code>chorddiag</code> kui <code>type = bipartite</code> ja milliseid kui <code>type = directional</code>?</li>
+<li>Muuda eelmises näites argument <code>type = directional</code> ja oletame:</li>
+<li>Veergudes on ained, mis õpilased valisid esimese poolaasta lisakursuste blokiks ja</li>
+<li>ridades on ained, mille hulgast valiti 2. poolaasta lisakursused.</li>
+</ul>
+<p>Tõlgenda 2-3 juhtu joonise põhjal.</p>
 <pre class="r"><code># sinu kood</code></pre>
-</div>
-<div id="ulesanne-2-3-punkti---sarnasuse-diagramm" class="section level3">
-<h3>Ülesanne 2 (3 punkti) - sarnasuse diagramm</h3>
-<pre class="r"><code># sinu kood</code></pre>
-</div>
-<div id="ulesanne-3-4-punkti---shiny-app" class="section level3">
-<h3>Ülesanne 3 (4 punkti) - shiny app</h3>
-<p>Esita eelmises ülesandes leitud joonis shiny rakendusena.</p>
-<p><em>UI</em></p>
-<pre class="r"><code>library(shiny)
+<!--
+### Andmestik
+
+
+
+
+### Ülesanne 2 (3 punkt) -  andmete õigesse vormi viimine
+
+Vii andmed õigesse vormi, tulemuseks peaksid saama maatriksi, kus veergudes on tunnused ja ridades samuti tunnused ning maatriksi sees on mõõdetud sarnasus.
+
+
+```r
+# sinu kood
+```
+
+### Ülesanne 2 (3 punkti) - sarnasuse diagramm
+
+
+
+
+
+
+```r
+# sinu kood
+```
+
+
+
+
+
+
+
+### Ülesanne 3 (4 punkti) - shiny app
+
+Esita eelmises ülesandes leitud joonis shiny rakendusena.
+
+*UI*
+
+```r
+library(shiny)
 library(chorddiag)
 
 shinyUI(fluidPage(
   br(),
   br(),
-  radioButtons('select_market',&quot;Select Market&quot;,inline = TRUE,
-               choices = c(&quot;East&quot;,&quot;West&quot;,&quot;South&quot;,&quot;North&quot;),
+  radioButtons('select_market',"Select Market",inline = TRUE,
+               choices = c("East","West","South","North"),
                selected = 'East'),
   
-  chorddiagOutput(&quot;distPlot&quot;, height = 600)
-))</code></pre>
-<p><em>server</em></p>
-<pre class="r"><code>library(shiny)
+  chorddiagOutput("distPlot", height = 600)
+))
+```
+
+*server*
+
+```r
+library(shiny)
 library(chorddiag)
 
 set.seed(1)   # for reproducibility
 df_east = matrix(sample(seq(100, 5000, 50), 49), ncol = 7)
-row.names(df_east) = c(&quot;Company A&quot; ,&quot;Company B&quot; ,&quot;Company C&quot; ,&quot;Company D&quot;,&quot;Company E&quot;, &quot;Company F&quot; ,&quot;Company G&quot;)
+row.names(df_east) = c("Company A" ,"Company B" ,"Company C" ,"Company D","Company E", "Company F" ,"Company G")
 colnames(df_east) = row.names(df_east)
 
 set.seed(2)  
@@ -135,15 +170,15 @@ row.names(df_north) = row.names(df_east)
 shinyServer(function(input, output) {
    
 
-  output$distPlot &lt;- renderChorddiag({
+  output$distPlot <- renderChorddiag({
     
-       if(input$select_market ==&quot;East&quot;){
+       if(input$select_market =="East"){
          chorddiag(df_east, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
        }else if(
-        input$select_market ==&quot;West&quot;){
+        input$select_market =="West"){
         chorddiag(df_west, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
        } else if(
-         input$select_market ==&quot;South&quot;){
+         input$select_market =="South"){
          chorddiag(df_south, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
        }else{
          chorddiag(df_north, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
@@ -151,11 +186,16 @@ shinyServer(function(input, output) {
     
   })
   
-})</code></pre>
-</div>
-<div id="ulesanne-4-6-punkti" class="section level3">
-<h3>Ülesanne 4 (6 punkti)</h3>
-<p>Täienda shiny rakendust järgmiselt: - lisa raadionuppud “Turu” valikutega: “Ida”, “Lääs”, “Lõuna” - täiusta <code>server</code> koodi, nii, et raadionupu valik filtreeriks andmeid ja sarnasuste joonis muutuks.</p>
+})
+```
+
+### Ülesanne 4 (6 punkti)
+
+Täienda shiny rakendust järgmiselt:
+ - lisa raadionuppud "Turu" valikutega: "Ida", "Lääs", "Lõuna"
+ - täiusta `server` koodi, nii, et raadionupu valik filtreeriks andmeid ja sarnasuste joonis muutuks.
+
+-->
 </div>
 
 
