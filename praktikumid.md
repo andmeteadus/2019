@@ -112,6 +112,6 @@ Doping ja statistika. Statistiline test. Näide: ühe dopingujuhtumi analüüs.
 	
 ## Lisa praktikum
 
-[Sarnasusdiagramm](../lisapraktikum_chorddiag)
+[Sarnasusdiagramm](../praktikumLisa_chorddiag)
 * Tähtaeg 31.05.2019
 
