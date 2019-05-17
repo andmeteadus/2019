@@ -1,0 +1,151 @@
+---
+title: "Sarnasus diagrammid (_chord diagram_)"
+output: 
+  html_document:
+    theme: null
+---
+
+### Sissejuhatus
+
+**Sarnasus diagramm** (_chord diagram_) on maatriks tüüpi (üldiselt sarnasuste) andmete graafiline esitusviis. Tunnused esitatakse ringi kujuliselt ja tunnuste vahelised seosed on esitatud kaartena. Üldiselt ringist haaratud osa näitab tunnuse osakaalu kõikidest andmetest ja ühendatud kaarte laius seose tugevust.
+
+
+The chorddiag package in R allows to create interactive chord diagrams using the JavaScript visualization library D3 from within R using the htmlwidgets interfacing framework.
+
+In this blog post, we will see how to create interactive chord diagrams. You can hover over the arcs for each of the courses/sections below and see how many students from each section are taking each course.
+
+Sander "Gamma" Lognormaalsele meeldib võistelda. Eelmine nädal käis ta rahvusvahelisel statistikaolümpiaadil, kus ta ei suutnud enamat pronksmedalist. 
+
+
+Selles lisapraktikumis uurime sarnasuste esitamist eelmainitud graafiku abil ja kasutame selleks R-i `chorddiag` paketti.
+
+### Lihtne näide
+
+
+Sünteetilise kasvuhormooni kasutamist on raske tuvastada. Üks põhjustest on kasvuhormooni kontsentratsiooni suur varieeruvus päeva lõikes ning pulsseeruv sekretsioon.
+
+<!--
+![](plot1.png "Skitseering kasvuhormooni pulsseeruvast sekretsioonist artikli Hersch and Merriam (2008) põhjal.")
+-->
+
+Lihtne näide
+
+```{r}
+library(chorddiag)
+
+opilased = data.frame(Matem = c(50, 25, 5, 12),
+                      Kunst = c(10, 55, 5, 20),
+                      Fyysika = c(45,12,29, 20),
+                      KehalKasv = c(24,67,27,15))
+
+opilased = as.matrix(opilased)
+row.names(opilased) = c("Section A", "Section B", "Section C", "Section D")
+
+chorddiag(opilased, type = "bipartite", showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
+```
+
+
+
+### Andmestik
+
+
+
+
+### Ülesanne 1 (3 punkt) -  andmete õigesse vormi viimine
+
+Vii andmed õigesse vormi, tulemuseks peaksid saama maatriksi, kus veergudes on tunnused ja ridades samuti tunnused ning maatriksi sees on mõõdetud sarnasus.
+
+```{r}
+# sinu kood
+```
+
+### Ülesanne 2 (3 punkti) - sarnasuse diagramm
+
+
+
+
+
+```{r}
+# sinu kood
+```
+
+
+
+
+
+
+
+### Ülesanne 3 (4 punkti) - shiny app
+
+Esita eelmises ülesandes leitud joonis shiny rakendusena.
+
+*UI*
+```{r, eval = FALSE}
+library(shiny)
+library(chorddiag)
+
+shinyUI(fluidPage(
+  br(),
+  br(),
+  radioButtons('select_market',"Select Market",inline = TRUE,
+               choices = c("East","West","South","North"),
+               selected = 'East'),
+  
+  chorddiagOutput("distPlot", height = 600)
+))
+```
+
+*server*
+```{r, eval = FALSE}
+library(shiny)
+library(chorddiag)
+
+set.seed(1)   # for reproducibility
+df_east = matrix(sample(seq(100, 5000, 50), 49), ncol = 7)
+row.names(df_east) = c("Company A" ,"Company B" ,"Company C" ,"Company D","Company E", "Company F" ,"Company G")
+colnames(df_east) = row.names(df_east)
+
+set.seed(2)  
+df_west = matrix(sample(seq(100, 5000, 50), 49), ncol = 7)
+colnames(df_west) = row.names(df_east)
+row.names(df_west) = row.names(df_east)
+
+
+set.seed(3)   
+df_south = matrix(sample(seq(100, 5000, 50), 49), ncol = 7)
+colnames(df_south) = row.names(df_east)
+row.names(df_south) = row.names(df_east)
+
+set.seed(4)  
+df_north = matrix(sample(seq(100, 5000, 50), 49), ncol = 7)
+colnames(df_north) = row.names(df_east)
+row.names(df_north) = row.names(df_east)
+
+
+shinyServer(function(input, output) {
+   
+
+  output$distPlot <- renderChorddiag({
+    
+       if(input$select_market =="East"){
+         chorddiag(df_east, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
+       }else if(
+        input$select_market =="West"){
+        chorddiag(df_west, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
+       } else if(
+         input$select_market =="South"){
+         chorddiag(df_south, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
+       }else{
+         chorddiag(df_north, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
+       }
+    
+  })
+  
+})
+```
+
+### Ülesanne 4 (6 punkti)
+
+Täienda shiny rakendust järgmiselt:
+ - lisa raadionuppud "Turu" valikutega: "Ida", "Lääs", "Lõuna"
+ - täiusta `server` koodi, nii, et raadionupu valik filtreeriks andmeid ja sarnasuste joonis muutuks.
