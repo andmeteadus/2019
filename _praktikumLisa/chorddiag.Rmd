@@ -5,7 +5,7 @@ output:
     theme: null
 ---
 
-### Sissejuhatus
+## Sissejuhatus
 
 **Sarnasus diagramm** (_chord diagram_) on maatriks tüüpi (üldiselt sarnasuste aga võib ka kauguste või seoste) andmete graafiline esitusviis. Tunnused esitatakse ringi kujuliselt ja tunnuste vahelised seosed on esitatud kaartena. Üldiselt ringist haaratud osa võib näidata tunnuse osakaalu kõikidest andmetest ja ühendatud kaarte laius seose tugevust. Värvidega on võimalik näidata suunda.
 
@@ -13,7 +13,7 @@ R-is võimaldab pakett `chorddiag` teha interaktiivseid sarnasus diagramme. Paket
 
 Selles lisapraktikumis uurime sarnasuste esitamist eelmainitud graafiku abil, valmistame ette andmed ja loome interaktiivse joonise. Selle saavutamiseks kasutame R-i `chorddiag` paketti.
 
-### Lihtne näide
+## Lihtne näide
 
 Allolev graafik näitab palju põhikooli õpilasi igast klassi paralleelist on valinud omale lisakursuseid. Hiirega kaarte peale minnes kuvatakse sektsiooni ja ainet ühendav kaar ning selle taga peituv number. Näiteks paralleelist A on 50 õpilast soovinud ennast matemaatika rohkem harida ja paralleelist C on 29 õpilast valinud omale lisaõppeaineks füüsika.
 
@@ -40,56 +40,179 @@ chorddiag(opilased,
 
 Graafikut analüüsides võib öelda esmalt, et B paralleel on kõige suurem, järgnevad A, D ja C. Teiseks on B paralleelis suur huvi spordi ja kunstiõpetuse vastu, füüsika ja matemaatika jäävad tahaplaanile. Kõige tasakaalukam lisakursuste osas on D paralleel kuna neil on õppeained kõige ühtlasemalt jaotunud.
 
-### Ülesanne 1 (4 punkti) 
+### Ülesanne 1 (6 punkti) 
 
 Uuri chorddiag dokumentatsiooni ja vasta järgmistele küsimustele:
 
 * Mida reguleerib argument `showTicks`?
 * Proovi lahti seletada, mis muutub graafikul kui argument `type` väärtus muuta `directional`? Mis sorti andmeid soovib funktsioon `chorddiag` kui `type = bipartite` ja milliseid kui `type = directional`?
 * Muuda eelmises näites argument `type = directional` ja oletame:
-  * Veergudes on ained, mis õpilased valisid esimese poolaasta lisakursuste blokiks ja 
-  * ridades on ained, mille hulgast valiti 2. poolaasta lisakursused. 
+    + Veergudes on ained, mis õpilased valisid esimese poolaasta lisakursuste blokiks ja 
+    + ridades on ained, mille hulgast valiti 2. poolaasta lisakursused. 
 
-Tõlgenda 2-3 juhtu joonise põhjal.
+* Tõlgenda 2-3 juhtu joonise põhjal.
 
 ```{r}
 # sinu kood
 ```
 
-<!--
+
+## Eesti rahva huvi poliitika vastu ja usaldus riigi institutsioonide vastu
+
+[Euroopa Sotsiaaluuring](http://ess.ut.ee) (ESS - [European Social Survey](https://www.europeansocialsurvey.org)) on rahvusvaheline sotsiaalteaduslik uuring, kus osaleb ka Eesti. ESS eesmärgiks on tagada ühiskondade arengu ja inimeste käitumise uurimiseks kõrge kvaliteediga andmeid. Andmeid kogutakse juba 2002. aastast alates ja praeguseks on kokku kogutud enam kui 500 000 inimese andmed 35 riigist. 
+
+Üle-euroopalise projekti suurim panus on eri riikide andmete võrreldavus ja ajakohasus. Uuringut korratakse iga 2 aasta tagant ja võimalikult paljudes Euroopa riikides korraga.
+
+Praeguses praktikumis uurime 2016. aasta Eesti andmeid (2018. aasta andmeid 2019. aasta mai seisuga veel puhastatakse ja korrastatakse). Täpsemalt vaatame kuidas huvitumine poliitikasse mõjutab inimeste usaldust riiklike institutsioonide vastu.
+
 ### Andmestik
 
+Praktikumi andmed pärinevad [Euroopa Sotsiaaluuringu kodulehelt](https://www.europeansocialsurvey.org/data/round-index.html) alla laetavast andmestikust (enne allalaadimist on vaja ennast registreerida, et projekti meeskond saaks kasutamise kohta andmeid koguda). Seal saab alla laadida erinevate statistika tarkvarade formaate. Hetkel on valitud SPSS formaat.
 
-
-
-### Ülesanne 2 (3 punkt) -  andmete õigesse vormi viimine
-
-Vii andmed õigesse vormi, tulemuseks peaksid saama maatriksi, kus veergudes on tunnused ja ridades samuti tunnused ning maatriksi sees on mõõdetud sarnasus.
-
-```{r}
-# sinu kood
+Loe [andmed](../data/ESS8EE.sav) sisse (SPSS andmestikku aitab sisse lugeda pakett `haven` ja võtame välja vaid vajalikud andmed:
+```{r, eval = FALSE}
+library(haven)
+ESS <- read_sav("..<faili asukoht>../ESS8EE.sav") %>% 
+  select(polintr, trstprl, trstlgl, trstplc, trstplt, trstprt, trstep)
 ```
 
-### Ülesanne 2 (3 punkti) - sarnasuse diagramm
+Nagu näha saame 7 tunnust, nende saamiseks küsiti järgmisi küsimusi:
+* `polintr` -- Kui huvitatud Te olete poliitikast?
+* `trstprl` -- Kuivõrd Te usaldate järgmisi Eesti riigikogu?
+* `trstlgl` -- Kuivõrd Te usaldate järgmisi Eesti õigussüsteemi?
+* `trstplc` -- Kuivõrd Te usaldate järgmisi Eesti politseid?
+* `trstplt` -- Kuivõrd Te usaldate järgmisi Eesti poliitikuid?
+* `trstprt` -- Kuivõrd Te usaldate järgmisi Eesti poliitilisi parteisid ja erakondi?
+* `trstep`  -- Kuivõrd Te usaldate järgmisi Euroopa parlamenti?
 
+### Ülesanne 2 (2 punkti) -  andmete vormistamine
 
+Kirjuta funktsioon, mis teeks usalduse küsimused (`trstprl`, `trstlgl`, `trstplc`, `trstplt`, `trstprt`, `trstep`) faktortunnuseks ja kodeeriks vahemikud järgmiselt: 
 
+Vahemik | Kodeering
+------- | ---------------
+0-1     | Üldse ei usalda   
+2-3     | Ei usalda  
+4-6     | Neutraalne   
+7-8     | Natuke usaldan
+9-10    | Usaldan täielikult
 
 
 ```{r}
-# sinu kood
+# Näiteks nii
+trst_kodeering = c('Üldse ei usalda', 'Ei usalda', 'Neutraalne', 'Natuke usaldan', 'Usaldan täielikult')
+
+konverteeri <- function(var){
+  var <- ... # vahemike ümber kodeerimine
+  
+  # NB! Vaata, mida eeldab factor funktsioon väärtusteks kui kasutada
+  # järgmist koodirida
+  return(factor(var, labels = trst_kodeering))
+  
+}
+```
+
+### Ülesanne 3 (1 punkt) -  andmete vormistamine 2
+
+Tee poliitikahuvi tunnus `polintr` faktortunnuseks, millel on järgmised tasemed:
+
+Vahemik | Kodeering
+------- | ---------------
+1     | Väga huvitatud  
+2     | Üsna huvitatud  
+3     | Vaevalt huvitatud   
+4     | Pole üldse huvitatud
+
+
+
+```{r, eval = F}
+# Tõlgitud kodeering
+polintr_kodeering = c('Väga huvitatud', 'Üsna huvitatud', 'Vaevalt huvitatud', 'Pole üldse huvitatud')
+
+ESS <- ESS %>% 
+  mutate(polintr = ...)
+```
+
+
+### Ülesanne 4 (2 punkti) -  andmete õigesse vormi viimine
+
+Uurime nüüd kuidas on huvi poliitika vastu seotud usaldusega riiklike institutsioonide vastu, selleks leia 2- dimensionaalsed sagedustabelid, kus üheks dimensiooniks on `polintr` ja teiseks usaldustunnused.
+
+Tulemuseks peaksid saama 6 maatriksit (iga usaldustunnuse kohta 1). Uuri näiteks funktsioone `table` ja `as.matrix`.
+
+```{r, eval = F}
+# Alustuseks
+huvi_vs_trstprl <- as.matrix(..<sinu kood>..)
+
+# Kontrolli, kas reanimede asemel on ikka tekstilised väärtused,
+# nii on hiljem jooniseid parem lugeda.
+rownames(huvi_vs_trstprl)
+
+```
+
+### Ülesanne 5 (4 punkti) - sarnasuse diagramm
+
+Joonista sarnasus diagramm kasutades eelmises ülesandes leitud riigikogu usalduse maatriksit. Tulemus peaks tulema midagi sarnast.
+
+```{r, echo = F, warning = F, message = F}
+library(tidyverse)
+library(haven)
+
+konverteeri <- function(var){
+  var <- case_when(var <= 1 ~ trst_kodeering[1],
+            var <= 3 ~ trst_kodeering[2],
+            var <= 6 ~ trst_kodeering[3],
+            var <= 8 ~ trst_kodeering[4],
+            var <= 10 ~ trst_kodeering[5],
+            TRUE ~ '0')
+  return(factor(var, levels = trst_kodeering))
+}
+
+polintr_kodeering = c('Väga huvitatud', 'Üsna huvitatud', 'Vaevalt huvitatud', 'Pole üldse huvitatud')
+trst_kodeering = c('Üldse ei usalda', 'Ei usalda', 'Neutraalne', 'Natuke usaldan', 'Usaldan täielikult')
+
+
+ESS <- read_sav("C:/Users/E7470/Downloads/ESS8EE.sav")  %>% 
+  select(polintr, trstprl, trstlgl, trstplc, trstplt, trstprt, trstep) %>% 
+  mutate(polintr = polintr,
+         trstprl = konverteeri(trstprl),
+         trstlgl = konverteeri(trstlgl),
+         trstplc = konverteeri(trstplc),
+         trstplt = konverteeri(trstplt),
+         trstprt = konverteeri(trstprt),
+         trstep  = konverteeri(trstep) ) %>% 
+  filter(polintr < 5, 
+         trstprl != '0',
+         trstlgl != '0',
+         trstplc != '0',
+         trstplt != '0',
+         trstprt != '0',
+         trstep  != '0')
+
+
+huvi_vs_trstprl <- as.matrix(table(ESS$polintr,ESS$trstprl))
+rownames(huvi_vs_trstprl) <- polintr_kodeering
+
+chorddiag(t(huvi_vs_trstprl), 
+          type = "bipartite", 
+          showTicks = F, 
+          groupnameFontsize = 14, 
+          groupnamePadding = 10, 
+          margin = 90,
+          categoryNames = c('Parlamendi usaldus','Huvi poliitika vastu'))
 ```
 
 
 
 
-
-
-
-### Ülesanne 3 (4 punkti) - shiny app
+### Ülesanne 6 (5 punkti) - shiny rakendus (TÄIENEB VEEL)
 
 Esita eelmises ülesandes leitud joonis shiny rakendusena.
 
+### Ülesanne 7 (5 punkti) - shiny rakenduse täiendus (TÄIENEB VEEL)
+
+Lisa shiny rakendusele rippmenüü, kust saad valida, millise usaldusnäitaja graafikut näidata.
+<!--
 *UI*
 ```{r, eval = FALSE}
 library(shiny)

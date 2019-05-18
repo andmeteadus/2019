@@ -49,14 +49,14 @@ if (window.hljs) {
 
 
 
-<div id="sissejuhatus" class="section level3">
-<h3>Sissejuhatus</h3>
+<div id="sissejuhatus" class="section level2">
+<h2>Sissejuhatus</h2>
 <p><strong>Sarnasus diagramm</strong> (<em>chord diagram</em>) on maatriks tüüpi (üldiselt sarnasuste aga võib ka kauguste või seoste) andmete graafiline esitusviis. Tunnused esitatakse ringi kujuliselt ja tunnuste vahelised seosed on esitatud kaartena. Üldiselt ringist haaratud osa võib näidata tunnuse osakaalu kõikidest andmetest ja ühendatud kaarte laius seose tugevust. Värvidega on võimalik näidata suunda.</p>
 <p>R-is võimaldab pakett <code>chorddiag</code> teha interaktiivseid sarnasus diagramme. Pakett kasutab JavaScripti D3 visulisatsiooni teeki. Diagramm väljastatakse R-is html väljundina, seega on R Markdown-ga lihtne haaravaid veebilehti vormistada.</p>
 <p>Selles lisapraktikumis uurime sarnasuste esitamist eelmainitud graafiku abil, valmistame ette andmed ja loome interaktiivse joonise. Selle saavutamiseks kasutame R-i <code>chorddiag</code> paketti.</p>
 </div>
-<div id="lihtne-naide" class="section level3">
-<h3>Lihtne näide</h3>
+<div id="lihtne-naide" class="section level2">
+<h2>Lihtne näide</h2>
 <p>Allolev graafik näitab palju põhikooli õpilasi igast klassi paralleelist on valinud omale lisakursuseid. Hiirega kaarte peale minnes kuvatakse sektsiooni ja ainet ühendav kaar ning selle taga peituv number. Näiteks paralleelist A on 50 õpilast soovinud ennast matemaatika rohkem harida ja paralleelist C on 29 õpilast valinud omale lisaõppeaineks füüsika.</p>
 <p>Kood ja tulemus</p>
 <pre class="r"><code>library(chorddiag)
@@ -69,59 +69,149 @@ opilased = data.frame(Matem = c(50, 25, 5, 12),
 opilased = as.matrix(opilased)
 row.names(opilased) = c(&quot;Paralleel A&quot;, &quot;Paralleel B&quot;, &quot;Paralleel C&quot;, &quot;Paralleel D&quot;)
 
-chorddiag(opilased, type = &quot;bipartite&quot;, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)</code></pre>
-<div id="htmlwidget-1594342e05f331d5da63" style="width:672px;height:480px;" class="chorddiag html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1594342e05f331d5da63">{"x":{"matrix":[[0,0,0,0,50,10,45,24],[0,0,0,0,25,55,12,67],[0,0,0,0,5,5,29,27],[0,0,0,0,12,20,20,15],[50,25,5,12,0,0,0,0],[10,55,5,20,0,0,0,0],[45,12,29,20,0,0,0,0],[24,67,27,15,0,0,0,0]],"options":{"type":"bipartite","width":null,"height":null,"margin":90,"showGroupnames":true,"groupNames":["Paralleel A","Paralleel B","Paralleel C","Paralleel D","Matem","Kunst","Fyysika","KehalKasv"],"groupColors":["#F7F7F7","#CCCCCC","#969696","#525252","#1B9E77","#D95F02","#7570B3","#E7298A"],"groupThickness":0.1,"groupPadding":0.0349065850398866,"groupnamePadding":[10,10,10,10,10,10,10,10],"groupnameFontsize":14,"groupedgeColor":null,"chordedgeColor":"#808080","categoryNames":null,"categorynamePadding":100,"categorynameFontsize":28,"showTicks":false,"tickInterval":1,"ticklabelFontsize":10,"fadeLevel":0.1,"showTooltips":true,"showZeroTooltips":true,"tooltipNames":["Paralleel A","Paralleel B","Paralleel C","Paralleel D","Matem","Kunst","Fyysika","KehalKasv"],"tooltipFontsize":12,"tooltipUnit":"","tooltipGroupConnector":" &#x25B6; ","precision":"null","clickAction":null,"clickGroupAction":null}},"evals":[],"jsHooks":[]}</script>
+chorddiag(opilased, 
+          type = &quot;bipartite&quot;, 
+          showTicks = F, 
+          groupnameFontsize = 14, 
+          groupnamePadding = 10, 
+          margin = 90)</code></pre>
+<div id="htmlwidget-23c93dfbe4bae24e0e25" style="width:672px;height:480px;" class="chorddiag html-widget"></div>
+<script type="application/json" data-for="htmlwidget-23c93dfbe4bae24e0e25">{"x":{"matrix":[[0,0,0,0,50,10,45,24],[0,0,0,0,25,55,12,67],[0,0,0,0,5,5,29,27],[0,0,0,0,12,20,20,15],[50,25,5,12,0,0,0,0],[10,55,5,20,0,0,0,0],[45,12,29,20,0,0,0,0],[24,67,27,15,0,0,0,0]],"options":{"type":"bipartite","width":null,"height":null,"margin":90,"showGroupnames":true,"groupNames":["Paralleel A","Paralleel B","Paralleel C","Paralleel D","Matem","Kunst","Fyysika","KehalKasv"],"groupColors":["#F7F7F7","#CCCCCC","#969696","#525252","#1B9E77","#D95F02","#7570B3","#E7298A"],"groupThickness":0.1,"groupPadding":0.0349065850398866,"groupnamePadding":[10,10,10,10,10,10,10,10],"groupnameFontsize":14,"groupedgeColor":null,"chordedgeColor":"#808080","categoryNames":null,"categorynamePadding":100,"categorynameFontsize":28,"showTicks":false,"tickInterval":1,"ticklabelFontsize":10,"fadeLevel":0.1,"showTooltips":true,"showZeroTooltips":true,"tooltipNames":["Paralleel A","Paralleel B","Paralleel C","Paralleel D","Matem","Kunst","Fyysika","KehalKasv"],"tooltipFontsize":12,"tooltipUnit":"","tooltipGroupConnector":" &#x25B6; ","precision":"null","clickAction":null,"clickGroupAction":null}},"evals":[],"jsHooks":[]}</script>
 <p>Graafikut analüüsides võib öelda esmalt, et B paralleel on kõige suurem, järgnevad A, D ja C. Teiseks on B paralleelis suur huvi spordi ja kunstiõpetuse vastu, füüsika ja matemaatika jäävad tahaplaanile. Kõige tasakaalukam lisakursuste osas on D paralleel kuna neil on õppeained kõige ühtlasemalt jaotunud.</p>
-</div>
-<div id="ulesanne-1-4-punkti" class="section level3">
-<h3>Ülesanne 1 (4 punkti)</h3>
+<div id="ulesanne-1-6-punkti" class="section level3">
+<h3>Ülesanne 1 (6 punkti)</h3>
 <p>Uuri chorddiag dokumentatsiooni ja vasta järgmistele küsimustele:</p>
 <ul>
 <li>Mida reguleerib argument <code>showTicks</code>?</li>
 <li>Proovi lahti seletada, mis muutub graafikul kui argument <code>type</code> väärtus muuta <code>directional</code>? Mis sorti andmeid soovib funktsioon <code>chorddiag</code> kui <code>type = bipartite</code> ja milliseid kui <code>type = directional</code>?</li>
-<li>Muuda eelmises näites argument <code>type = directional</code> ja oletame:</li>
+<li>Muuda eelmises näites argument <code>type = directional</code> ja oletame:
+<ul>
 <li>Veergudes on ained, mis õpilased valisid esimese poolaasta lisakursuste blokiks ja</li>
 <li>ridades on ained, mille hulgast valiti 2. poolaasta lisakursused.</li>
+</ul></li>
+<li>Tõlgenda 2-3 juhtu joonise põhjal.</li>
 </ul>
-<p>Tõlgenda 2-3 juhtu joonise põhjal.</p>
 <pre class="r"><code># sinu kood</code></pre>
-<!--
-### Andmestik
+</div>
+</div>
+<div id="eesti-rahva-huvi-poliitika-vastu-ja-usaldus-riigi-institutsioonide-vastu" class="section level2">
+<h2>Eesti rahva huvi poliitika vastu ja usaldus riigi institutsioonide vastu</h2>
+<p><a href="http://ess.ut.ee">Euroopa Sotsiaaluuring</a> (ESS - <a href="https://www.europeansocialsurvey.org">European Social Survey</a>) on rahvusvaheline sotsiaalteaduslik uuring, kus osaleb ka Eesti. ESS eesmärgiks on tagada ühiskondade arengu ja inimeste käitumise uurimiseks kõrge kvaliteediga andmeid. Andmeid kogutakse juba 2002. aastast alates ja praeguseks on kokku kogutud enam kui 500 000 inimese andmed 35 riigist.</p>
+<p>Üle-euroopalise projekti suurim panus on eri riikide andmete võrreldavus ja ajakohasus. Uuringut korratakse iga 2 aasta tagant ja võimalikult paljudes Euroopa riikides korraga.</p>
+<p>Praeguses praktikumis uurime 2016. aasta Eesti andmeid (2018. aasta andmeid 2019. aasta mai seisuga veel puhastatakse ja korrastatakse). Täpsemalt vaatame kuidas huvitumine poliitikasse mõjutab inimeste usaldust riiklike institutsioonide vastu.</p>
+<div id="andmestik" class="section level3">
+<h3>Andmestik</h3>
+<p>Praktikumi andmed pärinevad <a href="https://www.europeansocialsurvey.org/data/round-index.html">Euroopa Sotsiaaluuringu kodulehelt</a> alla laetavast andmestikust (enne allalaadimist on vaja ennast registreerida, et projekti meeskond saaks kasutamise kohta andmeid koguda). Seal saab alla laadida erinevate statistika tarkvarade formaate. Hetkel on valitud SPSS formaat.</p>
+<p>Loe <a href="../data/ESS8EE.sav">andmed</a> sisse (SPSS andmestikku aitab sisse lugeda pakett <code>haven</code> ja võtame välja vaid vajalikud andmed:</p>
+<pre class="r"><code>library(haven)
+ESS &lt;- read_sav(&quot;..&lt;faili asukoht&gt;../ESS8EE.sav&quot;) %&gt;% 
+  select(polintr, trstprl, trstlgl, trstplc, trstplt, trstprt, trstep)</code></pre>
+<p>Nagu näha saame 7 tunnust, nende saamiseks küsiti järgmisi küsimusi: * <code>polintr</code> – Kui huvitatud Te olete poliitikast? * <code>trstprl</code> – Kuivõrd Te usaldate järgmisi Eesti riigikogu? * <code>trstlgl</code> – Kuivõrd Te usaldate järgmisi Eesti õigussüsteemi? * <code>trstplc</code> – Kuivõrd Te usaldate järgmisi Eesti politseid? * <code>trstplt</code> – Kuivõrd Te usaldate järgmisi Eesti poliitikuid? * <code>trstprt</code> – Kuivõrd Te usaldate järgmisi Eesti poliitilisi parteisid ja erakondi? * <code>trstep</code> – Kuivõrd Te usaldate järgmisi Euroopa parlamenti?</p>
+</div>
+<div id="ulesanne-2-2-punkti---andmete-vormistamine" class="section level3">
+<h3>Ülesanne 2 (2 punkti) - andmete vormistamine</h3>
+<p>Kirjuta funktsioon, mis teeks usalduse küsimused (<code>trstprl</code>, <code>trstlgl</code>, <code>trstplc</code>, <code>trstplt</code>, <code>trstprt</code>, <code>trstep</code>) faktortunnuseks ja kodeeriks vahemikud järgmiselt:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Vahemik</th>
+<th>Kodeering</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0-1</td>
+<td>Üldse ei usalda</td>
+</tr>
+<tr class="even">
+<td>2-3</td>
+<td>Ei usalda</td>
+</tr>
+<tr class="odd">
+<td>4-6</td>
+<td>Neutraalne</td>
+</tr>
+<tr class="even">
+<td>7-8</td>
+<td>Natuke usaldan</td>
+</tr>
+<tr class="odd">
+<td>9-10</td>
+<td>Usaldan täielikult</td>
+</tr>
+</tbody>
+</table>
+<pre class="r"><code># Näiteks nii
+trst_kodeering = c('Üldse ei usalda', 'Ei usalda', 'Neutraalne', 'Natuke usaldan', 'Usaldan täielikult')
 
+konverteeri &lt;- function(var){
+  var &lt;- ... # vahemike ümber kodeerimine
+  
+  # NB! Vaata, mida eeldab factor funktsioon väärtusteks kui kasutada
+  # järgmist koodirida
+  return(factor(var, labels = trst_kodeering))
+  
+}</code></pre>
+</div>
+<div id="ulesanne-3-1-punkt---andmete-vormistamine-2" class="section level3">
+<h3>Ülesanne 3 (1 punkt) - andmete vormistamine 2</h3>
+<p>Tee poliitikahuvi tunnus <code>polintr</code> faktortunnuseks, millel on järgmised tasemed:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Vahemik</th>
+<th>Kodeering</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Väga huvitatud</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Üsna huvitatud</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Vaevalt huvitatud</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Pole üldse huvitatud</td>
+</tr>
+</tbody>
+</table>
+<pre class="r"><code># Tõlgitud kodeering
+polintr_kodeering = c('Väga huvitatud', 'Üsna huvitatud', 'Vaevalt huvitatud', 'Pole üldse huvitatud')
 
+ESS &lt;- ESS %&gt;% 
+  mutate(polintr = ...)</code></pre>
+</div>
+<div id="ulesanne-4-2-punkti---andmete-oigesse-vormi-viimine" class="section level3">
+<h3>Ülesanne 4 (2 punkti) - andmete õigesse vormi viimine</h3>
+<p>Uurime nüüd kuidas on huvi poliitika vastu seotud usaldusega riiklike institutsioonide vastu, selleks leia 2- dimensionaalsed sagedustabelid, kus üheks dimensiooniks on <code>polintr</code> ja teiseks usaldustunnused.</p>
+<p>Tulemuseks peaksid saama 6 maatriksit (iga usaldustunnuse kohta 1). Uuri näiteks funktsioone <code>table</code> ja <code>as.matrix</code>.</p>
+<pre class="r"><code># Alustuseks
+huvi_vs_trstprl &lt;- as.matrix(..&lt;sinu kood&gt;..)
 
-
-### Ülesanne 2 (3 punkt) -  andmete õigesse vormi viimine
-
-Vii andmed õigesse vormi, tulemuseks peaksid saama maatriksi, kus veergudes on tunnused ja ridades samuti tunnused ning maatriksi sees on mõõdetud sarnasus.
-
-
-```r
-# sinu kood
-```
-
-### Ülesanne 2 (3 punkti) - sarnasuse diagramm
-
-
-
-
-
-
-```r
-# sinu kood
-```
-
-
-
-
-
-
-
-### Ülesanne 3 (4 punkti) - shiny app
-
-Esita eelmises ülesandes leitud joonis shiny rakendusena.
-
+# Kontrolli, kas reanimede asemel on ikka tekstilised väärtused,
+# nii on hiljem jooniseid parem lugeda.
+rownames(huvi_vs_trstprl)</code></pre>
+</div>
+<div id="ulesanne-5-4-punkti---sarnasuse-diagramm" class="section level3">
+<h3>Ülesanne 5 (4 punkti) - sarnasuse diagramm</h3>
+<p>Joonista sarnasus diagramm kasutades eelmises ülesandes leitud riigikogu usalduse maatriksit. Tulemus peaks tulema midagi sarnast.</p>
+<div id="htmlwidget-6e15787024d2f3546e46" style="width:672px;height:480px;" class="chorddiag html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6e15787024d2f3546e46">{"x":{"matrix":[[0,0,0,0,0,24,56,86,61],[0,0,0,0,0,22,149,179,45],[0,0,0,0,0,58,302,347,94],[0,0,0,0,0,32,168,117,25],[0,0,0,0,0,9,41,18,7],[24,22,58,32,9,0,0,0,0],[56,149,302,168,41,0,0,0,0],[86,179,347,117,18,0,0,0,0],[61,45,94,25,7,0,0,0,0]],"options":{"type":"bipartite","width":null,"height":null,"margin":90,"showGroupnames":true,"groupNames":["Üldse ei usalda","Ei usalda","Neutraalne","Natuke usaldan","Usaldan täielikult","Väga huvitatud","Üsna huvitatud","Vaevalt huvitatud","Pole üldse huvitatud"],"groupColors":["#F7F7F7","#CCCCCC","#969696","#636363","#252525","#1B9E77","#D95F02","#7570B3","#E7298A"],"groupThickness":0.1,"groupPadding":0.0349065850398866,"groupnamePadding":[10,10,10,10,10,10,10,10,10],"groupnameFontsize":14,"groupedgeColor":null,"chordedgeColor":"#808080","categoryNames":["Parlamendi usaldus","Huvi poliitika vastu"],"categorynamePadding":100,"categorynameFontsize":28,"showTicks":false,"tickInterval":10,"ticklabelFontsize":10,"fadeLevel":0.1,"showTooltips":true,"showZeroTooltips":true,"tooltipNames":["Üldse ei usalda","Ei usalda","Neutraalne","Natuke usaldan","Usaldan täielikult","Väga huvitatud","Üsna huvitatud","Vaevalt huvitatud","Pole üldse huvitatud"],"tooltipFontsize":12,"tooltipUnit":"","tooltipGroupConnector":" &#x25B6; ","precision":"null","clickAction":null,"clickGroupAction":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="ulesanne-6-5-punkti---shiny-rakendus-taieneb-veel" class="section level3">
+<h3>Ülesanne 6 (5 punkti) - shiny rakendus (TÄIENEB VEEL)</h3>
+<p>Esita eelmises ülesandes leitud joonis shiny rakendusena.</p>
+</div>
+<div id="ulesanne-7-5-punkti---shiny-rakenduse-taiendus-taieneb-veel" class="section level3">
+<h3>Ülesanne 7 (5 punkti) - shiny rakenduse täiendus (TÄIENEB VEEL)</h3>
+<p>Lisa shiny rakendusele rippmenüü, kust saad valida, millise usaldusnäitaja graafikut näidata. <!--
 *UI*
 
 ```r
@@ -195,7 +285,8 @@ Täienda shiny rakendust järgmiselt:
  - lisa raadionuppud "Turu" valikutega: "Ida", "Lääs", "Lõuna"
  - täiusta `server` koodi, nii, et raadionupu valik filtreeriks andmeid ja sarnasuste joonis muutuks.
 
--->
+--></p>
+</div>
 </div>
 
 
