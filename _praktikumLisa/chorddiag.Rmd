@@ -77,13 +77,14 @@ ESS <- read_sav("..<faili asukoht>../ESS8EE.sav") %>%
 ```
 
 Nagu näha saame 7 tunnust, nende saamiseks küsiti järgmisi küsimusi:
-* `polintr` -- Kui huvitatud Te olete poliitikast?
-* `trstprl` -- Kuivõrd Te usaldate järgmisi Eesti riigikogu?
-* `trstlgl` -- Kuivõrd Te usaldate järgmisi Eesti õigussüsteemi?
-* `trstplc` -- Kuivõrd Te usaldate järgmisi Eesti politseid?
-* `trstplt` -- Kuivõrd Te usaldate järgmisi Eesti poliitikuid?
-* `trstprt` -- Kuivõrd Te usaldate järgmisi Eesti poliitilisi parteisid ja erakondi?
-* `trstep`  -- Kuivõrd Te usaldate järgmisi Euroopa parlamenti?
+
+* `polintr` -- Kui huvitatud Te olete poliitikast? (1-4)
+* `trstprl` -- Kuivõrd Te usaldate järgmisi Eesti riigikogu? (hinnake vahemikus 0-10)
+* `trstlgl` -- Kuivõrd Te usaldate järgmisi Eesti õigussüsteemi? (hinnake vahemikus 0-10)
+* `trstplc` -- Kuivõrd Te usaldate järgmisi Eesti politseid? (hinnake vahemikus 0-10)
+* `trstplt` -- Kuivõrd Te usaldate järgmisi Eesti poliitikuid? (hinnake vahemikus 0-10)
+* `trstprt` -- Kuivõrd Te usaldate järgmisi Eesti poliitilisi parteisid ja erakondi? (hinnake vahemikus 0-10)
+* `trstep`  -- Kuivõrd Te usaldate järgmisi Euroopa parlamenti? (hinnake vahemikus 0-10)
 
 ### Ülesanne 2 (2 punkti) -  andmete vormistamine
 
