@@ -1,0 +1,370 @@
+---
+title: "Kust tuleb prügi?"
+author: "Anne Ott"
+date: "12.05.2019"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+## Sissejuhatus
+```{r, message=F, warning=F, echo=F}
+library(dplyr)
+library(ggplot2)
+#andmestiku info http://pub.stat.ee/px-web.2001/Database/Keskkond/08Surve_keskkonnaseisundile/02Jaatmete_teke/KK_068.htm
+#jaatmete teke
+jaat <- read.csv("/home/anneott/Documents/sav_projekt/jaatmed_sektor_aasta_kaupa.csv")
+jaat <- jaat %>% select(-Flag.Codes, -Flags, -Vaatlusperiood)
+names(jaat) <- c("DIM2", "Jäätmeliik", "DIM3", "Tegevusala", "Aeg", "Väärtus")
+jaat$Aeg <- as.factor(jaat$Aeg)
+```
+
+Heaoluühiskonnaga käib kaasas rohkete toodete kättesaadavus ja suurenev energiavajadus, mille tõttu tekitatavate jäätmete kogus üha kasvab. Jäätmetena on defineeritud "mis tahes jäätmekategooriasse kuuluv vallasasi või kinnistatud laev, mille valdaja on ära visanud, kavatseb seda teha või on kohustatud seda tegema" [1].
+Ka Eesti on prügi teema aktuaalne. Propageeritakse küll prügi sorteerimist ja pakendivaba elu, kuid kas see on piisav, et vähedada aina kasvavaid prügimägesid? Käesolevas töös võtame uurimise alla, mis sorti jäätmeid Eestis kõige rohkem tekib ja mis tegevusalad kõige rohekm jäätmeid toodavad. Lisaks vaatleme jäätmete koguste muutusi viimasel kaheksal aastal.
+
+Töös kasutatavad andmed pärineva statistikaameti koduleheküljelt. Statistikaamet on omakorda andmed saanud Keskkonnaagentuurilt, kellele esitab aruandeid Keskkonnaamet. Andmed on antud jäätmeteke majandustegevusalade kaupa üle aasta paarisarvulistel aastatel (2008 - 2018). [1]
+
+Vaatleme, kuidas on kogu tekitatud prügi kogus muutunud iga kahe aasta tagant. Jooniselt selgub, et jäätmete arv on aasta aastal kasvanud, viimase 8 aastaga on kogus tõusnud lausa 5 miljoni tonni võrra.
+
+```{r, message=F, warning=F, echo=F, out.width = "500px"}
+#jäätmete TEKE aastate kaupa kasv
+j.teg.kokku <- jaat %>% 
+  filter(Tegevusala == 'Tegevusalad kokku') %>%
+  filter(Jäätmeliik == 'Jäätmed kokku')
+
+require(scales)
+histo_jaatmed_labi_aastate <- ggplot(j.teg.kokku, aes(Aeg, Väärtus)) +
+  geom_bar(stat="identity",show.legend = F,  fill = "blue") + 
+  scale_y_continuous(labels = comma) + 
+  theme_bw() + 
+  xlab("Aasta") +
+  ylab("Jäätmeid kokku (tonni)") 
+
+knitr::include_graphics("/home/anneott/Documents/sav_projekt/Projekt/histo_jaatmed_labi_aastate.png")
+```
+
+# Prügi tüübid
+
+Uurime lähemalt, mis tüüpi prügi siis peamiselt tekitatakse, kõige uuematel andmetel (2016).
+Kokku on töös vaadeldud 51 erinevat sorti prügi. Jäätmetüübid on toodud alumisel joonisel, kus on kuvatud 9 kõige sagedasemat prügi tüüpi ja nende kogused tonnides. Ilmneb, et peamise osa prügist moodustavad mineraaljäätmed ja ohtlikud põletusjäätmed. 
+
+```{r, message=F, warning=F, echo=F, out.width = "500px"}
+jaat_tyyp16 <- jaat %>% 
+  filter(Aeg == 2016) %>%
+  filter(Jäätmeliik != 'Jäätmed kokku' & Jäätmeliik != 'Tavajäätmed kokku' & Jäätmeliik != 'Ohtlikud jäätmed kokku') %>%
+  filter(Tegevusala == 'Tegevusalad kokku') %>%
+  arrange(-Väärtus)
+
+
+#histogram
+library(ggplot2)
+options(scipen=10000)
+j16_tyyp_special_labels <- jaat_tyyp16 %>% mutate(Tegevusala_yle300 = ifelse(Väärtus < 150000, "", as.character(Jäätmeliik)))
+katse6 <- ggplot(j16_tyyp_special_labels, aes(x="", y=Väärtus, fill=Jäätmeliik, label = (Tegevusala_yle300)))+
+  geom_bar(width = 1, stat = "identity", show.legend = F) +
+  #geom_text(size=4) +
+  geom_text(size = 4.5, position = position_stack(vjust = 0.5)) +
+  ylab("Jäätmeid kokku (tonni)") +
+  xlab("Jäätme tüüp") +
+  theme_bw()
+
+
+knitr::include_graphics("/home/anneott/Documents/sav_projekt/Projekt/stacked_plot_jaatmetyyp2.png")
+```
+
+ Eelmist joonist täpsustaval histogrammil (toodud allpool) on toodud 9 populaarseima prügi koguste edetabel. On näha, et kahe kõige sagedasema prügi sordi kogus on järgnevatest rohkem kui 11 korda suurem. Põletusjäätmed tekivad teatavasti peamiselt energia tootmisel, seega võib oletada, et Eesti üks peamistest jäätmete tekkimise põhjustajatest energia tööstus.
+
+```{r, message=F, warning=F, echo=F,  out.width = "500px"}
+jaat_tyyp16 <- jaat %>% 
+  filter(Aeg == 2016) %>%
+  filter(Jäätmeliik != 'Jäätmed kokku' & Jäätmeliik != 'Tavajäätmed kokku' & Jäätmeliik != 'Ohtlikud jäätmed kokku') %>%
+  filter(Tegevusala == 'Tegevusalad kokku') %>%
+  arrange(-Väärtus)
+
+#histogram
+library(ggplot2)
+addline_format <- function(x,...){
+  gsub('\\s','\n',x)
+}
+options(scipen=10000)
+hist <- ggplot(jaat_tyyp16[1:9, ], aes(reorder(Jäätmeliik, -Väärtus), Väärtus)) +
+  geom_bar(stat = "identity", fill = 'blue') +
+  xlab("Tegevusala") + 
+  ylab("Jäätmed tonnides") + 
+  theme_bw() +
+  scale_x_discrete(labels=addline_format(jaat_tyyp16$Jäätmeliik[1:9]))
+
+
+knitr::include_graphics("/home/anneott/Documents/sav_projekt/Projekt/histogramm_jaatmetuup.png")
+
+```
+
+## Tavajäätmed ja ohtlikud jäätmed
+
+Jäätmetüüpe jagatakse ohtlikeks ja tavajäätmeteks.
+Ohtlikute jäätmete all peetakse silmas jäätmeid, mis võivad olla kahjuliku toime tõttu ohtlikud tervisele, varale või keskkonnale. Jäätmed klassifitseeritakse ohtlikuks vastavalt Euroopa jäätmeloendil põhinevale jäätmeliikide ja ohtlike jäätmete nimistule. 
+Peakomponentanalüüsi rakendades ei selgu, et  ohtlikud ja tavajäätmete grupid omavahel eristuks, sest kõik punktid on kogunenud ühte kohta. Siiski on tavajäätmete punktid rohkem varieeruvad. Joonisel on kujutatud esimesed kaks peakomponenti. Histogrammilt ilmneb, et esimesed kaks komponenti katavad ära vaid 40% varieeruvust. Katmaks ära 90% koguvarieeruvusest läheb tarvis esimest 10 peakomponenti, mille osakaalud on ka toodud joonisel.
+
+
+```{r, message=F, warning=F, echo=F,out.width = "500px"}
+library(tidyr)
+jaat_wide <- jaat %>% 
+  filter(Aeg == 2016) %>% 
+  filter(Tegevusala != "Tegevusalad kokku") %>%
+  filter(Jäätmeliik != "Jäätmed kokku") %>%
+  filter(Jäätmeliik != "Ohtlikud jäätmed kokku") %>%
+  filter(Jäätmeliik != "Tavajäätmed kokku") %>%
+  dplyr::select(-"DIM2", -"DIM3", -"Aeg") %>% 
+  droplevels() %>% 
+  mutate(jäät_tüüp = ifelse(grepl("tavajäätmed", Jäätmeliik), "Tavaj", 
+                            ifelse(grepl("ohtlikud", Jäätmeliik), "Ohtj", "Tavaj")))
+
+jaat_pca <- data.frame(spread(jaat_wide, Tegevusala, Väärtus))
+
+pca <- prcomp(jaat_pca[,-c(1:2)], scale = T, center = T) 
+#summary(pca)
+pca_plto <- ggplot(jaat_pca, aes(pca$x[,1], pca$x[,2], col = jäät_tüüp)) + 
+  geom_point() +
+  theme_bw() + 
+  labs(col = "Jäätme tüüp") +
+  xlab("PC1") +
+  ylab("PC2") +
+  xlim(c(-5,2)) +
+  ylim(c(-2,4))
+
+knitr::include_graphics("/home/anneott/Documents/sav_projekt/Projekt/pc1_pc2.png")
+
+library(factoextra)
+varieeruvus <- fviz_eig(pca, addlabels = T)
+knitr::include_graphics("/home/anneott/Documents/sav_projekt/Projekt/pca_varieeruvus.png")
+
+```
+
+
+## Sektorid
+
+Uurime lähemalt, mis sektorid tekitasid kõige rohkem prügi 2016 aastal. Erinevaid sektoreid on kokku 19, joonisel on toodud kõigi tegevusalade nimed, mis aastas tekitasid enam kui 300 000 tonni jäätmeid. Silma paistavad naftatoodete tootmine, mäetööstus ja elektrienergia, gaasi, auru ja konditsioneeritud õhuga varustamine. Kõik kolm toodavad aastas üle 6 miljoni tonni jäätmeid. 
+
+```{r, message=F, warning=F, echo=F, out.width = "500px"}
+#jäätmeid kokku tegevusalade kaupa
+j16 <- jaat %>% 
+  filter(Aeg == 2016) %>%
+  filter(Jäätmeliik == 'Jäätmed kokku') %>%
+  filter(Tegevusala != 'Tegevusalad kokku') %>%
+  arrange(-Väärtus)
+
+require(scales)
+#et kuvaks nimepidi ainult need tegevusalad, kus aastas üle 300 000
+j16_special_labels <- j16 %>% mutate(Tegevusala_yle300 = ifelse(Väärtus < 300000, "", as.character(Tegevusala)))
+plot_tegevusala<- ggplot(j16_special_labels, aes(x="", y=Väärtus, fill=Tegevusala, label = (Tegevusala_yle300)))+
+  geom_bar(width = 1, stat = "identity", show.legend = F) +
+  #geom_text(size=4) +
+  geom_text(size = 3.5, position = position_stack(vjust = 0.5)) +
+  ylab("Jäätmeid kokku (tonni)") +
+  theme_bw() +
+  scale_y_continuous(labels = comma) 
+
+knitr::include_graphics("/home/anneott/Documents/sav_projekt/Projekt/stacked_plot_tegevusala.png")
+
+```
+
+Histogrammina andmeid kujutades paistab, et kõigi esimese kolme tegevusala tekitatud jäätmete kogused on rohkem kui 5 korda suuremad järgnevatest tegevusaladest. 
+Kuna joonisel toodud 8 peamist tegevusala katavad ära 97.6% kogu tekitatavast prügist, võtame edaspidi vaatluse alla vaid need.
+
+```{r, message=F, warning=F, echo=F,out.width = "500px"}
+options(scipen=10000)
+hist_tegevusala <- ggplot(j16[1:8,], aes(reorder(Tegevusala, -Väärtus), Väärtus)) +
+  geom_bar(stat = "identity", fill = 'blue') +
+  #theme(axis.text.x = element_text(angle = 20, hjust = 1)) +
+  xlab("Tegevusala") + 
+  ylab("Jäätmed tonnides") +
+  theme_bw() +
+  scale_x_discrete(labels=addline_format(j16$Tegevusala[1:8]))
+
+knitr::include_graphics("/home/anneott/Documents/sav_projekt/Projekt/histo_tegevusalad.png")
+```
+
+
+# Seos sektorite ja tüüpide vahel
+
+Jäätme tüüpide paljususe tõttu (kokku 51) kasutame visualiseerimsieks heatmapi. Vaatleme lähemalt erinevaid prügi liike ja millised tegevusalad neid tekitavad. 
+Joonisel on iga jäätmeliigi kohta toodud protsentuaalselt palju iga tegevusala seda toodab (veeru summa on 100%). Mida punasem on ruut, seda rohkem vastavaid jäätmeid vastavast sektorist pärineb. Jooniselt paistab silma, et bioloogilised jäätmed ja vedelikud tekivad peamiselt teenidussektoris. Jäätmekogumine ja taaskasutuse sektoris domineerivad puit, metall, klaas, vedelikud ja jäägid, sest seda prügi on võimalik ümbertöödelda.
+Loogiline on ka tulemus, et pinnasejäätmed tekivad peamiselt ehitusel.
+Vanad sõidukid, akud, patareid ja toidujäätmed on peamiselt kodumajapidamiste tekitatud. Kemikaale tekib peamiselt koksi ja nafta toodete tootmisel.
+
+```{r, message=F, warning=F, echo=F,   out.width = "1000px"}
+
+library(dplyr)
+jaat_tegev <- jaat %>% 
+  filter(Aeg == 2016) %>% 
+  filter(Tegevusala != "Tegevusalad kokku") %>%
+  filter(Tegevusala == "Koksi ja puhastatud naftatoodete tootmine" | Tegevusala == "Mäetööstus"|
+         Tegevusala == "Elektrienergia, gaasi, auru ja konditsioneeritud õhuga varustamine"|
+         Tegevusala == "Ehitus"|Tegevusala == "Jäätmekogumine, -töötlus ja -kõrvaldus; materjalide taaskasutusele võtmine"|
+         Tegevusala == "Teenindus, v.a jäätmete ja jääkide hulgikaubandus"|
+         Tegevusala == "Kodumajapidamised" | Tegevusala == "Puidutöötlemine ja puittoodete tootmine") %>%
+  filter(Jäätmeliik != "Jäätmed kokku") %>%
+  filter(Jäätmeliik != "Ohtlikud jäätmed kokku") %>%
+  filter(Jäätmeliik != "Tavajäätmed kokku") %>%
+  dplyr::select(-"DIM2", -"DIM3", -"Aeg") %>%
+  droplevels() %>%
+  ungroup
+
+library(tidyr)
+jaat_tegev_wide <-spread(jaat_tegev, key = Tegevusala, value = Väärtus)
+#tegevusalade osakaalud
+rownames(jaat_tegev_wide) <- jaat_tegev_wide[,1]
+summa <- (data.frame(apply(jaat_tegev_wide[,-1], 1, sum))) #enne 2 ehk veerg
+colnames(summa) <- c("summa")
+
+
+f <- function(x){
+  return(x/summa)
+}
+erinevus_normist <- data.frame(apply(jaat_tegev_wide[,-1], 2, f)) #enne oli 1
+
+colnames(erinevus_normist) <-  names(jaat_tegev_wide)[-1]
+erinevus_normist[is.na(erinevus_normist)] <- 0
+
+
+library(grid)
+draw_colnames_90 <- function (coln, ...) {
+  m = length(coln)
+  x = (1:m)/m - 1/2/m
+  grid.text(coln, x = x, y = unit(0.7, "npc"), vjust = .5, 
+            hjust = 0.5, rot = 90, gp = gpar(...)) ## Was 'hjust=0' and 'rot=270'
+}
+
+## 'Overwrite' default draw_colnames with your own version 
+assignInNamespace(x="draw_colnames", value="draw_colnames_90",
+                  ns=asNamespace("pheatmap"))
+
+
+my.max <- function(x) ifelse( !all(is.na(x)), max(x, na.rm=T), NA)
+my.min <- function(x) ifelse( !all(is.na(x)), min(x, na.rm=T), NA)
+
+paletteLength <- 1000
+myColor <- colorRampPalette(c("white", "red"))(paletteLength)
+max <- my.max(erinevus_normist)
+min <- my.min(erinevus_normist)
+
+myBreaks <- c(seq(min, 0, length.out=ceiling(paletteLength/2) + 1), 
+              seq(max/paletteLength,max, length.out=floor(paletteLength/2)))
+
+
+library(pheatmap)
+#JÄTME TÜÜP
+rownames(erinevus_normist) <- c("mittemustmetall", "mustmetall", "saastunud pinnas", "saastunud süvendpinnas", "segametall",
+  "happe-, leelise- ja sool (oht)", "happe-, leelise- ja sool (tava)", "jäätmekäitluses tekkivad mineraalsed jäätmed (oht)",
+  "jäätmekäitluses tekkivad mineraalsed jäätmed (tava)", "kasutuselt kõrvaldatud seadmed (oht)",
+  "kasutuselt kõrvaldatud seadmed (tava)", "kemikaalid (oht)", "kemikaalid (tava)", "klaasi (oht)",
+  "klaas (tava)", "kodumajapidamine", "kummid", "läga ja sõnnik", "loomsed ja toiduained", 
+  "mineraalsed (v.a ehitus- ja lammutus) (oht)", "mineraalsed (v.a ehitus- ja lammutus) (tava)",
+  "muud mineraaljäätmed", "muud mineraaljäätmed (oht)", "paberi- ja kartong", 
+  "patarei- ja aku (oht)", "patarei- ja aku (tava)", "PCB-sid sisaldav", "pinnas", "plast", 
+  "põletus (oht)", "põletus (tava)", "puit (oht)", "puit (tava)", "romusõiduk (oht)", "romusõiduk (tava)",
+  "saastumata süvendpinnas", "sega- ja eristamata materjalid (oht)", "sega- ja eristamata materjalid (tava)",
+  "setted ja vedelikud jäätmekäitlusest (oht)", "setted ja vedelikud jäätmekäitlusest (tava)",
+  "sortimisjääk (oht)", "sortimisjääk (tava)", "taimsed", "tavasetted", "tekstiil", 
+  "tervishoiu- ja bioloogiline (oht)", "tervishoiu- ja bioloogiline (tava)",
+  "tööstusreoveesetted (oht)", "tööstusreoveesetted (tava)", "vanalahustid", "vanaõlit")
+  
+erinevus_normist[is.na(erinevus_normist)] <- 0
+colnames(erinevus_normist) <- c("Ehitus", "Elektrienergia", "Jäätmekogumine, -töötlus; taaskasutus", "Kodumajapidamsied", "Koksi ja naftatoodete tootmine", "Mäetööstus", "Puitu tootmine", "Teenindus")
+
+#heatmap <- pheatmap(t(erinevus_normist*100), color = myColor ,fontsize = 16)
+knitr::include_graphics("/home/anneott/Documents/sav_projekt/Projekt/heatmap_tegevusala_prygityyp.png")
+```
+
+## Jäätmete kasv ajas
+
+Millest tuleneb 5 miljonine kasv prügi kogustes võrreldes 8 aasta taguse ajaga?  Allpool toodud joonis näitab, kuidas on ajas muutunud tegevusalade poolt tekitatud jäätmed kogus tonnides. Silma paistab koksi ja naftatoodete tootmise sektori hüppeline kasv. Tekitatavate jäätmete kogus on lausa neljakordistunud kasvades 2 000 000 tonnilt aastas 8 000 000 tonnini. Ka mäetööstuses on toimunud järske muutusi, kuid 2016 aastaks on jõutud 8 aasta madalaima koguseni.
+
+
+```{r, message=F, warning=F, echo=F,out.width = "1000px"}
+
+library(dplyr)
+jaat_aastad_tegev <- jaat %>% 
+  filter(Tegevusala != "Tegevusalad kokku") %>%
+  filter(Tegevusala == "Koksi ja puhastatud naftatoodete tootmine" | Tegevusala == "Mäetööstus"|
+           Tegevusala == "Elektrienergia, gaasi, auru ja konditsioneeritud õhuga varustamine"|
+           Tegevusala == "Ehitus"|Tegevusala == "Jäätmekogumine, -töötlus ja -kõrvaldus; materjalide taaskasutusele võtmine"|
+           Tegevusala == "Teenindus, v.a jäätmete ja jääkide hulgikaubandus"|
+           Tegevusala == "Kodumajapidamised" | Tegevusala == "Puidutöötlemine ja puittoodete tootmine") %>%
+  filter(Jäätmeliik == "Jäätmed kokku") %>%
+  #filter(Jäätmeliik != "Ohtlikud jäätmed kokku") %>%
+  #filter(Jäätmeliik != "Tavajäätmed kokku") %>%
+  dplyr::select(-"DIM2", -"DIM3") %>%
+  droplevels() %>%
+  ungroup
+
+
+lineplot <- ggplot(data=jaat_aastad_tegev, aes(x=Aeg, y=Väärtus, group=Tegevusala)) +
+  geom_line(aes(col = Tegevusala)) + 
+  geom_point(aes(col = Tegevusala)) +
+  theme_bw() +
+  scale_color_manual(labels =  c("Ehitus", "Elektrienergia", "Jäätmekogumine ja töötlus; taaskasutus", 
+                                 "Kodumajapidamsied", "Koksi ja naftatoodete tootmine",
+                                 "Mäetööstus", "Puitu tootmine", "Teenindus"),
+                     values = c("black", "blue", "purple", "red","orange", "brown", "yellow", "green")) +
+  ylab("Jäätmeid kokku (tonni)") 
+  
+knitr::include_graphics("/home/anneott/Documents/sav_projekt/Projekt/line_tegevus_aasta.png")
+```
+
+Kokkuvõtvalt võib öelda, et tekitatava prügi kogusel Eestis langust ei paista. Igaüks saab kodumajapidamises anda oma panuse jäätmete vähendamisele, kuid tegelike muutuste jaoks peaks elektri tootmise, nafta toodete tootimise ja mäetööstuses tekkiv prügi vaatluse alla võetama ja leidma viise selle vähendamiseks.
+
+
+## Kasutatud kirjandus
+1. Grüner, E. Statistikatöö nimetus: Jäätmekäitlus. https://www.stat.ee/esms-metaandmed?id=68932&code=10401 (12.05.2019).
+
+```{r, message=F, warning=F, echo=F}
+
+```
+
+
+
+```{r, message=F, warning=F, echo=F}
+
+```
+
+
+
+```{r, message=F, warning=F, echo=F}
+
+```
+
+
+
+
+```{r, message=F, warning=F, echo=F}
+
+```
+
+
+
+```{r, message=F, warning=F, echo=F}
+
+```
+
+
+
+```{r, message=F, warning=F, echo=F}
+
+```
+
+
+```{r, message=F, warning=F, echo=F}
+
+```
+
+
+
+```{r, message=F, warning=F, echo=F}
+
+```
+
+
+```{r, message=F, warning=F, echo=F}
+
+```
