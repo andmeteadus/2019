@@ -12,9 +12,9 @@ Spotify on digitaalne muusika jagamise teenus, mis võimaldab ligipääsu miljon
 Tegemist on rakendusega, mille abil saab uurida Spotify 2018 aasta sadat kõige kuulatumat lugu ning nendega seonduvaid omadusi. 
 [ (loe edasi) ](https://andmeteadus2019.shinyapps.io/spotify/)
 
-## [Eesti jäätmekäitlus](Rakendused/kust_tuleb_prygi/sav_projekt.html)
+## [Eesti jäätmekäitlus](http://htmlpreview.github.io/?https://github.com/andmeteadus/2019/blob/gh-pages/projektid_veebilehed/jaatmekaitlus/sav_projekt.html)
 Heaoluühiskonnaga käib kaasas rohkete toodete kättesaadavus ja suurenev energiavajadus, mille tõttu tekitatavate jäätmete kogus üha kasvab. Jäätmetena on defineeritud “mis tahes jäätmekategooriasse kuuluv vallasasi või kinnistatud laev, mille valdaja on ära visanud, kavatseb seda teha või on kohustatud seda tegema”. Ka Eesti on prügi teema aktuaalne. Propageeritakse küll prügi sorteerimist ja pakendivaba elu, kuid kas see on piisav, et vähedada aina kasvavaid prügimägesid?...
-[ (loe edasi) ](https://andmeteadus2019/Rakendused/kust_tuleb_prygi/sav_projekt.html)
+[ (loe edasi) ](http://htmlpreview.github.io/?https://github.com/andmeteadus/2019/blob/gh-pages/projektid_veebilehed/jaatmekaitlus/sav_projekt.html)
 
 
 ## [Rakendus polüseemia uurimiseks](https://andmeteadus2019.shinyapps.io/polyseemia/)
@@ -24,6 +24,8 @@ Polüseemiaks nimetatakse nähtust, kus ühel sõnal on mitu omavahel seotud tä
 ## [Takistussõidu parimad](https://andmeteadus2019.shinyapps.io/hobu_voistlused/)
 Shiny rakendus "Ratsaspordi parimad takistussõidus 2014-2018".
 
+## [Kindlustusettevõtete majandusnäitajad 2010-2017]()
+Projekti eesmärk on võrrelda aegreana 7 aasta jooksul (2010-2017) elu- ja kahjukindlustusettevõtete majandusnäitajaid. Andmete võrdlemiseks on välja toodud joonised ning kokkuvõtlikud tabelid, mis näitavad täieliku ülevaate saamiseks kõik aastaid korraga. Andmed on esitatud tuhandetes eurodes ning andmeid saab sorteerida kindlustusandja ja kindlustusnäitaja järgi.
 
 
 <!--
