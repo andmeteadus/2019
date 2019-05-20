@@ -24,7 +24,7 @@ library(readr)
 #Seame faili asukoha tookaustaks.
 #################################
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+#setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 #####################################################################################################################3
 

@@ -2,8 +2,19 @@ library(shiny)
 library(dplyr)
 library(ggplot2)
 library(tidyr)
+#library(tidyverse)
 library(shinythemes)
-
+library(ggdendro)
+library(factoextra)
+library(MASS)
+library(ggplot2)
+library(plotly)
+#library(dplyr)
+library(knitr)
+library(kableExtra)
+library(DT)
+library(shinyjs)
+library(shinyWidgets)
 
 #Elukindlustus, 2010-2017, algandmed
 

@@ -1,13 +1,14 @@
 library(shiny)
 library(shinydashboard)
-library(dplyr)
+#library(dplyr)
+library(tidyverse)
 library(readxl)
 library(envalysis)
 library(reshape2)
 library(ggsci)
-library(ggplot2)
+#library(ggplot2)
 library(htmltab)
-library(forcats)
+#library(forcats)
 
 options(scipen=99)
 theme_set(theme_publish())
@@ -15,10 +16,10 @@ theme_set(theme_publish())
 #ANDMETE SISSELUGEMINE ja ÜHENDAMINE
 
 #reklaamikulu andmed
-reklaam18 <- read.csv("~/sajvprojekt/reklaam18.csv", encoding="UTF-8", sep=";", row.names=1,stringsAsFactors=FALSE)[-c(4,6,10,12,14,15),]
+reklaam18 <- read.csv("reklaam18.csv", encoding="UTF-8", sep=";", row.names=1,stringsAsFactors=FALSE)[-c(4,6,10,12,14,15),]
 reklaam18 %>% mutate(Erakond=row.names(reklaam18), 
                      Kvartal="2018. a IV kvartal") -> reklaam18
-reklaam <- read.csv("~/sajvprojekt/reklaam.csv", encoding="UTF-8", row.names=1, sep=";", stringsAsFactors=FALSE)[-c(5,10,12,13),]
+reklaam <- read.csv("reklaam.csv", encoding="UTF-8", row.names=1, sep=";", stringsAsFactors=FALSE)[-c(5,10,12,13),]
 reklaam %>% mutate(Erakond=row.names(reklaam), 
                    Kvartal="2019. a I kvartal") -> reklaam
 
@@ -31,9 +32,9 @@ merge(reklaam,reklaam18,all=T) %>% arrange(Kvartal,Erakond) %>%
          Telereklaam=gsub("\\s+","",Telereklaam)%>%as.numeric(),
          Raadioreklaam=gsub("\\s+","",Raadioreklaam)%>%as.numeric(),
          Internetireklaam=gsub("\\s+","",Internetireklaam)%>%as.numeric(),
-         Välireklaam=gsub("\\s+","",Välireklaam)%>%as.numeric(),
+         Valireklaam=gsub("\\s+","",Välireklaam)%>%as.numeric(),
          Ajakirjandusreklaam=gsub("\\s+","",Ajakirjandusreklaam)%>%as.numeric(),
-         Reklaamtrükised=gsub("\\s+","",Reklaamtrükised)%>%as.numeric(),
+         Reklaamtrykised=gsub("\\s+","",Reklaamtrükised)%>%as.numeric(),
          Erakond=ifelse(Erakond=="ISAMAA Erakond","Isamaa Erakond",Erakond)) %>% dplyr::rename(Reklaamikulud=Kokku) -> reklaamid
 
 reklaam_koos = reklaamid %>% 
@@ -42,15 +43,15 @@ reklaam_koos = reklaamid %>%
 
 erakonnad<-melt(data = reklaamid, Erakond.vars = "Erakond", 
                 measure.vars = c("Telereklaam", "Raadioreklaam","Internetireklaam", 
-                                 "Välireklaam", "Ajakirjandusreklaam","Reklaamtrükised")) %>% 
+                                 "Valireklaam", "Ajakirjandusreklaam","Reklaamtrykised")) %>% 
   dplyr::select("Lühend", "Kvartal", "variable", "value", "Värv", "Erakond") %>%
   dplyr::rename(Reklaamikulu=value, Reklaam=variable)
 
 #valimiste andmed
-suppressMessages(rk2019.full <- read_excel("~/rk2019-full.xlsx",  col_names = FALSE) %>% .[,c(1,3:4)] %>%
-  dplyr::rename(Reg.nr=...1,Kandidaat=...3,Erakond=...4))
+suppressMessages(rk2019.full <- read_excel("rk2019-full.xlsx",  col_names = FALSE) %>% .[,c(1,3:4)] %>%
+  dplyr::rename(Reg.nr=X__1,Kandidaat=X__3,Erakond=X__4))
 
-rk2019.tulemused <- read.csv("~/rk2019-tulemused.csv",encoding="UTF-8", stringsAsFactors=FALSE)
+rk2019.tulemused <- read.csv("rk2019-tulemused.csv",encoding="UTF-8", stringsAsFactors=FALSE)
 
 haaled_eraldi = merge(rk2019.full,rk2019.tulemused, by=c("Reg.nr","Kandidaat")) %>% 
   filter(!Erakond%in%c("Üksikkandidaadid","Eestimaa Ühendatud Vasakpartei")) %>%
