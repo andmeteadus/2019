@@ -216,6 +216,11 @@ Esita eelmises ülesandes leitud joonis shiny rakendusena.
 ### Ülesanne 7 (5 punkti) - shiny rakenduse täiendus
 
 Lisa shiny rakendusele rippmenüü, kust saad valida, millise usaldusnäitaja graafikut näidata.
+
+**Vihje**
+Rippmenüüd saad rakendusee lisades Shiny `UI`-sse käsk `selectInput()` ja joonise valimine tee näiteks `if-else` tingimuslausetega.
+
+
 <!--
 *UI*
 ```{r, eval = FALSE}
