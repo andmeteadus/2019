@@ -41,12 +41,13 @@ ui <-  tagList(
     
     ## Pealkiri ----
     dashboardHeader(
-      title = span("Rakendus polüseemia uurimiseks", 
-                   style = "color: black; 
-                   font-weight: bold; 
-                   font-size: 20px; 
-                   font-family: 'Georgia'"
-                  ), 
+      #title = span("Rakendus polüseemia uurimiseks", 
+      #             style = "color: black; 
+      #             font-weight: bold; 
+      #             font-size: 20px; 
+      #             font-family: 'Georgia'"
+      #            ), 
+      title = "Rakendus polüseemia uurimiseks", 
       titleWidth = 405
       
     ), # dashboardHeader lõpp

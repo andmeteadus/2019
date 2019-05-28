@@ -21,6 +21,9 @@ Kood ja tulemus
 
 ```{r}
 library(chorddiag)
+#või 
+#install.packages("devtools")
+#devtools::install_github("mattflor/chorddiag")
 
 opilased = data.frame(Matem = c(50, 25, 5, 12),
                       Kunst = c(10, 55, 5, 20),
@@ -206,11 +209,11 @@ chorddiag(t(huvi_vs_trstprl),
 
 
 
-### Ülesanne 6 (5 punkti) - shiny rakendus (TÄIENEB VEEL)
+### Ülesanne 6 (5 punkti) - shiny rakendus
 
-Esita eelmises ülesandes leitud joonis shiny rakendusena.
+Esita eelmises ülesandes leitud joonis shiny rakendusena. 
 
-### Ülesanne 7 (5 punkti) - shiny rakenduse täiendus (TÄIENEB VEEL)
+### Ülesanne 7 (5 punkti) - shiny rakenduse täiendus
 
 Lisa shiny rakendusele rippmenüü, kust saad valida, millise usaldusnäitaja graafikut näidata.
 <!--
@@ -222,9 +225,9 @@ library(chorddiag)
 shinyUI(fluidPage(
   br(),
   br(),
-  radioButtons('select_market',"Select Market",inline = TRUE,
-               choices = c("East","West","South","North"),
-               selected = 'East'),
+  radioButtons('select_var',"Vali usaldusenäitaja",inline = TRUE,
+               choices = c("Riigikogu","West","South","North"),
+               selected = 'Riigikogu'),
   
   chorddiagOutput("distPlot", height = 600)
 ))
@@ -235,54 +238,20 @@ shinyUI(fluidPage(
 library(shiny)
 library(chorddiag)
 
-set.seed(1)   # for reproducibility
-df_east = matrix(sample(seq(100, 5000, 50), 49), ncol = 7)
-row.names(df_east) = c("Company A" ,"Company B" ,"Company C" ,"Company D","Company E", "Company F" ,"Company G")
-colnames(df_east) = row.names(df_east)
-
-set.seed(2)  
-df_west = matrix(sample(seq(100, 5000, 50), 49), ncol = 7)
-colnames(df_west) = row.names(df_east)
-row.names(df_west) = row.names(df_east)
-
-
-set.seed(3)   
-df_south = matrix(sample(seq(100, 5000, 50), 49), ncol = 7)
-colnames(df_south) = row.names(df_east)
-row.names(df_south) = row.names(df_east)
-
-set.seed(4)  
-df_north = matrix(sample(seq(100, 5000, 50), 49), ncol = 7)
-colnames(df_north) = row.names(df_east)
-row.names(df_north) = row.names(df_east)
-
 
 shinyServer(function(input, output) {
-   
 
   output$distPlot <- renderChorddiag({
     
-       if(input$select_market =="East"){
+       if(input$select_var =="East"){
          chorddiag(df_east, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
-       }else if(
-        input$select_market =="West"){
-        chorddiag(df_west, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
-       } else if(
-         input$select_market =="South"){
-         chorddiag(df_south, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
        }else{
-         chorddiag(df_north, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
+        input$select_var =="West")
+        chorddiag(df_west, showTicks = F, groupnameFontsize = 14, groupnamePadding = 10, margin = 90)
        }
     
   })
   
 })
 ```
-
-### Ülesanne 4 (6 punkti)
-
-Täienda shiny rakendust järgmiselt:
- - lisa raadionuppud "Turu" valikutega: "Ida", "Lääs", "Lõuna"
- - täiusta `server` koodi, nii, et raadionupu valik filtreeriks andmeid ja sarnasuste joonis muutuks.
-
 -->
